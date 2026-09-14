@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>RallyBoard 작전</title>
+<meta name="description" content="RallyBoard로 공유된 배구 작전. 앱에서 가져와 내 선수로 움직여 보세요.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@400;600;700&family=IBM+Plex+Mono:wght@500;700&display=swap" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pako/2.1.0/pako.min.js"></script>
+<style>
+  :root { --bg:#0F3B3E; --panel:#12484C; --border:#215B5E; --court:#D96F35; --line:#F6F1E7; --accent:#E8793E; --txt:#F6F1E7; --sub:rgba(246,241,231,.65); --navy:#173F6B; --umber:#8C3B1E; }
+  * { box-sizing:border-box }
+  body { margin:0; background:var(--bg); color:var(--txt); font-family:'IBM Plex Sans KR', system-ui, -apple-system, sans-serif; }
+  .wrap { max-width:520px; margin:0 auto; padding:20px 16px 48px }
+  .brand { display:flex; align-items:center; gap:10px; margin-bottom:14px }
+  .brand b { font-size:18px; letter-spacing:.5px }
+  .brand small { color:var(--sub) }
+  h1 { font-size:22px; margin:6px 0 14px; line-height:1.3; word-break:keep-all }
+  .card { background:var(--panel); border:1px solid var(--border); border-radius:14px; padding:14px; margin-bottom:12px }
+  canvas { width:100%; height:auto; display:block; border-radius:10px; background:var(--bg) }
+  .row { display:flex; gap:8px; margin-top:10px; flex-wrap:wrap }
+  button, a.btn { flex:1; min-width:120px; border:0; border-radius:10px; padding:12px 14px; font:600 15px 'IBM Plex Sans KR', sans-serif; cursor:pointer; text-align:center; text-decoration:none; color:var(--txt); background:rgba(246,241,231,.08); border:1px solid var(--border) }
+  button.primary, a.primary { background:var(--accent); color:#2A1608; border-color:var(--accent) }
+  ol { padding-left:20px; margin:8px 0 0; line-height:1.6 }
+  .code { font:12px 'IBM Plex Mono', monospace; color:var(--sub); word-break:break-all; max-height:64px; overflow:hidden; margin-top:8px }
+  .muted { color:var(--sub); font-size:13px; line-height:1.5 }
+  .err { background:#5a2323; border-color:#8a3a3a }
+  .pill { display:inline-block; font:500 12px 'IBM Plex Mono', monospace; padding:2px 8px; border-radius:999px; background:rgba(246,241,231,.1); margin-right:6px }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="brand"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#E8793E" stroke-width="1.8"><circle cx="12" cy="12" r="9"/><path d="M12 3c2 3 2 12 0 18M3 12c3-2 12-2 18 0M6 6c4 1 8 5 12 12"/></svg><b>RallyBoard</b><small id="sub">배구 작전판 · 로테이션 보드</small></div>
+  <h1 id="title">작전 미리보기</h1>
+
+  <div class="card" id="preview">
+    <canvas id="cv" width="440" height="800"></canvas>
+    <div class="row">
+      <button id="play" class="primary">▶ 재생</button>
+      <span class="muted" id="meta" style="flex:2; align-self:center"></span>
+    </div>
+  </div>
+
+  <div class="card">
+    <div id="how">
+      <b>앱에서 가져오기</b>
+      <ol>
+        <li>아래 <b>코드 복사</b>를 누릅니다.</li>
+        <li>RallyBoard 앱 → 메뉴(≡) → <b>작전 가져오기</b></li>
+        <li>붙여넣고 <b>가져오기</b>를 누르면 보관함에 저장되고 코트에 뜹니다. 그다음 <b>내 명단으로 배역</b>을 누르면 내 선수 이름과 번호가 입혀집니다.</li>
+      </ol>
+    </div>
+    <div class="row">
+      <button id="copy" class="primary">코드 복사</button>
+      <button id="open">RallyBoard에서 열기</button>
+    </div>
+    <div class="code" id="code"></div>
+  </div>
+
+  <div class="card">
+    <div class="muted" id="get">아직 RallyBoard가 없다면 App Store에서 받으세요. 작전판·로테이션·경기 모드, 13개 언어.</div>
+    <div class="row"><a class="btn primary" id="store" href="https://apps.apple.com/app/id6797665874" target="_blank" rel="noopener">App Store에서 받기</a></div>
+  </div>
+</div>
+
+<script>
+(function () {
+  // ── i18n (ko/en 최소) ──
+  var ko = (navigator.language || '').toLowerCase().indexOf('ko') === 0;
+  var S = ko ? {
+    sub: '배구 작전판 · 로테이션 보드', play: '▶ 재생', pause: '❚❚ 정지', copy: '코드 복사', copied: '복사됨 ✓', open: 'RallyBoard에서 열기',
+    how: '<b>앱에서 가져오기</b><ol><li>아래 <b>코드 복사</b>를 누릅니다.</li><li>RallyBoard 앱 → 메뉴(≡) → <b>작전 가져오기</b></li><li>붙여넣고 <b>가져오기</b>를 누르면 보관함에 저장되고 코트에 뜹니다. 그다음 <b>내 명단으로 배역</b>을 누르면 내 선수 이름과 번호가 입혀집니다.</li></ol>',
+    get: '아직 RallyBoard가 없다면 App Store에서 받으세요. 작전판·로테이션·경기 모드, 13개 언어.', store: 'App Store에서 받기',
+    bad: '작전 코드를 읽을 수 없습니다. 링크가 잘렸을 수 있어요. 보낸 사람에게 다시 요청해 주세요.', none: '이 페이지는 RallyBoard 앱에서 공유한 작전 링크로 열립니다.',
+    untitled: '제목 없는 작전', players: '선수', frames: '동작', none_frames: '정지 대형'
+  } : {
+    sub: 'Volleyball tactics & rotation board', play: '▶ Play', pause: '❚❚ Pause', copy: 'Copy code', copied: 'Copied ✓', open: 'Open in RallyBoard',
+    how: '<b>Import into the app</b><ol><li>Tap <b>Copy code</b> below.</li><li>RallyBoard app → Menu (≡) → <b>Import play</b></li><li>Paste and tap <b>Import</b>. It is saved to your board library and shown on the court. Then tap <b>Cast my roster</b> to put your players\' names and numbers on it.</li></ol>',
+    get: 'Don\'t have RallyBoard yet? Get it on the App Store. Tactics, rotation and match modes, 13 languages.', store: 'Get it on the App Store',
+    bad: 'Couldn\'t read the play code. The link may have been cut off. Ask the sender to share it again.', none: 'This page opens play links shared from the RallyBoard app.',
+    untitled: 'Untitled play', players: 'players', frames: 'moves', none_frames: 'static formation'
+  };
+  document.documentElement.lang = ko ? 'ko' : 'en';
+  var $ = function (id) { return document.getElementById(id); };
+  $('sub').textContent = S.sub; $('play').textContent = S.play; $('copy').textContent = S.copy; $('open').textContent = S.open; $('how').innerHTML = S.how; $('get').textContent = S.get; $('store').textContent = S.store;
+
+  // ── 코드 해석 (앱의 encodePlay와 대칭: RB1. + base64url(deflate(JSON))) ──
+  var m = (location.hash || '').match(/RB1\.([A-Za-z0-9_-]{8,})/);
+  var code = m ? 'RB1.' + m[1] : '';
+  function b64u(s) { s = s.replace(/-/g, '+').replace(/_/g, '/'); while (s.length % 4) s += '='; var bin = atob(s), u = new Uint8Array(bin.length); for (var i = 0; i < bin.length; i++) u[i] = bin.charCodeAt(i); return u; }
+  var play = null;
+  try { if (m) { var o = JSON.parse(pako.inflate(b64u(m[1]), { to: 'string' })); if (o && o.v === 1 && o.b && Array.isArray(o.b.tokens)) play = o; } } catch (e) { play = null; }
+  if (!play) {
+    $('title').textContent = S.untitled; $('preview').className = 'card err'; $('preview').innerHTML = '<div class="muted" style="color:#F6F1E7">' + (m ? S.bad : S.none) + '</div>';
+    $('copy').disabled = true; $('open').disabled = true; $('code').textContent = '';
+    return;
+  }
+  var b = play.b, title = (play.t || '').trim() || S.untitled;
+  document.title = title + ' · RallyBoard';
+  $('title').textContent = title; $('code').textContent = code;
+  var frames = (b.frames || []).filter(function (f) { return f && f.positions; });
+  var nP = b.tokens.filter(function (t) { return t.kind === 'player'; }).length;
+  $('meta').textContent = nP + ' ' + S.players + ' · ' + (frames.length ? frames.length + ' ' + S.frames : S.none_frames);
+
+  // ── 코트 그리기 (앱 좌표: M=40, CW=360, CH=720, 네트 y=400, 공격선 ±120) ──
+  var cv = $('cv'), ctx = cv.getContext('2d');
+  var X0 = 40, X1 = 400, Y0 = 40, Y1 = 760, NET = 400;
+  var flipped = !!b.flipped;
+  function P(x, y) { return flipped ? [X0 + X1 - x, Y0 + Y1 - y] : [x, y]; }
+  function court() {
+    ctx.fillStyle = '#0F3B3E'; ctx.fillRect(0, 0, 440, 800);
+    ctx.fillStyle = '#D96F35'; ctx.fillRect(X0, Y0, 360, 720);
+    ctx.strokeStyle = '#F6F1E7'; ctx.lineWidth = 3; ctx.strokeRect(X0, Y0, 360, 720);
+    ctx.lineWidth = 2; [NET - 120, NET + 120].forEach(function (y) { ctx.beginPath(); ctx.moveTo(X0, y); ctx.lineTo(X1, y); ctx.stroke(); });
+    ctx.lineWidth = 6; ctx.beginPath(); ctx.moveTo(X0 - 12, NET); ctx.lineTo(X1 + 12, NET); ctx.stroke();
+  }
+  function drawLines() {
+    (b.drawings || []).forEach(function (d) {
+      var pts = (d.points || []).map(function (p) { return Array.isArray(p) ? p : [p.x, p.y]; }); if (pts.length < 2) return;
+      ctx.strokeStyle = d.color || '#F6F1E7'; ctx.lineWidth = d.width || 3; ctx.setLineDash(d.dashed ? [8, 6] : []);
+      ctx.beginPath(); var a = P(pts[0][0], pts[0][1]); ctx.moveTo(a[0], a[1]);
+      if (d.straight) { var z = P(pts[pts.length - 1][0], pts[pts.length - 1][1]); ctx.lineTo(z[0], z[1]); } else pts.slice(1).forEach(function (p) { var q = P(p[0], p[1]); ctx.lineTo(q[0], q[1]); });
+      ctx.stroke(); ctx.setLineDash([]);
+    });
+  }
+  function token(t, x, y) {
+    var pp = P(x, y), r = 17 * (t.size || 1);
+    if (t.kind === 'player') {
+      ctx.fillStyle = t.color || (t.team === 'B' ? '#8C3B1E' : '#173F6B'); ctx.strokeStyle = '#F6F1E7'; ctx.lineWidth = 2;
+      ctx.beginPath(); ctx.arc(pp[0], pp[1], r, 0, Math.PI * 2); ctx.fill(); ctx.stroke();
+      ctx.fillStyle = '#F6F1E7'; ctx.font = '700 ' + Math.round(r * 0.95) + 'px "IBM Plex Mono", monospace'; ctx.textAlign = 'center'; ctx.textBaseline = 'middle';
+      ctx.fillText(String(t.label || ''), pp[0], pp[1] + 1);
+      if (t.role) { ctx.font = '500 9px "IBM Plex Mono", monospace'; ctx.fillText(t.role, pp[0], pp[1] - r - 7); }
+    } else if (t.kind === 'ball') {
+      ctx.fillStyle = '#F6F1E7'; ctx.strokeStyle = '#173F6B'; ctx.lineWidth = 2; ctx.beginPath(); ctx.arc(pp[0], pp[1], 9 * (t.size || 1), 0, Math.PI * 2); ctx.fill(); ctx.stroke();
+    } else { // 비품은 작은 마커로 표시
+      ctx.fillStyle = t.color || '#FCD34D'; ctx.beginPath(); ctx.arc(pp[0], pp[1], 7 * (t.size || 1), 0, Math.PI * 2); ctx.fill();
+    }
+  }
+  function render(pos) { court(); drawLines(); b.tokens.forEach(function (t) { var p = pos && pos[t.id] ? pos[t.id] : t; token(t, p.x, p.y); }); }
+
+  // ── 애니메이션: 시작 위치 → 프레임1 → … (구간당 1초 × term, 끝에서 1초 멈춤 후 반복) ──
+  var start = {}; b.tokens.forEach(function (t) { start[t.id] = { x: t.x, y: t.y }; });
+  var seq = [start].concat(frames.map(function (f) { return f.positions; }));
+  var segMs = 1000 * (typeof b.term === 'number' ? b.term : 1), playing = false, raf = 0, t0 = 0;
+  function lerp(a, c, p) { var o = {}; b.tokens.forEach(function (t) { var s = a[t.id] || start[t.id], e = c[t.id] || s; o[t.id] = { x: s.x + (e.x - s.x) * p, y: s.y + (e.y - s.y) * p }; }); return o; }
+  function tick(now) {
+    if (!playing) return; var el = now - t0, total = (seq.length - 1) * segMs + 1000, tt = el % total;
+    var i = Math.min(seq.length - 2, Math.floor(tt / segMs)), p = Math.min(1, (tt - i * segMs) / segMs);
+    render(seq.length > 1 ? lerp(seq[i], seq[i + 1], p) : null); raf = requestAnimationFrame(tick);
+  }
+  $('play').onclick = function () {
+    if (seq.length < 2) return;
+    playing = !playing; $('play').textContent = playing ? S.pause : S.play;
+    if (playing) { t0 = performance.now(); raf = requestAnimationFrame(tick); } else { cancelAnimationFrame(raf); render(null); }
+  };
+  if (seq.length < 2) $('play').style.display = 'none';
+  render(null);
+
+  // ── 버튼 ──
+  $('copy').onclick = function () {
+    var done = function () { $('copy').textContent = S.copied; setTimeout(function () { $('copy').textContent = S.copy; }, 1500); };
+    if (navigator.clipboard && navigator.clipboard.writeText) navigator.clipboard.writeText(code).then(done, function () { window.prompt('', code); });
+    else window.prompt('', code);
+  };
+  $('open').onclick = function () { location.href = 'rallyboard://play#' + code; }; // 앱이 scheme을 등록한 빌드부터 동작
+})();
+</script>
+</body>
+</html>
