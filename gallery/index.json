@@ -1,0 +1,448 @@
+{
+ "v": 1,
+ "updatedAt": "2026-09-20",
+ "items": [
+  {
+   "id": "51-r1",
+   "title": {
+    "ko": "5-1 서브 리시브 R1",
+    "en": "5-1 serve receive R1",
+    "ja": "5-1 サーブレシーブ R1",
+    "pt": "5-1 recepção R1",
+    "es": "5-1 recepción R1"
+   },
+   "desc": {
+    "ko": "리시브 → 세터 침투 → 공격 전개. 리시브 프레임은 위치 반칙 없는 배치",
+    "en": "Receive → setter penetration → attack. Frame 1 is overlap-legal",
+    "ja": "レシーブ→セッター侵入→攻撃展開。コマ1はポジション反則なし",
+    "pt": "Recepção → penetração do levantador → ataque. Quadro 1 sem falta de posição",
+    "es": "Recepción → penetración del colocador → ataque. Cuadro 1 sin falta de posición"
+   },
+   "tags": {
+    "skill": "receive",
+    "level": "all",
+    "system": "5-1"
+   },
+   "author": "RallyBoard",
+   "addedAt": "2026-09-20",
+   "frames": 4,
+   "code": "RB1.eNrNVc1Og0AQfpVmvWKy_CwUburFi9HYo_GwtEvddAsEsLUSbt70ETx78gF8p_YhnIVtuxA11nDwQmY_Zuf75mMmlGiBAtNABQoQOTYHm6fX9cfLYP32vnmuo2sTGShEQYkWnC1HBS0YpEb3QgAeCZ6mbIKCiIqcQZVkxuIcBTcl4oCiVF6e8biOBV2xDM4Fo3M4n0CY39FUlhvzbCwYAONEJBkARxHxGQ4BETRkAhBZKUuEzB7Jm_yR1cIfUGATbKAVCohDKmPLbPXG7O2ZL8-71J6ixnhPbffXtNb1xWmH27Iabkdv2-mN29bavupQf9U16Y15-IPhPqmZXVdjdvvz2_qF3zp36O25Q1rvxO7KhOV8GsOLfCk5tAo2-HYLW0UzuSsQTTK65PFUnaKMzpm2RZE0JE1yXvBEblcp9wqe3dGXQ69g_QPJgWzg1sTIWWngdjJRqO609LhdooGhfQUrHT6uqp05kf-9bqyU2Pgg3bhv3VvYagk38aGOew2rY5KWcLyFLV247WI9-0_KdQd15ea_Vz5USzCUwmHcacznZ_AjUdNfsAw216yqTzPmz9c"
+  },
+  {
+   "id": "51-r2",
+   "title": {
+    "ko": "5-1 서브 리시브 R2",
+    "en": "5-1 serve receive R2",
+    "ja": "5-1 サーブレシーブ R2",
+    "pt": "5-1 recepção R2",
+    "es": "5-1 recepción R2"
+   },
+   "desc": {
+    "ko": "리시브 → 세터 침투 → 공격 전개. 리시브 프레임은 위치 반칙 없는 배치",
+    "en": "Receive → setter penetration → attack. Frame 1 is overlap-legal",
+    "ja": "レシーブ→セッター侵入→攻撃展開。コマ1はポジション反則なし",
+    "pt": "Recepção → penetração do levantador → ataque. Quadro 1 sem falta de posição",
+    "es": "Recepción → penetración del colocador → ataque. Cuadro 1 sin falta de posición"
+   },
+   "tags": {
+    "skill": "receive",
+    "level": "all",
+    "system": "5-1"
+   },
+   "author": "RallyBoard",
+   "addedAt": "2026-09-20",
+   "frames": 4,
+   "code": "RB1.eNrVVUFOhDAUvYqp2zFpgcLATt24MRpnaVyUmaKNHSCAjkrYudMjuHblAbyTHsLf0mEKmZhocOGK9tH-9_7jv1CjWxSRCapQhOge2fl8fPl4f975eH37fNKrMwdNUIyiGt0KvppVrOJwNLmREvBEijznCxQlTJYcqmTXPC1RdF4jASjKibp9LVK9keyeF7CvOFvCfh-W5RXLVb25KOaSAzDPZFYAsJvQkOMYEMliLgEJYF1kUp0-OVJXxQPX0u9Q5Hp0gu5R5Pu4mXTc7mjchGzIjw-G5Bhrcs-jFrk3GrlrNX464HYMN8V243Q07uk3pgfbqP3xPHe-8Tzc9r2D8bg31LOh475p2_raMZluqGOmo9HdWfBSXKbwolwpClXCaUvA4DQXEC5WqMjAalGwlUgvzS4p2JJbYUpICPfzrBSVyFTKap0veAwToGff4PZw6rFs8d7g6JFp8aAP-wYO-9WDdRXbDG2DwWmLh7hpOpcSB_9c_9orz8N_oL9zx8U9_evjTl8_-YV-3OIecXr6XeOcR2hfP-3Bv_Tf7stuwPkvDUxNQqZKP2SBpWJ5CD8bE42KF5Bq0jRfhgnW9Q"
+  },
+  {
+   "id": "51-r3",
+   "title": {
+    "ko": "5-1 서브 리시브 R3",
+    "en": "5-1 serve receive R3",
+    "ja": "5-1 サーブレシーブ R3",
+    "pt": "5-1 recepção R3",
+    "es": "5-1 recepción R3"
+   },
+   "desc": {
+    "ko": "리시브 → 세터 침투 → 공격 전개. 리시브 프레임은 위치 반칙 없는 배치",
+    "en": "Receive → setter penetration → attack. Frame 1 is overlap-legal",
+    "ja": "レシーブ→セッター侵入→攻撃展開。コマ1はポジション反則なし",
+    "pt": "Recepção → penetração do levantador → ataque. Quadro 1 sem falta de posição",
+    "es": "Recepción → penetración del colocador → ataque. Cuadro 1 sin falta de posición"
+   },
+   "tags": {
+    "skill": "receive",
+    "level": "all",
+    "system": "5-1"
+   },
+   "author": "RallyBoard",
+   "addedAt": "2026-09-20",
+   "frames": 4,
+   "code": "RB1.eNrVlcFOgzAYx1_F1CsmhVK2cVMvXozGHY2HspXZrAMCuDkJN2_6CJ49-QC-0_YQfnQdK2gWo3jwRPun7Y__1-8fCjRHvm2hHPmIHtkH68eX1fvzwer1bf2kRlcEWShAfoHmgi-GOcs5LA3vpAQ9lCJJ-Bj5IZMZh1PiKY8y5F8XSICKEqfaPRWRmki25CnMc85mMD-GYXbLkuq8kUhHkoMwimWcgnAY0gHHASiSBVyCYtswSWNZLT8_qfaKB66-_R75xKUWWiLf83Bp1XC3MzjZsS8u2-weVmyKTTbtjN032GcttoO_YnvdFd3ZU3SbbuCuSw14rzv4jj1so13tu4Hud4bu7au5gz_1WuAMduyAqXDUe8Y8E5MIXmSLimEcQeDabiBeLK1CA6NxyhYimuhZmLIZN-IUEgz7kzgTuYirnBUqYfBoR0A1v9bN9lSNudEbraOaZqM3blXdp9bNkqti63PMcqhCaF2fM8BlWdcpJPbfO9h-kevihgOi17sEf8_BVneaFpwfWPA02qYNCz3akGsHeKs7v7oD07HpgPwbB30dlH5lACLBIjE7hb-OTkjOU0i3XZYfxhbYsg"
+  },
+  {
+   "id": "51-r4",
+   "title": {
+    "ko": "5-1 서브 리시브 R4",
+    "en": "5-1 serve receive R4",
+    "ja": "5-1 サーブレシーブ R4",
+    "pt": "5-1 recepção R4",
+    "es": "5-1 recepción R4"
+   },
+   "desc": {
+    "ko": "리시브 → 세터 침투 → 공격 전개. 리시브 프레임은 위치 반칙 없는 배치",
+    "en": "Receive → setter penetration → attack. Frame 1 is overlap-legal",
+    "ja": "レシーブ→セッター侵入→攻撃展開。コマ1はポジション反則なし",
+    "pt": "Recepção → penetração do levantador → ataque. Quadro 1 sem falta de posição",
+    "es": "Recepción → penetración del colocador → ataque. Cuadro 1 sin falta de posición"
+   },
+   "tags": {
+    "skill": "receive",
+    "level": "all",
+    "system": "5-1"
+   },
+   "author": "RallyBoard",
+   "addedAt": "2026-09-20",
+   "frames": 4,
+   "code": "RB1.eNrVlb1OwzAQx1-lMmuQ8mE3HxuwsCAQHRGD0zrFqptESWgpUTY2eARmJh6Ad2ofgrOTtk6EKiTSgan2v_b97s73V0q0QIFloAIFiJxag83L-_rrbbD--Ny8qtUtRgYKUVCiBWfLUUELBkejRyFAjwRPUzZBQURFziBKMmNxjoK7EnFQUerI2zMeq42gK5bBvmB0DvszWOYPNJXxxjwbCwbCOBFJBsJJRHxmhqAIGjIBigPrLBHy9PWNvMqfmUr9CQUOJgZaoWA4NCtjxya9sT2Nfdllu6ZiE1NnD3tjW_YefnXegdt2DceYaHC3P_iePeqgLbJF63V7vaHdAz33f3puv7-qrV-0XIeH2NzDQ6q8sbszYTmfxvBHvpQQLYQDI3MP7qKZ9AysJhld8nja7KKMzpnmpgjLvNIk5wVPpM1KZTD46VpADX-j6-OpBrPWW5OjZqbWW8-qHrTW_XZ4vxOm1mUfGr0J45tVtWtThO1jFGC2CoCm1rrzpwK2x-12Ac6BAhow6RTg1pGwRdr5m1vdPsYD6G3QC8D_pQCv8Ygn8wc30JjPL-B705ijYBk426qqb7E719k"
+  },
+  {
+   "id": "51-r5",
+   "title": {
+    "ko": "5-1 서브 리시브 R5",
+    "en": "5-1 serve receive R5",
+    "ja": "5-1 サーブレシーブ R5",
+    "pt": "5-1 recepção R5",
+    "es": "5-1 recepción R5"
+   },
+   "desc": {
+    "ko": "리시브 → 세터 침투 → 공격 전개. 리시브 프레임은 위치 반칙 없는 배치",
+    "en": "Receive → setter penetration → attack. Frame 1 is overlap-legal",
+    "ja": "レシーブ→セッター侵入→攻撃展開。コマ1はポジション反則なし",
+    "pt": "Recepção → penetração do levantador → ataque. Quadro 1 sem falta de posição",
+    "es": "Recepción → penetración del colocador → ataque. Cuadro 1 sin falta de posición"
+   },
+   "tags": {
+    "skill": "receive",
+    "level": "all",
+    "system": "5-1"
+   },
+   "author": "RallyBoard",
+   "addedAt": "2026-09-20",
+   "frames": 4,
+   "code": "RB1.eNrVVbtOwzAU_ZXKrEFyHm6abMDCgkB0RAxO6xSrbhIloaVE2djgE5iZ-AD-qf0Irp2kdQOqCgoDU-1T-55zj-9RCjRHvmmgHPmIHJu99dPr6uOlt3p7Xz-r1TVBBgqQX6A5Z4thTnMGR8N7IQAPBU8SNkZ-SEXGoEo8ZVGG_JsCcUBR4sjbUx6pjaBLlsI-Z3QG-xNYZnc0kfVGPB0JBsAoFnEKwFFIPIYDQAQNmABkAOs0FvL05bm8yh-Zkv6AfNshBloiv9_HpbHh7nfGbVpb8ovTNjnGitxxiEbudke-5R62qC23odb7HnRG7e7xvKYmWKf2uuva3GO5981zE9wZt621fdW23MJfuANibrkDqqKxuTNmGZ9E8Ee2kBxaCRic8hbCRVMZGViNU7rg0aTehSmdMS1MIZFTmMQZz3ksU1aofMFPOwFq9mtcH041lhW-MzlqZipcf1X1nhXs7VQHq-squhnKhhonFe7hsty4FBL75_obhkan2-7L_gv9zXFrV7_zC_24wh3TOsz_5jg5RH_jAmnp193RGyD_pYFBnZCB1A9ZoBGfncHHpo5GzlKItVmWnwfc13w"
+  },
+  {
+   "id": "51-r6",
+   "title": {
+    "ko": "5-1 서브 리시브 R6",
+    "en": "5-1 serve receive R6",
+    "ja": "5-1 サーブレシーブ R6",
+    "pt": "5-1 recepção R6",
+    "es": "5-1 recepción R6"
+   },
+   "desc": {
+    "ko": "리시브 → 세터 침투 → 공격 전개. 리시브 프레임은 위치 반칙 없는 배치",
+    "en": "Receive → setter penetration → attack. Frame 1 is overlap-legal",
+    "ja": "レシーブ→セッター侵入→攻撃展開。コマ1はポジション反則なし",
+    "pt": "Recepção → penetração do levantador → ataque. Quadro 1 sem falta de posição",
+    "es": "Recepción → penetración del colocador → ataque. Cuadro 1 sin falta de posición"
+   },
+   "tags": {
+    "skill": "receive",
+    "level": "all",
+    "system": "5-1"
+   },
+   "author": "RallyBoard",
+   "addedAt": "2026-09-20",
+   "frames": 4,
+   "code": "RB1.eNrVVbFOwzAQ_ZXKrEVy0thtsgELCwLRETE4rVMs3CRKQkupsrHBJzAz8QH8U_sRnB03dQqqqioLU32v9r17d_eUJZqhwOmiAgWInDqd9evH6vu9s_r8Wr_p0y1FXRSiYIlmgs-HBSs4XI2epAQ8kiJN-RgFEZM5hyzJI49zFNwtkQAUpUS9fhSxDiRb8AzigrMpxGdwzB9YqvKNRDaSHIBRIpMMgJOI-ByHgEgWcgmI40KQJVJdvzpXb8UL17U_o6DnkS5aoIBSXHZr8n575Fvu4S41wZra82zqQWvU_S319eUOt4srboJtbr892c6enju1cLIlp7g18p4l_GaH2_9j3NRpjXqwr-cu_sUdUnfLHTLtjfrNmOdiEsMf-VxxWCl6MLZ7cBfLlGfgNM7YXMQTE0UZm3LLTRFVLUmTXBQiUTZbaoPBz64D9O4b3F5PvZgV3lgdvTQV3piqnmeF-4300GuTxu6G7oPBTRofl2Xdpoh6RwgwhXq9wwRsKjKCjxWwue42BZD2JtCvrnsOadaPN7jbqH_TB3KgALtvtgL6bxQMjEsGSgD4gcViegFfHGOPgmdgbacsfwB8Btht"
+  },
+  {
+   "id": "62-r1",
+   "title": {
+    "ko": "6-2 서브 리시브 A",
+    "en": "6-2 serve receive A",
+    "ja": "6-2 サーブレシーブ A",
+    "pt": "6-2 recepção A",
+    "es": "6-2 recepción A"
+   },
+   "desc": {
+    "ko": "후위 세터가 침투해 세팅, 전위 3명 모두 공격",
+    "en": "Back-row setter penetrates; all three front-row players attack",
+    "ja": "後衛セッターが侵入してトス、前衛3人が攻撃",
+    "pt": "Levantador de trás penetra; os três da frente atacam",
+    "es": "Colocador zaguero penetra; los tres delanteros atacan"
+   },
+   "tags": {
+    "skill": "receive",
+    "level": "all",
+    "system": "6-2"
+   },
+   "author": "RallyBoard",
+   "addedAt": "2026-09-20",
+   "frames": 3,
+   "code": "RB1.eNrNVLFOwzAQ_ZXKrEFykjppsgELC2LoiBic1ilW3SRyQkuJsrHBJzAz8QH8U_kIzo5pnQoqVGVgiu_lfO_ey11qtESx66AKxSg49QafT6-bj5fB5u3981mfzpCDEhTXaMnZalzRikFmei8E4KngRcGmKE6pKBkUyecsK1F8UyMOKCqCELLmPNOBoGsmIa4YXUCsCpd3tFD1JlxOBANgkotcAnCSkojhBBBBEyYAceEsc6Gyx-omf2S68QcU-wQ7aI1iMiSNs6Ue9UYd7qivL_e5Q8ONscUd9Sfb0n11vkfueS350BYe4t7Ivd89_0l26PbGPDpgeUQ0dRDY1F5_jnt_cNwmT0J_R55QvRnbO1NW8lkGL8qVIrFK-GDdLewWlWpj4DSVdMWzmYlSSRfM2qU0HML9Ii95xXO1ZLVeL3jsb4CefYPbn0nPZYt3BkePTIt30-F7trDtuPa6W6XFlQ0GN91EuGm2LqUhOdA_Nv34-D_0_43jroDgCAGBwV3SFYCJwb2uAGKnHyvA7qZRQ0YzvriAn7WZrYpJWAy3ab4AS-emdQ"
+  },
+  {
+   "id": "62-r2",
+   "title": {
+    "ko": "6-2 서브 리시브 B",
+    "en": "6-2 serve receive B",
+    "ja": "6-2 サーブレシーブ B",
+    "pt": "6-2 recepção B",
+    "es": "6-2 recepción B"
+   },
+   "desc": {
+    "ko": "후위 세터가 침투해 세팅, 전위 3명 모두 공격",
+    "en": "Back-row setter penetrates; all three front-row players attack",
+    "ja": "後衛セッターが侵入してトス、前衛3人が攻撃",
+    "pt": "Levantador de trás penetra; os três da frente atacam",
+    "es": "Colocador zaguero penetra; los tres delanteros atacan"
+   },
+   "tags": {
+    "skill": "receive",
+    "level": "all",
+    "system": "6-2"
+   },
+   "author": "RallyBoard",
+   "addedAt": "2026-09-20",
+   "frames": 3,
+   "code": "RB1.eNrNVLtOwzAU_ZXKrEFy0rw3ysKCGDoiBqd1ilU3iZzQUqJsbPAJzEx8AP_UfgTXrpU6UdWhysBU-_T6HN_je1KjNYptC1UoRv61M9q_f-1-P0e775_9h1pNkIUSFNdozehmWpGKQmX6wjngKWdFQecoTgkvKZDkS5qVKH6sEQMUFUEAVUuWqQ0nWypgX1Gygv0NLMtnUki-GRMzTgGY5TwXAFylXkRxAggnCeWASCaRc1n9cCePsjeqbv6K4rHrWWiLYt_HjdVqh4Np2_ZR_H7SF8dYibuuZ4hHg4k7R-1pT9rR0h42-g7xYNLhGc-DU9L2cJY7ZyyPTjx36AynfcZxX7dtPHYSjo_SCVHJaM_MackWGfxRbqSEpHAOFDA3zRNkiwiZGFjNBdmwbKF3qSAramQpDV04X-Qlq1guQ1areMFPPwBq9DVuzqaaygPeGRw1Mgc86MK2hqMOOzitWUwzlA0a9w54hJumdSkNvf92_5Z9jLv31y_k424D_gUNaItcu9-Ap3Gn24Bnll_agIk3cshIxla38LHWs1VRAbGwm-YPb-Smmg"
+  },
+  {
+   "id": "blk-left",
+   "title": {
+    "ko": "리드 블록 좌측 이동",
+    "en": "Read block: shift left",
+    "ja": "リードブロック 左移動",
+    "pt": "Bloqueio de leitura: deslocar à esquerda",
+    "es": "Bloqueo de lectura: desplazamiento a la izquierda"
+   },
+   "desc": {
+    "ko": "상대 4번 공격에 3인 블록 이동과 수비 위치",
+    "en": "Triple block shifts to the opponent's outside hitter; back row adjusts",
+    "ja": "相手レフト攻撃に3枚ブロック移動と守備位置",
+    "pt": "Bloqueio triplo desloca para o ponteiro adversário; fundo ajusta",
+    "es": "Bloqueo triple se desplaza al atacante exterior rival; zagueros ajustan"
+   },
+   "tags": {
+    "skill": "block",
+    "level": "all",
+    "system": "-"
+   },
+   "author": "RallyBoard",
+   "addedAt": "2026-09-20",
+   "frames": 3,
+   "code": "RB1.eNrdlb9OwzAQxl-lMmuHJG7-bsDCAAKJETE4rVMs3CRKAgWqvgESAyxIdCgDEyND3yl9CM5umsShgSUTU-Ovl_v5O_suM3SLPL2PMuSh_OMzf37r5auXfLnord8f16tlb734yp9eUR_5yJuhW0an5xnJKIQHN5yDHnAWx3SEvIDwlEKm6JqGKfIuZoiBimLHhqhrFsoFJ_c0gXVGyQTW-_CYXpFY5BuyZMgpCMOIRwkIe4HpUs0HhROfclBEpiTiIvr0SLzKHqjc_h3yXK2P7pE3wNq8X6KdztC6XrFPDhpsw9gFdzuD45rvswYbmzvYrtYZ2_m75tagjta7q7lRsY9bSm65dbbRHbtCn7dUXLWN29EHv6Kx7xiBVUMPfqk4xhs27KHGHnTGNtttbyuOtQrtu2aF9okcCOU7I5qycQh_pFNR2UaKSxgpJBGDAp5GCZmycFysgoRMaG2EBK7YYhylLGORmC0zOVXgp9H3suM3stKSshk3utIuslGUNPJM5SVW08hrJi-YmmYbj7d6_Xzkyah5ZPFk2X7q87KsgWv_V8NlvKEadtoNQ4qNA91UHZuqXjq2dju2Cwdaw3GR3tYajot40-rIsS0cw_UmIZscwlezuO0ZTaBR9fn8G0fbE3c"
+  },
+  {
+   "id": "blk-right",
+   "title": {
+    "ko": "리드 블록 우측 이동",
+    "en": "Read block: shift right",
+    "ja": "リードブロック 右移動",
+    "pt": "Bloqueio de leitura: deslocar à direita",
+    "es": "Bloqueo de lectura: desplazamiento a la derecha"
+   },
+   "desc": {
+    "ko": "상대 2번(라이트) 공격에 블록 이동과 수비 위치",
+    "en": "Triple block shifts to the opponent's right-side attack; back row adjusts",
+    "ja": "相手ライト攻撃にブロック移動と守備位置",
+    "pt": "Bloqueio desloca para o ataque de direita adversário; fundo ajusta",
+    "es": "Bloqueo se desplaza al ataque de derecha rival; zagueros ajustan"
+   },
+   "tags": {
+    "skill": "block",
+    "level": "all",
+    "system": "-"
+   },
+   "author": "RallyBoard",
+   "addedAt": "2026-09-20",
+   "frames": 3,
+   "code": "RB1.eNrdlbFSwkAQhl-FOdsUdwkJJJ3YWOjoDKVjcYEL3nAkmSSCyPAMFtroSEFjZWFhwTuFh3CTA8JFgk0qK-527_bLv7e7zNAYOURDCXJQ-vGZPr830tVLulw01m9f69WysV58p0-vSEMucmZozNmkm9CEwXHvXgiwe4KHIesjx6MiZhApGDI_Rs7NDHGwotC24dSQ-_lG0CmLYJ8wOoL9KSzjOxpm8Xo86gkGhl4ggggMJ55pM-yCRVCXCbC0YB0FIjt9dZ5d5Y8s__wH5NhYQ1PkNA0817ZognFtbEIK-GWnBNf1g3RSG93YU35dghvmQbheG7z9d9qtpsI26ku7XsAvKrJu2Qq8WR-8YHcrkl4SblazO0fZhtvWPWuPrR9JOiESDh-xD7dqg5vVwrdJN3DBdgluFWyX5oNhd6nPYj7wwRFPsuSWYtzCaKFRNjBg1Y_ohPuDzc6L6IjtjRKP4KwUwyDmCQ-yITPLxwv8lAaAbH1pV3pTdqV0KH0jO0aJlD-trGY1Ul5vstLUSLsb5sahPJR8IjVUnkWZv9-O-S7BoNz-78p3N3RVOcHVyq0K5WQrkJiqcjiiOrbKNxdMq0J5C1cpx_Upb2XKofCpz0dn8L-66YOERdDDZD7_AYGNGLo"
+  },
+  {
+   "id": "freeball",
+   "title": {
+    "ko": "프리볼 트랜지션",
+    "en": "Free-ball transition",
+    "ja": "フリーボール トランジション",
+    "pt": "Transição de bola fácil",
+    "es": "Transición de bola libre"
+   },
+   "desc": {
+    "ko": "수비 위치 → 프리볼 리시브 → 공격 전개",
+    "en": "Base defense → free-ball receive → attack",
+    "ja": "守備位置→フリーボール受け→攻撃展開",
+    "pt": "Defesa base → recepção de bola fácil → ataque",
+    "es": "Defensa base → recepción de bola libre → ataque"
+   },
+   "tags": {
+    "skill": "defense",
+    "level": "all",
+    "system": "-"
+   },
+   "author": "RallyBoard",
+   "addedAt": "2026-09-20",
+   "frames": 3,
+   "code": "RB1.eNqtlL1OwzAQx18FmbWDna-22YCFAQRSR8TgtE6x6iZRElpKFYkBFmYGBsQICxsLA2_U9h04x6FJrLYwZEnsO9_98j_fZY4myCUtlCIXrZ7uF28fi8_vvdXj1-L1Zfl-t3x4Ri3kIXeOJpxNeylNGZz0r4UAuy94FLEBcn0qEgZJwhELEuRezBEHK4oIIXBsxIN8J-iMxbBPGR3D_gCWyRWNZMI-j_uCgaEfijAGw75vdxn2wCKoxwRY2rCOQyFPnx3LUH7L8k-_gSfBLTRDrmXhrFXCjcbguY6Cfnqo0Q1jI91sjG5WpJ9rcNPcCLcag3d21L2r2E6dbTdXdqOEn2yputOtwZ3m4CW7pxfdLthGyfYIaZdsj-YTsg4asIQPA3AkU8mofL-JcXYJM0ZjOTmwGsR0yoNhsfNjOmaVmfIJkTcShQlPeSinba7mDN76JKgZUI5ak6r2VI5aA6nWUY7q5aprrWfKC69KXmSqVkXVox4hpWbrgoGS7g4lHRVjO1uE2FgX4mgRfwrBhcPWhRQOy9wmpFMXYuAdQtq2SkZsTQj-dRibhawjLO1yt19J579Kqo5M9h8N-PgI_udF26UshpEhWfYDWvOvfQ"
+  },
+  {
+   "id": "serve-base",
+   "title": {
+    "ko": "서브 후 기본 수비 위치",
+    "en": "Base defense after serve",
+    "ja": "サーブ後の基本守備位置",
+    "pt": "Defesa base após o saque",
+    "es": "Defensa base tras el saque"
+   },
+   "desc": {
+    "ko": "서브 → 서버 코트 진입 → 기본 수비 대형",
+    "en": "Serve → server enters → base defensive shape",
+    "ja": "サーブ→サーバーがコートへ→基本守備",
+    "pt": "Saque → sacador entra → forma defensiva base",
+    "es": "Saque → sacador entra → forma defensiva base"
+   },
+   "tags": {
+    "skill": "defense",
+    "level": "all",
+    "system": "-"
+   },
+   "author": "RallyBoard",
+   "addedAt": "2026-09-20",
+   "frames": 3,
+   "code": "RB1.eNrNlM1Og0AQx1-FrFcOsHwVburFg0aTHo2HpV3qplsggK2VcOPgwQdoYh_CxEt9JYvv4PARKKQ0Hjh4gd0Zdn78h_kToyWyZBFFyEJZut3v3oSf91T43n3sP3dC9rrZf6VCtk2zrw0SkY2sGC0ZXY0jElE44jxxDnGHM9-nU2Q5hIcUqnlz6obIuo8RgyjyZSzDY3PmFjtO1jSAfUTJAvbnsAwfiZ8XnLBgwikEJh73AgicOZpJJRsinNiUQ8SAdeDx_Onbq_woe6GFhme4SpKI1shSDSkRGzgeDC7LDf3mokPH-ChdGYyuHEi_68AV9ShcHQw--kPfda0F14brO27o1z1t78D14eANe9zTdWOk1WxbxkbDtklhkfrQlIZs5kIiXOWMwxqqljyAyUiQWwdW04CsmDurdk5AFvTAVI6M80_ieyGLmJfbLS6NBveuFUoTlInWlJbzWSZaE1TOTrtU0eDyu7ZL1Qm9U6poS9mQTgK0JnXHQIr5b6VoVQJLbSm4SmBJaklRpBNSzOq9lD4lSleJ1kmo7Uq62ifE7BOinhQCk0ZctriEX3o1eBENwDRykvwCtHa1GA"
+  },
+  {
+   "id": "drill-butterfly",
+   "title": {
+    "ko": "버터플라이 서브-리시브",
+    "en": "Butterfly serve-receive drill",
+    "ja": "バタフライ サーブレシーブ",
+    "pt": "Borboleta saque-recepção",
+    "es": "Mariposa saque-recepción"
+   },
+   "desc": {
+    "ko": "서브 → 리시브 → 세터, 끝나면 다음 자리로 이동",
+    "en": "Serve → pass → setter, then rotate to the next station",
+    "ja": "サーブ→レシーブ→セッター、終わったら次の位置へ",
+    "pt": "Saque → passe → levantador, depois roda para a próxima estação",
+    "es": "Saque → pase → colocador, luego rota a la siguiente estación"
+   },
+   "tags": {
+    "skill": "drill",
+    "level": "all",
+    "system": "-"
+   },
+   "author": "RallyBoard",
+   "addedAt": "2026-09-20",
+   "frames": 3,
+   "code": "RB1.eNrVVrFu2zAQ_ZWCXV1AFEXZ5tYm6A9kLDJQFmUTkSWDUuK6gjZvzdixWTt1KIoOHfpHdv4hR1GyKBuKXcRLNvJE3rt3vPegAt0hhgcoRwxtfq8f178ev91vHv5tH_682a6_b_7ev9v8-Ln9qldogALECnQnxfIq57mAO9FtHEM8iuViIULEIh5nAtKlNyLJEPtUIAlRtMAEw7EbmVS7mK-Egn0u-Bz272GZzfhCJ5xINYkFBCZpnCoIvI3oWDgBRGIeiBgiOpNKY31aX5RfREXhM2LEcwZohdhwRMtBC-2eDdrthcaugfY9x4YmZ4MmLfTVPm3HYHukg-31Y394FpsEIzfyLWyvn3YNjTsNp2dDpv1vXTcc-x3S_tmg_f6G43rOyLDFDjAZttgBr3SxuxSKTE4T-JAt9aPas-pRO8fof3I03ae0vAZxcqUlB6tQ8aVMppYAQ0zGuhOrij1XKl3CdpHKJDen7IrcipXF04fItdWrjxeXxLuEBEsZ5jPAB0iezbQB5OoW9J_lisvpLDf7Hb8QEh6rouE0aopophuPzlYEPloEbYmbKtxxrTHv5CpqL-wvwz36Ihb1Qacw4r-wDLgcKT4X1oxE2CNVCZnMZartuzDGzYoDczW2aj50rM-YHisOfMk4Eiv2XcP4RX3B1rRRMysOBGektleUVpHRTxcCpFHueg4MvdfGEBNrFG2GBLfD0aFIn6HYMBk6Tpdiw4Q6p1LcUWlu0H0qzqkcbXF1X9Ea91LPLE_k_AJ-Nmqjy4UCZ8dl-QTCPXWS"
+  },
+  {
+   "id": "drill-queen",
+   "title": {
+    "ko": "퀸 오브 더 코트 (3대3)",
+    "en": "Queen of the court (3v3)",
+    "ja": "クイーン・オブ・ザ・コート (3対3)",
+    "pt": "Rainha da quadra (3x3)",
+    "es": "Reina de la cancha (3v3)"
+   },
+   "desc": {
+    "ko": "이긴 팀이 남고 진 팀은 대기줄로",
+    "en": "Winners stay, losers go to the waiting line",
+    "ja": "勝ったチームが残り、負けたチームは待機列へ",
+    "pt": "Quem vence fica, quem perde vai para a fila",
+    "es": "Los ganadores se quedan, los perdedores a la fila"
+   },
+   "tags": {
+    "skill": "drill",
+    "level": "youth",
+    "system": "-"
+   },
+   "author": "RallyBoard",
+   "addedAt": "2026-09-20",
+   "frames": 3,
+   "code": "RB1.eNrtlr1u2zAQx1_FYJcW8CCKpGxpaxP0BToWHSiLsonQkkAxUV3BQOYi3TL0AfoQXvpETt4hp4_KolxXHTTGgy0eefe7Ox__UInuUIDnyKAAPd8fZk8_fx0PD7Pjj8fZ0-_H5--H2VtyfLgn79AchSgo0Z0UxSfDjQCH-FYpsMdKZpmIUBBzlQuIld6IJEfB5xJJsKIMUw-O3cikXim-ExrWRvAtrN_DY77hWRVwJfVKCTCsUpVqMLyJmS-cECyKh0KBBcOzTlV1unKU30Sd_1f4dp052qGALp39_IReTIZ2L6LdFu25Fno5GZpcRJO_V-1fRn_4J5qESzf2emg62nBiVc2cydBstOHYqprhydDeaMMHVbuToRcX0ZS0VdtoMhl6OY62G04nQ_ujaJee0CFm7IQOea1DnVMkcrlOYCMvqks0mJcvoGRcV_oET5HmhUzWPbWKMKvyMrs6c651WsAyS2VimlP9lJw6pWoqaGthNaCr8-PVNaHXEKCQkdmggAGS55tKLY2-BbHMjeZyvTHNuisQsliMZTFQnZ5l4dpZiJjC5_-zAN9Y863otSXGbFlnkEsj00rey0bYg_JMfBvZDc6TbESx2SBDD38QirQeICh2KNx6wHW3Q3UebrthXZjmqgw2_oSig4162JoxO4fvu78JuuK_dgUGyrO74jmvXYHfelbgMvFEbq_gLakVHSM0KCTe718A5YOXhw"
+  },
+  {
+   "id": "drill-triangle",
+   "title": {
+    "ko": "3인 패스 삼각",
+    "en": "Three-player passing triangle",
+    "ja": "3人パス三角",
+    "pt": "Triângulo de passe (3)",
+    "es": "Triángulo de pase (3)"
+   },
+   "desc": {
+    "ko": "시계 방향으로 패스, 받은 뒤 다음 사람에게",
+    "en": "Pass clockwise, each player passes to the next",
+    "ja": "時計回りにパス、受けたら次の人へ",
+    "pt": "Passe no sentido horário para o próximo",
+    "es": "Pase en sentido horario al siguiente"
+   },
+   "tags": {
+    "skill": "drill",
+    "level": "youth",
+    "system": "-"
+   },
+   "author": "RallyBoard",
+   "addedAt": "2026-09-20",
+   "frames": 4,
+   "code": "RB1.eNrFlLFOwzAQhl-lMmuGOE7SNhtqxQswog5O4zRW3SRy3IYSZYAR8QpsDIyMDDwRKu_AOQlNClQdqMoSxXf2ff_57lygFfKwgRTyENk8vvY-Hp4390-9zd3b-8stMpCPvAKtOMsvFVUMdoVLIcAeCp6mLEBeSEXGIEAyZ3GGvKsCcbCiFLsYts15XK0EXTMJa8XoAtbn8JtFNNUBp1xOBQPDNBGJBMNZ6AyZ6YNFUJ8JsOhIMhF6tz7Ib1gl-hq-lmmgNfIc1yyNFm0dDW3tRZPf0eRoaLIXbTXovtmifezaLdqnVZW2hwKW8VkMjizXCH1zdiPfNssJ1JlKXT34CyTNeTzr1DLArqOzWFfKqZRJDss04bGqd-lwzs5taJHD1jLp5HkxGhN7DAFyHqgI_ICkWdTppUxJymcR9KSSS7bNEGS4h2QQ3EAHzpeMJk93cDwZ_UMyLLOF1jIwaYX9SQYcDiVdsE59QuwOKgkZVzzRU1jU8-cVP2akno7aQb47SOPY6a-6s5pQnaYptzcC_OFp-MT8nd83T8O3SFvXHT7-j_uHVqAxX4zgKW5mVzEJDw0uy09oBqZb"
+  },
+  {
+   "id": "drill-serve-target",
+   "title": {
+    "ko": "콘 서브 타겟",
+    "en": "Serve target zones",
+    "ja": "コーン サーブターゲット",
+    "pt": "Alvos de saque",
+    "es": "Zonas objetivo de saque"
+   },
+   "desc": {
+    "ko": "세 구역을 번갈아 노리는 서브 연습",
+    "en": "Serve at three target zones in turn",
+    "ja": "3つのゾーンを順に狙うサーブ練習",
+    "pt": "Sacar nas três zonas alvo em sequência",
+    "es": "Sacar a las tres zonas objetivo por turnos"
+   },
+   "tags": {
+    "skill": "drill",
+    "level": "all",
+    "system": "-"
+   },
+   "author": "RallyBoard",
+   "addedAt": "2026-09-20",
+   "frames": 4,
+   "code": "RB1.eNrVlTtu3DAQhq9iMO3CEKnnsgts-ABJabigJGqXMFcSKNrKWhBgIClzgBQBcodUaXKhxLlDhqKix64b2S6cjpwhP_5Dzi816BZRvEIaUfTw88vJw6evv398Pvnz8f7X929ohWJEG3QreP1eM81hUXYjJcQzKcqSp4hmTFYc9hfXPK8QvWyQgCgqcUhg2bXIu5lke65grjnbwfwtDKstKw0wESqRHAJJIQsFgTeZv-ZODBHJYi4hgmGsCmlWm43ijneaPyDqes4K7RENI79d9UfHOHTHo2PW6R02pbwSmxwSVW2OmDK8kbHBoTcy7oqcvxshp2QilpDE97klYceSMHGmJH856Z-mA1KwnESIJbnujBSOpARI0xt6FBNYSjCDRAshbvQYZb2QMlQUOe0VdChTpu9glCpWi3wz6cIUR47pun3XaUypooZpWYhc21XT57dXbZ4R95fvdQcMIi7Ozl3vHAC1SPUWUR-OZNXWuECrGzBBpRUTm62286FGUIGXq4AHe2kVZLkKQnx72eR5KmBvptiOTx4nw5HbKaiEFoX5eDT2s0GbI2tbUx8kjF-tU21iZj9rvPmOIRH0iZk5rC1sYtLuttF7UDSPrw850JLtcONQoPeUAo_qeMUF-s95wf-hwOApBR6pem0Fgh1ZLnZn8BfvP56aK_gz47b9C343MBM"
+  },
+  {
+   "id": "drill-ladder",
+   "title": {
+    "ko": "사다리 풋워크",
+    "en": "Ladder footwork",
+    "ja": "ラダー フットワーク",
+    "pt": "Escada de agilidade",
+    "es": "Escalera de agilidad"
+   },
+   "desc": {
+    "ko": "사다리 통과 후 콘에서 방향 전환",
+    "en": "Through the ladder, then cut at the cone",
+    "ja": "ラダー通過後にコーンで方向転換",
+    "pt": "Passa pela escada e muda de direção no cone",
+    "es": "Pasa la escalera y cambia de dirección en el cono"
+   },
+   "tags": {
+    "skill": "drill",
+    "level": "youth",
+    "system": "-"
+   },
+   "author": "RallyBoard",
+   "addedAt": "2026-09-20",
+   "frames": 4,
+   "code": "RB1.eNq9VLtuwjAU_ZXKXTPEIQHirQL1BzpWHUzigIWJI8eQ0ihDu9Kpa9eqE38G_YdeOzQkrVQhBjbfh885uefGJVohgh2kEUH7l-1u87H73F59vW32769fz1vkoAkiJVpxVtxpqhm0JUshIJ8InmUsRiShImeAIOcszRG5LxGHLMrwcABtc57aSNA1UxBrRhcQ38Axn9HMAEZcRYJBIpJCKkhcJ0HI3AlkBJ0wARkMZyWF6TYX-ROzqh8R8TzXQWtEBr5bOQfqKR4Oj9SCxrGlbq41PJ4XBYFhbgH1ww5QeD4QbgOF7tlAQa8DhI9AkUzZyTB-4FYP4CdVxiU4xYoWPJ22PItx6BmP1tYXqpQsIMwkT3Xd1R64Z1W1CQaWoBFxOxr3_DEAFDzWM_gOoKT5rLUzuVaUT2ewfFotmbmcKLpgLUUJDntWQs41l2a_ynqzSPnH_dr3bsG6Wfv4q4DrAvjSLdhp13PuFsz8qsYIEOafIOyH5qLCghOEGbMuLqz_jzB8cWGwbjTlixE8ZIc_QjMFjxOuqm8tBWb7"
+  }
+ ]
+}
