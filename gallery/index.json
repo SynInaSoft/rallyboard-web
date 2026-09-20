@@ -339,58 +339,6 @@
    "addedAt": "2026-09-20",
    "frames": 4,
    "code": "RB1.eNrFlLFOwzAQhl-lMmuGOE7SNBtqxQswog5O47RW3SRy3IYSZYAR8QpsDIyMDDwRKu_AOQlNClQdqMoS2Xf2ff_57lKgFfKxgRTyEdk8vvY-Hp4390-9zd3b-8stMlCA_AKtOMsvFVUMTkVLIcAeCZ6mLER-REXGIEAyZ3GG_KsCcbCiFNsuHJvzuNoJumYS9orRBezPYZnNaKoDTricCAaGSSISCYazyBkwMwCLoAETYMGwlonQp_VFfsMq0dfwtUwDrZHvuGZptOj-0dDWXjT5He0dDU32oq0G3TdbdIDtQYsOaFWl7aWQZXwagyPLNUK_nN3It81yDHWmUlcPVqGkOY-nnVqG2DF1FutKOZUyyWGbJjxW9Skdztl5DS1y0FrGnTwvhiNijyBAzkM1Az8gaTbr9FKmJOXTGfSkkku2zRBk4EMyCG6gnvMlo8nT9Y4nwzokwzJbaC0Dk1bYn2TA5UjSBevUJ8IOqSRkXPFET2FRz59f_JiRejpqB_nu8BrHTn_VndWE6jRNuX0R4Nun4RNzD985Dd8ibV13-O5_vD-0Ao35Ygi_4mZ2FZPwo8Fl-QmLdaZ_"
-  },
-  {
-   "id": "drill-serve-target",
-   "title": {
-    "ko": "콘 서브 타겟",
-    "en": "Serve target zones",
-    "ja": "コーン サーブターゲット",
-    "pt": "Alvos de saque",
-    "es": "Zonas objetivo de saque"
-   },
-   "desc": {
-    "ko": "세 구역을 번갈아 노리는 서브 연습",
-    "en": "Serve at three target zones in turn",
-    "ja": "3つのゾーンを順に狙うサーブ練習",
-    "pt": "Sacar nas três zonas alvo em sequência",
-    "es": "Sacar a las tres zonas objetivo por turnos"
-   },
-   "tags": {
-    "skill": "drill",
-    "level": "all",
-    "system": "-"
-   },
-   "author": "RallyBoard",
-   "addedAt": "2026-09-20",
-   "frames": 4,
-   "code": "RB1.eNrVlU9u1DAUxq9Sme0IxU6cyXiHWnEAWCIWTuLMWPUkkeM2TKNISLDkACyQuAMrNlwI2jvwHIf8o5u0LMrOfs_--Xv2-5IGXSOGN8gghm5_fD67_fjl1_dPZ3cf3v_89hVtUIxYg66lqF8bbgQsyq6UgnimZFmKFLGMq0rA_uJS5BVibxokIYpKTLew7FLm3Uzxk9AwN4IfYf4ChtWBlxaYSJ0oAYGkUIWGwLOM7oQXQ0TxWCiIYBjrQtnVdqO8EZ3md4j5gbdBJ8S2EW03_dExptF4dMw7vcOmVFRyn0Oiqu0RU0YwMvaY7kbGTZGLVyPkOZmIJSShVDgS9hwJE29CCr31pD-aFiS8nkSII_n-jERGUgKk6Q3diwkdJZxB_JUQP7qPEqykDBVFXvsWOpRr23cwSjWvZb6fdGGKQ2q77tR1Gte6qGFaFjI3btX0-d1V22fE_eUH3QGDiJfnF35wAYBapuaAGIUjeXWwLjD6CkxQGc3l_mDcfKgRVITrVcCD_WsV2_UqCKHussnjVMDeTPOjmDxOhsOoU1BJIwv78WjcZ4M1f1nbmXqRsH51TnWJmf2c8eY7hgTuEzNzOFu4xKTdXaP3oGgeD5YcaMl2uHEocPeQApd1POECt95jXvB_KBA_pMClqidXINiR5_J4Dn_x_uNphIY_M27b37PmL60"
-  },
-  {
-   "id": "drill-ladder",
-   "title": {
-    "ko": "사다리 풋워크",
-    "en": "Ladder footwork",
-    "ja": "ラダー フットワーク",
-    "pt": "Escada de agilidade",
-    "es": "Escalera de agilidad"
-   },
-   "desc": {
-    "ko": "사다리 통과 후 콘에서 방향 전환",
-    "en": "Through the ladder, then cut at the cone",
-    "ja": "ラダー通過後にコーンで方向転換",
-    "pt": "Passa pela escada e muda de direção no cone",
-    "es": "Pasa la escalera y cambia de dirección en el cono"
-   },
-   "tags": {
-    "skill": "drill",
-    "level": "youth",
-    "system": "-"
-   },
-   "author": "RallyBoard",
-   "addedAt": "2026-09-20",
-   "frames": 4,
-   "code": "RB1.eNq9VLtuwjAU_ZXKXTPEISHgrQL1BzpWHUzigIWJI8eQ0ihDu9Kpa9eqE38G_YdeOygkVKoQA5vvw-ec3HPjEq0QwQ7SiKD923a3-dp9b29-Pjb7z_ef1y1y0ASREq04Kx401QzakqUQkE8EzzIWI5JQkTNAkHOW5og8lohDFmU49KBtzlMbCbpmCmLN6ALiOzjmM5oZwIirSDBIRFJIBYnbJBgydwIZQSdMQAbDWUlhus1F_sKs6mdEPM910BqR0Hcr50A9xWHvSC1oHFvq5lrD43lREBjmFlB_2AHyLwfCHaDgYqCg1wHqH4EimbKzYfzArZ7AT6qMS3CKFS14Om15FuMwNB6trS9UKVlAmEme6rqrPXDPqmoThJagEXE_Gvf8MQAUPNYz-A6gpPmstTO5VpRPZ7B8Wi2ZuZwoumAtRQkOB1ZCzjWXZr_KerNI-cf92vduwbpZ-3hSwIdCcFKw067n3C2Y-VWNESBseIawhuaKwgbuGcKMWVcXhv8Rhq8uDNaNpnwxgofs8EdopuBxwlX1C7a9Zrw"
   }
  ]
 }
