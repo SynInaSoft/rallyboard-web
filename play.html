@@ -114,6 +114,13 @@
   };
   document.documentElement.lang = ko ? 'ko' : 'en';
   var $ = function (id) { return document.getElementById(id); };
+  // 안드로이드에서 열면 Google Play로 안내 (2026-10-03 — 그 전엔 안드로이드에도 App Store 배지가 나갔음)
+  if (/android/i.test(navigator.userAgent)) {
+    S.get = ko ? '아직 RallyBoard가 없다면 Google Play에서 받으세요. 작전판·로테이션·경기 모드, 13개 언어.' : 'Don\'t have RallyBoard yet? Get it on Google Play. Tactics, rotation and match modes, 13 languages.';
+    S.storeS = ko ? '다운로드' : 'GET IT ON'; S.storeT = 'Google Play';
+    $('store').href = 'https://play.google.com/store/apps/details?id=com.uninane.rallyboard';
+    $('store').querySelector('svg').innerHTML = '<path d="M5 3.4v17.2c0 .5.5.8.9.5l14.6-8.6c.4-.2.4-.8 0-1L5.9 2.9c-.4-.3-.9 0-.9.5z"/>';
+  }
   $('sub').textContent = S.sub; $('eyebrow').textContent = S.eyebrow; $('copyT').textContent = S.copy; $('sumT').textContent = S.sum; $('note').textContent = S.note; $('get').textContent = S.get; $('storeS').textContent = S.storeS; $('storeT').textContent = S.storeT;
   $('steps').innerHTML = S.steps.map(function (s, i) { return '<li><span>' + (i + 1) + '</span><div>' + s + '</div></li>'; }).join('');
 
