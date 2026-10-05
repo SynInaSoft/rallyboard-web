@@ -1,0 +1,479 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>랠리보드(RallyBoard): 배구 작전판·로테이션·경기 기록 앱</title>
+<meta name="description" content="랠리보드(RallyBoard)는 배구 코치와 체육 교사를 위한 아이폰·아이패드 앱입니다. 프레임 애니메이션 작전판, FIVB 2025~2028 규칙 기준 오버랩 검사가 있는 R1~R6 로테이션, 경기 점수 기록을 지원합니다.">
+<link rel="canonical" href="https://syninasoft.github.io/rallyboard-web/ko.html">
+<link rel="alternate" hreflang="en" href="https://syninasoft.github.io/rallyboard-web/">
+<link rel="alternate" hreflang="ko" href="https://syninasoft.github.io/rallyboard-web/ko.html">
+<link rel="alternate" hreflang="ja" href="https://syninasoft.github.io/rallyboard-web/ja.html">
+<link rel="alternate" hreflang="pt" href="https://syninasoft.github.io/rallyboard-web/pt.html">
+<link rel="alternate" hreflang="es" href="https://syninasoft.github.io/rallyboard-web/es.html">
+<link rel="alternate" hreflang="x-default" href="https://syninasoft.github.io/rallyboard-web/">
+<meta name="theme-color" content="#0F3B3E">
+<meta name="color-scheme" content="dark">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="RallyBoard">
+<meta property="og:title" content="랠리보드(RallyBoard): 배구 작전판·로테이션·경기 기록 앱">
+<meta property="og:description" content="랠리보드(RallyBoard)는 배구 코치와 체육 교사를 위한 아이폰·아이패드 앱입니다. 프레임 애니메이션 작전판, FIVB 2025~2028 규칙 기준 오버랩 검사가 있는 R1~R6 로테이션, 경기 점수 기록을 지원합니다.">
+<meta property="og:url" content="https://syninasoft.github.io/rallyboard-web/ko.html">
+<meta property="og:locale" content="ko_KR">
+<meta property="og:locale:alternate" content="en_US">
+<meta property="og:locale:alternate" content="ja_JP">
+<meta property="og:locale:alternate" content="pt_BR">
+<meta property="og:locale:alternate" content="es_LA">
+<meta property="og:image" content="https://syninasoft.github.io/rallyboard-web/og/rallyboard-ko.jpg">
+<meta property="og:image:width" content="1024">
+<meta property="og:image:height" content="500">
+<meta property="og:image:alt" content="랠리보드 앱 아이콘과 문구: 배구 작전판 · 로테이션 · 애니메이션">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Crect width='24' height='24' rx='6' fill='%23E8793E'/%3E%3Cg fill='none' stroke='%232A1608' stroke-width='2.2' stroke-linecap='round' transform='translate(2.4 2.4) scale(.8)'%3E%3Ccircle cx='12' cy='12' r='9'/%3E%3Cpath d='M12 3c2.5 3 2.5 15 0 18M3 12c3-2.5 15-2.5 18 0M5.5 5.5c4 1 9.5 6.5 13 13'/%3E%3C/g%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@400;600;700&family=IBM+Plex+Mono:wght@500;700&display=swap" rel="stylesheet">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "RallyBoard",
+  "alternateName": [
+    "랠리보드",
+    "랠리보드 : 배구 작전판"
+  ],
+  "description": "랠리보드(RallyBoard)는 배구 코치와 체육 교사를 위한 아이폰·아이패드용 작전판, 로테이션, 경기 기록 앱입니다.",
+  "url": "https://syninasoft.github.io/rallyboard-web/ko.html",
+  "image": "https://syninasoft.github.io/rallyboard-web/og/rallyboard-ko.jpg",
+  "operatingSystem": "iOS, iPadOS",
+  "applicationCategory": "SportsApplication",
+  "availableOnDevice": "iPhone, iPad",
+  "inLanguage": [
+    "ko",
+    "en",
+    "ja",
+    "zh-Hans",
+    "it",
+    "pl",
+    "fr",
+    "de",
+    "sr-Latn",
+    "tr",
+    "ru",
+    "pt-BR",
+    "es"
+  ],
+  "isAccessibleForFree": true,
+  "downloadUrl": "https://apps.apple.com/app/apple-store/id6797665874?pt=129007220&ct=web_ko&mt=8",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "USD",
+    "description": "무료로 내려받아 쓸 수 있습니다. 랠리보드 Pro는 무료 한도를 없애는 선택형 한 번 구매 인앱 상품(구독·광고 없음)이며 가격은 나라마다 다릅니다."
+  },
+  "featureList": [
+    "전체 코트·하프 코트에 선수·공·훈련 도구·화살표·선을 놓는 작전판",
+    "프레임별 애니메이션 재생, GIF·프레임 컷 내보내기(Pro)",
+    "리베로 자동 교대와 서브·리시브 대형이 있는 R1~R6 로테이션",
+    "FIVB 공식 배구 규칙 2025~2028 7.4조 기준 오버랩(위치 반칙) 검사, 엄격한 검사 선택 가능",
+    "오버랩 자동 정렬·스냅(Pro)",
+    "점수·서브권·로테이션 자동, 세트 설정과 코트 교대가 있는 경기 모드",
+    "프리셋 작전과 드릴이 있는 작전 갤러리",
+    "PNG 이미지와 선수 이름 없는 웹 작전 링크 공유",
+    "선수 명단, 작업 자동 저장, 텍스트 전체 백업",
+    "13개 언어"
+  ],
+  "audience": {
+    "@type": "Audience",
+    "audienceType": "배구 코치와 체육 교사"
+  },
+  "author": {
+    "@type": "Organization",
+    "name": "synina",
+    "email": "syninasoft@gmail.com"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "inLanguage": "ko",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "랠리보드는 어떤 앱인가요?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "랠리보드는 배구 코치와 체육 교사를 위한 아이폰·아이패드 앱입니다. 작전을 그리고 움직여 보는 작전판, 서브·리시브 대형과 오버랩 검사가 있는 R1~R6 로테이션, 점수를 기록하면 로테이션이 자동으로 넘어가는 경기 모드가 있습니다."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "무료인가요?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "네. 광고와 계정 없이 무료로 내려받아 쓸 수 있습니다. 랠리보드 Pro는 구독이 아닌 한 번 구매 상품으로, 무료 한도(작전판 보관 3개, 선수 명단 2개, 위치 저장 10컷, 애니메이션 1개, 대형 2개)를 없애고 GIF·프레임 컷 내보내기와 오버랩 자동 정렬을 엽니다. 가격은 나라마다 다르며 App Store에 표시됩니다."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "FIVB 2025 규칙(서브 팀 위치 반칙)을 지원하나요?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "네. FIVB 공식 배구 규칙 2025~2028의 7.4조에 따르면 서브하는 순간 로테이션 순서를 지켜야 하는 것은 리시브 팀뿐이고, 서브 팀 선수는 어디에 있어도 됩니다. 랠리보드는 기본값으로 이 규칙을 따라 리시브 대형의 오버랩만 검사하고 우리 서브 대형은 검사하지 않습니다."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "미국이나 학교 대회처럼 더 엄격한 규칙도 쓸 수 있나요?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "네. 대회 규칙이 서브 팀에도 로테이션 순서를 요구한다면 로테이션 모드의 대형 선택에서 ‘우리 서브 때 위치 반칙’을 ‘적용’으로 바꾸세요. 그러면 서브 대형과 리시브 대형을 모두 검사합니다. 어느 쪽을 쓸지는 참가하는 대회의 최신 규칙을 확인해 정하세요."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "인터넷 없이도 쓸 수 있나요?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "네. 작전판, 로테이션, 경기 모드는 모두 기기 안에서 동작합니다. 인터넷이 필요한 것은 작전 갤러리, 공유받은 작전 링크를 브라우저로 열 때, Pro 구매·복원뿐입니다."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "데이터는 어디에 저장되나요?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "기기 안에 저장됩니다. 계정이 없고 작전판과 명단을 서버에 올리지 않습니다. 새 아이폰·아이패드로 옮길 때는 메뉴 → 전체 백업에서 백업 텍스트를 메신저나 메모로 보내 두고, 새 기기의 전체 백업에 붙여넣은 뒤 복원을 누르면 됩니다. 앱은 이름이나 작전 내용이 없는 익명 사용 통계만 보냅니다. 자세한 내용은 개인정보처리방침을 참고하세요."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "학교나 기관에서 여러 기기에 설치할 수 있나요?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "네. 앱이 무료라서 학교는 Apple School Manager와 기기 관리(MDM)로 관리용 아이패드에 배포할 수 있고, 누구나 자신의 Apple 계정으로 설치할 수 있습니다. 랠리보드 Pro는 Apple 계정마다 따로 구매하는 인앱 상품입니다. 같은 Apple 계정으로 로그인한 다른 기기에서는 Pro 화면의 구매 복원을 누르세요."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "안드로이드 버전이 있나요?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "안드로이드 버전은 Google Play 출시를 준비하고 있습니다. 지금은 App Store에서 아이폰·아이패드용으로 받을 수 있습니다."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "어떤 언어를 지원하나요?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "13개 언어를 지원합니다: 한국어, 영어, 일본어, 중국어(간체), 이탈리아어, 폴란드어, 프랑스어, 독일어, 세르비아어(라틴 문자), 튀르키예어, 러시아어, 포르투갈어(브라질), 스페인어. 기기 언어가 지원 언어이면 그 언어로 시작하고, 메뉴에서 언어를 바꿀 수 있습니다."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "문의는 어떻게 하나요?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "syninasoft@gmail.com으로 메일을 보내 주세요. 질문, 오류 제보, 기능 제안 모두 받으며 보통 며칠 안에 답장합니다."
+      }
+    }
+  ]
+}
+</script>
+<style>
+  :root{--bg:#0F3B3E;--bg2:#0B2E31;--border:#215B5E;--court:#D96F35;--cream:#F6F1E7;--accent:#E8793E;--sub:rgba(246,241,231,.66);--body:rgba(246,241,231,.88);--rule:rgba(246,241,231,.13);--yel:#FCD34D}
+  *{box-sizing:border-box}
+  html{background:var(--bg);-webkit-text-size-adjust:100%;text-size-adjust:100%}
+  body{margin:0;min-height:100vh;color:var(--cream);background:radial-gradient(1100px 640px at 50% -180px,#17545E 0%,rgba(15,59,62,0) 72%) no-repeat,var(--bg);font:400 16px/1.7 'IBM Plex Sans KR',system-ui,-apple-system,'Segoe UI',sans-serif;-webkit-font-smoothing:antialiased;overflow-wrap:break-word}
+  html:lang(ko) body{word-break:keep-all}
+  html:lang(ja) body{font-family:'IBM Plex Sans JP','Hiragino Sans','Hiragino Kaku Gothic ProN','Noto Sans JP',system-ui,sans-serif;line-break:strict}
+  html:lang(ja) :is(h1,h2,h3,.lead){word-break:auto-phrase}
+  .wrap{max-width:920px;margin:0 auto;padding:0 16px}
+  a{color:inherit;text-decoration-color:rgba(232,121,62,.8);text-decoration-thickness:1.5px;text-underline-offset:3px}
+  a:hover{text-decoration-color:var(--accent)}
+  a:focus-visible{outline:2px solid var(--yel);outline-offset:3px;border-radius:4px}
+  .top{display:flex;flex-wrap:wrap;align-items:center;gap:8px 18px;padding:18px 0 4px}
+  .brand{display:flex;align-items:center;gap:10px;font-weight:700;font-size:17px;letter-spacing:.2px}
+  .logo{width:30px;height:30px;border-radius:9px;background:var(--accent);display:grid;place-items:center;box-shadow:0 4px 14px rgba(232,121,62,.35);flex:none}
+  .langs{display:flex;flex-wrap:wrap;gap:2px;margin-left:auto}
+  .langs a{font-size:13.5px;line-height:1;padding:8px 10px;border-radius:999px;color:var(--sub);text-decoration:none;border:1px solid transparent}
+  .langs a:hover{color:var(--cream);border-color:var(--rule)}
+  .langs a[aria-current=page]{color:var(--cream);border-color:rgba(246,241,231,.3);background:rgba(246,241,231,.07)}
+  .hero{display:grid;gap:30px;padding:28px 0 44px}
+  h1{margin:0 0 18px;font-weight:700}
+  h1 .name{display:block;font-size:clamp(38px,4vw + 22px,58px);line-height:1.04;letter-spacing:-.025em}
+  h1 .what{display:block;margin-top:12px;font-size:clamp(19px,1vw + 15px,25px);line-height:1.32;font-weight:600;letter-spacing:-.01em;color:var(--body);text-wrap:balance}
+  .lead{margin:0 0 26px;font-size:17px;line-height:1.75;color:var(--body);max-width:40em}
+  .get{display:flex;flex-wrap:wrap;align-items:center;gap:14px 18px}
+  .badge{display:inline-flex;align-items:center;gap:10px;flex:none;background:#000;color:#fff;border:1px solid rgba(255,255,255,.24);border-radius:12px;padding:9px 18px 9px 13px;text-decoration:none;line-height:1.1}
+  .badge small{display:block;font-size:11px;font-weight:500;color:#cfcfcf}
+  .badge b{display:block;font-size:19px;font-weight:600;letter-spacing:-.01em}
+  .get p{margin:0;flex:1 1 220px;font-size:14px;line-height:1.55;color:var(--sub)}
+  .court{margin:0}
+  .court svg{display:block;width:100%;max-width:340px;height:auto}
+  .court figcaption{margin-top:12px;max-width:340px;font-size:13px;line-height:1.55;color:var(--sub)}
+  .sec{border-top:1px solid var(--rule);padding:40px 0}
+  h2{margin:0 0 20px;font-size:24px;line-height:1.3;letter-spacing:-.012em}
+  h3{margin:0 0 8px;font-size:17.5px;line-height:1.4}
+  p{margin:0 0 12px}
+  .sec p,.sec li{color:var(--body)}
+  .prose{max-width:46em}
+  ul{margin:0;padding-left:1.15em}
+  li{margin:0 0 8px}
+  li::marker{color:var(--accent)}
+  .facts{display:grid;grid-template-columns:minmax(0,11em) minmax(0,1fr);margin:0;border:1px solid var(--border);border-radius:16px;background:rgba(11,46,49,.55)}
+  .facts dt,.facts dd{margin:0;padding:12px 18px;border-top:1px solid var(--rule)}
+  .facts dt{font-size:14px;color:var(--sub);padding-top:14px}
+  .facts dt:first-of-type,.facts dd:first-of-type{border-top:0}
+  .features{display:grid;gap:30px}
+  .tbl{width:100%;max-width:46em;border-collapse:collapse;table-layout:fixed;margin:6px 0 22px;font-size:15px;font-variant-numeric:tabular-nums}
+  .tbl th,.tbl td{padding:11px 8px;border-bottom:1px solid var(--rule);text-align:left;vertical-align:top;overflow-wrap:anywhere}
+  .tbl thead th{font-size:13px;font-weight:600;color:var(--sub);border-bottom-color:rgba(246,241,231,.3)}
+  .tbl th:first-child{padding-left:0}
+  .tbl tbody th{font-weight:400;color:var(--body)}
+  .tbl .pro{color:var(--accent);font-weight:600}
+  .tbl col.v{width:27%}
+  .qa{padding:20px 0;border-top:1px solid var(--rule);max-width:46em}
+  .qa:first-of-type{border-top:0;padding-top:0}
+  .qa p{margin:0}
+  .links{display:flex;flex-wrap:wrap;gap:10px 22px;list-style:none;margin:16px 0 0;padding:0}
+  .links li{margin:0}
+  footer{border-top:1px solid var(--rule);padding:22px 0 calc(40px + env(safe-area-inset-bottom));font-size:13px;line-height:1.6;color:var(--sub)}
+  footer p{margin:0 0 4px}
+  @media (max-width:620px){.langs{margin-left:-7px;width:calc(100% + 7px)}.langs a{font-size:13px;padding:8px 7px}}
+  @media (max-width:560px){.facts{grid-template-columns:minmax(0,1fr)}.facts dt{padding-bottom:0}.facts dd{border-top:0;padding-top:2px}}
+  @media (min-width:640px){.tbl col.v{width:20%}}
+  @media (min-width:800px){
+    .hero{grid-template-columns:minmax(0,1fr) minmax(0,340px);gap:56px;align-items:center;padding:52px 0 64px}
+    .features{grid-template-columns:repeat(2,minmax(0,1fr));gap:36px 52px}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="top">
+    <div class="brand"><span class="logo"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#2A1608" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 3c2.5 3 2.5 15 0 18M3 12c3-2.5 15-2.5 18 0M5.5 5.5c4 1 9.5 6.5 13 13"/></svg></span>RallyBoard</div>
+    <nav class="langs" aria-label="언어">
+      <a href="./" hreflang="en" lang="en">English</a>
+      <a href="ko.html" hreflang="ko" lang="ko" aria-current="page">한국어</a>
+      <a href="ja.html" hreflang="ja" lang="ja">日本語</a>
+      <a href="pt.html" hreflang="pt" lang="pt-BR">Português</a>
+      <a href="es.html" hreflang="es" lang="es">Español</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div>
+        <h1><span class="name">랠리보드</span><span class="what">배구 작전판·로테이션·경기 기록 앱</span></h1>
+        <p class="lead">랠리보드(RallyBoard)는 배구 코치와 체육 교사를 위한 아이폰·아이패드용 작전판, 로테이션, 경기 기록 앱입니다. 작전을 그려 프레임별로 움직여 보고, FIVB 2025~2028 규칙 기준 오버랩 검사로 R1~R6 로테이션을 확인하고, 경기 중에는 점수를 누르면 로테이션까지 자동으로 넘어갑니다.</p>
+        <div class="get">
+          <a class="badge" href="https://apps.apple.com/app/apple-store/id6797665874?pt=129007220&ct=web_ko&mt=8" aria-label="App Store에서 랠리보드 다운로드"><svg width="20" height="20" viewBox="0 0 24 24" fill="#fff" aria-hidden="true"><path d="M16.4 12.6c0-2.6 2.1-3.8 2.2-3.9-1.2-1.8-3.1-2-3.7-2-1.6-.2-3.1.9-3.9.9-.8 0-2-.9-3.4-.9-1.7 0-3.3 1-4.2 2.6-1.8 3.1-.5 7.7 1.3 10.2.9 1.2 1.9 2.6 3.2 2.6 1.3-.1 1.8-.8 3.3-.8s2 .8 3.4.8c1.4 0 2.3-1.3 3.1-2.5 1-1.4 1.4-2.8 1.4-2.9-.1 0-2.7-1-2.7-4.1zM13.9 5c.7-.8 1.2-2 1-3.1-1 0-2.2.7-2.9 1.5-.6.7-1.2 1.9-1 3 1.1.1 2.2-.6 2.9-1.4z"/></svg><span><small>다운로드</small><b>App Store</b></span></a>
+          <p>아이폰·아이패드에서 무료. 안드로이드 버전은 Google Play 출시를 준비하고 있습니다.</p>
+        </div>
+      </div>
+      <figure class="court">
+    <svg viewBox="0 0 408 488" role="img" aria-labelledby="court-t" xmlns="http://www.w3.org/2000/svg">
+      <title id="court-t">5-1 시스템 R1 서브 리시브 대형이 그려진 배구 반코트: 리베로와 아웃사이드 히터 두 명이 리시브하고, 세터가 1번 자리에서 네트로 이동합니다.</title>
+      <defs>
+        <linearGradient id="opp" x1="0" y1="20" x2="0" y2="104" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#D96F35" stop-opacity="0"/><stop offset="1" stop-color="#D96F35" stop-opacity=".62"/></linearGradient>
+        <linearGradient id="oppl" x1="0" y1="20" x2="0" y2="104" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#F6F1E7" stop-opacity="0"/><stop offset="1" stop-color="#F6F1E7" stop-opacity=".75"/></linearGradient>
+        <marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="4.4" markerHeight="4.4" orient="auto"><path d="M0 0L10 5L0 10z" fill="#F6F1E7"/></marker>
+      </defs>
+      <rect width="408" height="488" rx="20" fill="#0B2E31"/>
+      <rect x="24" y="20" width="360" height="84" fill="url(#opp)"/>
+      <path d="M24 20V104M384 20V104" stroke="url(#oppl)" stroke-width="3"/>
+      <rect x="24" y="104" width="360" height="360" fill="#D96F35"/>
+      <path d="M24 104V464H384V104" fill="none" stroke="#F6F1E7" stroke-width="3" stroke-linejoin="round"/>
+      <path d="M24 224H384" stroke="#F6F1E7" stroke-width="2" stroke-opacity=".9"/>
+      <path d="M10 106.5H398" stroke="#000" stroke-opacity=".28" stroke-width="7" stroke-linecap="round"/>
+      <path d="M10 104H398" stroke="#F6F1E7" stroke-width="7" stroke-linecap="round"/>
+      <g fill="none" stroke="#F6F1E7" stroke-width="2.5" stroke-linecap="round">
+        <path d="M224.3 47Q95 140 82.1 303" stroke-opacity=".8" marker-end="url(#ah)"/>
+        <path d="M92.3 330.4L269.3 149" marker-end="url(#ah)"/>
+        <path d="M353.9 325.6Q378 236 296.9 148" stroke-dasharray="8 7" marker-end="url(#ah)"/>
+      </g>
+      <circle cx="284" cy="134" r="17" fill="none" stroke="#F6F1E7" stroke-opacity=".7" stroke-width="2" stroke-dasharray="4 4"/>
+      <circle cx="234" cy="40" r="10" fill="#F6F1E7" stroke="#173F6B" stroke-width="1.5"/>
+      <path d="M233.91 32.56A9.5 9.5 0 0 1 233.91 47.44M234.09 47.44A9.5 9.5 0 0 1 234.09 32.56" fill="none" stroke="#E8793E" stroke-width="1.6"/>
+      <g font-family="'IBM Plex Mono',ui-monospace,monospace" font-weight="700" text-anchor="middle">
+      <circle cx="349" cy="344" r="17" fill="#173F6B" stroke="#F6F1E7" stroke-width="2"/><text x="349" y="349.3" font-size="15" fill="#F6F1E7">1</text><rect x="341.0" y="311" width="16" height="14" rx="7" fill="#F6F1E7"/><text x="349" y="321.6" font-size="10" fill="#173F6B">S</text>
+      <circle cx="314" cy="294" r="17" fill="#173F6B" stroke="#F6F1E7" stroke-width="2"/><text x="314" y="299.3" font-size="15" fill="#F6F1E7">7</text><rect x="303.0" y="261" width="22" height="14" rx="7" fill="#F6F1E7"/><text x="314" y="271.6" font-size="10" fill="#173F6B">OH</text>
+      <circle cx="184" cy="144" r="17" fill="#173F6B" stroke="#F6F1E7" stroke-width="2"/><text x="184" y="149.3" font-size="15" fill="#F6F1E7">11</text><rect x="173.0" y="111" width="22" height="14" rx="7" fill="#F6F1E7"/><text x="184" y="121.6" font-size="10" fill="#173F6B">MB</text>
+      <circle cx="54" cy="174" r="17" fill="#173F6B" stroke="#F6F1E7" stroke-width="2"/><text x="54" y="179.3" font-size="15" fill="#F6F1E7">3</text><rect x="40.0" y="141" width="28" height="14" rx="7" fill="#F6F1E7"/><text x="54" y="151.6" font-size="10" fill="#173F6B">OPP</text>
+      <circle cx="79" cy="344" r="17" fill="#173F6B" stroke="#F6F1E7" stroke-width="2"/><text x="79" y="349.3" font-size="15" fill="#F6F1E7">8</text><rect x="68.0" y="311" width="22" height="14" rx="7" fill="#F6F1E7"/><text x="79" y="321.6" font-size="10" fill="#173F6B">OH</text>
+      <circle cx="204" cy="369" r="17" fill="#E05252" stroke="#F6F1E7" stroke-width="2"/><text x="204" y="374.3" font-size="15" fill="#F6F1E7">5</text><rect x="196.0" y="336" width="16" height="14" rx="7" fill="#F6F1E7"/><text x="204" y="346.6" font-size="10" fill="#173F6B">L</text>
+      </g>
+    </svg>
+        <figcaption>앱의 작전 갤러리에 있는 5-1 서브 리시브 R1입니다. 실선은 서브와 리시브, 점선은 세터가 네트로 들어가는 움직임입니다.</figcaption>
+      </figure>
+    </section>
+
+    <section class="sec" id="facts" aria-labelledby="h-facts">
+      <h2 id="h-facts">한눈에 보기</h2>
+      <dl class="facts">
+        <dt>앱</dt><dd>작전판·로테이션·경기 모드 세 가지 모드가 있는 배구 앱</dd>
+        <dt>대상</dt><dd>배구 코치와 체육 교사(훈련·체육 수업·경기)</dd>
+        <dt>기기</dt><dd>아이폰·아이패드(iOS, iPadOS). 안드로이드는 Google Play 출시 준비 중</dd>
+        <dt>가격</dt><dd>무료. 랠리보드 Pro는 선택형 한 번 구매 인앱 상품(구독·광고 없음)이며 가격은 나라마다 다릅니다.</dd>
+        <dt>계정</dt><dd>필요 없음. 작전판·명단·설정은 기기에 저장됩니다.</dd>
+        <dt>언어</dt><dd>13개(한국어, 영어, 일본어, 포르투갈어, 스페인어 등)</dd>
+        <dt>App Store 이름</dt><dd>랠리보드 : 배구 작전판</dd>
+        <dt>개발</dt><dd>synina(배구부를 지도하는 한국 체육 교사의 브랜드)</dd>
+        <dt>문의</dt><dd><a href="mailto:syninasoft@gmail.com">syninasoft@gmail.com</a></dd>
+      </dl>
+    </section>
+
+    <section class="sec" id="features" aria-labelledby="h-features">
+      <h2 id="h-features">기능</h2>
+      <div class="features">
+        <div class="feat">
+          <h3>작전판</h3>
+          <ul>
+            <li>전체 코트나 하프 코트에 선수, 공, 훈련 도구(콘, 접시콘, 사다리, 링, 매트, 목표 구역, 공 수레)를 놓습니다.</li>
+            <li>선수마다 등번호, 이름, 포지션 배지(S, OH, MB, OPP, L)가 표시됩니다.</li>
+            <li>직선·곡선·점선·지그재그 등 여러 모양의 화살표와 선, 자유 곡선으로 선수 이동과 공의 궤적을 그립니다.</li>
+          </ul>
+        </div>
+        <div class="feat">
+          <h3>애니메이션</h3>
+          <ul>
+            <li>선수 위치를 프레임마다 저장하고 한 번·반복·왕복으로 재생합니다. 속도도 정할 수 있습니다.</li>
+            <li>애니메이션을 GIF나, 모든 프레임을 한 장에 담은 프레임 컷 이미지로 내보냅니다(Pro, 미리보기는 무료).</li>
+          </ul>
+        </div>
+        <div class="feat">
+          <h3>로테이션</h3>
+          <ul>
+            <li>시작 라인업 6명에 역할(S, OH, MB, OPP, L)을 정하고 R1~R6을 넘겨 봅니다. 5-1, 6-2를 포함해 어떤 라인업이든 넣을 수 있습니다.</li>
+            <li>리베로는 후위로 온 미들 블로커(또는 직접 고른 선수)와 자동으로 교대하고, 그 선수가 서브할 차례가 되면 빠집니다.</li>
+            <li>선수를 끌어 서브·리시브 대형을 만들고, 대형은 로테이션마다 따로 저장됩니다.</li>
+            <li>오버랩(위치 반칙) 검사는 FIVB 공식 배구 규칙 2025~2028의 7.4조를 기준으로 합니다. 기본값은 리시브 대형만 검사하고 우리 서브 대형은 검사하지 않으며, 둘 다 검사하는 엄격한 방식으로 바꿀 수 있습니다.</li>
+            <li>Pro: 오버랩 자동 정렬·스냅. 선수를 놓으면 규칙에 맞는 자리로 붙고, 반칙이 있는 대형은 버튼 한 번으로 정렬됩니다.</li>
+            <li>R1~R6 여섯 로테이션을 한 화면에서 보는 한눈에 보기.</li>
+          </ul>
+        </div>
+        <div class="feat">
+          <h3>경기 모드</h3>
+          <ul>
+            <li>랠리를 이긴 팀을 누르면 점수, 서브권, 로테이션이 자동으로 바뀝니다.</li>
+            <li>세트 점수와 마지막 세트 점수(기본값 또는 1~99 직접 입력), 세트 수(1·3·5세트)를 정합니다.</li>
+            <li>목표 점수에 먼저 닿고 2점 차가 나면 세트가 끝납니다. 세트 결과를 보여 준 뒤, 다음 세트에서 코트와 첫 서브를 바꿔 줍니다.</li>
+            <li>되돌리기, 코트 잠금, 리베로, 세터를 정하면 5-1 포지션 자동 배정.</li>
+          </ul>
+        </div>
+        <div class="feat">
+          <h3>작전 갤러리</h3>
+          <ul>
+            <li>열어서 바로 고쳐 쓸 수 있는 작전과 드릴: 5-1 서브 리시브 R1~R6, 리드 블록 좌우 이동, 프리볼 트랜지션, 서브 후 기본 수비 위치, 버터플라이 서브-리시브·퀸 오브 더 코트(3대3)·3인 패스 삼각 드릴.</li>
+            <li>갤러리는 열 때 내려받으므로 인터넷 연결이 필요합니다.</li>
+          </ul>
+        </div>
+        <div class="feat">
+          <h3>공유</h3>
+          <ul>
+            <li>작전판을 PNG 이미지로 공유합니다.</li>
+            <li>작전을 웹 링크로 공유하면 누구나 브라우저에서 움직임을 보고 랠리보드로 가져올 수 있습니다. 링크에는 선수 이름이 들어가지 않고 번호·포지션·움직임만 담깁니다.</li>
+          </ul>
+        </div>
+        <div class="feat">
+          <h3>명단·자동 저장·백업</h3>
+          <ul>
+            <li>이름·번호·포지션이 담긴 선수 명단을 저장해 각 모드에서 불러옵니다.</li>
+            <li>작업 중인 화면은 자동으로 저장되어 앱을 다시 열어도 그대로입니다.</li>
+            <li>전체 백업으로 작전판(애니메이션 포함)·명단·언어 설정을 텍스트로 내보내 다른 기기로 옮길 수 있습니다.</li>
+          </ul>
+        </div>
+        <div class="feat">
+          <h3>13개 언어</h3>
+          <ul>
+            <li>한국어, English, 日本語, 中文, Italiano, Polski, Français, Deutsch, Srpski, Türkçe, Русский, Português, Español</li>
+            <li>처음 실행할 때 기기 언어가 지원 언어이면 그 언어로, 아니면 영어로 시작합니다. 메뉴에서 바꿀 수 있습니다.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="sec" id="price" aria-labelledby="h-price">
+      <h2 id="h-price">가격</h2>
+      <p class="prose">랠리보드는 무료로 내려받아 쓸 수 있고 광고와 계정이 없습니다. 랠리보드 Pro는 아래 제한을 없애는 한 번 구매 인앱 상품이며 구독이 아닙니다. 가격은 나라마다 다르며 구매 전에 App Store에 표시됩니다.</p>
+      <table class="tbl" aria-label="무료 버전과 랠리보드 Pro 비교">
+        <colgroup><col><col class="v"><col class="v"></colgroup>
+        <thead><tr><th scope="col">항목</th><th scope="col">무료</th><th scope="col" class="pro">Pro</th></tr></thead>
+        <tbody>
+          <tr><th scope="row">작전판 보관</th><td>3개</td><td class="pro">무제한</td></tr>
+          <tr><th scope="row">선수 명단</th><td>2개</td><td class="pro">무제한</td></tr>
+          <tr><th scope="row">위치 저장(프레임)</th><td>10컷</td><td class="pro">무제한</td></tr>
+          <tr><th scope="row">애니메이션 저장</th><td>1개</td><td class="pro">무제한</td></tr>
+          <tr><th scope="row">로테이션 대형</th><td>2개</td><td class="pro">무제한</td></tr>
+          <tr><th scope="row">GIF·프레임 컷 내보내기</th><td>미리보기</td><td class="pro">포함</td></tr>
+          <tr><th scope="row">오버랩 자동 정렬·스냅</th><td>–</td><td class="pro">포함</td></tr>
+        </tbody>
+      </table>
+      <p class="prose">언제나 무료: 작전판 그리기, 오버랩 검사가 있는 로테이션, 경기 모드, 작전 갤러리, 이미지·링크 공유, 전체 백업, 13개 언어 전체.</p>
+      <p class="prose">Pro는 구매한 Apple 계정에 묶입니다. 앱을 다시 설치했거나 같은 Apple 계정의 다른 아이폰·아이패드에서는 Pro 화면에서 구매 복원을 누르세요.</p>
+    </section>
+
+    <section class="sec" id="faq" aria-labelledby="h-faq">
+      <h2 id="h-faq">자주 묻는 질문</h2>
+      <div class="faq">
+        <div class="qa">
+          <h3>랠리보드는 어떤 앱인가요?</h3>
+          <p>랠리보드는 배구 코치와 체육 교사를 위한 아이폰·아이패드 앱입니다. 작전을 그리고 움직여 보는 작전판, 서브·리시브 대형과 오버랩 검사가 있는 R1~R6 로테이션, 점수를 기록하면 로테이션이 자동으로 넘어가는 경기 모드가 있습니다.</p>
+        </div>
+        <div class="qa">
+          <h3>무료인가요?</h3>
+          <p>네. 광고와 계정 없이 무료로 내려받아 쓸 수 있습니다. 랠리보드 Pro는 구독이 아닌 한 번 구매 상품으로, 무료 한도(작전판 보관 3개, 선수 명단 2개, 위치 저장 10컷, 애니메이션 1개, 대형 2개)를 없애고 GIF·프레임 컷 내보내기와 오버랩 자동 정렬을 엽니다. 가격은 나라마다 다르며 App Store에 표시됩니다.</p>
+        </div>
+        <div class="qa">
+          <h3>FIVB 2025 규칙(서브 팀 위치 반칙)을 지원하나요?</h3>
+          <p>네. FIVB 공식 배구 규칙 2025~2028의 7.4조에 따르면 서브하는 순간 로테이션 순서를 지켜야 하는 것은 리시브 팀뿐이고, 서브 팀 선수는 어디에 있어도 됩니다. 랠리보드는 기본값으로 이 규칙을 따라 리시브 대형의 오버랩만 검사하고 우리 서브 대형은 검사하지 않습니다.</p>
+        </div>
+        <div class="qa">
+          <h3>미국이나 학교 대회처럼 더 엄격한 규칙도 쓸 수 있나요?</h3>
+          <p>네. 대회 규칙이 서브 팀에도 로테이션 순서를 요구한다면 로테이션 모드의 대형 선택에서 ‘우리 서브 때 위치 반칙’을 ‘적용’으로 바꾸세요. 그러면 서브 대형과 리시브 대형을 모두 검사합니다. 어느 쪽을 쓸지는 참가하는 대회의 최신 규칙을 확인해 정하세요.</p>
+        </div>
+        <div class="qa">
+          <h3>인터넷 없이도 쓸 수 있나요?</h3>
+          <p>네. 작전판, 로테이션, 경기 모드는 모두 기기 안에서 동작합니다. 인터넷이 필요한 것은 작전 갤러리, 공유받은 작전 링크를 브라우저로 열 때, Pro 구매·복원뿐입니다.</p>
+        </div>
+        <div class="qa">
+          <h3>데이터는 어디에 저장되나요?</h3>
+          <p>기기 안에 저장됩니다. 계정이 없고 작전판과 명단을 서버에 올리지 않습니다. 새 아이폰·아이패드로 옮길 때는 메뉴 → 전체 백업에서 백업 텍스트를 메신저나 메모로 보내 두고, 새 기기의 전체 백업에 붙여넣은 뒤 복원을 누르면 됩니다. 앱은 이름이나 작전 내용이 없는 익명 사용 통계만 보냅니다. 자세한 내용은 <a href="privacy.html">개인정보처리방침</a>을 참고하세요.</p>
+        </div>
+        <div class="qa">
+          <h3>학교나 기관에서 여러 기기에 설치할 수 있나요?</h3>
+          <p>네. 앱이 무료라서 학교는 Apple School Manager와 기기 관리(MDM)로 관리용 아이패드에 배포할 수 있고, 누구나 자신의 Apple 계정으로 설치할 수 있습니다. 랠리보드 Pro는 Apple 계정마다 따로 구매하는 인앱 상품입니다. 같은 Apple 계정으로 로그인한 다른 기기에서는 Pro 화면의 구매 복원을 누르세요.</p>
+        </div>
+        <div class="qa">
+          <h3>안드로이드 버전이 있나요?</h3>
+          <p>안드로이드 버전은 Google Play 출시를 준비하고 있습니다. 지금은 App Store에서 아이폰·아이패드용으로 받을 수 있습니다.</p>
+        </div>
+        <div class="qa">
+          <h3>어떤 언어를 지원하나요?</h3>
+          <p>13개 언어를 지원합니다: 한국어, 영어, 일본어, 중국어(간체), 이탈리아어, 폴란드어, 프랑스어, 독일어, 세르비아어(라틴 문자), 튀르키예어, 러시아어, 포르투갈어(브라질), 스페인어. 기기 언어가 지원 언어이면 그 언어로 시작하고, 메뉴에서 언어를 바꿀 수 있습니다.</p>
+        </div>
+        <div class="qa">
+          <h3>문의는 어떻게 하나요?</h3>
+          <p><a href="mailto:syninasoft@gmail.com">syninasoft@gmail.com</a>으로 메일을 보내 주세요. 질문, 오류 제보, 기능 제안 모두 받으며 보통 며칠 안에 답장합니다.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="sec" id="about" aria-labelledby="h-about">
+      <h2 id="h-about">만든 사람</h2>
+      <p class="prose">랠리보드는 배구부를 지도하는 한국의 체육 교사가 자신의 체육 수업과 배구부 훈련에 쓰려고 만든 앱입니다. synina라는 브랜드로 배포합니다.</p>
+      <ul class="links"><li><a href="support.html">지원</a></li><li><a href="privacy.html">개인정보처리방침</a></li><li><a href="mailto:syninasoft@gmail.com">메일</a></li></ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>RallyBoard · synina</p>
+    <p>Apple, iPhone, iPad, App Store는 Apple Inc.의 상표입니다.</p>
+  </footer>
+</div>
+</body>
+</html>

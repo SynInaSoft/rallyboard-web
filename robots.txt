@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://syninasoft.github.io/rallyboard-web/sitemap.xml
