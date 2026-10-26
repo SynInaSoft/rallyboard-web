@@ -1,0 +1,103 @@
+{
+  "lang": "pt",
+  "htmlLang": "pt-BR",
+  "ogLocale": "pt_BR",
+  "langName": "Português",
+  "title": "Falta de posição no vôlei, regra 7.4: o que mudou nas regras FIVB 2025–2028",
+  "description": "Desde 2025, só a equipe que recebe precisa estar na ordem de rodízio no golpe do saque; a equipe que saca pode ficar em qualquer lugar da sua quadra. A regra 7.4 explicada, com os pares de jogadores a verificar e como o RallyBoard faz a checagem.",
+  "h1": "Falta de posição no vôlei (regra 7.4)",
+  "h1sub": "O que mudou nas Regras Oficiais de Voleibol FIVB 2025–2028",
+  "updated": "Atualizado em 26 de outubro de 2026",
+  "lead": "Resposta curta: desde as Regras Oficiais de Voleibol FIVB 2025–2028, só a equipe que recebe precisa estar na ordem de rodízio quando o sacador golpeia a bola. Os jogadores da equipe que saca podem ficar em qualquer lugar da sua própria quadra. Por isso, a falta de posição só pode ser marcada contra a equipe que recebe, a não ser que a sua competição ainda use o texto antigo.",
+  "ruleH2": "A regra no texto 2025–2028",
+  "ruleQuote": "No momento em que a bola é golpeada pelo sacador, cada equipe deverá estar posicionada dentro de sua própria quadra (exceto o sacador). Os jogadores da equipe receptora devem estar na ordem de rotação no momento do golpe do saque. Os jogadores da equipe sacadora, no entanto, estão livres para ocupar qualquer posição no momento do golpe do saque.",
+  "ruleCite": "Regras Oficiais de Voleibol 2025–2028 (FIVB), regra 7.4, tradução em português revisada pela COBRAV",
+  "ruleParas": [
+    "As posições são numeradas 4, 3, 2 na linha de frente (da esquerda para a direita, de frente para a rede) e 5, 6, 1 na linha de trás. Cada jogador é comparado só com os jogadores vizinhos nessa ordem.",
+    "A checagem usa os pés em contato com o solo (regra 7.4.3). O jogador da linha de trás precisa ter pelo menos uma parte de um pé mais longe da linha central do que o pé da frente do jogador correspondente da linha de frente. O jogador da direita (ou da esquerda) precisa ter pelo menos uma parte de um pé mais perto dessa linha lateral do que o outro jogador da mesma linha. Estar nivelado é válido.",
+    "Depois do golpe do saque, os jogadores das duas equipes podem se mover para qualquer lugar (regra 7.4.4). Com a falta de posição a equipe perde o rali (o adversário ganha o ponto e o saque), e as posições são corrigidas (regra 7.5.4)."
+  ],
+  "changeH2": "Antes e depois de 2025",
+  "changeCols": [
+    "",
+    "Regras 2021–2024",
+    "Regras 2025–2028"
+  ],
+  "changeRows": [
+    [
+      "Equipe que recebe",
+      "Deve estar na ordem de rodízio no golpe do saque",
+      "Deve estar na ordem de rodízio no golpe do saque (sem mudança)"
+    ],
+    [
+      "Equipe que saca",
+      "Também deve estar na ordem de rodízio",
+      "Livre para ocupar qualquer posição na sua própria quadra"
+    ],
+    [
+      "Sacador",
+      "Na zona de saque",
+      "Na zona de saque (sem mudança)"
+    ],
+    [
+      "Depois do golpe do saque",
+      "Os jogadores podem se mover para qualquer lugar",
+      "Os jogadores podem se mover para qualquer lugar (sem mudança)"
+    ]
+  ],
+  "changeNote": "Muitas federações nacionais e competições escolares e de base adotaram a nova regra em 2025, mas algumas ligas ainda exigem que a equipe que saca esteja na ordem. Confira o regulamento da sua competição.",
+  "pairsH2": "Os sete pares a verificar",
+  "pairsIntro": "Numa formação de recepção, só estes pares de vizinhos podem gerar falta de posição:",
+  "pairsFront": "Frente e trás (mesma coluna): 4 à frente de 5, 3 à frente de 6, 2 à frente de 1.",
+  "pairsSide": "Esquerda e direita (mesma linha): 4 à esquerda de 3, 3 à esquerda de 2 na linha de frente; 5 à esquerda de 6, 6 à esquerda de 1 na linha de trás.",
+  "pairsNote": "Jogadores que não são vizinhos nunca são comparados. Por exemplo, a posição 4 pode ficar atrás da posição 1, e o levantador na posição 1 pode ficar perto da rede desde que esteja à direita do 6 e atrás do 2.",
+  "svgTitle": "Meia quadra com as posições 4, 3, 2 na linha de frente e 5, 6, 1 na linha de trás. As linhas mostram os sete pares comparados: três de frente e trás e quatro de lado.",
+  "svgNet": "REDE",
+  "appH2": "Como o RallyBoard verifica a falta de posição",
+  "appParas": [
+    "O RallyBoard é uma prancheta tática de vôlei e de rodízio, grátis para iPhone, iPad e Android. No modo Rodízio, ele verifica os sete pares acima em cada rodízio, do R1 ao R6, enquanto você arrasta os jogadores, e marca em vermelho quem está em posição irregular.",
+    "Por padrão, segue a regra 2025–2028: verifica as formações de recepção e não verifica a formação do seu próprio saque. Se a sua liga ainda usa a regra antiga, abra Selecionar formação no modo Rodízio e coloque “Falta de posição no nosso saque” em “Aplicar”.",
+    "O RallyBoard Pro (compra única) acrescenta alinhamento automático e encaixe: o jogador solto encaixa numa posição válida, e um toque corrige uma formação com falta de posição."
+  ],
+  "faqH2": "Perguntas",
+  "faq": [
+    {
+      "q": "A equipe que saca pode cometer falta de posição em 2025?",
+      "a": "Não pelas Regras Oficiais de Voleibol FIVB 2025–2028. A regra 7.4 diz que os jogadores da equipe que saca estão livres para ocupar qualquer posição no golpe do saque. Eles ainda precisam estar dentro da própria quadra, e o sacador precisa sacar da zona de saque."
+    },
+    {
+      "q": "Qual equipe pode ser punida por falta de posição?",
+      "a": "A equipe que recebe. Seus jogadores precisam estar na ordem de rodízio no momento do golpe do saque, comparados só com os vizinhos da mesma linha e da mesma coluna."
+    },
+    {
+      "q": "O líbero conta na checagem de posição?",
+      "a": "Sim. O líbero ocupa a posição do jogador da linha de trás que ele substituiu, normalmente um central na posição 5, 6 ou 1, e é comparado como qualquer outro jogador nessa posição."
+    },
+    {
+      "q": "Existe um app que verifica a falta de posição automaticamente?",
+      "a": "Sim. O RallyBoard (na App Store do Brasil “RallyBoard: Tática de Vôlei”, no Google Play “RallyBoard: Prancheta de Vôlei”, e “Volleyball Rotation & Tactics” nos países de língua inglesa) verifica a falta de posição do R1 ao R6 com base na regra 7.4 das regras 2025–2028, com uma opção mais rígida para ligas que ainda verificam a equipe que saca. É grátis para iPhone, iPad e Android."
+    }
+  ],
+  "sourcesH2": "Fontes",
+  "sources": [
+    {
+      "label": "Regras Oficiais de Voleibol FIVB 2025–2028 (inglês, PDF)",
+      "url": "https://www.fivb.com/wp-content/uploads/2025/01/FIVB-Volleyball_Rules2025_2028-EN-v05.pdf"
+    },
+    {
+      "label": "Regras Oficiais de Voleibol 2025–2028 em português (PDF, publicado pela Federação Mineira de Voleibol; revisão da COBRAV)",
+      "url": "https://www.fmvolei.org.br/_files/ugd/ad26ed_8edc8428ae624c93aa28e47421fddb15.pdf"
+    },
+    {
+      "label": "Página de regras da FIVB (todos os idiomas)",
+      "url": "https://www.fivb.com/volleyball/the-game/official-volleyball-rules/"
+    },
+    {
+      "label": "Modificações das regras 2025–2028, comparação do texto antigo e novo (PDF, publicado pela Volleyball Association of Hong Kong)",
+      "url": "https://vbahk.org.hk/items/media/Refereeing/202528_Volleyball_Rules/VB/fivbvolleyball_rulesmodification20252028.pdf"
+    }
+  ],
+  "appLinkLabel": "Sobre o app RallyBoard",
+  "storeText": "Grátis para iPhone, iPad e Android.",
+  "langNavLabel": "Idioma"
+}

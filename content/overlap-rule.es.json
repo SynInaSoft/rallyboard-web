@@ -1,0 +1,59 @@
+{
+  "lang": "es",
+  "htmlLang": "es",
+  "ogLocale": "es_LA",
+  "langName": "Español",
+  "title": "Falta de posición en voleibol, regla 7.4: qué cambió en las reglas FIVB 2025–2028",
+  "description": "Desde 2025, solo el equipo receptor debe estar en orden de rotación en el golpe de saque; el equipo que saca puede ubicarse en cualquier lugar de su campo. La regla 7.4 explicada, con los pares de jugadores que se comparan y cómo lo controla RallyBoard.",
+  "h1": "Falta de posición en voleibol (regla 7.4)",
+  "h1sub": "Qué cambió en las Reglas Oficiales de Voleibol FIVB 2025–2028",
+  "updated": "Actualizado el 26 de octubre de 2026",
+  "lead": "Respuesta corta: desde las Reglas Oficiales de Voleibol FIVB 2025–2028, solo el equipo receptor debe estar en orden de rotación cuando el sacador golpea el balón. Los jugadores del equipo que saca pueden ubicarse en cualquier lugar de su propio campo. Por eso, la falta de posición solo se puede sancionar al equipo receptor, salvo que tu competición siga usando el texto anterior.",
+  "ruleH2": "La regla en el texto 2025–2028",
+  "ruleQuote": "En el momento que el balón es golpeado por el sacador, cada equipo debe estar ubicado dentro de su propio campo (excepto el sacador). Los jugadores del equipo receptor deben estar en el orden de rotación en el momento del golpe de saque. Los jugadores del equipo que saca, no obstante, son libres de ocupar cualquier posición al momento del golpe de saque.",
+  "ruleCite": "Reglas Oficiales de Voleibol FIVB 2025–2028 (versión oficial en español), regla 7.4",
+  "ruleParas": [
+    "Las posiciones se numeran 4, 3, 2 en la línea de delanteros (de izquierda a derecha, mirando a la red) y 5, 6, 1 en la línea de zagueros. Cada jugador se compara solo con los jugadores que tiene al lado en ese orden.",
+    "El control se hace con los pies en contacto con el piso (regla 7.4.3). Cada zaguero debe tener al menos una parte de un pie más lejos de la línea central que el pie de adelante de su delantero correspondiente. El jugador de la derecha (o de la izquierda) debe tener al menos una parte de un pie más cerca de esa línea lateral que el otro jugador de la misma línea. Estar a la misma altura es legal.",
+    "Después del golpe de saque, los jugadores de ambos equipos pueden moverse a cualquier lugar (regla 7.4.4). La falta de posición se sanciona con un punto y el saque para el rival, y se corrigen las posiciones (regla 7.5.4)."
+  ],
+  "changeH2": "Antes y después de 2025",
+  "changeCols": ["", "Reglas 2021–2024", "Reglas 2025–2028"],
+  "changeRows": [
+    ["Equipo receptor", "Debe estar en orden de rotación en el golpe de saque", "Debe estar en orden de rotación en el golpe de saque (sin cambios)"],
+    ["Equipo que saca", "También debe estar en orden de rotación", "Libre de ocupar cualquier posición en su propio campo"],
+    ["Sacador", "En la zona de saque", "En la zona de saque (sin cambios)"],
+    ["Después del golpe de saque", "Los jugadores pueden moverse a cualquier lugar", "Los jugadores pueden moverse a cualquier lugar (sin cambios)"]
+  ],
+  "changeNote": "Muchas federaciones nacionales y competiciones escolares y de categorías menores adoptaron la nueva regla en 2025, pero algunas ligas todavía exigen que el equipo que saca esté en orden. Revisa el reglamento que usa tu competición.",
+  "pairsH2": "Los siete pares que se comparan",
+  "pairsIntro": "En una formación de recepción, solo estos pares de jugadores vecinos pueden provocar una falta de posición:",
+  "pairsFront": "Delante y detrás (misma columna): 4 delante de 5, 3 delante de 6, 2 delante de 1.",
+  "pairsSide": "Izquierda y derecha (misma línea): 4 a la izquierda de 3, 3 a la izquierda de 2 en la línea de delanteros; 5 a la izquierda de 6, 6 a la izquierda de 1 en la línea de zagueros.",
+  "pairsNote": "Los jugadores que no están uno al lado del otro nunca se comparan. Por ejemplo, la posición 4 puede estar detrás de la posición 1, y el armador en la posición 1 puede acercarse a la red siempre que quede a la derecha del 6 y detrás del 2.",
+  "svgTitle": "Medio campo con las posiciones 4, 3, 2 en la línea de delanteros y 5, 6, 1 en la de zagueros. Las líneas muestran los siete pares comparados: tres de adelante hacia atrás y cuatro de lado a lado.",
+  "svgNet": "RED",
+  "appH2": "Cómo controla RallyBoard la falta de posición",
+  "appParas": [
+    "RallyBoard es una pizarra táctica de voleibol y de rotaciones, gratis para iPhone, iPad y Android. En el modo Rotación controla los siete pares de arriba en cada rotación, de R1 a R6, mientras arrastras a los jugadores, y marca en rojo a quienes están en posición ilegal.",
+    "Por defecto sigue la regla 2025–2028: controla las formaciones de recepción y no controla la formación de tu propio saque. Si tu liga todavía usa la regla anterior, abre Elegir formación en el modo Rotación y pon “Falta de posición en nuestro saque” en “Aplicar”.",
+    "RallyBoard Pro (compra única) agrega la alineación automática y el ajuste: el jugador que sueltas se ajusta a una posición válida, y un toque corrige una formación con falta de posición."
+  ],
+  "faqH2": "Preguntas",
+  "faq": [
+    {"q": "¿Puede el equipo que saca cometer falta de posición en 2025?", "a": "No según las Reglas Oficiales de Voleibol FIVB 2025–2028. La regla 7.4 dice que los jugadores del equipo que saca son libres de ocupar cualquier posición al momento del golpe de saque. Igual deben estar dentro de su propio campo, y el sacador debe sacar desde la zona de saque."},
+    {"q": "¿A qué equipo se le puede sancionar una falta de posición?", "a": "Al equipo receptor. Sus jugadores deben estar en orden de rotación en el momento del golpe de saque, comparados solo con los jugadores vecinos de su línea y de su columna."},
+    {"q": "¿El líbero cuenta en el control de posición?", "a": "Sí. El líbero ocupa la posición del zaguero al que reemplazó, normalmente un central en la posición 5, 6 o 1, y se compara como cualquier otro jugador en esa posición."},
+    {"q": "¿Hay una app que controle la falta de posición automáticamente?", "a": "Sí. RallyBoard (en las tiendas en español “RallyBoard: Pizarra Voleibol”, y “Volleyball Rotation & Tactics” en los países de habla inglesa) controla la falta de posición de R1 a R6 según la regla 7.4 de las reglas 2025–2028, con una opción estricta para las ligas que todavía controlan al equipo que saca. Es gratis para iPhone, iPad y Android."}
+  ],
+  "sourcesH2": "Fuentes",
+  "sources": [
+    {"label": "Reglas Oficiales de Voleibol FIVB 2025–2028 (español, PDF)", "url": "https://www.fivb.com/wp-content/uploads/2025/01/FIVB-Volleyball_Rules2025_2028-SP-v02.pdf"},
+    {"label": "Reglas Oficiales de Voleibol FIVB 2025–2028 (inglés, PDF)", "url": "https://www.fivb.com/wp-content/uploads/2025/01/FIVB-Volleyball_Rules2025_2028-EN-v05.pdf"},
+    {"label": "Página de reglas de la FIVB (todos los idiomas)", "url": "https://www.fivb.com/volleyball/the-game/official-volleyball-rules/"},
+    {"label": "Modificaciones de las reglas 2025–2028, comparación del texto anterior y el nuevo (PDF, publicado por la Volleyball Association of Hong Kong)", "url": "https://vbahk.org.hk/items/media/Refereeing/202528_Volleyball_Rules/VB/fivbvolleyball_rulesmodification20252028.pdf"}
+  ],
+  "appLinkLabel": "Sobre la app RallyBoard",
+  "storeText": "Gratis para iPhone, iPad y Android.",
+  "langNavLabel": "Idioma"
+}

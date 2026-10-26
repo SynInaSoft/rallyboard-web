@@ -1,0 +1,99 @@
+{
+  "lang": "de",
+  "htmlLang": "de",
+  "ogLocale": "de_DE",
+  "langName": "Deutsch",
+  "title": "Positionsfehler im Volleyball (Regel 7.4): Was sich in den FIVB-Regeln 2025–2028 geändert hat",
+  "description": "Seit 2025 muss nur die annehmende Mannschaft beim Aufschlag in der Rotationsreihenfolge stehen; die aufschlagende Mannschaft darf in ihrem Feld beliebig stehen. Regel 7.4 erklärt, mit den zu prüfenden Nachbarpaaren und wie RallyBoard sie prüft.",
+  "h1": "Positionsfehler im Volleyball (Regel 7.4)",
+  "h1sub": "Was sich in den offiziellen FIVB-Volleyballregeln 2025–2028 geändert hat",
+  "updated": "Aktualisiert am 26. Oktober 2026",
+  "lead": "Kurz gesagt: Seit den offiziellen FIVB-Volleyballregeln 2025–2028 muss nur die annehmende Mannschaft in der Rotationsreihenfolge stehen, wenn der Aufschläger den Ball schlägt. Die Spieler der aufschlagenden Mannschaft dürfen in ihrem eigenen Feld beliebig stehen. Ein Positionsfehler (auch Aufstellungsfehler genannt) kann daher nur gegen die annehmende Mannschaft gepfiffen werden, es sei denn, dein Wettbewerb nutzt noch die ältere Fassung.",
+  "ruleH2": "Die Regel im Text 2025–2028",
+  "ruleQuote": "Im Moment, in dem der Ball vom Aufschläger geschlagen wird, muss jede Mannschaft innerhalb ihres eigenen Spielfelds aufgestellt sein (mit Ausnahme des Aufschlägers). Die Spieler der annehmenden Mannschaft müssen beim Aufschlagschlag in der Rotationsreihenfolge stehen. Die Spieler der aufschlagenden Mannschaft dürfen dagegen beim Aufschlagschlag jede beliebige Position einnehmen.",
+  "ruleCite": "Offizielle FIVB-Volleyballregeln 2025–2028, Regel 7.4 (Übersetzung)",
+  "ruleParas": [
+    "Die Positionen sind vorne mit 4, 3, 2 nummeriert (von links nach rechts, mit Blick zum Netz) und hinten mit 5, 6, 1. Jeder Spieler wird nur mit den Spielern verglichen, die in dieser Ordnung neben ihm stehen.",
+    "Geprüft wird anhand der Füße, die den Boden berühren (Regel 7.4.3). Ein Hinterspieler muss mit mindestens einem Teil eines Fußes weiter von der Mittellinie entfernt sein als der vordere Fuß des zugehörigen Vorderspielers. Ein Spieler rechts (oder links) muss mit mindestens einem Teil eines Fußes näher an dieser Seitenlinie stehen als der andere Spieler derselben Reihe. Auf gleicher Höhe zu stehen ist erlaubt.",
+    "Nach dem Aufschlagschlag dürfen sich die Spieler beider Mannschaften beliebig bewegen (Regel 7.4.4). Bei einem Positionsfehler verliert die Mannschaft den Spielzug (der Gegner erhält Punkt und Aufschlag), und die Positionen werden korrigiert (Regel 7.5.4)."
+  ],
+  "changeH2": "Vor und nach 2025",
+  "changeCols": [
+    "",
+    "Regeln 2021–2024",
+    "Regeln 2025–2028"
+  ],
+  "changeRows": [
+    [
+      "Annehmende Mannschaft",
+      "Muss beim Aufschlagschlag in der Rotationsreihenfolge stehen",
+      "Muss beim Aufschlagschlag in der Rotationsreihenfolge stehen (unverändert)"
+    ],
+    [
+      "Aufschlagende Mannschaft",
+      "Muss ebenfalls in der Rotationsreihenfolge stehen",
+      "Darf in ihrem eigenen Feld jede Position einnehmen"
+    ],
+    [
+      "Aufschläger",
+      "In der Aufschlagzone",
+      "In der Aufschlagzone (unverändert)"
+    ],
+    [
+      "Nach dem Aufschlagschlag",
+      "Spieler dürfen sich beliebig bewegen",
+      "Spieler dürfen sich beliebig bewegen (unverändert)"
+    ]
+  ],
+  "changeNote": "Viele nationale Verbände sowie Schul- und Jugendwettbewerbe haben die neue Regel 2025 übernommen, manche Ligen verlangen aber weiterhin, dass die aufschlagende Mannschaft in der Reihenfolge steht. Prüfe das Regelwerk, das dein Wettbewerb verwendet.",
+  "pairsH2": "Die sieben zu prüfenden Paare",
+  "pairsIntro": "In einer Annahmeformation können nur diese benachbarten Paare einen Positionsfehler ergeben:",
+  "pairsFront": "Vorne und hinten (gleiche Spalte): 4 vor 5, 3 vor 6, 2 vor 1.",
+  "pairsSide": "Links und rechts (gleiche Reihe): 4 links von 3, 3 links von 2 in der vorderen Reihe; 5 links von 6, 6 links von 1 in der hinteren Reihe.",
+  "pairsNote": "Spieler, die nicht nebeneinander stehen, werden nie verglichen. Position 4 darf zum Beispiel hinter Position 1 stehen, und der Zuspieler auf Position 1 darf nahe ans Netz, solange er rechts von 6 und hinter 2 bleibt.",
+  "svgTitle": "Halbfeld mit den Positionen 4, 3, 2 in der vorderen Reihe und 5, 6, 1 in der hinteren Reihe. Linien zeigen die sieben verglichenen Paare: drei von vorne nach hinten und vier seitlich.",
+  "svgNet": "NETZ",
+  "appH2": "Positionsfehler in RallyBoard prüfen",
+  "appParas": [
+    "RallyBoard ist eine kostenlose Volleyball-Taktiktafel mit Rotationsboard für iPhone, iPad und Android. Im Rotationsmodus prüft die App beim Verschieben der Spieler die sieben Paare oben für jede Rotation R1–R6 und markiert Spieler in falscher Position rot.",
+    "Standardmäßig folgt sie der Regel 2025–2028: Sie prüft Annahmeformationen und überspringt die Prüfung für deine eigene Aufschlagformation. Wenn deine Liga noch die ältere Regel nutzt, öffne im Rotationsmodus „Formation wählen“ und stelle „Positionsfehler bei unserem Aufschlag“ auf „Anwenden“.",
+    "RallyBoard Pro (ein Einmalkauf) ergänzt automatisches Ausrichten und Einrasten: Ein losgelassener Spieler rastet auf einer regelkonformen Position ein, und ein Tipp korrigiert eine Formation mit Positionsfehler."
+  ],
+  "faqH2": "Fragen",
+  "faq": [
+    {
+      "q": "Kann die aufschlagende Mannschaft 2025 einen Positionsfehler begehen?",
+      "a": "Nicht nach den offiziellen FIVB-Volleyballregeln 2025–2028. Regel 7.4 besagt, dass die Spieler der aufschlagenden Mannschaft beim Aufschlagschlag jede beliebige Position einnehmen dürfen. Sie müssen aber in ihrem eigenen Feld stehen, und der Aufschläger muss aus der Aufschlagzone aufschlagen."
+    },
+    {
+      "q": "Gegen welche Mannschaft kann ein Positionsfehler gepfiffen werden?",
+      "a": "Gegen die annehmende Mannschaft. Ihre Spieler müssen im Moment des Aufschlagschlags in der Rotationsreihenfolge stehen, verglichen nur mit den benachbarten Spielern in ihrer Reihe und Spalte."
+    },
+    {
+      "q": "Zählt der Libero bei der Prüfung mit?",
+      "a": "Ja. Der Libero übernimmt die Position des Hinterspielers, für den er eingewechselt wurde, meist eines Mittelblockers auf Position 5, 6 oder 1, und wird wie jeder andere Spieler auf dieser Position verglichen."
+    },
+    {
+      "q": "Gibt es eine App, die Positionsfehler automatisch prüft?",
+      "a": "Ja. RallyBoard (im deutschen App Store und bei Google Play „RallyBoard: Volleyball-Taktik“, in englischsprachigen Ländern „Volleyball Rotation & Tactics“) prüft Positionsfehler für R1–R6 nach Regel 7.4 der Regeln 2025–2028, mit einer strengen Option für Ligen, die die aufschlagende Mannschaft noch prüfen. Die App ist kostenlos für iPhone, iPad und Android."
+    }
+  ],
+  "sourcesH2": "Quellen",
+  "sources": [
+    {
+      "label": "Offizielle FIVB-Volleyballregeln 2025–2028 (Englisch, PDF)",
+      "url": "https://www.fivb.com/wp-content/uploads/2025/01/FIVB-Volleyball_Rules2025_2028-EN-v05.pdf"
+    },
+    {
+      "label": "Regelseite der FIVB (alle Sprachen)",
+      "url": "https://www.fivb.com/volleyball/the-game/official-volleyball-rules/"
+    },
+    {
+      "label": "Regeländerungen 2025–2028, Vergleich von altem und neuem Text (PDF, veröffentlicht von der Volleyball Association of Hong Kong)",
+      "url": "https://vbahk.org.hk/items/media/Refereeing/202528_Volleyball_Rules/VB/fivbvolleyball_rulesmodification20252028.pdf"
+    }
+  ],
+  "appLinkLabel": "Über die App RallyBoard",
+  "storeText": "Kostenlos für iPhone, iPad und Android.",
+  "langNavLabel": "Sprache"
+}

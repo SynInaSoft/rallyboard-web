@@ -1,0 +1,59 @@
+{
+  "lang": "pl",
+  "htmlLang": "pl",
+  "ogLocale": "pl_PL",
+  "langName": "Polski",
+  "title": "Błąd ustawienia w siatkówce, przepis 7.4: co zmieniły przepisy FIVB 2025–2028",
+  "description": "Od 2025 roku tylko zespół przyjmujący musi zachować porządek rotacji w momencie uderzenia piłki na zagrywkę; zespół zagrywający może stać w dowolnym miejscu swojego boiska. Przepis 7.4 wyjaśniony, z parami sąsiednich zawodników do sprawdzenia, i jak sprawdza to RallyBoard.",
+  "h1": "Błąd ustawienia w siatkówce (przepis 7.4)",
+  "h1sub": "Co zmieniły Oficjalne Przepisy Gry w Piłkę Siatkową FIVB 2025–2028",
+  "updated": "Aktualizacja: 26 października 2026",
+  "lead": "Krótko: od Oficjalnych Przepisów Gry w Piłkę Siatkową FIVB 2025–2028 tylko zespół przyjmujący musi zachować porządek rotacji w momencie uderzenia piłki na zagrywkę. Zawodnicy zespołu zagrywającego mogą stać w dowolnym miejscu swojego boiska. Błąd ustawienia można więc odgwizdać tylko zespołowi przyjmującemu, chyba że Twoje rozgrywki nadal stosują dawne brzmienie przepisu.",
+  "ruleH2": "Przepis w brzmieniu 2025–2028",
+  "ruleQuote": "W momencie uderzenia piłki przez zawodnika zagrywającego każdy zespół musi znajdować się na swoim boisku (z wyjątkiem zawodnika zagrywającego). Zawodnicy zespołu przyjmującego muszą być ustawieni zgodnie z porządkiem rotacji w momencie uderzenia piłki na zagrywkę. Zawodnicy zespołu zagrywającego mogą natomiast zajmować dowolne pozycje w momencie uderzenia piłki na zagrywkę.",
+  "ruleCite": "Oficjalne Przepisy Gry w Piłkę Siatkową FIVB 2025–2028, przepis 7.4 (tłumaczenie)",
+  "ruleParas": [
+    "Pozycje są numerowane 4, 3, 2 w linii ataku (od lewej do prawej, twarzą do siatki) i 5, 6, 1 w linii obrony. Każdego zawodnika porównuje się tylko z jego sąsiadami w tym układzie.",
+    "Decyduje położenie stóp dotykających podłoża (przepis 7.4.3). Zawodnik linii obrony musi mieć przynajmniej część jednej stopy dalej od linii środkowej niż przednia stopa odpowiadającego mu zawodnika linii ataku. Zawodnik stojący z prawej (lub z lewej) strony musi mieć przynajmniej część jednej stopy bliżej tej linii bocznej niż drugi zawodnik w tej samej linii. Ustawienie na równi jest prawidłowe.",
+    "Po uderzeniu piłki na zagrywkę zawodnicy obu zespołów mogą przemieszczać się dowolnie (przepis 7.4.4). Za błąd ustawienia zespół przegrywa akcję (przeciwnik zdobywa punkt i zagrywkę), a pozycje zawodników zostają poprawione (przepis 7.5.4)."
+  ],
+  "changeH2": "Przed 2025 rokiem i po nim",
+  "changeCols": ["", "Przepisy 2021–2024", "Przepisy 2025–2028"],
+  "changeRows": [
+    ["Zespół przyjmujący", "Musi zachować porządek rotacji w momencie uderzenia piłki na zagrywkę", "Musi zachować porządek rotacji w momencie uderzenia piłki na zagrywkę (bez zmian)"],
+    ["Zespół zagrywający", "Również musi zachować porządek rotacji", "Może zajmować dowolne pozycje na swoim boisku"],
+    ["Zawodnik zagrywający", "W strefie zagrywki", "W strefie zagrywki (bez zmian)"],
+    ["Po uderzeniu piłki na zagrywkę", "Zawodnicy mogą przemieszczać się dowolnie", "Zawodnicy mogą przemieszczać się dowolnie (bez zmian)"]
+  ],
+  "changeNote": "Wiele krajowych federacji oraz rozgrywki szkolne i młodzieżowe przyjęły nowy przepis w 2025 roku, ale niektóre ligi nadal wymagają, by zespół zagrywający zachował porządek rotacji. Sprawdź przepisy obowiązujące w Twoich rozgrywkach.",
+  "pairsH2": "Siedem par do sprawdzenia",
+  "pairsIntro": "W ustawieniu w przyjęciu błąd ustawienia mogą spowodować tylko te pary sąsiednich zawodników:",
+  "pairsFront": "Przód–tył (ta sama kolumna): 4 przed 5, 3 przed 6, 2 przed 1.",
+  "pairsSide": "Lewo–prawo (ta sama linia): 4 na lewo od 3, 3 na lewo od 2 w linii ataku; 5 na lewo od 6, 6 na lewo od 1 w linii obrony.",
+  "pairsNote": "Zawodników, którzy nie sąsiadują ze sobą, nigdy się nie porównuje. Na przykład zawodnik z pozycji 4 może stać za zawodnikiem z pozycji 1, a rozgrywający na pozycji 1 może stać blisko siatki, o ile pozostaje na prawo od 6 i za 2.",
+  "svgTitle": "Połowa boiska z pozycjami 4, 3, 2 w linii ataku i 5, 6, 1 w linii obrony. Linie pokazują siedem porównywanych par: trzy przód–tył i cztery lewo–prawo.",
+  "svgNet": "SIATKA",
+  "appH2": "Kontrola ustawienia w RallyBoard",
+  "appParas": [
+    "RallyBoard to darmowa tablica taktyczna do siatkówki z rotacjami na iPhone’a, iPada i Androida. W trybie rotacji sprawdza powyższe siedem par w każdej rotacji R1–R6, gdy przeciągasz zawodników, i zaznacza na czerwono zawodników na nieprawidłowej pozycji.",
+    "Domyślnie stosuje przepis 2025–2028: sprawdza ustawienia w przyjęciu i pomija kontrolę Twojego ustawienia przy własnej zagrywce. Jeśli Twoja liga nadal stosuje dawny przepis, w trybie rotacji otwórz „Wybierz ustawienie” i przy opcji „Błąd ustawienia przy naszej zagrywce” wybierz „Zastosuj”.",
+    "RallyBoard Pro (jednorazowy zakup) dodaje automatyczne wyrównanie i przyciąganie: upuszczony zawodnik przeskakuje na prawidłową pozycję, a jedno dotknięcie poprawia ustawienie z błędem."
+  ],
+  "faqH2": "Pytania",
+  "faq": [
+    {"q": "Czy zespół zagrywający może popełnić błąd ustawienia w 2025 roku?", "a": "Nie według Oficjalnych Przepisów Gry w Piłkę Siatkową FIVB 2025–2028. Przepis 7.4 mówi, że zawodnicy zespołu zagrywającego mogą zajmować dowolne pozycje w momencie uderzenia piłki na zagrywkę. Nadal muszą znajdować się na swoim boisku, a zawodnik zagrywający musi wykonać zagrywkę ze strefy zagrywki."},
+    {"q": "Któremu zespołowi można odgwizdać błąd ustawienia?", "a": "Zespołowi przyjmującemu. Jego zawodnicy muszą być ustawieni zgodnie z porządkiem rotacji w momencie uderzenia piłki na zagrywkę, a każdego porównuje się tylko z sąsiadami w tej samej linii i kolumnie."},
+    {"q": "Czy libero liczy się przy kontroli ustawienia?", "a": "Tak. Libero zajmuje pozycję zawodnika linii obrony, którego zastąpił, zwykle środkowego na pozycji 5, 6 lub 1, i jest porównywany jak każdy inny zawodnik na tej pozycji."},
+    {"q": "Czy jest aplikacja, która automatycznie sprawdza błąd ustawienia?", "a": "Tak. RallyBoard (w App Store po polsku „RallyBoard: Trener Siatkówki”, w Google Play „RallyBoard: Tablica taktyczna”, a w krajach anglojęzycznych „Volleyball Rotation & Tactics”) sprawdza ustawienie w rotacjach R1–R6 na podstawie przepisu 7.4 w brzmieniu 2025–2028, z opcją ostrzejszej kontroli dla lig, które nadal sprawdzają zespół zagrywający. Aplikacja jest po polsku i jest darmowa na iPhone’a, iPada i Androida."}
+  ],
+  "sourcesH2": "Źródła",
+  "sources": [
+    {"label": "Oficjalne Przepisy Gry w Piłkę Siatkową FIVB 2025–2028 (po angielsku, PDF)", "url": "https://www.fivb.com/wp-content/uploads/2025/01/FIVB-Volleyball_Rules2025_2028-EN-v05.pdf"},
+    {"label": "Strona przepisów FIVB (wszystkie języki)", "url": "https://www.fivb.com/volleyball/the-game/official-volleyball-rules/"},
+    {"label": "Zmiany w przepisach 2025–2028, porównanie starego i nowego brzmienia (PDF po angielsku, opublikowany przez Volleyball Association of Hong Kong)", "url": "https://vbahk.org.hk/items/media/Refereeing/202528_Volleyball_Rules/VB/fivbvolleyball_rulesmodification20252028.pdf"},
+    {"label": "Nowe wytyczne i instrukcje sędziowania, edycja 2025 – polskie tłumaczenie wytycznych FIVB z uzupełnieniami WS PZPS (PDF, tauronliga.pl)", "url": "https://www.tauronliga.pl/dl/676229/0290fe/Wytyczne_i_instrukcje_se__dziowania_2025.pdf"}
+  ],
+  "appLinkLabel": "O aplikacji RallyBoard",
+  "storeText": "Za darmo na iPhone’a, iPada i Androida.",
+  "langNavLabel": "Język"
+}

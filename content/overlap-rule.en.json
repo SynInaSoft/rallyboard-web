@@ -1,0 +1,99 @@
+{
+  "lang": "en",
+  "htmlLang": "en",
+  "ogLocale": "en_US",
+  "langName": "English",
+  "title": "Volleyball overlap rule 7.4: what changed in the FIVB 2025–2028 rules",
+  "description": "Since 2025, only the receiving team must be in rotational order at the service hit; the serving team may stand anywhere on its court. Rule 7.4 explained with the adjacent pairs to check, and how RallyBoard checks it.",
+  "h1": "Volleyball overlap rule (7.4)",
+  "h1sub": "What changed in the FIVB Official Volleyball Rules 2025–2028",
+  "updated": "Updated 26 October 2026",
+  "lead": "Short answer: since the FIVB Official Volleyball Rules 2025–2028, only the receiving team must be in rotational order when the server hits the ball. The players of the serving team are free to stand anywhere on their own court. An overlap (positional fault) can therefore only be called on the receiving team, unless your competition still uses the older wording.",
+  "ruleH2": "The rule in the 2025–2028 text",
+  "ruleQuote": "At the moment the ball is hit by the server, each team must be positioned within its own court (except the server). The players of the receiving team must be in the rotational order at the service hit. The players of the serving team, however, are free to occupy any position at the service hit.",
+  "ruleCite": "FIVB Official Volleyball Rules 2025–2028, rule 7.4",
+  "ruleParas": [
+    "Positions are numbered 4, 3, 2 in the front row (left to right, facing the net) and 5, 6, 1 in the back row. Each player is compared only with the players next to them in that order.",
+    "The check uses the feet that touch the floor (rule 7.4.3). A back-row player must have at least part of one foot further from the centre line than the front foot of the matching front-row player. A player on the right (or left) must have at least part of one foot closer to that sideline than the other player in the same row. Being level counts as legal.",
+    "After the service hit, players of both teams may move anywhere (rule 7.4.4). After a positional fault the team loses the rally (the opponent wins the point and the service), and the positions are corrected (rule 7.5.4)."
+  ],
+  "changeH2": "Before and after 2025",
+  "changeCols": [
+    "",
+    "2021–2024 rules",
+    "2025–2028 rules"
+  ],
+  "changeRows": [
+    [
+      "Receiving team",
+      "Must be in rotational order at the service hit",
+      "Must be in rotational order at the service hit (no change)"
+    ],
+    [
+      "Serving team",
+      "Must also be in rotational order",
+      "Free to occupy any position on its own court"
+    ],
+    [
+      "Server",
+      "In the service zone",
+      "In the service zone (no change)"
+    ],
+    [
+      "After the service hit",
+      "Players may move anywhere",
+      "Players may move anywhere (no change)"
+    ]
+  ],
+  "changeNote": "Many national federations, school and youth competitions adopted the new rule in 2025, but some leagues still require the serving team to be in order. Check the rulebook your competition uses.",
+  "pairsH2": "The seven pairs to check",
+  "pairsIntro": "In a receive formation, only these adjacent pairs can create an overlap:",
+  "pairsFront": "Front and back (same column): 4 in front of 5, 3 in front of 6, 2 in front of 1.",
+  "pairsSide": "Left and right (same row): 4 left of 3, 3 left of 2 in the front row; 5 left of 6, 6 left of 1 in the back row.",
+  "pairsNote": "Players who are not next to each other are never compared. For example, position 4 may stand behind position 1, and the setter in position 1 may stand close to the net as long as they stay to the right of 6 and behind 2.",
+  "svgTitle": "Half court with positions 4, 3, 2 in the front row and 5, 6, 1 in the back row. Lines show the seven compared pairs: three front-to-back and four side-to-side.",
+  "svgNet": "NET",
+  "appH2": "Checking overlap in RallyBoard",
+  "appParas": [
+    "RallyBoard is a free volleyball tactics board and rotation board for iPhone, iPad and Android. In rotation mode it checks the seven pairs above for every rotation R1–R6 as you drag players, and marks the players in an illegal position in red.",
+    "By default it follows the 2025–2028 rule: it checks receive formations and skips the check for your own serve formation. If your league still uses the older rule, open Select formation in rotation mode and set “Overlap fault on our serve” to “Apply”.",
+    "RallyBoard Pro (a one-time purchase) adds auto-align and snap: a dropped player snaps to a legal position, and one tap fixes a formation with an overlap."
+  ],
+  "faqH2": "Questions",
+  "faq": [
+    {
+      "q": "Can the serving team commit an overlap in 2025?",
+      "a": "Not under the FIVB Official Volleyball Rules 2025–2028. Rule 7.4 says the players of the serving team are free to occupy any position at the service hit. They must still be within their own court, and the server must serve from the service zone."
+    },
+    {
+      "q": "Which team can be called for a positional fault?",
+      "a": "The receiving team. Its players must be in rotational order at the moment of the service hit, compared only with the adjacent players in their row and column."
+    },
+    {
+      "q": "Does the libero count in the overlap check?",
+      "a": "Yes. The libero takes the position of the back-row player they replaced, usually a middle blocker in position 5, 6 or 1, and is compared like any other player in that position."
+    },
+    {
+      "q": "Is there an app that checks overlap automatically?",
+      "a": "Yes. RallyBoard (App Store name “Volleyball Rotation & Tactics” in English-speaking countries) checks overlap for R1–R6 based on rule 7.4 of the 2025–2028 rules, with a strict option for leagues that still check the serving team. It is free on iPhone, iPad and Android."
+    }
+  ],
+  "sourcesH2": "Sources",
+  "sources": [
+    {
+      "label": "FIVB Official Volleyball Rules 2025–2028 (English, PDF)",
+      "url": "https://www.fivb.com/wp-content/uploads/2025/01/FIVB-Volleyball_Rules2025_2028-EN-v05.pdf"
+    },
+    {
+      "label": "FIVB rules page (all languages)",
+      "url": "https://www.fivb.com/volleyball/the-game/official-volleyball-rules/"
+    },
+    {
+      "label": "Rule modifications 2025–2028, comparison of old and new text (PDF, published by the Volleyball Association of Hong Kong)",
+      "url": "https://vbahk.org.hk/items/media/Refereeing/202528_Volleyball_Rules/VB/fivbvolleyball_rulesmodification20252028.pdf"
+    }
+  ],
+  "appLinkLabel": "About the RallyBoard app",
+  "storeText": "Free on iPhone, iPad and Android.",
+  "langNavLabel": "Language"
+}

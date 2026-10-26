@@ -1,0 +1,103 @@
+{
+  "lang": "fr",
+  "htmlLang": "fr",
+  "ogLocale": "fr_FR",
+  "langName": "Français",
+  "title": "Faute de position au volley-ball (règle 7.4) : ce qui change dans les règles FIVB 2025–2028",
+  "description": "Depuis 2025, seule l’équipe en réception doit être dans l’ordre de rotation au moment de la frappe du service ; l’équipe au service peut se placer librement dans son camp. La règle 7.4 expliquée, avec les paires de voisins à contrôler et la façon dont RallyBoard les contrôle.",
+  "h1": "Faute de position au volley-ball (règle 7.4)",
+  "h1sub": "Ce qui change dans les Règles officielles de volleyball FIVB 2025–2028",
+  "updated": "Mis à jour le 26 octobre 2026",
+  "lead": "En bref : depuis les Règles officielles de volleyball FIVB 2025–2028, seule l’équipe en réception doit être dans l’ordre de rotation quand le serveur frappe le ballon. Les joueurs de l’équipe au service sont libres de se placer où ils veulent dans leur propre camp. Une faute de position ne peut donc être sifflée qu’à l’équipe en réception, sauf si votre compétition applique encore l’ancienne rédaction.",
+  "ruleH2": "La règle dans le texte 2025–2028",
+  "ruleQuote": "Au moment où la balle est frappée par le serveur, chaque équipe doit être positionnée dans son propre camp (à l’exception du serveur). Les joueurs de l’équipe en réception doivent être dans l’ordre de rotation au moment de la frappe du service. Cependant, les joueurs de l’équipe au service sont libres d’occuper n’importe quelle position au moment de la frappe du service.",
+  "ruleCite": "Règles officielles de volleyball FIVB 2025-2028 (version française), règle 7.4",
+  "ruleParas": [
+    "Les positions sont numérotées 4, 3, 2 pour les avants (de gauche à droite, face au filet) et 5, 6, 1 pour les arrières. Chaque joueur n’est comparé qu’aux joueurs voisins dans cet ordre.",
+    "Le contrôle se fait sur les pieds en contact avec le sol (règle 7.4.3). Un arrière doit avoir au moins une partie d’un pied plus éloignée de la ligne centrale que le pied avant de l’avant correspondant. Un joueur à droite (ou à gauche) doit avoir au moins une partie d’un pied plus proche de cette ligne de côté que l’autre joueur de la même ligne. Être au même niveau est autorisé.",
+    "Après la frappe du service, les joueurs des deux équipes peuvent se déplacer librement (règle 7.4.4). Après une faute de position, l’équipe perd l’échange (l’adversaire marque le point et obtient le service), et les positions sont rectifiées (règle 7.5.4)."
+  ],
+  "changeH2": "Avant et après 2025",
+  "changeCols": [
+    "",
+    "Règles 2021–2024",
+    "Règles 2025–2028"
+  ],
+  "changeRows": [
+    [
+      "Équipe en réception",
+      "Doit être dans l’ordre de rotation à la frappe du service",
+      "Doit être dans l’ordre de rotation à la frappe du service (inchangé)"
+    ],
+    [
+      "Équipe au service",
+      "Doit aussi être dans l’ordre de rotation",
+      "Libre d’occuper n’importe quelle position dans son camp"
+    ],
+    [
+      "Serveur",
+      "Dans la zone de service",
+      "Dans la zone de service (inchangé)"
+    ],
+    [
+      "Après la frappe du service",
+      "Les joueurs se déplacent librement",
+      "Les joueurs se déplacent librement (inchangé)"
+    ]
+  ],
+  "changeNote": "De nombreuses fédérations nationales et compétitions scolaires et jeunes ont adopté la nouvelle règle en 2025, mais certains championnats exigent encore que l’équipe au service soit dans l’ordre. Vérifiez le règlement de votre compétition.",
+  "pairsH2": "Les sept paires à contrôler",
+  "pairsIntro": "Dans une formation de réception, seules ces paires de voisins peuvent créer une faute de position :",
+  "pairsFront": "Devant et derrière (même colonne) : 4 devant 5, 3 devant 6, 2 devant 1.",
+  "pairsSide": "Gauche et droite (même ligne) : 4 à gauche de 3, 3 à gauche de 2 chez les avants ; 5 à gauche de 6, 6 à gauche de 1 chez les arrières.",
+  "pairsNote": "Les joueurs qui ne sont pas voisins ne sont jamais comparés. Par exemple, la position 4 peut se placer derrière la position 1, et le passeur en position 1 peut s’approcher du filet tant qu’il reste à droite de 6 et derrière 2.",
+  "svgTitle": "Demi-terrain avec les positions 4, 3, 2 en ligne avant et 5, 6, 1 en ligne arrière. Les traits montrent les sept paires comparées : trois de l’avant vers l’arrière et quatre sur les côtés.",
+  "svgNet": "FILET",
+  "appH2": "Contrôler la faute de position dans RallyBoard",
+  "appParas": [
+    "RallyBoard est un tableau tactique de volley-ball gratuit avec un mode rotation, pour iPhone, iPad et Android. En mode rotation, il contrôle les sept paires ci-dessus pour chaque rotation R1–R6 pendant que vous déplacez les joueurs, et affiche en rouge les joueurs mal placés.",
+    "Par défaut, il suit la règle 2025–2028 : il contrôle les formations de réception et ne contrôle pas votre propre formation au service. Si votre championnat applique encore l’ancienne règle, ouvrez « Choisir la formation » en mode rotation et réglez « Faute de position sur notre service » sur « Appliquer ».",
+    "RallyBoard Pro (un achat unique) ajoute l’alignement et l’aimantation automatiques : un joueur déposé se place sur une position réglementaire, et un appui corrige une formation en faute de position."
+  ],
+  "faqH2": "Questions",
+  "faq": [
+    {
+      "q": "L’équipe au service peut-elle commettre une faute de position en 2025 ?",
+      "a": "Non, selon les Règles officielles de volleyball FIVB 2025–2028. La règle 7.4 indique que les joueurs de l’équipe au service sont libres d’occuper n’importe quelle position au moment de la frappe du service. Ils doivent tout de même être dans leur propre camp, et le serveur doit servir depuis la zone de service."
+    },
+    {
+      "q": "Quelle équipe peut être sanctionnée pour faute de position ?",
+      "a": "L’équipe en réception. Ses joueurs doivent être dans l’ordre de rotation au moment de la frappe du service, comparés uniquement à leurs voisins de ligne et de colonne."
+    },
+    {
+      "q": "Le libéro compte-t-il dans le contrôle ?",
+      "a": "Oui. Le libéro prend la position de l’arrière qu’il remplace, en général un central en position 5, 6 ou 1, et il est comparé comme n’importe quel autre joueur à cette position."
+    },
+    {
+      "q": "Existe-t-il une app qui contrôle la faute de position automatiquement ?",
+      "a": "Oui. RallyBoard (« RallyBoard : Tactique Volley » dans l’App Store et sur Google Play en français, « Volleyball Rotation & Tactics » dans les pays anglophones) contrôle la faute de position de R1 à R6 selon la règle 7.4 des règles 2025–2028, avec une option stricte pour les championnats qui contrôlent encore l’équipe au service. L’app est gratuite sur iPhone, iPad et Android."
+    }
+  ],
+  "sourcesH2": "Sources",
+  "sources": [
+    {
+      "label": "Règles officielles de volleyball FIVB 2025-2028 (français, PDF)",
+      "url": "https://www.fivb.com/wp-content/uploads/2025/06/FIVB-Volleyball_Rules2025_2028-FR-v04.pdf"
+    },
+    {
+      "label": "Règles officielles de volleyball FIVB 2025–2028 (anglais, PDF)",
+      "url": "https://www.fivb.com/wp-content/uploads/2025/01/FIVB-Volleyball_Rules2025_2028-EN-v05.pdf"
+    },
+    {
+      "label": "Page des règles de la FIVB (toutes les langues)",
+      "url": "https://www.fivb.com/volleyball/the-game/official-volleyball-rules/"
+    },
+    {
+      "label": "Modifications des règles 2025–2028, comparaison de l’ancien et du nouveau texte (PDF, publié par la Volleyball Association of Hong Kong)",
+      "url": "https://vbahk.org.hk/items/media/Refereeing/202528_Volleyball_Rules/VB/fivbvolleyball_rulesmodification20252028.pdf"
+    }
+  ],
+  "appLinkLabel": "À propos de l’app RallyBoard",
+  "storeText": "Gratuit sur iPhone, iPad et Android.",
+  "langNavLabel": "Langue"
+}

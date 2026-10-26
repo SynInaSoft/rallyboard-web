@@ -1,0 +1,59 @@
+{
+  "lang": "sr",
+  "htmlLang": "sr-Latn",
+  "ogLocale": "sr_RS",
+  "langName": "Srpski",
+  "title": "Greška u postavci u odbojci, pravilo 7.4: šta se promenilo u FIVB pravilima 2025–2028",
+  "description": "Od 2025. samo ekipa koja prima servis mora biti u redosledu rotacije u trenutku udarca servera; ekipa koja servira može da stoji bilo gde na svom terenu. Objašnjenje pravila 7.4 sa parovima susednih igrača koje treba proveriti i kako to proverava RallyBoard.",
+  "h1": "Greška u postavci u odbojci (pravilo 7.4)",
+  "h1sub": "Šta se promenilo u Zvaničnim pravilima odbojke FIVB 2025–2028",
+  "updated": "Ažurirano 26. oktobra 2026.",
+  "lead": "Ukratko: od Zvaničnih pravila odbojke FIVB 2025–2028, samo ekipa koja prima servis mora biti u redosledu rotacije u trenutku kada server udari loptu. Igrači ekipe koja servira mogu da stoje bilo gde na svom terenu. Greška u postavci (poziciona greška) zato može da se dosudi samo ekipi koja prima servis, osim ako tvoje takmičenje i dalje koristi staru formulaciju pravila.",
+  "ruleH2": "Pravilo u tekstu 2025–2028",
+  "ruleQuote": "U trenutku kada server udari loptu, svaka ekipa mora biti postavljena unutar svog terena (osim servera). Igrači ekipe koja prima servis moraju biti u redosledu rotacije u trenutku udarca servisa. Igrači ekipe koja servira, međutim, mogu da zauzmu bilo koju poziciju u trenutku udarca servisa.",
+  "ruleCite": "Zvanična pravila odbojke FIVB 2025–2028, pravilo 7.4 (prevod)",
+  "ruleParas": [
+    "Pozicije su numerisane 4, 3, 2 u prednjoj liniji (sleva nadesno, licem prema mreži) i 5, 6, 1 u zadnjoj liniji. Svaki igrač se poredi samo sa igračima pored sebe u tom rasporedu.",
+    "Provera se radi prema stopalima koja dodiruju pod (pravilo 7.4.3). Igrač zadnje linije mora bar delom jednog stopala biti dalje od središnje linije nego prednje stopalo odgovarajućeg igrača prednje linije. Desni (ili levi) igrač mora bar delom jednog stopala biti bliže toj bočnoj liniji nego drugi igrač u istoj liniji. Kada su u istoj ravni, to je ispravno.",
+    "Posle udarca servisa igrači obe ekipe mogu da se kreću bilo gde (pravilo 7.4.4). Za grešku u postavci ekipa gubi poen (protivnik osvaja poen i servis), a pozicije igrača se ispravljaju (pravilo 7.5.4)."
+  ],
+  "changeH2": "Pre i posle 2025.",
+  "changeCols": ["", "Pravila 2021–2024", "Pravila 2025–2028"],
+  "changeRows": [
+    ["Ekipa koja prima servis", "Mora biti u redosledu rotacije u trenutku udarca servisa", "Mora biti u redosledu rotacije u trenutku udarca servisa (bez promene)"],
+    ["Ekipa koja servira", "Takođe mora biti u redosledu rotacije", "Može da zauzme bilo koju poziciju na svom terenu"],
+    ["Server", "U zoni servisa", "U zoni servisa (bez promene)"],
+    ["Posle udarca servisa", "Igrači mogu da se kreću bilo gde", "Igrači mogu da se kreću bilo gde (bez promene)"]
+  ],
+  "changeNote": "Mnogi nacionalni savezi, školska i omladinska takmičenja usvojili su novo pravilo 2025. godine, ali neke lige i dalje traže da ekipa koja servira bude u redosledu rotacije. Proveri pravilnik koji važi u tvom takmičenju.",
+  "pairsH2": "Sedam parova za proveru",
+  "pairsIntro": "U postavci za prijem samo ovi parovi susednih igrača mogu da naprave grešku u postavci:",
+  "pairsFront": "Napred i nazad (ista kolona): 4 ispred 5, 3 ispred 6, 2 ispred 1.",
+  "pairsSide": "Levo i desno (ista linija): 4 levo od 3, 3 levo od 2 u prednjoj liniji; 5 levo od 6, 6 levo od 1 u zadnjoj liniji.",
+  "pairsNote": "Igrači koji nisu jedan pored drugog nikada se ne porede. Na primer, igrač na poziciji 4 može da stoji iza igrača na poziciji 1, a tehničar na poziciji 1 može da stoji blizu mreže dok god je desno od 6 i iza 2.",
+  "svgTitle": "Polovina terena sa pozicijama 4, 3, 2 u prednjoj liniji i 5, 6, 1 u zadnjoj liniji. Linije prikazuju sedam parova koji se porede: tri napred–nazad i četiri levo–desno.",
+  "svgNet": "MREŽA",
+  "appH2": "Provera postavke u aplikaciji RallyBoard",
+  "appParas": [
+    "RallyBoard je besplatna odbojkaška taktička tabla i tabla za rotacije za iPhone, iPad i Android. U režimu rotacije proverava gornjih sedam parova za svaku rotaciju R1–R6 dok prevlačiš igrače i crvenom bojom označava igrače na nedozvoljenoj poziciji.",
+    "Podrazumevano prati pravilo 2025–2028: proverava postavke za prijem i preskače proveru tvoje postavke na sopstvenom servisu. Ako tvoja liga i dalje koristi staro pravilo, u režimu rotacije otvori „Izaberi formaciju“ i za opciju „Greška u postavci na naš servis“ izaberi „Primeni“.",
+    "RallyBoard Pro (jednokratna kupovina) dodaje automatsko poravnanje i privlačenje: spušteni igrač se pomera na ispravnu poziciju, a jedan dodir ispravlja postavku sa greškom."
+  ],
+  "faqH2": "Pitanja",
+  "faq": [
+    {"q": "Može li ekipa koja servira da napravi grešku u postavci 2025. godine?", "a": "Ne po Zvaničnim pravilima odbojke FIVB 2025–2028. Pravilo 7.4 kaže da igrači ekipe koja servira mogu da zauzmu bilo koju poziciju u trenutku udarca servisa. I dalje moraju biti na svom terenu, a server mora da servira iz zone servisa."},
+    {"q": "Kojoj ekipi može da se dosudi greška u postavci?", "a": "Ekipi koja prima servis. Njeni igrači moraju biti u redosledu rotacije u trenutku udarca servisa, a svaki se poredi samo sa susednim igračima u svojoj liniji i koloni."},
+    {"q": "Da li se libero računa u proveri postavke?", "a": "Da. Libero zauzima poziciju igrača zadnje linije kog je zamenio, obično srednjeg blokera na poziciji 5, 6 ili 1, i poredi se kao svaki drugi igrač na toj poziciji."},
+    {"q": "Postoji li aplikacija koja automatski proverava grešku u postavci?", "a": "Da. RallyBoard (na Google Play-u „RallyBoard: odbojkaška taktika“) proverava postavku za R1–R6 po pravilu 7.4 iz pravila 2025–2028, uz opciju stroge provere za lige koje i dalje proveravaju ekipu koja servira. App Store nema opis na srpskom, pa se tamo prikazuje engleski naziv „Volleyball Rotation + Tactics“ (u SAD „Volleyball Rotation & Tactics“). Aplikacija je na srpskom (latinica) i besplatna je na iPhone-u, iPad-u i Android-u."}
+  ],
+  "sourcesH2": "Izvori",
+  "sources": [
+    {"label": "Zvanična pravila odbojke FIVB 2025–2028 (na engleskom, PDF)", "url": "https://www.fivb.com/wp-content/uploads/2025/01/FIVB-Volleyball_Rules2025_2028-EN-v05.pdf"},
+    {"label": "FIVB stranica sa pravilima (svi jezici)", "url": "https://www.fivb.com/volleyball/the-game/official-volleyball-rules/"},
+    {"label": "Izmene pravila 2025–2028, poređenje starog i novog teksta (PDF na engleskom, objavila Odbojkaška asocijacija Hongkonga)", "url": "https://vbahk.org.hk/items/media/Refereeing/202528_Volleyball_Rules/VB/fivbvolleyball_rulesmodification20252028.pdf"},
+    {"label": "Promjene u Pravilima 2025–2028 – prezentacija Odbojkaškog saveza Crne Gore (PDF, oscg.me)", "url": "https://oscg.me/wp-content/uploads/2025/09/Promjene-u-Pravilima.pdf"}
+  ],
+  "appLinkLabel": "O aplikaciji RallyBoard",
+  "storeText": "Besplatno na iPhone-u, iPad-u i Android-u.",
+  "langNavLabel": "Jezik"
+}

@@ -1,0 +1,528 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Tablica taktyczna do siatkówki, rotacje i tryb meczu — RallyBoard</title>
+<meta name="description" content="RallyBoard to aplikacja do siatkówki dla trenerów i nauczycieli WF na iPhone’a, iPada i Androida: tablica taktyczna z animowanymi zagraniami, rotacje R1–R6 z kontrolą błędu ustawienia według przepisów FIVB 2025–2028 oraz tryb meczu.">
+<link rel="canonical" href="https://syninasoft.github.io/rallyboard-web/pl.html">
+<link rel="alternate" hreflang="en" href="https://syninasoft.github.io/rallyboard-web/">
+<link rel="alternate" hreflang="ko" href="https://syninasoft.github.io/rallyboard-web/ko.html">
+<link rel="alternate" hreflang="ja" href="https://syninasoft.github.io/rallyboard-web/ja.html">
+<link rel="alternate" hreflang="zh-Hans" href="https://syninasoft.github.io/rallyboard-web/zh.html">
+<link rel="alternate" hreflang="pt" href="https://syninasoft.github.io/rallyboard-web/pt.html">
+<link rel="alternate" hreflang="es" href="https://syninasoft.github.io/rallyboard-web/es.html">
+<link rel="alternate" hreflang="it" href="https://syninasoft.github.io/rallyboard-web/it.html">
+<link rel="alternate" hreflang="de" href="https://syninasoft.github.io/rallyboard-web/de.html">
+<link rel="alternate" hreflang="fr" href="https://syninasoft.github.io/rallyboard-web/fr.html">
+<link rel="alternate" hreflang="pl" href="https://syninasoft.github.io/rallyboard-web/pl.html">
+<link rel="alternate" hreflang="tr" href="https://syninasoft.github.io/rallyboard-web/tr.html">
+<link rel="alternate" hreflang="ru" href="https://syninasoft.github.io/rallyboard-web/ru.html">
+<link rel="alternate" hreflang="sr-Latn" href="https://syninasoft.github.io/rallyboard-web/sr.html">
+<link rel="alternate" hreflang="x-default" href="https://syninasoft.github.io/rallyboard-web/">
+<meta name="theme-color" content="#0F3B3E">
+<meta name="color-scheme" content="dark">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="RallyBoard">
+<meta property="og:title" content="Tablica taktyczna do siatkówki, rotacje i tryb meczu — RallyBoard">
+<meta property="og:description" content="RallyBoard to aplikacja do siatkówki dla trenerów i nauczycieli WF na iPhone’a, iPada i Androida: tablica taktyczna z animowanymi zagraniami, rotacje R1–R6 z kontrolą błędu ustawienia według przepisów FIVB 2025–2028 oraz tryb meczu.">
+<meta property="og:url" content="https://syninasoft.github.io/rallyboard-web/pl.html">
+<meta property="og:locale" content="pl_PL">
+<meta property="og:locale:alternate" content="en_US">
+<meta property="og:locale:alternate" content="ko_KR">
+<meta property="og:locale:alternate" content="ja_JP">
+<meta property="og:locale:alternate" content="pt_BR">
+<meta property="og:locale:alternate" content="es_LA">
+<meta property="og:image" content="https://syninasoft.github.io/rallyboard-web/og/rallyboard-en.jpg">
+<meta property="og:image:width" content="1024">
+<meta property="og:image:height" content="500">
+<meta property="og:image:alt" content="Ikona aplikacji RallyBoard i napis: Volleyball tactics, rotation &amp; animation board">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Crect width='24' height='24' rx='6' fill='%23E8793E'/%3E%3Cg fill='none' stroke='%232A1608' stroke-width='2.2' stroke-linecap='round' transform='translate(2.4 2.4) scale(.8)'%3E%3Ccircle cx='12' cy='12' r='9'/%3E%3Cpath d='M12 3c2.5 3 2.5 15 0 18M3 12c3-2.5 15-2.5 18 0M5.5 5.5c4 1 9.5 6.5 13 13'/%3E%3C/g%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@400;600;700&family=IBM+Plex+Mono:wght@500;700&display=swap" rel="stylesheet">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "RallyBoard",
+  "alternateName": [
+    "RallyBoard",
+    "랠리보드",
+    "Volleyball Rotation & Tactics",
+    "Volleyball Rotation + Tactics",
+    "랠리보드 : 배구 작전판·전술판",
+    "랠리보드: 배구 작전판·전술 보드·로테이션",
+    "RallyBoard: バレー作戦ボード・ローテ",
+    "RallyBoard: バレーボール作戦ボード・ローテ",
+    "RallyBoard: 排球战术板·轮转",
+    "RallyBoard: Tática de Vôlei",
+    "RallyBoard: Prancheta de Vôlei",
+    "RallyBoard: Pizarra Voleibol",
+    "RallyBoard: Tattica Pallavolo",
+    "RallyBoard: Volleyball-Taktik",
+    "RallyBoard : Tactique Volley",
+    "RallyBoard: Trener Siatkówki",
+    "RallyBoard: Tablica taktyczna",
+    "RallyBoard: Voleybol Tahtası",
+    "RallyBoard: Voleybol Taktik",
+    "RallyBoard: Тактика волейбола",
+    "RallyBoard: odbojkaška taktika"
+  ],
+  "description": "RallyBoard to tablica taktyczna, rotacje i licznik wyniku meczu dla trenerów siatkówki i nauczycieli WF, na iPhone’a, iPada i Androida.",
+  "url": "https://syninasoft.github.io/rallyboard-web/pl.html",
+  "image": "https://syninasoft.github.io/rallyboard-web/og/rallyboard-en.jpg",
+  "operatingSystem": "iOS, iPadOS, Android",
+  "applicationCategory": "SportsApplication",
+  "availableOnDevice": "iPhone, iPad, Android",
+  "inLanguage": [
+    "ko",
+    "en",
+    "ja",
+    "zh-Hans",
+    "it",
+    "pl",
+    "fr",
+    "de",
+    "sr-Latn",
+    "tr",
+    "ru",
+    "pt-BR",
+    "es"
+  ],
+  "isAccessibleForFree": true,
+  "downloadUrl": [
+    "https://apps.apple.com/app/apple-store/id6797665874?pt=129007220&ct=web_pl&mt=8",
+    "https://play.google.com/store/apps/details?id=com.uninane.rallyboard&referrer=utm_source%3Dweb_pl"
+  ],
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "USD",
+    "description": "Pobranie i korzystanie są darmowe. RallyBoard Pro to opcjonalny jednorazowy zakup w aplikacji (bez subskrypcji i reklam), który znosi limity wersji darmowej; cena zależy od kraju."
+  },
+  "featureList": [
+    "Tablica taktyczna z zawodnikami, piłką, sprzętem treningowym, strzałkami i liniami na całym boisku lub na połowie",
+    "Animowane zagrania klatka po klatce z eksportem do GIF-a i arkusza klatek (Pro)",
+    "Rotacje R1–R6 z automatyczną zmianą libero oraz ustawieniami w zagrywce i w przyjęciu",
+    "Kontrola błędu ustawienia na podstawie przepisu 7.4 Oficjalnych Przepisów Gry FIVB 2025–2028, z opcjonalnym trybem ścisłym",
+    "Automatyczne wyrównanie i przyciąganie ustawienia (Pro)",
+    "Tryb meczu z automatycznym wynikiem, zagrywką i rotacją, ustawieniami setów i zmianą stron",
+    "Galeria z gotowymi zagraniami i ćwiczeniami",
+    "Udostępnianie jako obraz PNG lub link do zagrania w przeglądarce, bez nazwisk zawodników",
+    "Składy zawodników, automatyczny zapis i pełna kopia zapasowa jako tekst",
+    "13 języków"
+  ],
+  "audience": {
+    "@type": "Audience",
+    "audienceType": "Trenerzy siatkówki i nauczyciele wychowania fizycznego"
+  },
+  "sameAs": [
+    "https://apps.apple.com/app/id6797665874",
+    "https://play.google.com/store/apps/details?id=com.uninane.rallyboard"
+  ],
+  "dateModified": "2026-10-26",
+  "author": {
+    "@type": "Organization",
+    "name": "synina",
+    "alternateName": ["SynIna Soft", "Ena Yoon"],
+    "email": "syninasoft@gmail.com"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "inLanguage": "pl",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Czym jest RallyBoard?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "RallyBoard to aplikacja do siatkówki dla trenerów i nauczycieli WF na iPhone’a, iPada i Androida. Ma tablicę taktyczną do rysowania i animowania zagrań, rotacje R1–R6 z ustawieniami w zagrywce i w przyjęciu oraz kontrolą błędu ustawienia, a także tryb meczu, który liczy wynik i automatycznie przesuwa rotację."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Czy RallyBoard jest darmowy?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Tak. Możesz go pobrać i używać za darmo, bez reklam i bez konta. RallyBoard Pro to opcjonalny jednorazowy zakup, a nie subskrypcja. Znosi limity wersji darmowej (3 zapisane tablice, 2 składy, 10 zapisanych pozycji, 1 zapisana animacja i 2 ustawienia) oraz dodaje eksport do GIF-a i arkusza klatek i automatyczne wyrównanie ustawienia. Cena zależy od kraju i jest widoczna w App Store."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Czy RallyBoard stosuje przepis FIVB 2025 o błędzie ustawienia przy zagrywce?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Tak. Zgodnie z przepisem 7.4 Oficjalnych Przepisów Gry FIVB 2025–2028 w momencie zagrywki tylko zespół przyjmujący musi zachować porządek rotacji; zawodnicy zespołu zagrywającego mogą stać w dowolnym miejscu. RallyBoard domyślnie tak działa: sprawdza ustawienia w przyjęciu i pomija kontrolę Twojego ustawienia przy własnej zagrywce."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Czy mogę stosować ostrzejsze przepisy, jak w niektórych rozgrywkach w USA lub szkolnych?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Tak. Jeśli w Twoich rozgrywkach zespół zagrywający nadal musi zachować porządek rotacji, w trybie rotacji otwórz „Wybierz ustawienie” i przy opcji „Błąd ustawienia przy naszej zagrywce” wybierz „Zastosuj”. RallyBoard sprawdza wtedy ustawienia zarówno w zagrywce, jak i w przyjęciu. Aby wybrać właściwą opcję, sprawdź aktualne przepisy swojej ligi."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Czy RallyBoard działa bez internetu?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Tak. Tablica taktyczna, rotacje i tryb meczu działają w całości na Twoim urządzeniu. Internet jest potrzebny tylko do galerii zagrań, do otwierania udostępnionych linków w przeglądarce oraz do zakupu lub przywrócenia Pro."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Gdzie są przechowywane moje dane?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Na Twoim urządzeniu. Nie ma konta, a tablice i składy nie są wysyłane na serwer. Aby przenieść dane na nowego iPhone’a lub iPada, otwórz Menu → Pełna kopia zapasowa, wyślij sobie tekst kopii, a następnie wklej go w Pełna kopia zapasowa na nowym urządzeniu i dotknij Przywróć. Aplikacja wysyła tylko anonimowe statystyki użycia, bez nazwisk i treści tablic; zobacz politykę prywatności."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Czy szkoła lub klub może zainstalować RallyBoard na wielu urządzeniach?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Tak. Aplikacja jest darmowa, więc szkoła może ją rozesłać na zarządzane iPady za pomocą Apple School Manager i systemu zarządzania urządzeniami (MDM), a każdy może ją zainstalować na własnym koncie Apple. RallyBoard Pro to zakup w aplikacji przypisany do konta Apple. Na innym urządzeniu zalogowanym na to samo konto Apple dotknij Przywróć zakup na ekranie Pro."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Czy jest wersja na Androida?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Tak. RallyBoard jest dostępny w Google Play na telefony i tablety z Androidem. RallyBoard Pro kupuje się osobno w każdym sklepie, więc zakup w App Store nie przechodzi do Google Play i odwrotnie."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Jakie języki obsługuje RallyBoard?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "13 języków: koreański, angielski, japoński, chiński (uproszczony), włoski, polski, francuski, niemiecki, serbski (łacinka), turecki, rosyjski, portugalski (Brazylia) i hiszpański. Aplikacja uruchamia się w języku urządzenia, jeśli jest obsługiwany, a język możesz zmienić w menu."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Jak skontaktować się z twórcą?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Napisz na syninasoft@gmail.com. Pytania, zgłoszenia błędów i propozycje funkcji są mile widziane, a odpowiedź przychodzi zwykle w ciągu kilku dni."
+      }
+    }
+  ]
+}
+</script>
+<style>
+  :root{--bg:#0F3B3E;--bg2:#0B2E31;--border:#215B5E;--court:#D96F35;--cream:#F6F1E7;--accent:#E8793E;--sub:rgba(246,241,231,.66);--body:rgba(246,241,231,.88);--rule:rgba(246,241,231,.13);--yel:#FCD34D}
+  *{box-sizing:border-box}
+  html{background:var(--bg);-webkit-text-size-adjust:100%;text-size-adjust:100%}
+  body{margin:0;min-height:100vh;color:var(--cream);background:radial-gradient(1100px 640px at 50% -180px,#17545E 0%,rgba(15,59,62,0) 72%) no-repeat,var(--bg);font:400 16px/1.7 'IBM Plex Sans KR',system-ui,-apple-system,'Segoe UI',sans-serif;-webkit-font-smoothing:antialiased;overflow-wrap:break-word}
+  html:lang(ko) body{word-break:keep-all}
+  html:lang(ja) body{font-family:'IBM Plex Sans JP','Hiragino Sans','Hiragino Kaku Gothic ProN','Noto Sans JP',system-ui,sans-serif;line-break:strict}
+  html:lang(ja) :is(h1,h2,h3,.lead){word-break:auto-phrase}
+  .wrap{max-width:920px;margin:0 auto;padding:0 16px}
+  a{color:inherit;text-decoration-color:rgba(232,121,62,.8);text-decoration-thickness:1.5px;text-underline-offset:3px}
+  a:hover{text-decoration-color:var(--accent)}
+  a:focus-visible{outline:2px solid var(--yel);outline-offset:3px;border-radius:4px}
+  .top{display:flex;flex-wrap:wrap;align-items:center;gap:8px 18px;padding:18px 0 4px}
+  .brand{display:flex;align-items:center;gap:10px;font-weight:700;font-size:17px;letter-spacing:.2px}
+  .logo{width:30px;height:30px;border-radius:9px;background:var(--accent);display:grid;place-items:center;box-shadow:0 4px 14px rgba(232,121,62,.35);flex:none}
+  .langs{display:flex;flex-wrap:wrap;gap:2px;margin-left:auto}
+  .langs a{font-size:13.5px;line-height:1;padding:8px 10px;border-radius:999px;color:var(--sub);text-decoration:none;border:1px solid transparent}
+  .langs a:hover{color:var(--cream);border-color:var(--rule)}
+  .langs a[aria-current=page]{color:var(--cream);border-color:rgba(246,241,231,.3);background:rgba(246,241,231,.07)}
+  .hero{display:grid;gap:30px;padding:28px 0 44px}
+  h1{margin:0 0 18px;font-weight:700}
+  h1 .name{display:block;font-size:clamp(38px,4vw + 22px,58px);line-height:1.04;letter-spacing:-.025em}
+  h1 .what{display:block;margin-top:12px;font-size:clamp(19px,1vw + 15px,25px);line-height:1.32;font-weight:600;letter-spacing:-.01em;color:var(--body);text-wrap:balance}
+  .lead{margin:0 0 26px;font-size:17px;line-height:1.75;color:var(--body);max-width:40em}
+  .get{display:flex;flex-wrap:wrap;align-items:center;gap:14px 18px}
+  .badge{display:inline-flex;align-items:center;gap:10px;flex:none;background:#000;color:#fff;border:1px solid rgba(255,255,255,.24);border-radius:12px;padding:9px 18px 9px 13px;text-decoration:none;line-height:1.1}
+  .badge small{display:block;font-size:11px;font-weight:500;color:#cfcfcf}
+  .badge b{display:block;font-size:19px;font-weight:600;letter-spacing:-.01em}
+  .get p{margin:0;flex:1 1 220px;font-size:14px;line-height:1.55;color:var(--sub)}
+  .court{margin:0}
+  .court svg{display:block;width:100%;max-width:340px;height:auto}
+  .court figcaption{margin-top:12px;max-width:340px;font-size:13px;line-height:1.55;color:var(--sub)}
+  .sec{border-top:1px solid var(--rule);padding:40px 0}
+  h2{margin:0 0 20px;font-size:24px;line-height:1.3;letter-spacing:-.012em}
+  h3{margin:0 0 8px;font-size:17.5px;line-height:1.4}
+  p{margin:0 0 12px}
+  .sec p,.sec li{color:var(--body)}
+  .prose{max-width:46em}
+  ul{margin:0;padding-left:1.15em}
+  li{margin:0 0 8px}
+  li::marker{color:var(--accent)}
+  .facts{display:grid;grid-template-columns:minmax(0,11em) minmax(0,1fr);margin:0;border:1px solid var(--border);border-radius:16px;background:rgba(11,46,49,.55)}
+  .facts dt,.facts dd{margin:0;padding:12px 18px;border-top:1px solid var(--rule)}
+  .facts dt{font-size:14px;color:var(--sub);padding-top:14px}
+  .facts dt:first-of-type,.facts dd:first-of-type{border-top:0}
+  .features{display:grid;gap:30px}
+  .tbl{width:100%;max-width:46em;border-collapse:collapse;table-layout:fixed;margin:6px 0 22px;font-size:15px;font-variant-numeric:tabular-nums}
+  .tbl th,.tbl td{padding:11px 8px;border-bottom:1px solid var(--rule);text-align:left;vertical-align:top;overflow-wrap:anywhere}
+  .tbl thead th{font-size:13px;font-weight:600;color:var(--sub);border-bottom-color:rgba(246,241,231,.3)}
+  .tbl th:first-child{padding-left:0}
+  .tbl tbody th{font-weight:400;color:var(--body)}
+  .tbl .pro{color:var(--accent);font-weight:600}
+  .tbl col.v{width:27%}
+  .qa{padding:20px 0;border-top:1px solid var(--rule);max-width:46em}
+  .qa:first-of-type{border-top:0;padding-top:0}
+  .qa p{margin:0}
+  .links{display:flex;flex-wrap:wrap;gap:10px 22px;list-style:none;margin:16px 0 0;padding:0}
+  .links li{margin:0}
+  footer{border-top:1px solid var(--rule);padding:22px 0 calc(40px + env(safe-area-inset-bottom));font-size:13px;line-height:1.6;color:var(--sub)}
+  footer p{margin:0 0 4px}
+  @media (max-width:620px){.langs{margin-left:-7px;width:calc(100% + 7px)}.langs a{font-size:13px;padding:8px 7px}}
+  @media (max-width:560px){.facts{grid-template-columns:minmax(0,1fr)}.facts dt{padding-bottom:0}.facts dd{border-top:0;padding-top:2px}}
+  @media (min-width:640px){.tbl col.v{width:20%}}
+  @media (min-width:800px){
+    .hero{grid-template-columns:minmax(0,1fr) minmax(0,340px);gap:56px;align-items:center;padding:52px 0 64px}
+    .features{grid-template-columns:repeat(2,minmax(0,1fr));gap:36px 52px}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="top">
+    <div class="brand"><span class="logo"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#2A1608" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 3c2.5 3 2.5 15 0 18M3 12c3-2.5 15-2.5 18 0M5.5 5.5c4 1 9.5 6.5 13 13"/></svg></span>RallyBoard</div>
+    <nav class="langs" aria-label="Język">
+      <a href="./" hreflang="en" lang="en">English</a>
+      <a href="ko.html" hreflang="ko" lang="ko">한국어</a>
+      <a href="ja.html" hreflang="ja" lang="ja">日本語</a>
+      <a href="zh.html" hreflang="zh-Hans" lang="zh-Hans">简体中文</a>
+      <a href="pt.html" hreflang="pt" lang="pt-BR">Português</a>
+      <a href="es.html" hreflang="es" lang="es">Español</a>
+      <a href="it.html" hreflang="it" lang="it">Italiano</a>
+      <a href="de.html" hreflang="de" lang="de">Deutsch</a>
+      <a href="fr.html" hreflang="fr" lang="fr">Français</a>
+      <a href="pl.html" hreflang="pl" lang="pl" aria-current="page">Polski</a>
+      <a href="tr.html" hreflang="tr" lang="tr">Türkçe</a>
+      <a href="ru.html" hreflang="ru" lang="ru">Русский</a>
+      <a href="sr.html" hreflang="sr-Latn" lang="sr-Latn">Srpski</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div>
+        <h1><span class="what" style="margin:0 0 10px">Tablica taktyczna do siatkówki, rotacje i tryb meczu</span><span class="name">RallyBoard</span></h1>
+        <p class="lead">RallyBoard to tablica taktyczna, rotacje i licznik wyniku meczu dla trenerów siatkówki i nauczycieli WF, na iPhone’a, iPada i Androida. Rysuj zagrania i animuj je klatka po klatce, przechodź przez rotacje R1–R6 z kontrolą błędu ustawienia według przepisów FIVB 2025–2028 i prowadź wynik meczu, a rotacja przesuwa się automatycznie.</p>
+        <div class="get">
+          <a class="badge" href="https://apps.apple.com/app/apple-store/id6797665874?pt=129007220&ct=web_pl&mt=8" aria-label="Pobierz RallyBoard w App Store"><svg width="20" height="20" viewBox="0 0 24 24" fill="#fff" aria-hidden="true"><path d="M16.4 12.6c0-2.6 2.1-3.8 2.2-3.9-1.2-1.8-3.1-2-3.7-2-1.6-.2-3.1.9-3.9.9-.8 0-2-.9-3.4-.9-1.7 0-3.3 1-4.2 2.6-1.8 3.1-.5 7.7 1.3 10.2.9 1.2 1.9 2.6 3.2 2.6 1.3-.1 1.8-.8 3.3-.8s2 .8 3.4.8c1.4 0 2.3-1.3 3.1-2.5 1-1.4 1.4-2.8 1.4-2.9-.1 0-2.7-1-2.7-4.1zM13.9 5c.7-.8 1.2-2 1-3.1-1 0-2.2.7-2.9 1.5-.6.7-1.2 1.9-1 3 1.1.1 2.2-.6 2.9-1.4z"/></svg><span><small>Pobierz w</small><b>App Store</b></span></a>
+          <a class="badge" href="https://play.google.com/store/apps/details?id=com.uninane.rallyboard&referrer=utm_source%3Dweb_pl" aria-label="Pobierz RallyBoard z Google Play"><svg width="20" height="20" viewBox="0 0 24 24" fill="#fff" aria-hidden="true"><path d="M4.4 2.2c-.3.3-.4.8-.4 1.3v17c0 .5.1 1 .4 1.3L14 12z"/><path d="M17.3 15.3 14 12l-9.6 9.8c.4.4 1 .4 1.7 0z"/><path d="M17.3 8.7 6.1 2.2c-.7-.4-1.3-.4-1.7 0L14 12z"/><path d="M20.7 10.6 17.3 8.7 14 12l3.3 3.3 3.4-1.9c1.1-.6 1.1-2.2 0-2.8z"/></svg><span><small>Pobierz z</small><b>Google Play</b></span></a>
+          <p>Za darmo na iPhone’a, iPada i Androida.</p>
+        </div>
+      </div>
+      <figure class="court">
+    <svg viewBox="0 0 408 488" role="img" aria-labelledby="court-t" xmlns="http://www.w3.org/2000/svg">
+      <title id="court-t">Połowa boiska do siatkówki z ustawieniem w przyjęciu w rotacji 1 w systemie 5-1: libero i dwóch przyjmujących przyjmuje zagrywkę, a rozgrywający wybiega ze strefy 1 do siatki.</title>
+      <defs>
+        <linearGradient id="opp" x1="0" y1="20" x2="0" y2="104" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#D96F35" stop-opacity="0"/><stop offset="1" stop-color="#D96F35" stop-opacity=".62"/></linearGradient>
+        <linearGradient id="oppl" x1="0" y1="20" x2="0" y2="104" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#F6F1E7" stop-opacity="0"/><stop offset="1" stop-color="#F6F1E7" stop-opacity=".75"/></linearGradient>
+        <marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="4.4" markerHeight="4.4" orient="auto"><path d="M0 0L10 5L0 10z" fill="#F6F1E7"/></marker>
+      </defs>
+      <rect width="408" height="488" rx="20" fill="#0B2E31"/>
+      <rect x="24" y="20" width="360" height="84" fill="url(#opp)"/>
+      <path d="M24 20V104M384 20V104" stroke="url(#oppl)" stroke-width="3"/>
+      <rect x="24" y="104" width="360" height="360" fill="#D96F35"/>
+      <path d="M24 104V464H384V104" fill="none" stroke="#F6F1E7" stroke-width="3" stroke-linejoin="round"/>
+      <path d="M24 224H384" stroke="#F6F1E7" stroke-width="2" stroke-opacity=".9"/>
+      <path d="M10 106.5H398" stroke="#000" stroke-opacity=".28" stroke-width="7" stroke-linecap="round"/>
+      <path d="M10 104H398" stroke="#F6F1E7" stroke-width="7" stroke-linecap="round"/>
+      <g fill="none" stroke="#F6F1E7" stroke-width="2.5" stroke-linecap="round">
+        <path d="M224.3 47Q95 140 82.1 303" stroke-opacity=".8" marker-end="url(#ah)"/>
+        <path d="M92.3 330.4L269.3 149" marker-end="url(#ah)"/>
+        <path d="M353.9 325.6Q378 236 296.9 148" stroke-dasharray="8 7" marker-end="url(#ah)"/>
+      </g>
+      <circle cx="284" cy="134" r="17" fill="none" stroke="#F6F1E7" stroke-opacity=".7" stroke-width="2" stroke-dasharray="4 4"/>
+      <circle cx="234" cy="40" r="10" fill="#F6F1E7" stroke="#173F6B" stroke-width="1.5"/>
+      <path d="M233.91 32.56A9.5 9.5 0 0 1 233.91 47.44M234.09 47.44A9.5 9.5 0 0 1 234.09 32.56" fill="none" stroke="#E8793E" stroke-width="1.6"/>
+      <g font-family="'IBM Plex Mono',ui-monospace,monospace" font-weight="700" text-anchor="middle">
+      <circle cx="349" cy="344" r="17" fill="#173F6B" stroke="#F6F1E7" stroke-width="2"/><text x="349" y="349.3" font-size="15" fill="#F6F1E7">1</text><rect x="341.0" y="311" width="16" height="14" rx="7" fill="#F6F1E7"/><text x="349" y="321.6" font-size="10" fill="#173F6B">S</text>
+      <circle cx="314" cy="294" r="17" fill="#173F6B" stroke="#F6F1E7" stroke-width="2"/><text x="314" y="299.3" font-size="15" fill="#F6F1E7">7</text><rect x="303.0" y="261" width="22" height="14" rx="7" fill="#F6F1E7"/><text x="314" y="271.6" font-size="10" fill="#173F6B">OH</text>
+      <circle cx="184" cy="144" r="17" fill="#173F6B" stroke="#F6F1E7" stroke-width="2"/><text x="184" y="149.3" font-size="15" fill="#F6F1E7">11</text><rect x="173.0" y="111" width="22" height="14" rx="7" fill="#F6F1E7"/><text x="184" y="121.6" font-size="10" fill="#173F6B">MB</text>
+      <circle cx="54" cy="174" r="17" fill="#173F6B" stroke="#F6F1E7" stroke-width="2"/><text x="54" y="179.3" font-size="15" fill="#F6F1E7">3</text><rect x="40.0" y="141" width="28" height="14" rx="7" fill="#F6F1E7"/><text x="54" y="151.6" font-size="10" fill="#173F6B">OPP</text>
+      <circle cx="79" cy="344" r="17" fill="#173F6B" stroke="#F6F1E7" stroke-width="2"/><text x="79" y="349.3" font-size="15" fill="#F6F1E7">8</text><rect x="68.0" y="311" width="22" height="14" rx="7" fill="#F6F1E7"/><text x="79" y="321.6" font-size="10" fill="#173F6B">OH</text>
+      <circle cx="204" cy="369" r="17" fill="#E05252" stroke="#F6F1E7" stroke-width="2"/><text x="204" y="374.3" font-size="15" fill="#F6F1E7">5</text><rect x="196.0" y="336" width="16" height="14" rx="7" fill="#F6F1E7"/><text x="204" y="346.6" font-size="10" fill="#173F6B">L</text>
+      </g>
+    </svg>
+        <figcaption>Przyjęcie zagrywki w rotacji 1 w systemie 5-1, z galerii zagrań w aplikacji. Linie ciągłe pokazują zagrywkę i przyjęcie; linia przerywana to wybieg rozgrywającego do siatki.</figcaption>
+      </figure>
+    </section>
+
+    <section class="sec" id="facts" aria-labelledby="h-facts">
+      <h2 id="h-facts">W skrócie</h2>
+      <dl class="facts">
+        <dt>Aplikacja</dt><dd>Aplikacja do siatkówki z trzema trybami: tablica taktyczna, rotacje i tryb meczu.</dd>
+        <dt>Dla kogo</dt><dd>Trenerzy siatkówki i nauczyciele wychowania fizycznego (WF) – na treningi, lekcje WF i mecze.</dd>
+        <dt>Urządzenia</dt><dd>iPhone i iPad (iOS i iPadOS) oraz telefony i tablety z Androidem (Google Play).</dd>
+        <dt>Cena</dt><dd>Za darmo. RallyBoard Pro to opcjonalny jednorazowy zakup w aplikacji, bez subskrypcji i bez reklam. Cena zależy od kraju.</dd>
+        <dt>Konto</dt><dd>Niepotrzebne. Tablice, składy i ustawienia zostają na Twoim urządzeniu.</dd>
+        <dt>Języki</dt><dd>13, w tym polski, angielski, niemiecki, rosyjski i hiszpański.</dd>
+        <dt>Nazwa w App Store</dt><dd>RallyBoard: Trener Siatkówki</dd>
+        <dt>Nazwa w Google Play</dt><dd>RallyBoard: Tablica taktyczna</dd>
+        <dt>Twórca</dt><dd>synina – marka nauczyciela WF z Korei Południowej, który prowadzi szkolną drużynę siatkówki.</dd>
+        <dt>Inne nazwy w sklepach</dt><dd>Ta sama aplikacja występuje w sklepach w innych językach i krajach pod tymi nazwami: Volleyball Rotation &amp; Tactics · Volleyball Rotation + Tactics · 랠리보드 : 배구 작전판·전술판 · 랠리보드: 배구 작전판·전술 보드·로테이션 · RallyBoard: バレー作戦ボード・ローテ · RallyBoard: バレーボール作戦ボード・ローテ · RallyBoard: 排球战术板·轮转 · RallyBoard: Tática de Vôlei · RallyBoard: Prancheta de Vôlei · RallyBoard: Pizarra Voleibol · RallyBoard: Tattica Pallavolo · RallyBoard: Volleyball-Taktik · RallyBoard : Tactique Volley · RallyBoard: Voleybol Tahtası · RallyBoard: Voleybol Taktik · RallyBoard: Тактика волейбола · RallyBoard: odbojkaška taktika</dd>
+        <dt>Kontakt</dt><dd><a href="mailto:syninasoft@gmail.com">syninasoft@gmail.com</a></dd>
+      </dl>
+    </section>
+
+    <section class="sec" id="features" aria-labelledby="h-features">
+      <h2 id="h-features">Funkcje</h2>
+      <div class="features">
+        <div class="feat">
+          <h3>Tablica taktyczna</h3>
+          <ul>
+            <li>Ustawiaj zawodników, piłkę i sprzęt treningowy (pachołki, talerzyki, drabinki, obręcze, maty, strefy celu, wózki na piłki) na całym boisku lub na połowie.</li>
+            <li>Każdy zawodnik ma numer, nazwisko i oznaczenie pozycji: S, OH, MB, OPP lub L.</li>
+            <li>Rysuj strzałki i linie w kilku stylach (proste, łukowe, przerywane, zygzak i inne) lub swobodne ścieżki dla wybiegów i lotu piłki.</li>
+          </ul>
+        </div>
+        <div class="feat">
+          <h3>Animowane zagrania</h3>
+          <ul>
+            <li>Zapisuj pozycje zawodników klatka po klatce i odtwarzaj ruch raz, w pętli lub tam i z powrotem, w wybranym tempie.</li>
+            <li>Eksportuj animację jako GIF lub arkusz klatek – jeden obraz ze wszystkimi klatkami (Pro; podgląd jest darmowy).</li>
+          </ul>
+        </div>
+        <div class="feat">
+          <h3>Rotacje</h3>
+          <ul>
+            <li>Wpisz wyjściową szóstkę z rolami (S, OH, MB, OPP, L) i przechodź przez rotacje R1–R6. Możesz wpisać dowolny skład, także 5-1 i 6-2.</li>
+            <li>Libero automatycznie zastępuje środkowego w linii obrony albo wybranego zawodnika i schodzi, gdy ten zawodnik przechodzi na zagrywkę.</li>
+            <li>Przeciągaj zawodników, aby budować ustawienia w zagrywce i w przyjęciu. Każde ustawienie zapisuje się osobno dla każdej rotacji.</li>
+            <li>Kontrola błędu ustawienia na podstawie przepisu 7.4 Oficjalnych Przepisów Gry FIVB 2025–2028. Domyślnie sprawdza ustawienia w przyjęciu i pomija Twoje ustawienie przy zagrywce; możesz włączyć ścisłą kontrolę obu.</li>
+            <li>Pro: automatyczne wyrównanie i przyciąganie. Upuszczony zawodnik przeskakuje na prawidłową pozycję, a jedno dotknięcie poprawia ustawienie z błędem.</li>
+            <li>Przegląd wszystkich sześciu rotacji na jednym ekranie.</li>
+          </ul>
+        </div>
+        <div class="feat">
+          <h3>Tryb meczu</h3>
+          <ul>
+            <li>Dotknij drużyny, która wygrała akcję: wynik, zagrywka i rotacja aktualizują się automatycznie.</li>
+            <li>Ustaw liczbę punktów w secie, punkty w ostatnim secie (gotowa wartość lub dowolna liczba od 1 do 99) i liczbę setów (1, 3 lub 5).</li>
+            <li>Set kończy się po zdobyciu wymaganej liczby punktów z przewagą dwóch punktów. Aplikacja pokazuje wynik seta, a potem zmienia strony boiska i pierwszą zagrywkę w kolejnym secie.</li>
+            <li>Cofnij, blokada boiska, libero i automatyczne przypisanie pozycji w systemie 5-1 na podstawie rozgrywającego.</li>
+          </ul>
+        </div>
+        <div class="feat">
+          <h3>Galeria zagrań</h3>
+          <ul>
+            <li>Gotowe zagrania i ćwiczenia do otwarcia i edycji: przyjęcie 5-1 w R1–R6, przesunięcia bloku w lewo i w prawo, przejście po wolnej piłce, obrona po zagrywce oraz ćwiczenia, takie jak motylek w przyjęciu, król boiska (3 na 3) i trójkąt podań we trzech.</li>
+            <li>Galeria pobiera się przy otwarciu, więc wymaga połączenia z internetem.</li>
+          </ul>
+        </div>
+        <div class="feat">
+          <h3>Udostępnianie</h3>
+          <ul>
+            <li>Udostępnij tablicę jako obraz PNG.</li>
+            <li>Udostępnij zagranie jako link. Każdy może je obejrzeć w przeglądarce i zaimportować do RallyBoard. Link nie zawiera nazwisk zawodników, tylko numery, pozycje i ruchy.</li>
+          </ul>
+        </div>
+        <div class="feat">
+          <h3>Składy, automatyczny zapis i kopia zapasowa</h3>
+          <ul>
+            <li>Zapisuj składy z nazwiskami, numerami i pozycjami i wczytuj je w każdym trybie.</li>
+            <li>Twoja praca zapisuje się automatycznie i czeka na Ciebie po ponownym otwarciu aplikacji.</li>
+            <li>Pełna kopia zapasowa eksportuje tablice (z animacjami), składy i ustawienie języka jako tekst, więc możesz przenieść wszystko na inne urządzenie.</li>
+          </ul>
+        </div>
+        <div class="feat">
+          <h3>13 języków</h3>
+          <ul>
+            <li>한국어, English, 日本語, 中文, Italiano, Polski, Français, Deutsch, Srpski, Türkçe, Русский, Português, Español.</li>
+            <li>Przy pierwszym uruchomieniu aplikacja używa języka urządzenia, jeśli jest na tej liście, a w przeciwnym razie angielskiego. Możesz go zmienić w menu.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="sec" id="price" aria-labelledby="h-price">
+      <h2 id="h-price">Cena</h2>
+      <p class="prose">RallyBoard można pobrać i używać za darmo, bez reklam i bez konta. RallyBoard Pro to jednorazowy zakup w aplikacji, który znosi poniższe limity. Nie ma subskrypcji. Cena zależy od kraju i jest widoczna w App Store przed zakupem.</p>
+      <table class="tbl" aria-label="Wersja darmowa i RallyBoard Pro">
+        <colgroup><col><col class="v"><col class="v"></colgroup>
+        <thead><tr><th scope="col">Funkcja</th><th scope="col">Za darmo</th><th scope="col" class="pro">Pro</th></tr></thead>
+        <tbody>
+          <tr><th scope="row">Zapisane tablice</th><td>3</td><td class="pro">Bez limitu</td></tr>
+          <tr><th scope="row">Składy zawodników</th><td>2</td><td class="pro">Bez limitu</td></tr>
+          <tr><th scope="row">Zapisane pozycje (klatki)</th><td>10</td><td class="pro">Bez limitu</td></tr>
+          <tr><th scope="row">Zapisane animacje</th><td>1</td><td class="pro">Bez limitu</td></tr>
+          <tr><th scope="row">Ustawienia w rotacjach</th><td>2</td><td class="pro">Bez limitu</td></tr>
+          <tr><th scope="row">Eksport do GIF-a i arkusza klatek</th><td>Podgląd</td><td class="pro">W zestawie</td></tr>
+          <tr><th scope="row">Automatyczne wyrównanie i przyciąganie ustawienia</th><td>–</td><td class="pro">W zestawie</td></tr>
+        </tbody>
+      </table>
+      <p class="prose">Zawsze za darmo: rysowanie na tablicy taktycznej, rotacje z kontrolą błędu ustawienia, tryb meczu, galeria zagrań, udostępnianie obrazów i linków, pełna kopia zapasowa i wszystkie 13 języków.</p>
+      <p class="prose">Pro jest przypisany do konta Apple, na którym go kupiono. Po ponownej instalacji albo na innym iPhonie lub iPadzie z tym samym kontem Apple otwórz ekran Pro i dotknij Przywróć zakup. Na Androidzie Pro jest przypisany do konta Google, na którym go kupiono, a Przywróć zakup działa tak samo.</p>
+    </section>
+
+    <section class="sec" id="faq" aria-labelledby="h-faq">
+      <h2 id="h-faq">Najczęstsze pytania</h2>
+      <div class="faq">
+        <div class="qa">
+          <h3>Czym jest RallyBoard?</h3>
+          <p>RallyBoard to aplikacja do siatkówki dla trenerów i nauczycieli WF na iPhone’a, iPada i Androida. Ma tablicę taktyczną do rysowania i animowania zagrań, rotacje R1–R6 z ustawieniami w zagrywce i w przyjęciu oraz kontrolą błędu ustawienia, a także tryb meczu, który liczy wynik i automatycznie przesuwa rotację.</p>
+        </div>
+        <div class="qa">
+          <h3>Czy RallyBoard jest darmowy?</h3>
+          <p>Tak. Możesz go pobrać i używać za darmo, bez reklam i bez konta. RallyBoard Pro to opcjonalny jednorazowy zakup, a nie subskrypcja. Znosi limity wersji darmowej (3 zapisane tablice, 2 składy, 10 zapisanych pozycji, 1 zapisana animacja i 2 ustawienia) oraz dodaje eksport do GIF-a i arkusza klatek i automatyczne wyrównanie ustawienia. Cena zależy od kraju i jest widoczna w App Store.</p>
+        </div>
+        <div class="qa">
+          <h3>Czy RallyBoard stosuje przepis FIVB 2025 o błędzie ustawienia przy zagrywce?</h3>
+          <p>Tak. Zgodnie z przepisem 7.4 Oficjalnych Przepisów Gry FIVB 2025–2028 w momencie zagrywki tylko zespół przyjmujący musi zachować porządek rotacji; zawodnicy zespołu zagrywającego mogą stać w dowolnym miejscu. RallyBoard domyślnie tak działa: sprawdza ustawienia w przyjęciu i pomija kontrolę Twojego ustawienia przy własnej zagrywce.</p>
+        </div>
+        <div class="qa">
+          <h3>Czy mogę stosować ostrzejsze przepisy, jak w niektórych rozgrywkach w USA lub szkolnych?</h3>
+          <p>Tak. Jeśli w Twoich rozgrywkach zespół zagrywający nadal musi zachować porządek rotacji, w trybie rotacji otwórz „Wybierz ustawienie” i przy opcji „Błąd ustawienia przy naszej zagrywce” wybierz „Zastosuj”. RallyBoard sprawdza wtedy ustawienia zarówno w zagrywce, jak i w przyjęciu. Aby wybrać właściwą opcję, sprawdź aktualne przepisy swojej ligi.</p>
+        </div>
+        <div class="qa">
+          <h3>Czy RallyBoard działa bez internetu?</h3>
+          <p>Tak. Tablica taktyczna, rotacje i tryb meczu działają w całości na Twoim urządzeniu. Internet jest potrzebny tylko do galerii zagrań, do otwierania udostępnionych linków w przeglądarce oraz do zakupu lub przywrócenia Pro.</p>
+        </div>
+        <div class="qa">
+          <h3>Gdzie są przechowywane moje dane?</h3>
+          <p>Na Twoim urządzeniu. Nie ma konta, a tablice i składy nie są wysyłane na serwer. Aby przenieść dane na nowego iPhone’a lub iPada, otwórz Menu → Pełna kopia zapasowa, wyślij sobie tekst kopii, a następnie wklej go w Pełna kopia zapasowa na nowym urządzeniu i dotknij Przywróć. Aplikacja wysyła tylko anonimowe statystyki użycia, bez nazwisk i treści tablic; zobacz <a href="privacy.html">politykę prywatności</a>.</p>
+        </div>
+        <div class="qa">
+          <h3>Czy szkoła lub klub może zainstalować RallyBoard na wielu urządzeniach?</h3>
+          <p>Tak. Aplikacja jest darmowa, więc szkoła może ją rozesłać na zarządzane iPady za pomocą Apple School Manager i systemu zarządzania urządzeniami (MDM), a każdy może ją zainstalować na własnym koncie Apple. RallyBoard Pro to zakup w aplikacji przypisany do konta Apple. Na innym urządzeniu zalogowanym na to samo konto Apple dotknij Przywróć zakup na ekranie Pro.</p>
+        </div>
+        <div class="qa">
+          <h3>Czy jest wersja na Androida?</h3>
+          <p>Tak. RallyBoard jest dostępny w Google Play na telefony i tablety z Androidem. RallyBoard Pro kupuje się osobno w każdym sklepie, więc zakup w App Store nie przechodzi do Google Play i odwrotnie.</p>
+        </div>
+        <div class="qa">
+          <h3>Jakie języki obsługuje RallyBoard?</h3>
+          <p>13 języków: koreański, angielski, japoński, chiński (uproszczony), włoski, polski, francuski, niemiecki, serbski (łacinka), turecki, rosyjski, portugalski (Brazylia) i hiszpański. Aplikacja uruchamia się w języku urządzenia, jeśli jest obsługiwany, a język możesz zmienić w menu.</p>
+        </div>
+        <div class="qa">
+          <h3>Jak skontaktować się z twórcą?</h3>
+          <p>Napisz na <a href="mailto:syninasoft@gmail.com">syninasoft@gmail.com</a>. Pytania, zgłoszenia błędów i propozycje funkcji są mile widziane, a odpowiedź przychodzi zwykle w ciągu kilku dni.</p>
+        </div>
+      </div>
+      <ul class="links"><li><a href="overlap-rule-pl.html">Przepis 7.4 i błąd ustawienia: co zmieniło się w 2025 roku →</a></li></ul>
+    </section>
+
+    <section class="sec" id="about" aria-labelledby="h-about">
+      <h2 id="h-about">Kto tworzy RallyBoard</h2>
+      <p class="prose">RallyBoard tworzy nauczyciel wychowania fizycznego z Korei Południowej, który prowadzi szkolną drużynę siatkówki – na potrzeby własnych lekcji WF i treningów drużyny. Aplikacja jest wydawana pod marką synina.</p>
+      <ul class="links"><li><a href="support.html">Pomoc</a></li><li><a href="privacy.html">Polityka prywatności</a></li><li><a href="mailto:syninasoft@gmail.com">E-mail</a></li></ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>RallyBoard · synina</p>
+    <p>Apple, iPhone, iPad i App Store są znakami towarowymi Apple Inc. Google Play i Android są znakami towarowymi Google LLC.</p>
+  </footer>
+</div>
+</body>
+</html>

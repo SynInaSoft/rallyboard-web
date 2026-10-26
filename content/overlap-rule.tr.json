@@ -1,0 +1,99 @@
+{
+  "lang": "tr",
+  "htmlLang": "tr",
+  "ogLocale": "tr_TR",
+  "langName": "Türkçe",
+  "title": "Voleybolda pozisyon hatası (kural 7.4): FIVB 2025–2028 kurallarında ne değişti",
+  "description": "2025’ten beri servis vuruşu anında yalnızca karşılayan takımın rotasyon sırasında olması gerekir; servis atan takım kendi sahasında istediği yerde durabilir. Kontrol edilecek komşu çiftler ve RallyBoard’un bunları nasıl kontrol ettiğiyle kural 7.4.",
+  "h1": "Voleybolda pozisyon hatası (kural 7.4)",
+  "h1sub": "FIVB Resmi Voleybol Oyun Kuralları 2025–2028’de ne değişti",
+  "updated": "Güncelleme: 26 Ekim 2026",
+  "lead": "Kısa cevap: FIVB Resmi Voleybol Oyun Kuralları 2025–2028’den beri, servis atan oyuncu topa vurduğunda yalnızca karşılayan takımın rotasyon sırasında olması gerekir. Servis atan takımın oyuncuları kendi sahalarında istedikleri yerde durabilir. Bu yüzden pozisyon hatası yalnızca karşılayan takıma verilebilir. Müsabakanız hâlâ eski metni uyguluyorsa durum farklıdır.",
+  "ruleH2": "2025–2028 metnindeki kural",
+  "ruleQuote": "Top servis atan oyuncu tarafından vurulduğu anda, her takım kendi sahası içinde yerleşmiş olmalıdır (servis atan oyuncu hariç). Karşılayan takımın oyuncuları servis vuruşu anında rotasyon sırasında olmalıdır. Ancak servis atan takımın oyuncuları, servis vuruşu anında istedikleri herhangi bir pozisyonda bulunabilir.",
+  "ruleCite": "FIVB Resmi Voleybol Oyun Kuralları 2025–2028, kural 7.4 (çeviri)",
+  "ruleParas": [
+    "Pozisyonlar ön sırada 4, 3, 2 (fileye bakarken soldan sağa), arka sırada 5, 6, 1 olarak numaralanır. Her oyuncu yalnızca bu sıradaki komşu oyuncularla karşılaştırılır.",
+    "Kontrol, yere temas eden ayaklara göre yapılır (kural 7.4.3). Arka sıradaki bir oyuncunun en az bir ayağının bir kısmı, karşılık gelen ön sıra oyuncusunun öndeki ayağından orta çizgiye daha uzak olmalıdır. Sağdaki (veya soldaki) oyuncunun en az bir ayağının bir kısmı, aynı sıradaki diğer oyuncuya göre o yan çizgiye daha yakın olmalıdır. Aynı hizada olmak kurala uygundur.",
+    "Servis vuruşundan sonra iki takımın oyuncuları da istedikleri yere hareket edebilir (kural 7.4.4). Pozisyon hatası yapan takım ralliyi kaybeder (rakip sayıyı ve servisi alır); pozisyonlar düzeltilir (kural 7.5.4)."
+  ],
+  "changeH2": "2025 öncesi ve sonrası",
+  "changeCols": [
+    "",
+    "2021–2024 kuralları",
+    "2025–2028 kuralları"
+  ],
+  "changeRows": [
+    [
+      "Karşılayan takım",
+      "Servis vuruşu anında rotasyon sırasında olmalı",
+      "Servis vuruşu anında rotasyon sırasında olmalı (değişmedi)"
+    ],
+    [
+      "Servis atan takım",
+      "O da rotasyon sırasında olmalı",
+      "Kendi sahasında istediği pozisyonda durabilir"
+    ],
+    [
+      "Servis atan oyuncu",
+      "Servis bölgesinde",
+      "Servis bölgesinde (değişmedi)"
+    ],
+    [
+      "Servis vuruşundan sonra",
+      "Oyuncular istedikleri yere hareket edebilir",
+      "Oyuncular istedikleri yere hareket edebilir (değişmedi)"
+    ]
+  ],
+  "changeNote": "Birçok ulusal federasyon ile okul ve altyapı müsabakası yeni kuralı 2025’te benimsedi, ancak bazı ligler servis atan takımın da sırada olmasını hâlâ istiyor. Müsabakanızın kullandığı kural kitabını kontrol edin.",
+  "pairsH2": "Kontrol edilecek yedi çift",
+  "pairsIntro": "Bir karşılama dizilişinde yalnızca bu komşu çiftler pozisyon hatası oluşturabilir:",
+  "pairsFront": "Önde ve arkada (aynı sütun): 4, 5’in önünde; 3, 6’nın önünde; 2, 1’in önünde.",
+  "pairsSide": "Solda ve sağda (aynı sıra): ön sırada 4, 3’ün solunda ve 3, 2’nin solunda; arka sırada 5, 6’nın solunda ve 6, 1’in solunda.",
+  "pairsNote": "Yan yana olmayan oyuncular hiçbir zaman karşılaştırılmaz. Örneğin 4 numaralı pozisyon 1 numaralı pozisyonun arkasında durabilir; 1 numaralı pozisyondaki pasör de 6’nın sağında ve 2’nin arkasında kaldığı sürece fileye yaklaşabilir.",
+  "svgTitle": "Ön sırada 4, 3, 2 ve arka sırada 5, 6, 1 pozisyonlarını gösteren yarım saha. Çizgiler karşılaştırılan yedi çifti gösterir: üçü önden arkaya, dördü yan yana.",
+  "svgNet": "FİLE",
+  "appH2": "RallyBoard’da pozisyon hatasını kontrol etmek",
+  "appParas": [
+    "RallyBoard; iPhone, iPad ve Android için ücretsiz bir voleybol taktik tahtası ve rotasyon tahtasıdır, Türkçe arayüzle kullanılabilir. Rotasyon modunda, oyuncuları sürüklerken her R1–R6 rotasyonu için yukarıdaki yedi çifti kontrol eder ve yanlış pozisyondaki oyuncuları kırmızıyla işaretler.",
+    "Varsayılan olarak 2025–2028 kuralına uyar: karşılama dizilişlerini kontrol eder, kendi servis dizilişinizi kontrol etmez. Liginiz hâlâ eski kuralı kullanıyorsa rotasyon modunda “Dizilişi seç”i açın ve “Bizim serviste pozisyon hatası” seçeneğini “Uygula” yapın.",
+    "RallyBoard Pro (tek seferlik satın alma) otomatik hizalama ve yerine oturtma ekler: bırakılan oyuncu kurala uygun bir konuma oturur, tek dokunuş da pozisyon hatalı bir dizilişi düzeltir."
+  ],
+  "faqH2": "Sorular",
+  "faq": [
+    {
+      "q": "Servis atan takım 2025’te pozisyon hatası yapabilir mi?",
+      "a": "FIVB Resmi Voleybol Oyun Kuralları 2025–2028’e göre hayır. Kural 7.4, servis atan takımın oyuncularının servis vuruşu anında istedikleri herhangi bir pozisyonda bulunabileceğini söyler. Yine de kendi sahalarının içinde olmaları gerekir ve servis atan oyuncu servisi servis bölgesinden atmalıdır."
+    },
+    {
+      "q": "Hangi takıma pozisyon hatası verilebilir?",
+      "a": "Karşılayan takıma. Oyuncuları servis vuruşu anında rotasyon sırasında olmalıdır ve yalnızca kendi sıralarındaki ve sütunlarındaki komşu oyuncularla karşılaştırılır."
+    },
+    {
+      "q": "Libero kontrolde sayılır mı?",
+      "a": "Evet. Libero, yerine girdiği arka sıra oyuncusunun pozisyonunu alır (genellikle 5, 6 veya 1 numaralı pozisyondaki orta oyuncu) ve o pozisyondaki diğer her oyuncu gibi karşılaştırılır."
+    },
+    {
+      "q": "Pozisyon hatasını otomatik kontrol eden bir uygulama var mı?",
+      "a": "Evet. RallyBoard (Türkiye App Store’unda “RallyBoard: Voleybol Tahtası”, Google Play’de “RallyBoard: Voleybol Taktik”, İngilizce konuşulan ülkelerde “Volleyball Rotation & Tactics” adıyla) 2025–2028 kurallarının 7.4 kuralına göre R1–R6 için pozisyon hatasını kontrol eder; servis atan takımı hâlâ kontrol eden ligler için sıkı bir seçenek de vardır. Cihazınızın dili İngilizce ise uygulama mağazada bu İngilizce adla görünebilir. iPhone, iPad ve Android’de ücretsizdir ve Türkçe arayüzle kullanılabilir."
+    }
+  ],
+  "sourcesH2": "Kaynaklar",
+  "sources": [
+    {
+      "label": "FIVB Resmi Voleybol Oyun Kuralları 2025–2028 (İngilizce, PDF)",
+      "url": "https://www.fivb.com/wp-content/uploads/2025/01/FIVB-Volleyball_Rules2025_2028-EN-v05.pdf"
+    },
+    {
+      "label": "FIVB kurallar sayfası (tüm diller)",
+      "url": "https://www.fivb.com/volleyball/the-game/official-volleyball-rules/"
+    },
+    {
+      "label": "2025–2028 kural değişiklikleri, eski ve yeni metnin karşılaştırması (PDF, Hong Kong Voleybol Derneği yayını)",
+      "url": "https://vbahk.org.hk/items/media/Refereeing/202528_Volleyball_Rules/VB/fivbvolleyball_rulesmodification20252028.pdf"
+    }
+  ],
+  "appLinkLabel": "RallyBoard uygulaması hakkında",
+  "storeText": "iPhone, iPad ve Android’de ücretsiz.",
+  "langNavLabel": "Dil"
+}

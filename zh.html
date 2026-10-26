@@ -1,0 +1,532 @@
+<!doctype html>
+<html lang="zh-Hans">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>RallyBoard：排球战术板、轮转与比赛记分应用</title>
+<meta name="description" content="RallyBoard 是一款面向排球教练和体育老师的应用，支持 iPhone、iPad 和 Android：可做逐帧动画的战术板、按国际排联 2025–2028 规则检查站位犯规的 R1–R6 轮转板，以及比赛模式。">
+<link rel="canonical" href="https://syninasoft.github.io/rallyboard-web/zh.html">
+<link rel="alternate" hreflang="en" href="https://syninasoft.github.io/rallyboard-web/">
+<link rel="alternate" hreflang="ko" href="https://syninasoft.github.io/rallyboard-web/ko.html">
+<link rel="alternate" hreflang="ja" href="https://syninasoft.github.io/rallyboard-web/ja.html">
+<link rel="alternate" hreflang="zh-Hans" href="https://syninasoft.github.io/rallyboard-web/zh.html">
+<link rel="alternate" hreflang="pt" href="https://syninasoft.github.io/rallyboard-web/pt.html">
+<link rel="alternate" hreflang="es" href="https://syninasoft.github.io/rallyboard-web/es.html">
+<link rel="alternate" hreflang="it" href="https://syninasoft.github.io/rallyboard-web/it.html">
+<link rel="alternate" hreflang="de" href="https://syninasoft.github.io/rallyboard-web/de.html">
+<link rel="alternate" hreflang="fr" href="https://syninasoft.github.io/rallyboard-web/fr.html">
+<link rel="alternate" hreflang="pl" href="https://syninasoft.github.io/rallyboard-web/pl.html">
+<link rel="alternate" hreflang="tr" href="https://syninasoft.github.io/rallyboard-web/tr.html">
+<link rel="alternate" hreflang="ru" href="https://syninasoft.github.io/rallyboard-web/ru.html">
+<link rel="alternate" hreflang="sr-Latn" href="https://syninasoft.github.io/rallyboard-web/sr.html">
+<link rel="alternate" hreflang="x-default" href="https://syninasoft.github.io/rallyboard-web/">
+<meta name="theme-color" content="#0F3B3E">
+<meta name="color-scheme" content="dark">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="RallyBoard">
+<meta property="og:title" content="RallyBoard：排球战术板、轮转与比赛记分应用">
+<meta property="og:description" content="RallyBoard 是一款面向排球教练和体育老师的应用，支持 iPhone、iPad 和 Android：可做逐帧动画的战术板、按国际排联 2025–2028 规则检查站位犯规的 R1–R6 轮转板，以及比赛模式。">
+<meta property="og:url" content="https://syninasoft.github.io/rallyboard-web/zh.html">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:locale:alternate" content="en_US">
+<meta property="og:locale:alternate" content="ko_KR">
+<meta property="og:locale:alternate" content="ja_JP">
+<meta property="og:locale:alternate" content="pt_BR">
+<meta property="og:locale:alternate" content="es_LA">
+<meta property="og:image" content="https://syninasoft.github.io/rallyboard-web/og/rallyboard-en.jpg">
+<meta property="og:image:width" content="1024">
+<meta property="og:image:height" content="500">
+<meta property="og:image:alt" content="RallyBoard 应用图标及英文文字：排球战术、轮转与动画板">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Crect width='24' height='24' rx='6' fill='%23E8793E'/%3E%3Cg fill='none' stroke='%232A1608' stroke-width='2.2' stroke-linecap='round' transform='translate(2.4 2.4) scale(.8)'%3E%3Ccircle cx='12' cy='12' r='9'/%3E%3Cpath d='M12 3c2.5 3 2.5 15 0 18M3 12c3-2.5 15-2.5 18 0M5.5 5.5c4 1 9.5 6.5 13 13'/%3E%3C/g%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@400;600;700&family=IBM+Plex+Mono:wght@500;700&display=swap" rel="stylesheet">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "RallyBoard",
+  "alternateName": [
+    "RallyBoard",
+    "랠리보드",
+    "Volleyball Rotation & Tactics",
+    "Volleyball Rotation + Tactics",
+    "랠리보드 : 배구 작전판·전술판",
+    "랠리보드: 배구 작전판·전술 보드·로테이션",
+    "RallyBoard: バレー作戦ボード・ローテ",
+    "RallyBoard: バレーボール作戦ボード・ローテ",
+    "RallyBoard: 排球战术板·轮转",
+    "RallyBoard: Tática de Vôlei",
+    "RallyBoard: Prancheta de Vôlei",
+    "RallyBoard: Pizarra Voleibol",
+    "RallyBoard: Tattica Pallavolo",
+    "RallyBoard: Volleyball-Taktik",
+    "RallyBoard : Tactique Volley",
+    "RallyBoard: Trener Siatkówki",
+    "RallyBoard: Tablica taktyczna",
+    "RallyBoard: Voleybol Tahtası",
+    "RallyBoard: Voleybol Taktik",
+    "RallyBoard: Тактика волейбола",
+    "RallyBoard: odbojkaška taktika"
+  ],
+  "description": "RallyBoard 是面向排球教练和体育老师的战术板、轮转板和比赛记分应用，支持 iPhone、iPad 和 Android。",
+  "url": "https://syninasoft.github.io/rallyboard-web/zh.html",
+  "image": "https://syninasoft.github.io/rallyboard-web/og/rallyboard-en.jpg",
+  "operatingSystem": "iOS, iPadOS, Android",
+  "applicationCategory": "SportsApplication",
+  "availableOnDevice": "iPhone, iPad, Android",
+  "inLanguage": [
+    "ko",
+    "en",
+    "ja",
+    "zh-Hans",
+    "it",
+    "pl",
+    "fr",
+    "de",
+    "sr-Latn",
+    "tr",
+    "ru",
+    "pt-BR",
+    "es"
+  ],
+  "isAccessibleForFree": true,
+  "downloadUrl": [
+    "https://apps.apple.com/app/apple-store/id6797665874?pt=129007220&ct=web_zh&mt=8",
+    "https://play.google.com/store/apps/details?id=com.uninane.rallyboard&referrer=utm_source%3Dweb_zh"
+  ],
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "USD",
+    "description": "免费下载和使用。RallyBoard Pro 是可选的一次性 App 内购买（无订阅、无广告），用于解除免费版限制；价格因国家或地区而异。"
+  },
+  "featureList": [
+    "在全场或半场摆放球员、球、训练器材，绘制箭头和线条的战术板",
+    "逐帧动画战术，可导出 GIF 和帧图（Pro）",
+    "R1–R6 轮转板，自由人自动替换，支持发球与接发球阵型",
+    "依据国际排联《排球竞赛规则 2025–2028》第 7.4 条的站位犯规检查，可选严格模式",
+    "站位自动对齐与吸附（Pro）",
+    "比赛模式：自动记录比分、发球权和轮转，可设置局数并交换场地",
+    "战术库：现成的战术与训练",
+    "以 PNG 图片或不含球员姓名的网页战术链接分享",
+    "球员名单、自动保存，以及文本形式的完整备份",
+    "13 种语言"
+  ],
+  "audience": {
+    "@type": "Audience",
+    "audienceType": "排球教练和体育老师"
+  },
+  "sameAs": [
+    "https://apps.apple.com/app/id6797665874",
+    "https://play.google.com/store/apps/details?id=com.uninane.rallyboard"
+  ],
+  "dateModified": "2026-10-26",
+  "author": {
+    "@type": "Organization",
+    "name": "synina",
+    "alternateName": [
+      "SynIna Soft",
+      "Ena Yoon"
+    ],
+    "email": "syninasoft@gmail.com"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "inLanguage": "zh-Hans",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "RallyBoard 是什么？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "RallyBoard 是一款面向排球教练和体育老师的应用，支持 iPhone、iPad 和 Android。它包括用来绘制战术并制作动画的战术板，带发球与接发球阵型和站位犯规检查的 R1–R6 轮转板，以及自动记录比分并轮转阵容的比赛模式。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "RallyBoard 免费吗？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "免费。下载和使用都不花钱，没有广告，也不需要注册账号。RallyBoard Pro 是可选的一次性购买，不是订阅。它解除免费版的限制（3 个已保存战术、2 份名单、10 帧站位、1 个已保存动画和 2 个阵型），并开放 GIF 与帧图导出和站位自动对齐。价格因国家或地区而异，以 App Store 显示为准。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "RallyBoard 是否遵循国际排联 2025 年关于发球时站位犯规的规则？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "是的。按照国际排联《排球竞赛规则 2025–2028》第 7.4 条，发球时只有接发球方必须按轮转顺序站位，发球方队员可以站在任何位置。RallyBoard 默认遵循这一规则：检查接发球阵型的站位犯规，不检查我方发球阵型。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "能否像美国或部分学校比赛那样使用更严格的规则？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "可以。如果你参加的比赛仍要求发球方按轮转顺序站位，请在轮转模式中打开“选择阵型”，把“我方发球时的站位犯规”设为“应用”。这样 RallyBoard 会同时检查发球和接发球阵型。请根据你所在联赛的现行规则选择合适的设置。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "RallyBoard 没有网络能用吗？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "能用。战术板、轮转板和比赛模式完全在你的设备上运行。只有战术库、在浏览器中打开分享的战术链接，以及购买或恢复 Pro 时需要联网。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "我的数据保存在哪里？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "保存在你的设备上。不需要账号，你的战术和名单也不会上传到服务器。换新的 iPhone 或 iPad 时，打开“菜单 → 完整备份”，把备份文本发给自己，再在新设备的“完整备份”中粘贴并点“恢复”即可。应用只发送匿名使用统计，不包含姓名或战术内容；详见隐私政策。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "学校或俱乐部可以在多台设备上安装 RallyBoard 吗？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "可以。应用本身免费，学校可以通过 Apple 校园教务管理和设备管理（MDM）系统分发到统一管理的 iPad 上，任何人也都可以用自己的 Apple 账户安装。RallyBoard Pro 是按 Apple 账户购买的 App 内购买项目。在登录同一 Apple 账户的其他设备上，在 Pro 页面点“恢复购买”即可。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "有 Android 版本吗？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "有。RallyBoard 已在 Google Play 上架，支持 Android 手机和平板。RallyBoard Pro 需要在各个商店分别购买，在 App Store 购买的 Pro 不能转到 Google Play，反之亦然。中国大陆无法使用 Google Play，请通过 App Store 在 iPhone 或 iPad 上安装。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "RallyBoard 支持哪些语言？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "13 种语言：韩语、英语、日语、简体中文、意大利语、波兰语、法语、德语、塞尔维亚语（拉丁字母）、土耳其语、俄语、葡萄牙语（巴西）和西班牙语。如果设备语言在支持范围内，应用会以设备语言启动，也可以在菜单中更改语言。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "如何联系开发者？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "请发邮件至 syninasoft@gmail.com。欢迎提问、反馈问题和提出功能建议，通常会在几天内回复。"
+      }
+    }
+  ]
+}
+</script>
+<style>
+  :root{--bg:#0F3B3E;--bg2:#0B2E31;--border:#215B5E;--court:#D96F35;--cream:#F6F1E7;--accent:#E8793E;--sub:rgba(246,241,231,.66);--body:rgba(246,241,231,.88);--rule:rgba(246,241,231,.13);--yel:#FCD34D}
+  *{box-sizing:border-box}
+  html{background:var(--bg);-webkit-text-size-adjust:100%;text-size-adjust:100%}
+  body{margin:0;min-height:100vh;color:var(--cream);background:radial-gradient(1100px 640px at 50% -180px,#17545E 0%,rgba(15,59,62,0) 72%) no-repeat,var(--bg);font:400 16px/1.7 'IBM Plex Sans KR',system-ui,-apple-system,'Segoe UI',sans-serif;-webkit-font-smoothing:antialiased;overflow-wrap:break-word}
+  html:lang(ko) body{word-break:keep-all}
+  html:lang(ja) body{font-family:'IBM Plex Sans JP','Hiragino Sans','Hiragino Kaku Gothic ProN','Noto Sans JP',system-ui,sans-serif;line-break:strict}
+  html:lang(ja) :is(h1,h2,h3,.lead){word-break:auto-phrase}
+  html:lang(zh) body{font-family:'PingFang SC','Hiragino Sans GB','Microsoft YaHei','Noto Sans SC','Noto Sans CJK SC',system-ui,sans-serif;line-break:strict}
+  .wrap{max-width:920px;margin:0 auto;padding:0 16px}
+  a{color:inherit;text-decoration-color:rgba(232,121,62,.8);text-decoration-thickness:1.5px;text-underline-offset:3px}
+  a:hover{text-decoration-color:var(--accent)}
+  a:focus-visible{outline:2px solid var(--yel);outline-offset:3px;border-radius:4px}
+  .top{display:flex;flex-wrap:wrap;align-items:center;gap:8px 18px;padding:18px 0 4px}
+  .brand{display:flex;align-items:center;gap:10px;font-weight:700;font-size:17px;letter-spacing:.2px}
+  .logo{width:30px;height:30px;border-radius:9px;background:var(--accent);display:grid;place-items:center;box-shadow:0 4px 14px rgba(232,121,62,.35);flex:none}
+  .langs{display:flex;flex-wrap:wrap;gap:2px;margin-left:auto}
+  .langs a{font-size:13.5px;line-height:1;padding:8px 10px;border-radius:999px;color:var(--sub);text-decoration:none;border:1px solid transparent}
+  .langs a:hover{color:var(--cream);border-color:var(--rule)}
+  .langs a[aria-current=page]{color:var(--cream);border-color:rgba(246,241,231,.3);background:rgba(246,241,231,.07)}
+  .hero{display:grid;gap:30px;padding:28px 0 44px}
+  h1{margin:0 0 18px;font-weight:700}
+  h1 .name{display:block;font-size:clamp(38px,4vw + 22px,58px);line-height:1.04;letter-spacing:-.025em}
+  h1 .what{display:block;margin-top:12px;font-size:clamp(19px,1vw + 15px,25px);line-height:1.32;font-weight:600;letter-spacing:-.01em;color:var(--body);text-wrap:balance}
+  .lead{margin:0 0 26px;font-size:17px;line-height:1.75;color:var(--body);max-width:40em}
+  .get{display:flex;flex-wrap:wrap;align-items:center;gap:14px 18px}
+  .badge{display:inline-flex;align-items:center;gap:10px;flex:none;background:#000;color:#fff;border:1px solid rgba(255,255,255,.24);border-radius:12px;padding:9px 18px 9px 13px;text-decoration:none;line-height:1.1}
+  .badge small{display:block;font-size:11px;font-weight:500;color:#cfcfcf}
+  .badge b{display:block;font-size:19px;font-weight:600;letter-spacing:-.01em}
+  .get p{margin:0;flex:1 1 220px;font-size:14px;line-height:1.55;color:var(--sub)}
+  .court{margin:0}
+  .court svg{display:block;width:100%;max-width:340px;height:auto}
+  .court figcaption{margin-top:12px;max-width:340px;font-size:13px;line-height:1.55;color:var(--sub)}
+  .sec{border-top:1px solid var(--rule);padding:40px 0}
+  h2{margin:0 0 20px;font-size:24px;line-height:1.3;letter-spacing:-.012em}
+  h3{margin:0 0 8px;font-size:17.5px;line-height:1.4}
+  p{margin:0 0 12px}
+  .sec p,.sec li{color:var(--body)}
+  .prose{max-width:46em}
+  ul{margin:0;padding-left:1.15em}
+  li{margin:0 0 8px}
+  li::marker{color:var(--accent)}
+  .facts{display:grid;grid-template-columns:minmax(0,11em) minmax(0,1fr);margin:0;border:1px solid var(--border);border-radius:16px;background:rgba(11,46,49,.55)}
+  .facts dt,.facts dd{margin:0;padding:12px 18px;border-top:1px solid var(--rule)}
+  .facts dt{font-size:14px;color:var(--sub);padding-top:14px}
+  .facts dt:first-of-type,.facts dd:first-of-type{border-top:0}
+  .features{display:grid;gap:30px}
+  .tbl{width:100%;max-width:46em;border-collapse:collapse;table-layout:fixed;margin:6px 0 22px;font-size:15px;font-variant-numeric:tabular-nums}
+  .tbl th,.tbl td{padding:11px 8px;border-bottom:1px solid var(--rule);text-align:left;vertical-align:top;overflow-wrap:anywhere}
+  .tbl thead th{font-size:13px;font-weight:600;color:var(--sub);border-bottom-color:rgba(246,241,231,.3)}
+  .tbl th:first-child{padding-left:0}
+  .tbl tbody th{font-weight:400;color:var(--body)}
+  .tbl .pro{color:var(--accent);font-weight:600}
+  .tbl col.v{width:27%}
+  .qa{padding:20px 0;border-top:1px solid var(--rule);max-width:46em}
+  .qa:first-of-type{border-top:0;padding-top:0}
+  .qa p{margin:0}
+  .links{display:flex;flex-wrap:wrap;gap:10px 22px;list-style:none;margin:16px 0 0;padding:0}
+  .links li{margin:0}
+  footer{border-top:1px solid var(--rule);padding:22px 0 calc(40px + env(safe-area-inset-bottom));font-size:13px;line-height:1.6;color:var(--sub)}
+  footer p{margin:0 0 4px}
+  @media (max-width:620px){.langs{margin-left:-7px;width:calc(100% + 7px)}.langs a{font-size:13px;padding:8px 7px}}
+  @media (max-width:560px){.facts{grid-template-columns:minmax(0,1fr)}.facts dt{padding-bottom:0}.facts dd{border-top:0;padding-top:2px}}
+  @media (min-width:640px){.tbl col.v{width:20%}}
+  @media (min-width:800px){
+    .hero{grid-template-columns:minmax(0,1fr) minmax(0,340px);gap:56px;align-items:center;padding:52px 0 64px}
+    .features{grid-template-columns:repeat(2,minmax(0,1fr));gap:36px 52px}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="top">
+    <div class="brand"><span class="logo"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#2A1608" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 3c2.5 3 2.5 15 0 18M3 12c3-2.5 15-2.5 18 0M5.5 5.5c4 1 9.5 6.5 13 13"/></svg></span>RallyBoard</div>
+    <nav class="langs" aria-label="语言">
+      <a href="./" hreflang="en" lang="en">English</a>
+      <a href="ko.html" hreflang="ko" lang="ko">한국어</a>
+      <a href="ja.html" hreflang="ja" lang="ja">日本語</a>
+      <a href="zh.html" hreflang="zh-Hans" lang="zh-Hans" aria-current="page">简体中文</a>
+      <a href="pt.html" hreflang="pt" lang="pt-BR">Português</a>
+      <a href="es.html" hreflang="es" lang="es">Español</a>
+      <a href="it.html" hreflang="it" lang="it">Italiano</a>
+      <a href="de.html" hreflang="de" lang="de">Deutsch</a>
+      <a href="fr.html" hreflang="fr" lang="fr">Français</a>
+      <a href="pl.html" hreflang="pl" lang="pl">Polski</a>
+      <a href="tr.html" hreflang="tr" lang="tr">Türkçe</a>
+      <a href="ru.html" hreflang="ru" lang="ru">Русский</a>
+      <a href="sr.html" hreflang="sr-Latn" lang="sr-Latn">Srpski</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div>
+        <h1><span class="name">RallyBoard</span><span class="what">排球战术板、轮转与比赛记分</span></h1>
+        <p class="lead">RallyBoard 是面向排球教练和体育老师的战术板、轮转板和比赛记分应用，支持 iPhone、iPad 和 Android。画出战术并逐帧制作动画，依据国际排联 2025–2028 规则检查站位犯规，逐一查看 R1–R6 轮转；比赛时记录比分，轮转自动跟上。</p>
+        <div class="get">
+          <a class="badge" href="https://apps.apple.com/app/apple-store/id6797665874?pt=129007220&ct=web_zh&mt=8" aria-label="在 App Store 下载 RallyBoard"><svg width="20" height="20" viewBox="0 0 24 24" fill="#fff" aria-hidden="true"><path d="M16.4 12.6c0-2.6 2.1-3.8 2.2-3.9-1.2-1.8-3.1-2-3.7-2-1.6-.2-3.1.9-3.9.9-.8 0-2-.9-3.4-.9-1.7 0-3.3 1-4.2 2.6-1.8 3.1-.5 7.7 1.3 10.2.9 1.2 1.9 2.6 3.2 2.6 1.3-.1 1.8-.8 3.3-.8s2 .8 3.4.8c1.4 0 2.3-1.3 3.1-2.5 1-1.4 1.4-2.8 1.4-2.9-.1 0-2.7-1-2.7-4.1zM13.9 5c.7-.8 1.2-2 1-3.1-1 0-2.2.7-2.9 1.5-.6.7-1.2 1.9-1 3 1.1.1 2.2-.6 2.9-1.4z"/></svg><span><small>下载</small><b>App Store</b></span></a>
+          <a class="badge" href="https://play.google.com/store/apps/details?id=com.uninane.rallyboard&referrer=utm_source%3Dweb_zh" aria-label="在 Google Play 下载 RallyBoard"><svg width="20" height="20" viewBox="0 0 24 24" fill="#fff" aria-hidden="true"><path d="M4.4 2.2c-.3.3-.4.8-.4 1.3v17c0 .5.1 1 .4 1.3L14 12z"/><path d="M17.3 15.3 14 12l-9.6 9.8c.4.4 1 .4 1.7 0z"/><path d="M17.3 8.7 6.1 2.2c-.7-.4-1.3-.4-1.7 0L14 12z"/><path d="M20.7 10.6 17.3 8.7 14 12l3.3 3.3 3.4-1.9c1.1-.6 1.1-2.2 0-2.8z"/></svg><span><small>下载</small><b>Google Play</b></span></a>
+          <p>在 iPhone、iPad 和 Android 上免费使用。</p>
+        </div>
+      </div>
+      <figure class="court">
+    <svg viewBox="0 0 408 488" role="img" aria-labelledby="court-t" xmlns="http://www.w3.org/2000/svg">
+      <title id="court-t">Volleyball half court with a 5-1 rotation 1 serve-receive formation: the libero and two outside hitters receive, and the setter runs from zone 1 to the net.</title>
+      <defs>
+        <linearGradient id="opp" x1="0" y1="20" x2="0" y2="104" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#D96F35" stop-opacity="0"/><stop offset="1" stop-color="#D96F35" stop-opacity=".62"/></linearGradient>
+        <linearGradient id="oppl" x1="0" y1="20" x2="0" y2="104" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#F6F1E7" stop-opacity="0"/><stop offset="1" stop-color="#F6F1E7" stop-opacity=".75"/></linearGradient>
+        <marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="4.4" markerHeight="4.4" orient="auto"><path d="M0 0L10 5L0 10z" fill="#F6F1E7"/></marker>
+      </defs>
+      <rect width="408" height="488" rx="20" fill="#0B2E31"/>
+      <rect x="24" y="20" width="360" height="84" fill="url(#opp)"/>
+      <path d="M24 20V104M384 20V104" stroke="url(#oppl)" stroke-width="3"/>
+      <rect x="24" y="104" width="360" height="360" fill="#D96F35"/>
+      <path d="M24 104V464H384V104" fill="none" stroke="#F6F1E7" stroke-width="3" stroke-linejoin="round"/>
+      <path d="M24 224H384" stroke="#F6F1E7" stroke-width="2" stroke-opacity=".9"/>
+      <path d="M10 106.5H398" stroke="#000" stroke-opacity=".28" stroke-width="7" stroke-linecap="round"/>
+      <path d="M10 104H398" stroke="#F6F1E7" stroke-width="7" stroke-linecap="round"/>
+      <g fill="none" stroke="#F6F1E7" stroke-width="2.5" stroke-linecap="round">
+        <path d="M224.3 47Q95 140 82.1 303" stroke-opacity=".8" marker-end="url(#ah)"/>
+        <path d="M92.3 330.4L269.3 149" marker-end="url(#ah)"/>
+        <path d="M353.9 325.6Q378 236 296.9 148" stroke-dasharray="8 7" marker-end="url(#ah)"/>
+      </g>
+      <circle cx="284" cy="134" r="17" fill="none" stroke="#F6F1E7" stroke-opacity=".7" stroke-width="2" stroke-dasharray="4 4"/>
+      <circle cx="234" cy="40" r="10" fill="#F6F1E7" stroke="#173F6B" stroke-width="1.5"/>
+      <path d="M233.91 32.56A9.5 9.5 0 0 1 233.91 47.44M234.09 47.44A9.5 9.5 0 0 1 234.09 32.56" fill="none" stroke="#E8793E" stroke-width="1.6"/>
+      <g font-family="'IBM Plex Mono',ui-monospace,monospace" font-weight="700" text-anchor="middle">
+      <circle cx="349" cy="344" r="17" fill="#173F6B" stroke="#F6F1E7" stroke-width="2"/><text x="349" y="349.3" font-size="15" fill="#F6F1E7">1</text><rect x="341.0" y="311" width="16" height="14" rx="7" fill="#F6F1E7"/><text x="349" y="321.6" font-size="10" fill="#173F6B">S</text>
+      <circle cx="314" cy="294" r="17" fill="#173F6B" stroke="#F6F1E7" stroke-width="2"/><text x="314" y="299.3" font-size="15" fill="#F6F1E7">7</text><rect x="303.0" y="261" width="22" height="14" rx="7" fill="#F6F1E7"/><text x="314" y="271.6" font-size="10" fill="#173F6B">OH</text>
+      <circle cx="184" cy="144" r="17" fill="#173F6B" stroke="#F6F1E7" stroke-width="2"/><text x="184" y="149.3" font-size="15" fill="#F6F1E7">11</text><rect x="173.0" y="111" width="22" height="14" rx="7" fill="#F6F1E7"/><text x="184" y="121.6" font-size="10" fill="#173F6B">MB</text>
+      <circle cx="54" cy="174" r="17" fill="#173F6B" stroke="#F6F1E7" stroke-width="2"/><text x="54" y="179.3" font-size="15" fill="#F6F1E7">3</text><rect x="40.0" y="141" width="28" height="14" rx="7" fill="#F6F1E7"/><text x="54" y="151.6" font-size="10" fill="#173F6B">OPP</text>
+      <circle cx="79" cy="344" r="17" fill="#173F6B" stroke="#F6F1E7" stroke-width="2"/><text x="79" y="349.3" font-size="15" fill="#F6F1E7">8</text><rect x="68.0" y="311" width="22" height="14" rx="7" fill="#F6F1E7"/><text x="79" y="321.6" font-size="10" fill="#173F6B">OH</text>
+      <circle cx="204" cy="369" r="17" fill="#E05252" stroke="#F6F1E7" stroke-width="2"/><text x="204" y="374.3" font-size="15" fill="#F6F1E7">5</text><rect x="196.0" y="336" width="16" height="14" rx="7" fill="#F6F1E7"/><text x="204" y="346.6" font-size="10" fill="#173F6B">L</text>
+      </g>
+    </svg>
+        <figcaption>应用战术库中的 5-1 接发球 R1。实线表示发球和一传，虚线表示二传插上到网前的跑位。</figcaption>
+      </figure>
+    </section>
+
+    <section class="sec" id="facts" aria-labelledby="h-facts">
+      <h2 id="h-facts">概览</h2>
+      <dl class="facts">
+        <dt>应用</dt><dd>一款排球应用，包含三种模式：战术板、轮转板和比赛模式。</dd>
+        <dt>适用对象</dt><dd>排球教练和体育老师，用于训练、体育课和比赛。</dd>
+        <dt>设备</dt><dd>iPhone 和 iPad（iOS 与 iPadOS），以及 Android 手机和平板（Google Play）。</dd>
+        <dt>价格</dt><dd>免费。RallyBoard Pro 是可选的一次性 App 内购买，无订阅、无广告。价格因国家或地区而异。</dd>
+        <dt>账号</dt><dd>不需要。战术、名单和设置都保存在你的设备上。</dd>
+        <dt>语言</dt><dd>13 种，包括简体中文、英语、韩语、日语、葡萄牙语和西班牙语。</dd>
+        <dt>App Store 名称</dt><dd>RallyBoard: 排球战术板·轮转</dd>
+        <dt>Google Play 名称</dt><dd>RallyBoard：排球战术板·轮转</dd>
+        <dt>开发者</dt><dd>synina，一位在韩国执教学校排球队的体育老师的品牌。</dd>
+        <dt>其他商店名称</dt><dd>同一款应用在其他语言和国家/地区的商店中以下列名称显示：Volleyball Rotation &amp; Tactics · Volleyball Rotation + Tactics · 랠리보드 : 배구 작전판·전술판 · 랠리보드: 배구 작전판·전술 보드·로테이션 · RallyBoard: バレー作戦ボード・ローテ · RallyBoard: バレーボール作戦ボード・ローテ · RallyBoard: Tática de Vôlei · RallyBoard: Prancheta de Vôlei · RallyBoard: Pizarra Voleibol · RallyBoard: Tattica Pallavolo · RallyBoard: Volleyball-Taktik · RallyBoard : Tactique Volley · RallyBoard: Trener Siatkówki · RallyBoard: Tablica taktyczna · RallyBoard: Voleybol Tahtası · RallyBoard: Voleybol Taktik · RallyBoard: Тактика волейбола · RallyBoard: odbojkaška taktika</dd>
+        <dt>联系方式</dt><dd><a href="mailto:syninasoft@gmail.com">syninasoft@gmail.com</a></dd>
+      </dl>
+    </section>
+
+    <section class="sec" id="features" aria-labelledby="h-features">
+      <h2 id="h-features">功能</h2>
+      <div class="features">
+        <div class="feat">
+          <h3>战术板</h3>
+          <ul>
+            <li>在全场或半场摆放球员、球和训练器材（锥桶、标志盘、绳梯、圆环、垫子、目标区、球车）。</li>
+            <li>每名球员显示号码、姓名和位置标记：S、OH、MB、OPP 或 L。</li>
+            <li>用多种样式的箭头和线条（直线、曲线、虚线、折线等）或自由线表示跑位和球路。</li>
+          </ul>
+        </div>
+        <div class="feat">
+          <h3>逐帧动画</h3>
+          <ul>
+            <li>逐帧保存球员站位，按你选择的速度单次、循环或往返回放跑位。</li>
+            <li>将动画导出为 GIF 或帧图（一张图包含所有帧）（Pro；可免费预览）。</li>
+          </ul>
+        </div>
+        <div class="feat">
+          <h3>轮转板</h3>
+          <ul>
+            <li>输入首发六人及其位置（S、OH、MB、OPP、L），逐一查看 R1–R6 轮转。任何阵容都可以输入，包括 5-1 和 6-2。</li>
+            <li>自由人在后排自动替换副攻或你指定的球员，并在该球员轮转到发球位置时下场。</li>
+            <li>拖动球员摆出发球和接发球阵型，每个轮转的阵型都会分别保存。</li>
+            <li>依据国际排联《排球竞赛规则 2025–2028》第 7.4 条检查站位犯规。默认检查接发球阵型、不检查我方发球阵型；也可以切换为两者都严格检查。</li>
+            <li>Pro：自动对齐与吸附。放下的球员会吸附到合规位置，有站位犯规的阵型点一下即可纠正。</li>
+            <li>在一个画面中总览全部六个轮转。</li>
+          </ul>
+        </div>
+        <div class="feat">
+          <h3>比赛模式</h3>
+          <ul>
+            <li>点一下赢得这一球的队伍：比分、发球权和轮转都会自动更新。</li>
+            <li>设置每局分数、决胜局分数（预设值或 1 到 99 之间的任意数字）以及局数（1、3 或 5 局）。</li>
+            <li>达到目标分数且领先两分时本局结束。应用会显示本局结果，然后为下一局交换场地并切换首发球权。</li>
+            <li>支持撤销、场地锁定、自由人，以及根据二传自动分配 5-1 位置。</li>
+          </ul>
+        </div>
+        <div class="feat">
+          <h3>战术库</h3>
+          <ul>
+            <li>可直接打开和修改的现成战术与训练：5-1 接发球 R1–R6、拦网左右移动、自由球转换进攻、发球后基本防守，以及蝴蝶接发球、场上之王（3 对 3）、三人传球三角等训练。</li>
+            <li>战术库在打开时下载，因此需要联网。</li>
+          </ul>
+        </div>
+        <div class="feat">
+          <h3>分享</h3>
+          <ul>
+            <li>以 PNG 图片分享战术板。</li>
+            <li>以网页链接分享战术。任何人都可以在浏览器中观看，并导入 RallyBoard。链接不包含球员姓名，只包含号码、位置和跑位。</li>
+          </ul>
+        </div>
+        <div class="feat">
+          <h3>名单、自动保存与备份</h3>
+          <ul>
+            <li>保存带姓名、号码和位置的球员名单，并在各个模式中调用。</li>
+            <li>你的操作会自动保存，重新打开应用时仍在原处。</li>
+            <li>完整备份会把战术（含动画）、名单和语言设置导出为文本，方便把所有内容转移到另一台设备。</li>
+          </ul>
+        </div>
+        <div class="feat">
+          <h3>13 种语言</h3>
+          <ul>
+            <li>한국어, English, 日本語, 中文, Italiano, Polski, Français, Deutsch, Srpski, Türkçe, Русский, Português, Español.</li>
+            <li>首次启动时，如果设备语言在上述范围内，应用会使用设备语言，否则使用英语。可以在菜单中更改。</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="sec" id="price" aria-labelledby="h-price">
+      <h2 id="h-price">价格</h2>
+      <p class="prose">RallyBoard 免费下载和使用，没有广告，也不需要账号。RallyBoard Pro 是一次性 App 内购买，用于解除下列限制，没有订阅。价格因国家或地区而异，购买前会在 App Store 中显示。</p>
+      <table class="tbl" aria-label="免费版与 RallyBoard Pro">
+        <colgroup><col><col class="v"><col class="v"></colgroup>
+        <thead><tr><th scope="col">功能</th><th scope="col">免费</th><th scope="col" class="pro">Pro</th></tr></thead>
+        <tbody>
+          <tr><th scope="row">已保存的战术</th><td>3</td><td class="pro">无限</td></tr>
+          <tr><th scope="row">球员名单</th><td>2</td><td class="pro">无限</td></tr>
+          <tr><th scope="row">保存的站位（帧）</th><td>10</td><td class="pro">无限</td></tr>
+          <tr><th scope="row">已保存的动画</th><td>1</td><td class="pro">无限</td></tr>
+          <tr><th scope="row">轮转阵型</th><td>2</td><td class="pro">无限</td></tr>
+          <tr><th scope="row">GIF 与帧图导出</th><td>预览</td><td class="pro">包含</td></tr>
+          <tr><th scope="row">站位自动对齐与吸附</th><td>–</td><td class="pro">包含</td></tr>
+        </tbody>
+      </table>
+      <p class="prose">始终免费：战术板绘图、带站位犯规检查的轮转板、比赛模式、战术库、图片和链接分享、完整备份，以及全部 13 种语言。</p>
+      <p class="prose">Pro 绑定购买时使用的 Apple 账户。重新安装后，或在登录同一 Apple 账户的其他 iPhone、iPad 上，打开 Pro 页面并点“恢复购买”即可。在 Android 上，Pro 绑定购买时使用的 Google 账号，“恢复购买”的用法相同。</p>
+    </section>
+
+    <section class="sec" id="faq" aria-labelledby="h-faq">
+      <h2 id="h-faq">常见问题</h2>
+      <div class="faq">
+        <div class="qa">
+          <h3>RallyBoard 是什么？</h3>
+          <p>RallyBoard 是一款面向排球教练和体育老师的应用，支持 iPhone、iPad 和 Android。它包括用来绘制战术并制作动画的战术板，带发球与接发球阵型和站位犯规检查的 R1–R6 轮转板，以及自动记录比分并轮转阵容的比赛模式。</p>
+        </div>
+        <div class="qa">
+          <h3>RallyBoard 免费吗？</h3>
+          <p>免费。下载和使用都不花钱，没有广告，也不需要注册账号。RallyBoard Pro 是可选的一次性购买，不是订阅。它解除免费版的限制（3 个已保存战术、2 份名单、10 帧站位、1 个已保存动画和 2 个阵型），并开放 GIF 与帧图导出和站位自动对齐。价格因国家或地区而异，以 App Store 显示为准。</p>
+        </div>
+        <div class="qa">
+          <h3>RallyBoard 是否遵循国际排联 2025 年关于发球时站位犯规的规则？</h3>
+          <p>是的。按照国际排联《排球竞赛规则 2025–2028》第 7.4 条，发球时只有接发球方必须按轮转顺序站位，发球方队员可以站在任何位置。RallyBoard 默认遵循这一规则：检查接发球阵型的站位犯规，不检查我方发球阵型。</p>
+        </div>
+        <div class="qa">
+          <h3>能否像美国或部分学校比赛那样使用更严格的规则？</h3>
+          <p>可以。如果你参加的比赛仍要求发球方按轮转顺序站位，请在轮转模式中打开“选择阵型”，把“我方发球时的站位犯规”设为“应用”。这样 RallyBoard 会同时检查发球和接发球阵型。请根据你所在联赛的现行规则选择合适的设置。</p>
+        </div>
+        <div class="qa">
+          <h3>RallyBoard 没有网络能用吗？</h3>
+          <p>能用。战术板、轮转板和比赛模式完全在你的设备上运行。只有战术库、在浏览器中打开分享的战术链接，以及购买或恢复 Pro 时需要联网。</p>
+        </div>
+        <div class="qa">
+          <h3>我的数据保存在哪里？</h3>
+          <p>保存在你的设备上。不需要账号，你的战术和名单也不会上传到服务器。换新的 iPhone 或 iPad 时，打开“菜单 → 完整备份”，把备份文本发给自己，再在新设备的“完整备份”中粘贴并点“恢复”即可。应用只发送匿名使用统计，不包含姓名或战术内容；详见<a href="privacy.html">隐私政策</a>。</p>
+        </div>
+        <div class="qa">
+          <h3>学校或俱乐部可以在多台设备上安装 RallyBoard 吗？</h3>
+          <p>可以。应用本身免费，学校可以通过 Apple 校园教务管理和设备管理（MDM）系统分发到统一管理的 iPad 上，任何人也都可以用自己的 Apple 账户安装。RallyBoard Pro 是按 Apple 账户购买的 App 内购买项目。在登录同一 Apple 账户的其他设备上，在 Pro 页面点“恢复购买”即可。</p>
+        </div>
+        <div class="qa">
+          <h3>有 Android 版本吗？</h3>
+          <p>有。RallyBoard 已在 Google Play 上架，支持 Android 手机和平板。RallyBoard Pro 需要在各个商店分别购买，在 App Store 购买的 Pro 不能转到 Google Play，反之亦然。中国大陆无法使用 Google Play，请通过 App Store 在 iPhone 或 iPad 上安装。</p>
+        </div>
+        <div class="qa">
+          <h3>RallyBoard 支持哪些语言？</h3>
+          <p>13 种语言：韩语、英语、日语、简体中文、意大利语、波兰语、法语、德语、塞尔维亚语（拉丁字母）、土耳其语、俄语、葡萄牙语（巴西）和西班牙语。如果设备语言在支持范围内，应用会以设备语言启动，也可以在菜单中更改语言。</p>
+        </div>
+        <div class="qa">
+          <h3>如何联系开发者？</h3>
+          <p>请发邮件至 <a href="mailto:syninasoft@gmail.com">syninasoft@gmail.com</a>。欢迎提问、反馈问题和提出功能建议，通常会在几天内回复。</p>
+        </div>
+      </div>
+      <p class="prose" style="margin-top:20px"><a href="overlap-rule-zh.html">详解 2025 年规则第 7.4 条：站位犯规怎么判</a></p>
+    </section>
+
+    <section class="sec" id="about" aria-labelledby="h-about">
+      <h2 id="h-about">关于开发者</h2>
+      <p class="prose">RallyBoard 由一位在韩国执教学校排球队的体育老师开发，最初用于自己的体育课和球队训练，以 synina 品牌发布。</p>
+      <ul class="links"><li><a href="support.html">支持</a></li><li><a href="privacy.html">隐私政策</a></li><li><a href="mailto:syninasoft@gmail.com">邮件</a></li></ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>RallyBoard · synina</p>
+    <p>Apple、iPhone、iPad 和 App Store 是 Apple Inc. 的商标。Google Play 和 Android 是 Google LLC 的商标。</p>
+  </footer>
+</div>
+</body>
+</html>

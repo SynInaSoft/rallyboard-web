@@ -1,0 +1,99 @@
+{
+  "lang": "it",
+  "htmlLang": "it",
+  "ogLocale": "it_IT",
+  "langName": "Italiano",
+  "title": "Fallo di posizione nella pallavolo, regola 7.4: cosa cambia con le regole FIVB 2025–2028",
+  "description": "Dal 2025 solo la squadra in ricezione deve rispettare l’ordine di rotazione al momento del colpo di servizio; la squadra al servizio può disporsi liberamente nel proprio campo. La regola 7.4 spiegata, con le coppie di giocatori da controllare e come la verifica RallyBoard.",
+  "h1": "Fallo di posizione nella pallavolo (regola 7.4)",
+  "h1sub": "Cosa cambia con le Regole di gioco ufficiali FIVB 2025–2028",
+  "updated": "Aggiornato il 26 ottobre 2026",
+  "lead": "In breve: con le Regole di gioco ufficiali FIVB 2025–2028, solo la squadra in ricezione deve rispettare l’ordine di rotazione quando il battitore colpisce la palla. I giocatori della squadra al servizio possono disporsi dove vogliono nel proprio campo. Il fallo di posizione si può quindi fischiare solo alla squadra in ricezione, a meno che la tua competizione usi ancora il testo precedente.",
+  "ruleH2": "La regola nel testo 2025–2028",
+  "ruleQuote": "Nel momento in cui la palla viene colpita dal battitore, ogni squadra deve trovarsi all’interno del proprio campo (eccetto il battitore). I giocatori della squadra in ricezione devono rispettare l’ordine di rotazione al momento del colpo di servizio. I giocatori della squadra al servizio, invece, sono liberi di occupare qualsiasi posizione al momento del colpo di servizio.",
+  "ruleCite": "Regole di gioco ufficiali FIVB 2025–2028, regola 7.4 (traduzione)",
+  "ruleParas": [
+    "Le posizioni sono numerate 4, 3, 2 in prima linea (da sinistra a destra, guardando la rete) e 5, 6, 1 in seconda linea. Ogni giocatore viene confrontato solo con i giocatori che ha accanto in quest’ordine.",
+    "Il controllo si fa sui piedi a contatto con il terreno (regola 7.4.3). Il giocatore di seconda linea deve avere almeno una parte di un piede più lontana dalla linea centrale rispetto al piede più avanzato del corrispondente giocatore di prima linea. Il giocatore a destra (o a sinistra) deve avere almeno una parte di un piede più vicina a quella linea laterale rispetto all’altro giocatore della stessa linea. Trovarsi alla stessa altezza è regolare.",
+    "Dopo il colpo di servizio i giocatori di entrambe le squadre possono muoversi liberamente (regola 7.4.4). Con il fallo di posizione la squadra perde lo scambio (l’avversario ottiene il punto e il servizio), e le posizioni vengono corrette (regola 7.5.4)."
+  ],
+  "changeH2": "Prima e dopo il 2025",
+  "changeCols": [
+    "",
+    "Regole 2021–2024",
+    "Regole 2025–2028"
+  ],
+  "changeRows": [
+    [
+      "Squadra in ricezione",
+      "Deve rispettare l’ordine di rotazione al colpo di servizio",
+      "Deve rispettare l’ordine di rotazione al colpo di servizio (invariato)"
+    ],
+    [
+      "Squadra al servizio",
+      "Deve rispettare anch’essa l’ordine di rotazione",
+      "Libera di occupare qualsiasi posizione nel proprio campo"
+    ],
+    [
+      "Battitore",
+      "Nella zona di servizio",
+      "Nella zona di servizio (invariato)"
+    ],
+    [
+      "Dopo il colpo di servizio",
+      "I giocatori possono muoversi liberamente",
+      "I giocatori possono muoversi liberamente (invariato)"
+    ]
+  ],
+  "changeNote": "Molte federazioni nazionali e molte competizioni scolastiche e giovanili hanno adottato la nuova regola nel 2025, ma alcuni campionati chiedono ancora che la squadra al servizio rispetti l’ordine. Controlla il regolamento della tua competizione.",
+  "pairsH2": "Le sette coppie da controllare",
+  "pairsIntro": "In uno schema di ricezione, solo queste coppie di giocatori vicini possono dare un fallo di posizione:",
+  "pairsFront": "Avanti e dietro (stessa colonna): 4 davanti a 5, 3 davanti a 6, 2 davanti a 1.",
+  "pairsSide": "Sinistra e destra (stessa linea): 4 a sinistra di 3, 3 a sinistra di 2 in prima linea; 5 a sinistra di 6, 6 a sinistra di 1 in seconda linea.",
+  "pairsNote": "I giocatori che non sono vicini non vengono mai confrontati. Per esempio, la posizione 4 può stare dietro la posizione 1, e il palleggiatore in posizione 1 può avvicinarsi alla rete purché resti a destra del 6 e dietro il 2.",
+  "svgTitle": "Metà campo con le posizioni 4, 3, 2 in prima linea e 5, 6, 1 in seconda linea. Le linee mostrano le sette coppie confrontate: tre avanti-dietro e quattro laterali.",
+  "svgNet": "RETE",
+  "appH2": "Il controllo del fallo di posizione in RallyBoard",
+  "appParas": [
+    "RallyBoard è una lavagna tattica per la pallavolo e una lavagna delle rotazioni, gratis su iPhone, iPad e Android. Nella modalità Rotazioni controlla le sette coppie qui sopra in ogni rotazione, da R1 a R6, mentre trascini i giocatori, e segna in rosso chi è in posizione irregolare.",
+    "Di base segue la regola 2025–2028: controlla gli schemi di ricezione e non controlla lo schema della tua battuta. Se il tuo campionato usa ancora la regola precedente, apri Seleziona schema nella modalità Rotazioni e imposta “Fallo di posizione in nostra battuta” su “Applica”.",
+    "RallyBoard Pro (acquisto unico) aggiunge allineamento e aggancio automatici: il giocatore che rilasci si aggancia a una posizione regolare, e con un tocco correggi uno schema con un fallo di posizione."
+  ],
+  "faqH2": "Domande",
+  "faq": [
+    {
+      "q": "Nel 2025 la squadra al servizio può commettere fallo di posizione?",
+      "a": "No, secondo le Regole di gioco ufficiali FIVB 2025–2028. La regola 7.4 dice che i giocatori della squadra al servizio sono liberi di occupare qualsiasi posizione al momento del colpo di servizio. Devono comunque trovarsi nel proprio campo, e il battitore deve servire dalla zona di servizio."
+    },
+    {
+      "q": "A quale squadra si può fischiare il fallo di posizione?",
+      "a": "Alla squadra in ricezione. I suoi giocatori devono rispettare l’ordine di rotazione al momento del colpo di servizio, confrontati solo con i giocatori vicini della stessa linea e della stessa colonna."
+    },
+    {
+      "q": "Il libero conta nel controllo della posizione?",
+      "a": "Sì. Il libero prende la posizione del giocatore di seconda linea che ha sostituito, di solito un centrale in posizione 5, 6 o 1, e viene confrontato come qualsiasi altro giocatore in quella posizione."
+    },
+    {
+      "q": "Esiste un’app che controlla il fallo di posizione in automatico?",
+      "a": "Sì. RallyBoard (negli store italiani “RallyBoard: Tattica Pallavolo”, nei paesi di lingua inglese “Volleyball Rotation & Tactics”) controlla il fallo di posizione da R1 a R6 secondo la regola 7.4 delle regole 2025–2028, con un’opzione più rigida per i campionati che controllano ancora la squadra al servizio. È gratis su iPhone, iPad e Android."
+    }
+  ],
+  "sourcesH2": "Fonti",
+  "sources": [
+    {
+      "label": "Regole di gioco ufficiali FIVB 2025–2028 (inglese, PDF)",
+      "url": "https://www.fivb.com/wp-content/uploads/2025/01/FIVB-Volleyball_Rules2025_2028-EN-v05.pdf"
+    },
+    {
+      "label": "Pagina delle regole FIVB (tutte le lingue)",
+      "url": "https://www.fivb.com/volleyball/the-game/official-volleyball-rules/"
+    },
+    {
+      "label": "Modifiche alle regole 2025–2028, confronto tra testo precedente e nuovo (PDF, pubblicato dalla Volleyball Association of Hong Kong)",
+      "url": "https://vbahk.org.hk/items/media/Refereeing/202528_Volleyball_Rules/VB/fivbvolleyball_rulesmodification20252028.pdf"
+    }
+  ],
+  "appLinkLabel": "Informazioni sull’app RallyBoard",
+  "storeText": "Gratis su iPhone, iPad e Android.",
+  "langNavLabel": "Lingua"
+}
