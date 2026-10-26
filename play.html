@@ -197,13 +197,13 @@
   function lerp(a, c, p) { var o = {}; b.tokens.forEach(function (t) { var s = a[t.id] || start[t.id], e = c[t.id] || s; o[t.id] = { x: s.x + (e.x - s.x) * p, y: s.y + (e.y - s.y) * p }; }); return o; }
   function ease(p) { return p < .5 ? 2 * p * p : 1 - Math.pow(-2 * p + 2, 2) / 2; }
   function tick(now) {
-    if (!playing) return; var tt = (now - t0) % total, i = Math.min(seq.length - 2, Math.floor(tt / segMs)), p = Math.min(1, (tt - i * segMs) / segMs);
+    if (!playing) return; if (!t0) t0 = now; var tt = Math.max(0, now - t0) % total, i = Math.min(seq.length - 2, Math.floor(tt / segMs)), p = Math.min(1, (tt - i * segMs) / segMs);
     render(lerp(seq[i], seq[i + 1], ease(p))); $('prog').style.width = Math.min(100, tt / (total - hold) * 100) + '%'; $('frame').textContent = Math.min(i + 1, seq.length - 1) + ' / ' + (seq.length - 1);
     raf = requestAnimationFrame(tick);
   }
   $('play').onclick = function () {
     playing = !playing; $('play').textContent = playing ? '❚❚' : '▶';
-    if (playing) { t0 = performance.now(); raf = requestAnimationFrame(tick); } else { cancelAnimationFrame(raf); render(null); $('prog').style.width = '0%'; $('frame').textContent = '0 / ' + (seq.length - 1); }
+    if (playing) { t0 = 0; raf = requestAnimationFrame(tick); } else { cancelAnimationFrame(raf); render(null); $('prog').style.width = '0%'; $('frame').textContent = '0 / ' + (seq.length - 1); }
   };
   if (seq.length < 2) { $('play').disabled = true; $('frame').textContent = ''; } else $('frame').textContent = '0 / ' + (seq.length - 1);
   render(null);
