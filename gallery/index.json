@@ -12,14 +12,30 @@
     "en": "5-1 serve receive R1",
     "ja": "5-1 サーブレシーブ R1",
     "pt": "5-1 recepção R1",
-    "es": "5-1 recepción R1"
+    "es": "5-1 recepción R1",
+    "zh": "5-1 接发球 R1",
+    "it": "5-1 ricezione R1",
+    "pl": "5-1 przyjęcie zagrywki R1",
+    "fr": "5-1 réception de service R1",
+    "de": "5-1 Annahme R1",
+    "sr": "5-1 prijem servisa R1",
+    "tr": "5-1 servis karşılama R1",
+    "ru": "5-1 приём подачи R1"
    },
    "desc": {
     "ko": "리시브 → 세터 침투 → 공격 전개. 리시브 프레임은 위치 반칙 없는 배치",
     "en": "Receive → setter penetration → attack. Frame 1 is overlap-legal",
     "ja": "レシーブ→セッター侵入→攻撃展開。コマ1はポジション反則なし",
     "pt": "Recepção → penetração do levantador → ataque. Quadro 1 sem falta de posição",
-    "es": "Recepción → penetración del colocador → ataque. Cuadro 1 sin falta de posición"
+    "es": "Recepción → penetración del colocador → ataque. Cuadro 1 sin falta de posición",
+    "zh": "接发球 → 二传插上 → 进攻。第1帧站位无位置犯规",
+    "it": "Ricezione → penetrazione del palleggiatore → attacco. Il fotogramma 1 è senza fallo di posizione",
+    "pl": "Przyjęcie → wejście rozgrywającego → atak. Klatka 1 bez błędu ustawienia",
+    "fr": "Réception → pénétration du passeur → attaque. L'étape 1 est sans faute de position",
+    "de": "Annahme → Zuspieler läuft ein → Angriff. Schritt 1 ohne Aufstellungsfehler",
+    "sr": "Prijem → ulazak tehničara → napad. Kadar 1 je bez greške u postavci",
+    "tr": "Karşılama → pasörün girişi → hücum. 1. kare pozisyon hatası içermez",
+    "ru": "Приём → выход связующего → атака. Кадр 1 без ошибки расстановки"
    },
    "tags": {
     "skill": "receive",
@@ -38,14 +54,30 @@
     "en": "5-1 serve receive R2",
     "ja": "5-1 サーブレシーブ R2",
     "pt": "5-1 recepção R2",
-    "es": "5-1 recepción R2"
+    "es": "5-1 recepción R2",
+    "zh": "5-1 接发球 R2",
+    "it": "5-1 ricezione R2",
+    "pl": "5-1 przyjęcie zagrywki R2",
+    "fr": "5-1 réception de service R2",
+    "de": "5-1 Annahme R2",
+    "sr": "5-1 prijem servisa R2",
+    "tr": "5-1 servis karşılama R2",
+    "ru": "5-1 приём подачи R2"
    },
    "desc": {
     "ko": "리시브 → 세터 침투 → 공격 전개. 리시브 프레임은 위치 반칙 없는 배치",
     "en": "Receive → setter penetration → attack. Frame 1 is overlap-legal",
     "ja": "レシーブ→セッター侵入→攻撃展開。コマ1はポジション反則なし",
     "pt": "Recepção → penetração do levantador → ataque. Quadro 1 sem falta de posição",
-    "es": "Recepción → penetración del colocador → ataque. Cuadro 1 sin falta de posición"
+    "es": "Recepción → penetración del colocador → ataque. Cuadro 1 sin falta de posición",
+    "zh": "接发球 → 二传插上 → 进攻。第1帧站位无位置犯规",
+    "it": "Ricezione → penetrazione del palleggiatore → attacco. Il fotogramma 1 è senza fallo di posizione",
+    "pl": "Przyjęcie → wejście rozgrywającego → atak. Klatka 1 bez błędu ustawienia",
+    "fr": "Réception → pénétration du passeur → attaque. L'étape 1 est sans faute de position",
+    "de": "Annahme → Zuspieler läuft ein → Angriff. Schritt 1 ohne Aufstellungsfehler",
+    "sr": "Prijem → ulazak tehničara → napad. Kadar 1 je bez greške u postavci",
+    "tr": "Karşılama → pasörün girişi → hücum. 1. kare pozisyon hatası içermez",
+    "ru": "Приём → выход связующего → атака. Кадр 1 без ошибки расстановки"
    },
    "tags": {
     "skill": "receive",
@@ -64,14 +96,30 @@
     "en": "5-1 serve receive R3",
     "ja": "5-1 サーブレシーブ R3",
     "pt": "5-1 recepção R3",
-    "es": "5-1 recepción R3"
+    "es": "5-1 recepción R3",
+    "zh": "5-1 接发球 R3",
+    "it": "5-1 ricezione R3",
+    "pl": "5-1 przyjęcie zagrywki R3",
+    "fr": "5-1 réception de service R3",
+    "de": "5-1 Annahme R3",
+    "sr": "5-1 prijem servisa R3",
+    "tr": "5-1 servis karşılama R3",
+    "ru": "5-1 приём подачи R3"
    },
    "desc": {
     "ko": "리시브 → 세터 침투 → 공격 전개. 리시브 프레임은 위치 반칙 없는 배치",
     "en": "Receive → setter penetration → attack. Frame 1 is overlap-legal",
     "ja": "レシーブ→セッター侵入→攻撃展開。コマ1はポジション反則なし",
     "pt": "Recepção → penetração do levantador → ataque. Quadro 1 sem falta de posição",
-    "es": "Recepción → penetración del colocador → ataque. Cuadro 1 sin falta de posición"
+    "es": "Recepción → penetración del colocador → ataque. Cuadro 1 sin falta de posición",
+    "zh": "接发球 → 二传插上 → 进攻。第1帧站位无位置犯规",
+    "it": "Ricezione → penetrazione del palleggiatore → attacco. Il fotogramma 1 è senza fallo di posizione",
+    "pl": "Przyjęcie → wejście rozgrywającego → atak. Klatka 1 bez błędu ustawienia",
+    "fr": "Réception → pénétration du passeur → attaque. L'étape 1 est sans faute de position",
+    "de": "Annahme → Zuspieler läuft ein → Angriff. Schritt 1 ohne Aufstellungsfehler",
+    "sr": "Prijem → ulazak tehničara → napad. Kadar 1 je bez greške u postavci",
+    "tr": "Karşılama → pasörün girişi → hücum. 1. kare pozisyon hatası içermez",
+    "ru": "Приём → выход связующего → атака. Кадр 1 без ошибки расстановки"
    },
    "tags": {
     "skill": "receive",
@@ -90,14 +138,30 @@
     "en": "5-1 serve receive R4",
     "ja": "5-1 サーブレシーブ R4",
     "pt": "5-1 recepção R4",
-    "es": "5-1 recepción R4"
+    "es": "5-1 recepción R4",
+    "zh": "5-1 接发球 R4",
+    "it": "5-1 ricezione R4",
+    "pl": "5-1 przyjęcie zagrywki R4",
+    "fr": "5-1 réception de service R4",
+    "de": "5-1 Annahme R4",
+    "sr": "5-1 prijem servisa R4",
+    "tr": "5-1 servis karşılama R4",
+    "ru": "5-1 приём подачи R4"
    },
    "desc": {
     "ko": "리시브 → 세터 침투 → 공격 전개. 리시브 프레임은 위치 반칙 없는 배치",
     "en": "Receive → setter penetration → attack. Frame 1 is overlap-legal",
     "ja": "レシーブ→セッター侵入→攻撃展開。コマ1はポジション反則なし",
     "pt": "Recepção → penetração do levantador → ataque. Quadro 1 sem falta de posição",
-    "es": "Recepción → penetración del colocador → ataque. Cuadro 1 sin falta de posición"
+    "es": "Recepción → penetración del colocador → ataque. Cuadro 1 sin falta de posición",
+    "zh": "接发球 → 二传插上 → 进攻。第1帧站位无位置犯规",
+    "it": "Ricezione → penetrazione del palleggiatore → attacco. Il fotogramma 1 è senza fallo di posizione",
+    "pl": "Przyjęcie → wejście rozgrywającego → atak. Klatka 1 bez błędu ustawienia",
+    "fr": "Réception → pénétration du passeur → attaque. L'étape 1 est sans faute de position",
+    "de": "Annahme → Zuspieler läuft ein → Angriff. Schritt 1 ohne Aufstellungsfehler",
+    "sr": "Prijem → ulazak tehničara → napad. Kadar 1 je bez greške u postavci",
+    "tr": "Karşılama → pasörün girişi → hücum. 1. kare pozisyon hatası içermez",
+    "ru": "Приём → выход связующего → атака. Кадр 1 без ошибки расстановки"
    },
    "tags": {
     "skill": "receive",
@@ -116,14 +180,30 @@
     "en": "5-1 serve receive R5",
     "ja": "5-1 サーブレシーブ R5",
     "pt": "5-1 recepção R5",
-    "es": "5-1 recepción R5"
+    "es": "5-1 recepción R5",
+    "zh": "5-1 接发球 R5",
+    "it": "5-1 ricezione R5",
+    "pl": "5-1 przyjęcie zagrywki R5",
+    "fr": "5-1 réception de service R5",
+    "de": "5-1 Annahme R5",
+    "sr": "5-1 prijem servisa R5",
+    "tr": "5-1 servis karşılama R5",
+    "ru": "5-1 приём подачи R5"
    },
    "desc": {
     "ko": "리시브 → 세터 침투 → 공격 전개. 리시브 프레임은 위치 반칙 없는 배치",
     "en": "Receive → setter penetration → attack. Frame 1 is overlap-legal",
     "ja": "レシーブ→セッター侵入→攻撃展開。コマ1はポジション反則なし",
     "pt": "Recepção → penetração do levantador → ataque. Quadro 1 sem falta de posição",
-    "es": "Recepción → penetración del colocador → ataque. Cuadro 1 sin falta de posición"
+    "es": "Recepción → penetración del colocador → ataque. Cuadro 1 sin falta de posición",
+    "zh": "接发球 → 二传插上 → 进攻。第1帧站位无位置犯规",
+    "it": "Ricezione → penetrazione del palleggiatore → attacco. Il fotogramma 1 è senza fallo di posizione",
+    "pl": "Przyjęcie → wejście rozgrywającego → atak. Klatka 1 bez błędu ustawienia",
+    "fr": "Réception → pénétration du passeur → attaque. L'étape 1 est sans faute de position",
+    "de": "Annahme → Zuspieler läuft ein → Angriff. Schritt 1 ohne Aufstellungsfehler",
+    "sr": "Prijem → ulazak tehničara → napad. Kadar 1 je bez greške u postavci",
+    "tr": "Karşılama → pasörün girişi → hücum. 1. kare pozisyon hatası içermez",
+    "ru": "Приём → выход связующего → атака. Кадр 1 без ошибки расстановки"
    },
    "tags": {
     "skill": "receive",
@@ -142,14 +222,30 @@
     "en": "5-1 serve receive R6",
     "ja": "5-1 サーブレシーブ R6",
     "pt": "5-1 recepção R6",
-    "es": "5-1 recepción R6"
+    "es": "5-1 recepción R6",
+    "zh": "5-1 接发球 R6",
+    "it": "5-1 ricezione R6",
+    "pl": "5-1 przyjęcie zagrywki R6",
+    "fr": "5-1 réception de service R6",
+    "de": "5-1 Annahme R6",
+    "sr": "5-1 prijem servisa R6",
+    "tr": "5-1 servis karşılama R6",
+    "ru": "5-1 приём подачи R6"
    },
    "desc": {
     "ko": "리시브 → 세터 침투 → 공격 전개. 리시브 프레임은 위치 반칙 없는 배치",
     "en": "Receive → setter penetration → attack. Frame 1 is overlap-legal",
     "ja": "レシーブ→セッター侵入→攻撃展開。コマ1はポジション反則なし",
     "pt": "Recepção → penetração do levantador → ataque. Quadro 1 sem falta de posição",
-    "es": "Recepción → penetración del colocador → ataque. Cuadro 1 sin falta de posición"
+    "es": "Recepción → penetración del colocador → ataque. Cuadro 1 sin falta de posición",
+    "zh": "接发球 → 二传插上 → 进攻。第1帧站位无位置犯规",
+    "it": "Ricezione → penetrazione del palleggiatore → attacco. Il fotogramma 1 è senza fallo di posizione",
+    "pl": "Przyjęcie → wejście rozgrywającego → atak. Klatka 1 bez błędu ustawienia",
+    "fr": "Réception → pénétration du passeur → attaque. L'étape 1 est sans faute de position",
+    "de": "Annahme → Zuspieler läuft ein → Angriff. Schritt 1 ohne Aufstellungsfehler",
+    "sr": "Prijem → ulazak tehničara → napad. Kadar 1 je bez greške u postavci",
+    "tr": "Karşılama → pasörün girişi → hücum. 1. kare pozisyon hatası içermez",
+    "ru": "Приём → выход связующего → атака. Кадр 1 без ошибки расстановки"
    },
    "tags": {
     "skill": "receive",
@@ -168,14 +264,30 @@
     "en": "Read block: shift left",
     "ja": "リードブロック 左移動",
     "pt": "Bloqueio de leitura: deslocar à esquerda",
-    "es": "Bloqueo de lectura: desplazamiento a la izquierda"
+    "es": "Bloqueo de lectura: desplazamiento a la izquierda",
+    "zh": "读防拦网：向左移动",
+    "it": "Muro a lettura: spostamento a sinistra",
+    "pl": "Blok czytany: przesunięcie w lewo",
+    "fr": "Contre en lecture : déplacement à gauche",
+    "de": "Leseblock: Verschiebung nach links",
+    "sr": "Blok na čitanje: pomeranje ulevo",
+    "tr": "Okuma bloğu: sola kayma",
+    "ru": "Блок на чтение: смещение влево"
    },
    "desc": {
     "ko": "상대 4번 공격에 3인 블록 이동과 수비 위치",
     "en": "Triple block shifts to the opponent's outside hitter; back row adjusts",
     "ja": "相手レフト攻撃に3枚ブロック移動と守備位置",
     "pt": "Bloqueio triplo desloca para o ponteiro adversário; fundo ajusta",
-    "es": "Bloqueo triple se desplaza al atacante exterior rival; zagueros ajustan"
+    "es": "Bloqueo triple se desplaza al atacante exterior rival; zagueros ajustan",
+    "zh": "三人拦网移向对方主攻，后排随之调整",
+    "it": "Il muro a tre si sposta sullo schiacciatore di banda avversario; la seconda linea si adegua",
+    "pl": "Potrójny blok przesuwa się na przyjmującego rywala; druga linia się dostosowuje",
+    "fr": "Le contre à trois se décale sur l'attaquant de poste 4 adverse ; l'arrière s'ajuste",
+    "de": "Dreierblock verschiebt zum gegnerischen Außenangreifer; Hinterfeld passt sich an",
+    "sr": "Trostruki blok se pomera ka protivničkom primaču; zadnja linija se prilagođava",
+    "tr": "Üçlü blok rakibin smaçörüne kayar; arka hat uyum sağlar",
+    "ru": "Тройной блок смещается к доигровщику соперника; задняя линия подстраивается"
    },
    "tags": {
     "skill": "block",
@@ -194,14 +306,30 @@
     "en": "Read block: shift right",
     "ja": "リードブロック 右移動",
     "pt": "Bloqueio de leitura: deslocar à direita",
-    "es": "Bloqueo de lectura: desplazamiento a la derecha"
+    "es": "Bloqueo de lectura: desplazamiento a la derecha",
+    "zh": "读防拦网：向右移动",
+    "it": "Muro a lettura: spostamento a destra",
+    "pl": "Blok czytany: przesunięcie w prawo",
+    "fr": "Contre en lecture : déplacement à droite",
+    "de": "Leseblock: Verschiebung nach rechts",
+    "sr": "Blok na čitanje: pomeranje udesno",
+    "tr": "Okuma bloğu: sağa kayma",
+    "ru": "Блок на чтение: смещение вправо"
    },
    "desc": {
     "ko": "상대 2번(라이트) 공격에 블록 이동과 수비 위치",
     "en": "Triple block shifts to the opponent's right-side attack; back row adjusts",
     "ja": "相手ライト攻撃にブロック移動と守備位置",
     "pt": "Bloqueio desloca para o ataque de direita adversário; fundo ajusta",
-    "es": "Bloqueo se desplaza al ataque de derecha rival; zagueros ajustan"
+    "es": "Bloqueo se desplaza al ataque de derecha rival; zagueros ajustan",
+    "zh": "三人拦网移向对方接应进攻，后排随之调整",
+    "it": "Il muro a tre si sposta sull'attacco da opposto avversario; la seconda linea si adegua",
+    "pl": "Potrójny blok przesuwa się na atak z prawego skrzydła rywala; druga linia się dostosowuje",
+    "fr": "Le contre à trois se décale sur l'attaque en poste 2 adverse ; l'arrière s'ajuste",
+    "de": "Dreierblock verschiebt zum gegnerischen Diagonalangriff; Hinterfeld passt sich an",
+    "sr": "Trostruki blok se pomera ka protivničkom napadu s desne strane; zadnja linija se prilagođava",
+    "tr": "Üçlü blok rakibin sağ kanat hücumuna kayar; arka hat uyum sağlar",
+    "ru": "Тройной блок смещается к атаке диагонального соперника; задняя линия подстраивается"
    },
    "tags": {
     "skill": "block",
@@ -220,14 +348,30 @@
     "en": "Free-ball transition",
     "ja": "フリーボール トランジション",
     "pt": "Transição de bola fácil",
-    "es": "Transición de bola libre"
+    "es": "Transición de bola libre",
+    "zh": "机会球转换",
+    "it": "Transizione su palla facile",
+    "pl": "Przejście po łatwej piłce",
+    "fr": "Transition sur balle facile",
+    "de": "Übergang bei freiem Ball",
+    "sr": "Tranzicija na laku loptu",
+    "tr": "Kolay top geçişi",
+    "ru": "Переход после лёгкого мяча"
    },
    "desc": {
     "ko": "수비 위치 → 프리볼 리시브 → 공격 전개",
     "en": "Base defense → free-ball receive → attack",
     "ja": "守備位置→フリーボール受け→攻撃展開",
     "pt": "Defesa base → recepção de bola fácil → ataque",
-    "es": "Defensa base → recepción de bola libre → ataque"
+    "es": "Defensa base → recepción de bola libre → ataque",
+    "zh": "基本防守 → 接机会球 → 进攻",
+    "it": "Difesa di base → ricezione della palla facile → attacco",
+    "pl": "Obrona bazowa → przyjęcie łatwej piłki → atak",
+    "fr": "Défense de base → réception de la balle facile → attaque",
+    "de": "Grundabwehr → Annahme des freien Balls → Angriff",
+    "sr": "Osnovna odbrana → prijem lake lopte → napad",
+    "tr": "Temel savunma → kolay top karşılama → hücum",
+    "ru": "Базовая защита → приём лёгкого мяча → атака"
    },
    "tags": {
     "skill": "defense",
@@ -246,14 +390,30 @@
     "en": "Base defense after serve",
     "ja": "サーブ後の基本守備位置",
     "pt": "Defesa base após o saque",
-    "es": "Defensa base tras el saque"
+    "es": "Defensa base tras el saque",
+    "zh": "发球后的基本防守位置",
+    "it": "Difesa di base dopo la battuta",
+    "pl": "Obrona bazowa po zagrywce",
+    "fr": "Défense de base après le service",
+    "de": "Grundabwehr nach dem Aufschlag",
+    "sr": "Osnovna odbrana posle servisa",
+    "tr": "Servis sonrası temel savunma",
+    "ru": "Базовая защита после подачи"
    },
    "desc": {
     "ko": "서브 → 서버 코트 진입 → 기본 수비 대형",
     "en": "Serve → server enters → base defensive shape",
     "ja": "サーブ→サーバーがコートへ→基本守備",
     "pt": "Saque → sacador entra → forma defensiva base",
-    "es": "Saque → sacador entra → forma defensiva base"
+    "es": "Saque → sacador entra → forma defensiva base",
+    "zh": "发球 → 发球者入场 → 基本防守阵型",
+    "it": "Battuta → il battitore entra in campo → schieramento difensivo di base",
+    "pl": "Zagrywka → zagrywający wchodzi na boisko → bazowe ustawienie obronne",
+    "fr": "Service → le serveur entre sur le terrain → dispositif défensif de base",
+    "de": "Aufschlag → Aufschläger läuft ins Feld → Grundaufstellung der Abwehr",
+    "sr": "Servis → server ulazi u teren → osnovna odbrambena postavka",
+    "tr": "Servis → servisçi sahaya girer → temel savunma dizilişi",
+    "ru": "Подача → подающий входит в площадку → базовая расстановка в защите"
    },
    "tags": {
     "skill": "defense",
@@ -272,14 +432,30 @@
     "en": "Butterfly serve-receive drill",
     "ja": "バタフライ サーブレシーブ",
     "pt": "Borboleta saque-recepção",
-    "es": "Mariposa saque-recepción"
+    "es": "Mariposa saque-recepción",
+    "zh": "蝴蝶发球-接发球练习",
+    "it": "Esercizio a farfalla battuta-ricezione",
+    "pl": "Ćwiczenie motylek zagrywka-przyjęcie",
+    "fr": "Exercice papillon service-réception",
+    "de": "Schmetterlingsübung Aufschlag-Annahme",
+    "sr": "Vežba leptir servis-prijem",
+    "tr": "Kelebek servis-karşılama drili",
+    "ru": "Упражнение «бабочка» подача-приём"
    },
    "desc": {
     "ko": "서브 → 리시브 → 세터, 끝나면 다음 자리로 이동",
     "en": "Serve → pass → setter, then rotate to the next station",
     "ja": "サーブ→レシーブ→セッター、終わったら次の位置へ",
     "pt": "Saque → passe → levantador, depois roda para a próxima estação",
-    "es": "Saque → pase → colocador, luego rota a la siguiente estación"
+    "es": "Saque → pase → colocador, luego rota a la siguiente estación",
+    "zh": "发球 → 接发球 → 二传，然后轮换到下一站",
+    "it": "Battuta → ricezione → palleggiatore, poi si ruota alla stazione successiva",
+    "pl": "Zagrywka → przyjęcie → rozgrywający, potem przejście do następnej stacji",
+    "fr": "Service → réception → passeur, puis rotation vers le poste suivant",
+    "de": "Aufschlag → Annahme → Zuspieler, dann zur nächsten Station rotieren",
+    "sr": "Servis → prijem → tehničar, zatim rotacija na sledeću stanicu",
+    "tr": "Servis → karşılama → pasör, sonra bir sonraki istasyona dönülür",
+    "ru": "Подача → приём → связующий, затем переход на следующую станцию"
    },
    "tags": {
     "skill": "drill",
@@ -298,14 +474,30 @@
     "en": "Queen of the court (3v3)",
     "ja": "クイーン・オブ・ザ・コート (3対3)",
     "pt": "Rainha da quadra (3x3)",
-    "es": "Reina de la cancha (3v3)"
+    "es": "Reina de la cancha (3v3)",
+    "zh": "球场女王（3对3）",
+    "it": "Regina del campo (3 contro 3)",
+    "pl": "Królowa boiska (3 na 3)",
+    "fr": "Reine du terrain (3 contre 3)",
+    "de": "Königin des Feldes (3 gegen 3)",
+    "sr": "Kraljica terena (3 na 3)",
+    "tr": "Sahanın kraliçesi (3'e 3)",
+    "ru": "Королева площадки (3 на 3)"
    },
    "desc": {
     "ko": "이긴 팀이 남고 진 팀은 대기줄로",
     "en": "Winners stay, losers go to the waiting line",
     "ja": "勝ったチームが残り、負けたチームは待機列へ",
     "pt": "Quem vence fica, quem perde vai para a fila",
-    "es": "Los ganadores se quedan, los perdedores a la fila"
+    "es": "Los ganadores se quedan, los perdedores a la fila",
+    "zh": "胜者留场，负者去候场队列",
+    "it": "Chi vince resta, chi perde va in fila d'attesa",
+    "pl": "Zwycięzcy zostają, przegrani idą do kolejki",
+    "fr": "Les gagnants restent, les perdants vont dans la file d'attente",
+    "de": "Gewinner bleiben, Verlierer gehen in die Warteschlange",
+    "sr": "Pobednici ostaju, poraženi idu u red za čekanje",
+    "tr": "Kazananlar kalır, kaybedenler bekleme sırasına geçer",
+    "ru": "Победители остаются, проигравшие уходят в очередь"
    },
    "tags": {
     "skill": "drill",
@@ -324,14 +516,30 @@
     "en": "Three-player passing triangle",
     "ja": "3人パス三角",
     "pt": "Triângulo de passe (3)",
-    "es": "Triángulo de pase (3)"
+    "es": "Triángulo de pase (3)",
+    "zh": "三人传球三角",
+    "it": "Triangolo di passaggio a tre",
+    "pl": "Trójkąt podań (3 osoby)",
+    "fr": "Triangle de passe à trois",
+    "de": "Passdreieck zu dritt",
+    "sr": "Trougao dodavanja (3 igrača)",
+    "tr": "Üç kişilik pas üçgeni",
+    "ru": "Треугольник передач (3 игрока)"
    },
    "desc": {
     "ko": "시계 방향으로 패스, 받은 뒤 다음 사람에게",
     "en": "Pass clockwise, each player passes to the next",
     "ja": "時計回りにパス、受けたら次の人へ",
     "pt": "Passe no sentido horário para o próximo",
-    "es": "Pase en sentido horario al siguiente"
+    "es": "Pase en sentido horario al siguiente",
+    "zh": "按顺时针传球，每人传给下一位",
+    "it": "Passaggi in senso orario, ognuno passa al successivo",
+    "pl": "Podania zgodnie z ruchem wskazówek zegara, każdy podaje następnemu",
+    "fr": "Passes dans le sens horaire, chacun passe au suivant",
+    "de": "Im Uhrzeigersinn passen, jeder spielt zum Nächsten",
+    "sr": "Dodavanje u smeru kazaljke na satu, svako dodaje sledećem",
+    "tr": "Saat yönünde pas, herkes bir sonrakine atar",
+    "ru": "Передачи по часовой стрелке, каждый передаёт следующему"
    },
    "tags": {
     "skill": "drill",
