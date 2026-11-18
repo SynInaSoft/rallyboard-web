@@ -51,6 +51,48 @@
    "code": "RB1.eNq91c2O0zAQAOBXQeZaDRn_jO3cgAuHRay0R4SQ2zg01Gm7aZput-rb8Ca8GE4cIOq9uc2M4-iT7bEvrGM5LljLcvbw-9ex9M0b-Y7Ygi1ZfmFd5U9PrWt9HC6PIcR6Gar93hcsL104-Dhzt_HbA8u_XlgVq2yD4nt9CsfnjgqN_Z821bYf2Ad39k3MW-_qmL-P4WHt9v2_V1WzCj4WVruwa2Lhbamsz5axEtzSh1iJYbML_cdP_cTq1Q_wF5YLIQH5gp1ZTpaAy-vin8UMlpfStlqKO1i-PD7eaEiDGizSGND2v4Vjb-nc83pNaoZlsRIEDhIUFjIzkfAkOf6sCe-xKJ9uKJhxyMYd4hqyyQ5xmSynjmtJc2C4zkDZhEEDik8wlDDnEJDTLMdFaAs6HRiBGiRNNDppXl1NwtxB83C7TZYDJgtpDUZMLGa0lAaVncHCpfm7LogENFkXkRppGbKW4z2a-vOHWwwi8LGrZQZmiuEjRnFLeh4MAabGFkSg9AQzXL1dwU8rlHqWzlYIitI26YiZ3HcidXYhskoINQdGyNhLZsDwTIDQ12_xHXNN_zrFqGjcqdr-GLOycbUfY7et6o_xXRvT1jcRhtfrH0eHBdc"
   },
   {
+   "id": "atk-42-left",
+   "title": {
+    "ko": "4-2 기본 공격 전개 (W 리시브 → 레프트)",
+    "en": "4-2 basic attack (W receive → left side)",
+    "ja": "4-2 基本攻撃展開 (Wレシーブ→レフト)",
+    "pt": "4-2 ataque básico (recepção em W → entrada)",
+    "es": "4-2 ataque básico (recepción en W → punta)",
+    "zh": "4-2 基本进攻 (W接发球 → 四号位)",
+    "it": "4-2 attacco base (ricezione a W → banda)",
+    "pl": "4-2 podstawowy atak (przyjęcie W → lewe skrzydło)",
+    "fr": "4-2 attaque de base (réception en W → aile gauche)",
+    "de": "4-2 Grundangriff (W-Annahme → Außen)",
+    "sr": "4-2 osnovni napad (prijem u W → levo krilo)",
+    "tr": "4-2 temel hücum (W karşılama → sol kanat)",
+    "ru": "4-2 базовая атака (приём «W» → зона 4)"
+   },
+   "desc": {
+    "ko": "세터가 전위 2번일 때 5명 W 리시브 → 세터에게 패스 → 레프트 오픈, 나머지는 공격 커버. 1장면은 겹침 없는 배치",
+    "en": "Setter front-row in zone 2: five-player W receive → pass to the setter → high ball to the left side, others cover the hitter. Frame 1 is overlap-legal",
+    "ja": "セッター前衛2番：5人Wレシーブ→セッターへパス→レフトへオープン、他はカバー。コマ1はポジション反則なし",
+    "pt": "Levantador na frente (posição 2): recepção em W com 5 → passe ao levantador → bola alta na entrada, os outros fazem cobertura. Quadro 1 sem falta de posição",
+    "es": "Colocador delantero en zona 2: recepción en W con 5 → pase al colocador → bola alta a punta, el resto cubre. Cuadro 1 sin falta de posición",
+    "zh": "二传在前排2号位：5人W接发球 → 传给二传 → 四号位高球，其他人保护扣球手。第1帧站位无位置犯规",
+    "it": "Palleggiatore in prima linea in zona 2: ricezione a W con 5 → palla al palleggiatore → palla alta in banda, gli altri coprono. Fotogramma 1 senza fallo di posizione",
+    "pl": "Rozgrywający z przodu w strefie 2: przyjęcie W w piątkę → podanie do rozgrywającego → wysoka piłka na lewe skrzydło, reszta asekuruje. Klatka 1 bez błędu ustawienia",
+    "fr": "Passeur avant en zone 2 : réception en W à cinq → passe au passeur → ballon haut à l’aile gauche, les autres couvrent. Image 1 sans faute de position",
+    "de": "Zuspieler vorne auf Position 2: W-Annahme zu fünft → Pass zum Zuspieler → hoher Ball nach Außen, die anderen sichern ab. Bild 1 ohne Aufstellungsfehler",
+    "sr": "Tehničar napred u zoni 2: prijem u W sa petoro → dodavanje tehničaru → visoka lopta na levo krilo, ostali obezbeđuju. Slika 1 bez greške u postavci",
+    "tr": "Pasör önde 2 numarada: beş kişiyle W karşılama → pasöre pas → sol kanada yüksek top, diğerleri koruma yapar. 1. karede dizilim hatası yok",
+    "ru": "Связующий в передней линии в зоне 2: приём «W» впятером → передача связующему → высокий мяч в зону 4, остальные страхуют. Кадр 1 без ошибки расстановки"
+   },
+   "tags": {
+    "skill": "attack",
+    "level": "middle",
+    "system": "4-2"
+   },
+   "author": "RallyBoard",
+   "addedAt": "2026-11-18",
+   "frames": 4,
+   "code": "RB1.eNrVlz1v00AYx79KdCwgBcnne7HjrS9ULIihAwNiuDR2c6obR7ZLKFG2CiFgQowdOiEhMVRUSPk8jEn7HXjsOzv2NS8tMhJsvnvs-z339z3P3x6j18jDbZQiD9HHdms2vZxfTVuzq5-zH99a1xdns8vz1sMXrfnX79cfz-fTT61f7z635hfvb76c3XyYPkJt1EXeGL2W_mg_FakP6wQnYQjzQSiHQ7-HvECEiQ-I6MgfJMh7OUYSZtEQMwduO5KDfBSKUz-GceqLYxhvwWXSF8NswQMZH4Q-TBxEYRTDxIOAdXyrCzOh6PohzLhwHUdhdvfzp9mj8q2fb-wN8ghnbXSKPEbZpL2Au43B8QK-b7KJlbOpXWN3mmNX4M-2DbptKzojVoXOrcbozhrZHbaMjRtj26tVx1SxOa-qzu3mVLfXqd5ZSier6dtr6aTr2gFfft4MdEe9b1wD88bA9kowthSZkBraaQxNVqKLQ26g3cbQdCWa0KVo1hiabURjVisv2hiabxS8iu5iXulpXZE7QPlQz0_k4QACySirosVBhRVegYOIOPMFuOrFYiQHhxWX6GEna1fpaZ63iONoBMNhJAepuitbTNWbk6eTF6BanZN8-XKP3Npie1mlj2Qv7QMdgCLpZx6VxidgUUkaC3nYT9W43BzkgDflUBY9LbIgWiZK61ns7ewSurs0C-2Uq9OwN6VRQlULWIhDreayIJuyYLr1O0USLlsuBd_DT5x7JAEPB7E49isHJMAOzRNIZCqj7ANjrD4tvPEt81e2rwNVZ1aerAI101R2qQJVQ1NWpuZrbqN8xhvfMgJlASpQadOqQeuFqk1Utc96SmWg3AQ1AswI5DWqGkN9KRXIy7aWE0xPyncN2rJ12jJdZxpyD22xoW31xNxRW1uzDW0LEcud_xPqlkcBlqrpy_9IX1zo6xr6Yl1o3Dy7xds1z65OOG9b_7G-BLu677l1fZ11-uqMuW3oa2vhqWPV9cVFwGV1fYsGZ5vnVyMYN_TFRb11rDvqqx8griEvpkbgL8jrKnVJJ1MXmrAYyOMd-L_Ttp36MXxh4MnkN_KZ6H4"
+  },
+  {
    "id": "51-r1",
    "title": {
     "ko": "5-1 서브 리시브 R1",
