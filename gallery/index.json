@@ -1,10 +1,55 @@
 {
  "v": 1,
- "updatedAt": "2026-11-09",
+ "updatedAt": "2026-11-18",
  "declined": [
   "Smw8rftau6y"
  ],
  "items": [
+  {
+   "id": "c-Smwlvfcn9yo",
+   "subId": "Smwlvfcn9yo",
+   "src": "coach",
+   "title": {
+    "ko": "Läufer 4/6",
+    "en": "Läufer 4/6",
+    "ja": "Läufer 4/6",
+    "pt": "Läufer 4/6",
+    "es": "Läufer 4/6",
+    "zh": "Läufer 4/6",
+    "it": "Läufer 4/6",
+    "pl": "Läufer 4/6",
+    "fr": "Läufer 4/6",
+    "de": "Läufer 4/6",
+    "sr": "Läufer 4/6",
+    "tr": "Läufer 4/6",
+    "ru": "Läufer 4/6"
+   },
+   "desc": {
+    "ko": "5-1 서브 리시브 대형 — 세터 1번 자리 로테이션(중등)",
+    "en": "5-1 serve-receive formation — setter in zone 1 (middle school)",
+    "ja": "5-1 サーブレシーブ隊形 — セッター1番ポジションのローテーション(中学)",
+    "pt": "Formação de recepção 5-1 — levantador na posição 1 (ensino fundamental)",
+    "es": "Formación de recepción 5-1 — colocador en zona 1 (secundaria)",
+    "zh": "5-1 接发球阵型 — 二传在1号位轮转(初中)",
+    "it": "Ricezione 5-1 — palleggiatore in zona 1 (scuola media)",
+    "pl": "Ustawienie w przyjęciu 5-1 — rozgrywający w strefie 1 (szkoła podstawowa)",
+    "fr": "Réception en 5-1 — passeur en zone 1 (collège)",
+    "de": "5-1 Annahmeformation — Zuspieler auf Position 1 (Mittelstufe)",
+    "sr": "Formacija prijema 5-1 — tehničar u zoni 1 (osnovna škola)",
+    "tr": "5-1 servis karşılama dizilişi — pasör 1 numarada (ortaokul)",
+    "ru": "Расстановка на приёме 5-1 — связующий в зоне 1 (средняя школа)"
+   },
+   "tags": {
+    "skill": "receive",
+    "level": "middle",
+    "system": "5-1"
+   },
+   "author": "",
+   "team": "",
+   "addedAt": "2026-11-18",
+   "frames": 0,
+   "code": "RB1.eNq91c2O0zAQAOBXQeZaDRn_jO3cgAuHRay0R4SQ2zg01Gm7aZput-rb8Ca8GE4cIOq9uc2M4-iT7bEvrGM5LljLcvbw-9ex9M0b-Y7Ygi1ZfmFd5U9PrWt9HC6PIcR6Gar93hcsL104-Dhzt_HbA8u_XlgVq2yD4nt9CsfnjgqN_Z821bYf2Ad39k3MW-_qmL-P4WHt9v2_V1WzCj4WVruwa2Lhbamsz5axEtzSh1iJYbML_cdP_cTq1Q_wF5YLIQH5gp1ZTpaAy-vin8UMlpfStlqKO1i-PD7eaEiDGizSGND2v4Vjb-nc83pNaoZlsRIEDhIUFjIzkfAkOf6sCe-xKJ9uKJhxyMYd4hqyyQ5xmSynjmtJc2C4zkDZhEEDik8wlDDnEJDTLMdFaAs6HRiBGiRNNDppXl1NwtxB83C7TZYDJgtpDUZMLGa0lAaVncHCpfm7LogENFkXkRppGbKW4z2a-vOHWwwi8LGrZQZmiuEjRnFLeh4MAabGFkSg9AQzXL1dwU8rlHqWzlYIitI26YiZ3HcidXYhskoINQdGyNhLZsDwTIDQ12_xHXNN_zrFqGjcqdr-GLOycbUfY7et6o_xXRvT1jcRhtfrH0eHBdc"
+  },
   {
    "id": "51-r1",
    "title": {
@@ -43,7 +88,7 @@
     "system": "5-1"
    },
    "author": "RallyBoard",
-   "addedAt": "2026-10-02",
+   "addedAt": "2026-11-18",
    "frames": 4,
    "code": "RB1.eNqtVb1OwzAQfhVk1iDlp06abMDCAALRETE4rVOsukmUhJZSdWODR2Bm4gF4p_YhOCdOY0cBqVWW6vz1fN935--UNVqgwDJQgQKEz6yT3dvn9ufjZPv1vXsvo3sLGShEwRotGF2OClJQSI2eOQc84ixN6QQFEeE5hSrJjMY5Ch7WiAGKUnF5xuIy5mRFMzgXlMzhfA5h_kRSUW7MsjGnAIwTnmQAnEbYp2YICCch5YCISlnCRfZI3GSvtBT-ggLHxQZaocAdmBujZrZ7Y_Ya5turNrVjltTYV6id_ppWur65aHHbZsU9UNse9MbtKG3ftag9yewpzLg35uE_A_c7ntrtjRk3zNftadtVz66L98yh1zCHpNyI_ZUJzdk0hj_ypWAQFXBVAazyCCtFMrEoEE0ysmTxVJ6ijMypskKRmEaa5KxgiVittVgq-G37XjhewqonhRsrWLOLMEoFq08pHrFCfa2yW5dQZyC6l3DT2GY_m8j_W3etxNF0u1L2QJdtd8p2PKxmH6W7TrY03ZZ5qHA5Qmx2zxvrwuWjyeyjhO912Lpy61Dlw6ZOl3JrqCvXso9SPqySHR-DcHA7idn8Ej4i0vwFzWBrrc3mF_R3zxk"
   },
@@ -85,7 +130,7 @@
     "system": "5-1"
    },
    "author": "RallyBoard",
-   "addedAt": "2026-10-02",
+   "addedAt": "2026-11-18",
    "frames": 4,
    "code": "RB1.eNqtlbFOwzAQhl-lMmuR7CROk2zAwgAC0RExOK0DFm4SJYECVTY2eARmJh6Ad2ofgovjJk6EEJRMtf_a991_vlNW6B4FZIwKFCC6T0ab57f15-to_f6xeVGrCwuNUYiCFboXfDktWMHhaHQnJeiRFGnK5yiImMw5RElueZyj4HKFBKgoJdXtWxGrjWSPPIN9wdkC9gewzG9YWsWbiWwmOQizRCYZCHsR9TkOQZEs5BKUCayzRFanz46rq-KJq9QfUGA7dIweUeA6uBw3bHswNiEt_PSwD7exgjsduDMY3DaMn_fYFtZsz2TTwdjeD0X3arSLTbQ7GJq26JMe2dev7VKDPBnutVvytF9vtzZNnRYdEq9Fh0wNRnNnznNxHcMf-bJCVCFoHcLH5RVMFsuqeYHVPGNLEV_rXZSxBTcmKSI-XE-TXBQiqUZspYYLfvrtrxpf62Znqp6s9U7XqH6pdfNF1VvWslluVWgdxayFqoLWW4NlU6TIwn_P37K-z9-eUE3u5t8k9Kv87W0VbNzJv8mGdA2QHQxsEbRnwNUGcNfABHfkXQ1sdatrwPqHAeL1DLSIbzpoK-9owKuP2z6F_GEYWCwWR_Cp0bNR8AymmpTlF7So1pU"
   },
@@ -127,7 +172,7 @@
     "system": "5-1"
    },
    "author": "RallyBoard",
-   "addedAt": "2026-10-02",
+   "addedAt": "2026-11-18",
    "frames": 4,
    "code": "RB1.eNqtlbFShDAQhl_lJrbnTCAEODq1sdDR0dKxCHfhzJgDBtBTGTo7fQRrKx_Ad_Iewk3ggGBzc1KR_CT77b_sDiV6RIE1RQUKED20JpvXj5_v98nP59fmTa-uCJqiEAUlehR8fV2wgsPR6EFK0CMp0pQvUBAxmXOIktzzOEfBTYkEqCi11e17EeuNZM88g33B2Qr2R7DM71iq4s1FNpcchHkikwyEg4jOOA5BkSzkUmUH6yyR6vSZuileuM78CQXEoVP0jAKX4mraop3R0KRDX1wO2RRrtuP12XQ0tt9jnw7Ytl2zXdxnu6OxLbuDnx8P4BZujDt9uDcevGNfD9GkRlMD7Y-G9napud-xQ3vWsUOmR6O9s-C5WMbwIl8rhgrRtMwMV7cwWyxTEwOrRcbWIl42uyhjK96bpYhguJ4muShEooas1OMFj-EE6N5v9H536r6sdaNzdM_UuvFR9eds9H7Fda0HcVQ1dB0avbNYtWWKiLWHA48a5K0D10zIHSQ0NEC2xsiOBrY6NR3YezhwGwfYdOBhQ24dbDOl_3PQnrdNB2QfB12ovgPflP84sPx_OfDrbMiMggGYCBaL1Qn8cZoBKXgGs21V1S9IUNfS"
   },
@@ -169,7 +214,7 @@
     "system": "5-1"
    },
    "author": "RallyBoard",
-   "addedAt": "2026-10-02",
+   "addedAt": "2026-11-18",
    "frames": 4,
    "code": "RB1.eNq1lT1OwzAUx6-CzFqkOLHbJBuwMIBAdEQMTusUq24SJaGlVNnY4AjMTByAO7WH4Nlxmw-VLqRTn_-13-99Kis0Rz7uoRz5iJ7hk83b5_rn42T99b1519Y9QT0UIH-F5oIvhjnLOVwNn6UEPZQiSfgY-SGTGQcv8ZRHGfIfVkiAihJHvZ6KSB8kW_IUzjlnMzifg5k9sUT5G4l0JDkIo1jGKQinIfW4FYAiWcAlKA7YaSzV7ds79VS8ch36C_IdQntoifx-3yp6OzbtjO3W2FdttmOVbKvO7nfGxnYFv7lowW2rhBNShw-6g1fsYQuN8T602xl6cKDmnml3A-11hqYV-rrdbVNw6lbogFgVOmB6M3ZvxjwTkwj-yBYKoXpGSxeeVTzCarFULQxY45QtRDQxpzBlM15bpZCoXiRxJnIRqx1b6e2Cn_b868k3en029VSWemNs9MCUeqOnupulXq-3rrRxXy-GLoNxX2VY7KoUEvtAArgkUI82EugbAGnFb--PfxsQcf4V__Y6bsbvHIif1j1V8Q-M_Ff96VHi37mxmwmQQwmYBtjNBriVp70JYPcYCbjldQemoVBLwiIxu4RvjdmNnKew1bgofgGa3dbv"
   },
@@ -211,7 +256,7 @@
     "system": "5-1"
    },
    "author": "RallyBoard",
-   "addedAt": "2026-10-02",
+   "addedAt": "2026-11-18",
    "frames": 4,
    "code": "RB1.eNqtlb1OwzAQx18FmbVI-bo2yQYsDCAQHRGD0zpg4SZRElpKlY0NHoGZiQfgndqH4Oy4zYcqFCBT7H_i-93_zqesyJz45oDkxCdwZB5sXt7XX28H64_PzataXQMZkID4KzLnbDHOac7w0_BRCNRDwZOETYkfUpExjBI_sCgj_s2KcFRJ4sjTDzxSG0GXLMV9zugM98e4zO5pIuNNeDoRDIVJLOIUhcMQPGYEqAgaMIGKi-s0FvLryzN5lD8zlfoT8W0HBmRJ_KFhFIMde9gb27Qq-MVJGw6GgjtOHT7qD16xxy20tRft9oYe_VBz19hTcq83NFTo8xbZ080eQkUGozeyXTN91S64pV1D5ToAs2IHVA3G7syUZfwuwhfZQjJqPfOM4hYni6ZyXnA1TemCR3d6F6Z0xmqTFIK8gkmc8ZzHcsRWarjw0b7-6uJrvX491J0sdaulu1qvt1Q1s5Tr9VaV1lHqtVBVaEZHg8WuSCHYv89_S2jnbxtat5v5D0sZnE7522apgweN_LfZwKhpwPmDgW2i0M3ASBvo1oBte8FtNmAX3WoagH8YMN1OBtyK3MmArrTV7IBbyjY2ppBDQiM-O8VfjZ6NnKU41mZRfAPTQNcZ"
   },
@@ -253,7 +298,7 @@
     "system": "5-1"
    },
    "author": "RallyBoard",
-   "addedAt": "2026-10-02",
+   "addedAt": "2026-11-18",
    "frames": 4,
    "code": "RB1.eNqtlbFOwzAQhl8FmbVIcRK7aTZgYQCBYEQMTusUq24SJaEFqmxs8AjMTDwA7wQPwdlxEyeqUIUy1f579nf_nU_ZoBUK8QiVKETkCB_8vLx_f70dfH98_rzq1TVFIxShcINWgq9vSlZyCI0fpAQ9liLL-AyFMZMFh1vSBU8KFN5ukAAVZUSdXohEbyR74jnsS86WsD-GZXHPMnXfVORTyUGYpjLNQTiMyYQ7ESiSRVyq7GCdp1JFn6uT4pnrzB9R6PlkhJ5QSIlTjRr0eDA0btE3fTRxNNr3bXQwGHrcoi_PemzXsKljsyfD2bZ8X5z04NjZYZw6g8E9y_hVjx3UaEJtNB4MHfxRc-ybmlvsiLotO2J6MpozM16IeQJ_FGvFsNo2cao7GC2Wq4GB1Sxna5HMzS7O2ZJboxRTVZEsLUQpUjVjGz1d8NMfAP30jW6_Tv0ua73zcvSbqfVOU3U7a90uuC61CbeLocvQvR4cVk2VYur_w8A2Ia9rgJqE_G7-rrs7fw_X15MJ2ctAo3tdB2Q4B2PjoNcBdxtOeg5MSUmwXwsarNt1QIdzELSEnQ5w0HNgeuDu14OgDvegZZUaFJaI5Sl8b8x8lDyH0cZV9Qs-Ktft"
   },
@@ -295,7 +340,7 @@
     "system": "-"
    },
    "author": "RallyBoard",
-   "addedAt": "2026-10-02",
+   "addedAt": "2026-11-18",
    "frames": 3,
    "code": "RB1.eNq1lrFu2zAURX_FYFcPFCVKlramS4YECZCx6EDZVEqElgRJiZsa-oMCHdqlQDOkQ6eOGfJP8kf0kZZsUrCSFpAni9fUO3pXfBdaozsUOVNUoQg1v_80335OmufvzePDZPPry-b5cbJ5eGq-_kBTFKNoje4EX11VrOKwPbmVEvREijznCxQlTJYcKmU3PC1R9H6NBKgo9wPYdSNSvZDsnhewrjhbwvotXJYfWa7qzUUxlxyEeSazAoQ3CQ05jkGRLOYSFFWpyKTafXGqbhWfuX78TygK8RTdo8hzcT3doWejoR1nzz4_6bEJOQQPR4O7Rt-XPbZLD7ADPBp79rrnvmeinfE8J3v22YDlfmiyyXjsPfpqwHG7bXcYffIi2o1nJPENNHndcdd62d5oaDrcNaF0i8Ymmo6G9l7ounPcbtsfje3-w2yb7DgwMi1mOgd39yx4Ka5T-KNcqQNlWEcCWn-AJGWFyke4WhRsJdLrdpUUbMmN5EwCNXt5VopKZCpS1zpM4acXdzrotrKVRDqDtrqVEjofrDL6KOvZtcvo6dJzZZfp9rt2Gbet7nVlzDOjT4tdptvv97BbXbls11EG1ru3kAThf_vj-K1OqO0PbvXgqP7g4_jTlQeqYc8MD9sTtO06xLaHUEvv20M92572-WnYs6d9_gAP2IMP20OPa0-o7IFBY6lYvoPPlnbuKl5AZjh1_RdzJXkM"
   },
@@ -337,7 +382,7 @@
     "system": "-"
    },
    "author": "RallyBoard",
-   "addedAt": "2026-10-02",
+   "addedAt": "2026-11-18",
    "frames": 3,
    "code": "RB1.eNrFljFz0zAYhv9KTqwZbMmKLW-UhQEO7jpyDHIiF10V22ebhpLzb2CABY4OXZgYGDr0Pzk_gk-yk0i-umFwjynSG_l7rFf63vMWXaHYn6Maxaj99bv9-nPW3n9rb29mux9_dve3s93NXfvlO5qjBMVbdCXF5rzmtYDl6UelQE-VLAqxQnHKVSWgUn4psgrF77ZIgoqKyIdVlzIzE8WvRQnzWvA1zJ_DsPrAC11vKculEiAsc5WXIDxLKRNeAoriiVCghDAuc6VXv3mpH5WfhXn9Tyhm3hxdozggXjM_oPFkaN8_sl-fDdgYPwQnk8GJte-3AzahD7GDydjRac8XgY2m03mOj-xXI5YvmM1eTMc-os9HHHe3HY6jzx5FkyTC6cJCB484vmcT57Sjydh0fNuY0g7t2Wg2GRqfvmjOrpk3GZr8Q2_b7IRZmZZwk4OHZ1aikhcZ_FFt9IWynMMhbd5DkvJS5yOMViXfyOyin6UlXwsrOVOmLSnyStYy15G6NWEKP4O4M0HXyU4SmQzqdCclTD44ZcxVNr3rljHdZfrKLbNfHw500peP9nXsO2Nui4Ptl8NJuthO1y67ZbSBzeEUUkbG_fGDfsPhwKCo1zH9LwZ5T2LQoTxgbYOC0wbRwDWI-N0bBT52DQo9Rx8a5LkG-b0eegODoq48ZSMG0ac1iGmDoNl4Jtcv4NOl771alJAbftP8BUYleh8"
   },
@@ -379,7 +424,7 @@
     "system": "-"
    },
    "author": "RallyBoard",
-   "addedAt": "2026-10-02",
+   "addedAt": "2026-11-18",
    "frames": 4,
    "code": "RB1.eNqtlTFPg0AUx7-KOdcOd9CjwKYuDhpNHI3D0R566RUIoFUbEgddnB0cjKMubi4OfqPa7-DjoAUuxRhlgbvHe-_H_8-9MEMXyCU9lCIXLR5u5y9v8_fPjcX9x_z56ev15uvuEfWQh9wZuhB8epSylEOmfy4lxH0pooiPkOszmXBoEo55kCD3eIYERFHkUMgai0BtJLviMexTziaw34JlcsaivN9QxEPJITAMZRhDYNOnDsceRCTzuITIANZxKPPsg928VFxz9eaXcCW4h66Q2-_jrLdiW52xCang-9sa3DDWwQedwc2a8EONbZrr2HZnbPsH050CbTXQTneeGxV7r8Vyy6mxCcbdwSv2kW45LdlGxfYIJhXbY2o4VkUjnojTAB4k05xRe38T4-wExovF-dDAahSzqQhOy50fswmvjZNPcG5KFCYiFWE-aDM1YnDTh0Ad_yLeOJ_qZBbxxtlRp6aI17-r-qLNNsrzwu2yT92QwopmRa4yW3kFIsx2EVZRQn-rYUAb-X_WgMv-ZosGy9I09Ns1DEoNWNOwZFBNg0Ub-UsNZInG_xWxemBoImi7CLsqWSuC2JqIZn73IuzCJdOhoAGGgwVisgP_n3JWUh7DnJMs-wYtVd2-"
   },
@@ -421,7 +466,7 @@
     "system": "-"
    },
    "author": "RallyBoard",
-   "addedAt": "2026-10-02",
+   "addedAt": "2026-11-18",
    "frames": 3,
    "code": "RB1.eNrNlL9ugzAQxl8lclcGm0AIbG2XDq1aKWPVwSQmteIAMjRpitgydOgDRGoeolKX9JWa9B16_FECVog6MHQB-w7fj--4jwTNkEM0FCMH7Zbr7eat8_O-7HxvPrafm87udbX9WnZ26-Xua4U05CInQTPO5oOYxgyOeE9CQNwTPAzZCDkeFRGDasGE-RFy7hPEIYpCgnvw2IT7-U7QBZOwjxmdwv4cltEjDbOCQy6HgkFgGIhAQuDMM22GXYgI6jIBEQvWMhDZ07dX2VH-wnINz3DFWEML5BgWTrUD3GoNTsiBfnOh0HX9KL3fGr1bkX6nwLvGUbjdGrz_h773zCqc4Pb6rh_o1w1tV-CkPfiBPWjoutU392yX5G9bsl2aW2R_aMQiPvYhEc0zRrWGYaYPYDIqM-vAaiTpnPvjcudJOmUVU3mEZPMQBhGPeZDZLSmMBnfVCoUJikRtSov5LBK1CSpmp14qb3DxXeul9gmilMrbUjRESYDWdN8xkGL8WylmmdBxXYpeJnSM61LME1Ls8r26TUq6qhJTSdj1Sj2jSYjdJMQ4KQQmjfp8egm_9HLwYibBNCRNfwGX0rT3"
   },
@@ -463,7 +508,7 @@
     "system": "-"
    },
    "author": "RallyBoard",
-   "addedAt": "2026-10-02",
+   "addedAt": "2026-11-18",
    "frames": 3,
    "code": "RB1.eNrVVrtu2zAU_ZWCXV1ApB6WubUJ-gMZiwyUTcVEZMmgmLiuoM1bM3Zs1k4diqJDh_6RnX_IpagHZUOxi3rpRl6RPOeQ9xyoQPeI4hFSiKLtz83T5sfTl4ft45_d469Xu83X7e-HN9tv33ef9QiNUIRoge4FX10ppjjsie-SBOpxIpZLPkM0ZknO4bjslqc5oh8KJKCKlhgHsOxWpNUsYWsuYa44W8D8LQzzOVvqA6dCThMOhWmWZBIKr2N_wp0IKgmLeAIVDGOZJXq13ig-8UrCR0RdzxmhNaLj0C9HHfT4bNBkEBoTAx14jg0dng3a7aCv9mU7Bttze9iTYex3L2K7UUjiwML2hmXX0Ni-cOKcDdkffuv6wnFgiyb4bNDB8IXjus_ccYcdYUI67IhVvmg3zXgublL4kK_0o9q96vn2Ge7fnNHcvu-X12BOJrXlYDSTbCXSG8uAM0z0I6p1pZ5Jma1gusxEqswqmxGpVFk6A6hcW3f1_uLS9S7hgJWYqTngAyTL5zoAlLwD_-dKMnEzV2be6gMW_jEWjaawIdF0Nw7PRiI4SsLvhBsWZFJ7zDuZRZ2FwzTGR1_Ekj7qEXODf6QBm2PJFtzqkRiTsKKQCyUyHd-FCW5aHISriVXzoRd9JvRocZBLJpFosZ8aJi_qDbanjZtpcWA4Y7U9UtpFxj99CLBG2d45KJz8bwqxa7WirdDFXXPYEl3nBYmNkrHj9CU2SnznVImtlHpHq7GV4pyq0TZX_xWtdi91z7JULC7gZ6MOOsUlJDsuy2eCGnVl"
   },
@@ -505,7 +550,7 @@
     "system": "-"
    },
    "author": "RallyBoard",
-   "addedAt": "2026-10-02",
+   "addedAt": "2026-11-18",
    "frames": 3,
    "code": "RB1.eNrtlrFu2zAQhl_FYJcW8CCRlGxraxP0BToWHSiLsonQkkAxUV3BQOYi3TL0AfoQXvpETt6hR0mWJTqOOmiMB1s88u67Ox9_qER3KHCnSKMAPd_vJ0-__xz2D5PDr8fJ09_H55_7yXtyeLgnH9AUhSgo0Z3gxRfNNAeH-FZKsMdSZBmPUBAzmXOIld7wJEfB1xIJsKLMJS4cuxFJtZJsyxWsNWcbWH-Ex3zNMhNwKdRScjAsU5kqMLyLvQV3QrBIFnIJFhNJpdKcNo7iB6_y_w7f2JmiLQro3NlNT2g8GhpfROMG7eMemoyGJhfR5OWq6WX0p1fRJJzj2O-g6WDDSb9qbzS0N9hwt1-1PxraH2y4VfVsNPTsIpqSpuo-ej4aej6M7jd8MRp6MYjG9IQOXeqc0CGrdKh1inguVgls5IW5RNa8fAMlY8roEzxFihUiWXXUKnKp0Ri9rTJnSqUFLLNUJLo-1U3JqVIyU0Ebi1cB2jo_X10Teg0BChHpNQo8QLJ8bdRSq1sQy1wrJlZrXa_bAiELPJSFpTodywz3s-Axhc__ZwG-sWIb3mlL7FJSZZALLVIj72Ut7EF5Jr617AbnSdaiWG8Q24NaocjRw7NCuUcP3wrVesyajd6Fqa-KtXEMtbA2qmGrx-wcvmv_JugKfesKDJRvdcV76wr8VrMCl4klYnMFb0mN6GiuQCHd3e4frCeXNg"
   },
@@ -547,7 +592,7 @@
     "system": "-"
    },
    "author": "RallyBoard",
-   "addedAt": "2026-10-02",
+   "addedAt": "2026-11-18",
    "frames": 4,
    "code": "RB1.eNrFlLFOwzAQhl-lMmuGOE7SNBtqxQswog5O47RW3SRy3IYSZYAR8QpsDIyMDDwRKu_AOQlNClQdqMoS2Xf2ff_57lKgFfKxgRTyEdk8vvY-Hp4390-9zd3b-8stMlCA_AKtOMsvFVUMTkVLIcAeCZ6mLER-REXGIEAyZ3GG_KsCcbCiFNsuHJvzuNoJumYS9orRBezPYZnNaKoDTricCAaGSSISCYazyBkwMwCLoAETYMGwlonQp_VFfsMq0dfwtUwDrZHvuGZptOj-0dDWXjT5He0dDU32oq0G3TdbdIDtQYsOaFWl7aWQZXwagyPLNUK_nN3It81yDHWmUlcPVqGkOY-nnVqG2DF1FutKOZUyyWGbJjxW9Skdztl5DS1y0FrGnTwvhiNijyBAzkM1Az8gaTbr9FKmJOXTGfSkkku2zRBk4EMyCG6gnvMlo8nT9Y4nwzokwzJbaC0Dk1bYn2TA5UjSBevUJ8IOqSRkXPFET2FRz59f_JiRejpqB_nu8BrHTn_VndWE6jRNuX0R4Nun4RNzD985Dd8ibV13-O5_vD-0Ao35Ygi_4mZ2FZPwo8Fl-QmLdaZ_"
   }
