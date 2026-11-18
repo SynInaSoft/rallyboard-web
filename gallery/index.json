@@ -6,6 +6,51 @@
  ],
  "items": [
   {
+   "id": "c-Smwmhpp55ut",
+   "subId": "Smwmhpp55ut",
+   "src": "coach",
+   "title": {
+    "ko": "Karşılama pozisyonu",
+    "en": "Karşılama pozisyonu",
+    "ja": "Karşılama pozisyonu",
+    "pt": "Karşılama pozisyonu",
+    "es": "Karşılama pozisyonu",
+    "zh": "Karşılama pozisyonu",
+    "it": "Karşılama pozisyonu",
+    "pl": "Karşılama pozisyonu",
+    "fr": "Karşılama pozisyonu",
+    "de": "Karşılama pozisyonu",
+    "sr": "Karşılama pozisyonu",
+    "tr": "Karşılama pozisyonu",
+    "ru": "Karşılama pozisyonu"
+   },
+   "desc": {
+    "ko": "4-2 서브 리시브 대형 — 10장면(고등)",
+    "en": "4-2 serve-receive formation — 10 steps (high school)",
+    "ja": "4-2 サーブレシーブ隊形 — 10コマ(高校)",
+    "pt": "Formação de recepção 4-2 — 10 quadros (ensino médio)",
+    "es": "Formación de recepción 4-2 — 10 cuadros (bachillerato)",
+    "zh": "4-2 接发球阵型 — 10个画面(高中)",
+    "it": "Ricezione 4-2 — 10 fasi (scuola superiore)",
+    "pl": "Ustawienie w przyjęciu 4-2 — 10 klatek (szkoła średnia)",
+    "fr": "Réception en 4-2 — 10 étapes (lycée)",
+    "de": "4-2 Annahmeformation — 10 Schritte (Oberstufe)",
+    "sr": "Formacija prijema 4-2 — 10 koraka (srednja škola)",
+    "tr": "4-2 servis karşılama dizilişi — 10 adım (lise)",
+    "ru": "Расстановка на приёме 4-2 — 10 шагов (старшая школа)"
+   },
+   "tags": {
+    "skill": "receive",
+    "level": "high",
+    "system": "4-2"
+   },
+   "author": "",
+   "team": "",
+   "addedAt": "2026-11-19",
+   "frames": 10,
+   "code": "RB1.eNrtl89um0AQxl-loldrxO7sX9-aSlWlHnrIsaoqEuMGBYwFxI5j-Vn6DH2H9r06sAsxtkGOFDmX3hYY7377m_1mx9tgFUzZJKiCafAlKv7--vM7jbLo3TJ_SspNvngIJsFNMN0GqyReX1dRFVPgXZTOr_KqyjP6Ok-T5TKeBdN5lJYxzZTfx4symH7bBgm9De4Z6h_ZOhPZ3c2j0JZ-cp8s6i_LNNrEBT1XcZTR8wcaptFNnNKYhkWe1otd07C8i5b1-DYpbunlJLjN07ygF--Zxk_qqg5JnuJmJ4_BlKMGS8NNMFVMgOG7ybMY04nRQr5UzNfPL1fD1LMaHQLvqbGdGmMuIQaFAMsbMVJb4HZPjAg7MSpkF8mTAK0bMQIViH0trNNixUXIWAWKeTAh2J4Y3omRBi-SJsZBKXdmlACmdt_Jh1FR-4pGsyJaJ4uf_mleRFncc1woGsEo88jyOpPLvEyqJK99ua2_o_subnKtef2uWVODkS4bAsHudvsI3IxLlTyQpY5nPPC4m5HTLqz1M4Yg2W5y7EC_uOTA3YalZSCkC-3Zw0XSUsC1RxMCiiby4Oy260vgbkeKC0DjQvtHy4dS-rVxoVISBxfaT7wL1QhMOKXGgO5jUs0PytVMWXE2JqNBe0zcAuIIpjAE4c8FMtBiGJMyoLy1EJANU2ISgfv6hKZFf5oSUZS-eliqHmqYEuddmmoBFvucHIdqhlYqdSYnrH2JfkqqHGaYEzcWjEOqhAU1cpyIKNPe9yT50pyQ4Ajs1jcHnNzmHlYybm7OV8dk2qKnJNU_O4iJPCm9SqPqejSMiXhj6yQGXIxhkjSVv6d5u_wAJkpoK8DWru9hcopXqxKlPJtTqEFxX0hMa_nTnOqGQnihzUU1gImTf1VrOyo-OMKJrt_u8hPk6mFOTClA3t0GZsR1BkHKbn3a0z4m6XSsTRlKw94QE11AED7X0FAPY6ISb5jfEKM-6jUoIV1vPkvSSDiA5ObeGG0FP7c0neg4hyCdaAeHDhOZjpuuPcIRSpySLVhXbQ2OYKqPiO2OyKjpjrqQHqimJZC0tDJa_Ac1DEo6UDOWUH14S1Anuv9hUIe9-RCn48b5JZiof40WSfaR_kX6draKC2qm-W73D2CzC1k"
+  },
+  {
    "id": "c-Smwlvfcn9yo",
    "subId": "Smwlvfcn9yo",
    "src": "coach",
