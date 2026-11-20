@@ -1,6 +1,6 @@
 {
  "v": 1,
- "updatedAt": "2026-11-18",
+ "updatedAt": "2026-11-20",
  "declined": [
   "Smw8rftau6y"
  ],
@@ -94,6 +94,48 @@
    "addedAt": "2026-11-18",
    "frames": 0,
    "code": "RB1.eNq91c2O0zAQAOBXQeZaDRn_jO3cgAuHRay0R4SQ2zg01Gm7aZput-rb8Ca8GE4cIOq9uc2M4-iT7bEvrGM5LljLcvbw-9ex9M0b-Y7Ygi1ZfmFd5U9PrWt9HC6PIcR6Gar93hcsL104-Dhzt_HbA8u_XlgVq2yD4nt9CsfnjgqN_Z821bYf2Ad39k3MW-_qmL-P4WHt9v2_V1WzCj4WVruwa2Lhbamsz5axEtzSh1iJYbML_cdP_cTq1Q_wF5YLIQH5gp1ZTpaAy-vin8UMlpfStlqKO1i-PD7eaEiDGizSGND2v4Vjb-nc83pNaoZlsRIEDhIUFjIzkfAkOf6sCe-xKJ9uKJhxyMYd4hqyyQ5xmSynjmtJc2C4zkDZhEEDik8wlDDnEJDTLMdFaAs6HRiBGiRNNDppXl1NwtxB83C7TZYDJgtpDUZMLGa0lAaVncHCpfm7LogENFkXkRppGbKW4z2a-vOHWwwi8LGrZQZmiuEjRnFLeh4MAabGFkSg9AQzXL1dwU8rlHqWzlYIitI26YiZ3HcidXYhskoINQdGyNhLZsDwTIDQ12_xHXNN_zrFqGjcqdr-GLOycbUfY7et6o_xXRvT1jcRhtfrH0eHBdc"
+  },
+  {
+   "id": "def-downball",
+   "title": {
+    "ko": "다운볼 수비 (블록 없이 뒤로 빠지기)",
+    "en": "Down-ball defense (no block, drop back)",
+    "ja": "ダウンボール守備 (ブロックせず下がる)",
+    "pt": "Defesa de down ball (sem bloqueio, recuar)",
+    "es": "Defensa de down ball (sin bloqueo, retroceder)",
+    "zh": "下球防守 (不拦网，后撤)",
+    "it": "Difesa sul down ball (niente muro, indietreggiare)",
+    "pl": "Obrona down balla (bez bloku, cofnięcie)",
+    "fr": "Défense sur down ball (sans contre, reculer)",
+    "de": "Down-Ball-Abwehr (kein Block, zurückfallen)",
+    "sr": "Odbrana na down ball (bez bloka, povlačenje)",
+    "tr": "Down ball savunması (blok yok, geri çekil)",
+    "ru": "Защита от «даун-бола» (без блока, шаг назад)"
+   },
+   "desc": {
+    "ko": "상대가 네트에서 먼 곳에서 서서 때릴 때 \"다운볼!\" — 전위는 점프하지 않고 한 발 빠져 손을 들고, 후위는 깊게 서서 받은 뒤 세터 침투로 공격 전환",
+    "en": "When the opponent hits standing, far from the net, call \"Down ball!\" — front row does not jump, takes a step back with hands up, back row plays deep, then the setter releases for the transition attack",
+    "ja": "相手がネットから遠い所で立って打つときは「ダウンボール!」— 前衛はジャンプせず一歩下がって手を上げ、後衛は深く構えて受け、セッター侵入で攻撃へ",
+    "pt": "Quando o adversário ataca parado, longe da rede, grite \"Down ball!\" — a frente não salta, recua um passo com as mãos para cima, o fundo joga profundo e o levantador penetra para o contra-ataque",
+    "es": "Cuando el rival golpea parado y lejos de la red, avisa \"¡Down ball!\" — la delantera no salta, retrocede un paso con las manos arriba, la zaguera juega profunda y el colocador penetra para la transición",
+    "zh": "对方离网较远、站着扣球时喊“下球！”——前排不起跳，后退一步举手，后排站深接球，随后二传插上转入进攻",
+    "it": "Quando l'avversario attacca da fermo, lontano dalla rete, chiama \"Down ball!\" — la prima linea non salta, fa un passo indietro con le mani alte, la seconda linea gioca profonda, poi il palleggiatore entra per il contrattacco",
+    "pl": "Gdy rywal atakuje z miejsca, daleko od siatki, wołaj „Down ball!” — przód nie skacze, cofa się o krok z rękami w górze, tył gra głęboko, potem rozgrywający wbiega do kontrataku",
+    "fr": "Quand l’adversaire frappe sans sauter, loin du filet, criez « Down ball ! » — la ligne avant ne saute pas, recule d’un pas mains hautes, la ligne arrière défend en profondeur, puis le passeur pénètre pour la transition",
+    "de": "Wenn der Gegner im Stand weit weg vom Netz schlägt, „Down Ball!“ rufen — vorne wird nicht geblockt, ein Schritt zurück mit Händen oben, hinten tief stehen, dann läuft der Zuspieler für den Gegenangriff ein",
+    "sr": "Kada protivnik udara iz mesta, daleko od mreže, viči „Down ball!” — prednja linija ne skače, korak nazad s rukama gore, zadnja linija igra duboko, zatim tehničar ulazi za kontranapad",
+    "tr": "Rakip fileden uzakta, sıçramadan vurursa \"Down ball!\" diye seslen — ön sıra sıçramaz, eller yukarıda bir adım geri çekilir, arka sıra derinde karşılar, sonra pasör hücuma geçiş için girer",
+    "ru": "Когда соперник бьёт с места далеко от сетки, кричите «Даун-бол!» — передняя линия не прыгает, делает шаг назад с поднятыми руками, задняя играет глубоко, затем связующий выходит к сетке для перехода в атаку"
+   },
+   "tags": {
+    "skill": "defense",
+    "level": "middle",
+    "system": "-"
+   },
+   "author": "RallyBoard",
+   "addedAt": "2026-11-20",
+   "frames": 4,
+   "code": "RB1.eNrFV01r1EAY_ivLeFHYQ2Ymk2Rz64fFg6LQo_Qwu5l0h6abJUm7rWHBg4jgTQRFLFgoeBXsoQV_kdkf4UwmyWayX0VDvWUm877PM0_e93lJCk6BC7sgAS7I3l_NvlxnP391Zu8-Z7dvOg-zm4_Z5UVn9unt7OK6k324yi6_drLbb7Pvr3_f_HgEuqAP3BSccjbZT2jCRBL_JAjEvh_w8Zh5wPVpEDORPzxioxi4L1PAxS4YQ9sRx474KF8F9JxFYp0weizWW-IxHtKxTDjg0SBgYmMQBmEkNh74pMeMvtgJaJ8FYscWz1EYyNPPn8hQ_orltzoDbs_ognPgmtiYdufYvdawIZyDP9tugCO0DN0xWkPHtZu_aIBjshQctgbubJbdMjVs1J7saA7-dIXqVk8Dx-2Bz7H3V4jeuLi5Gnt7LTbuO8i3atjmGtExVuCIaOCkNXCy-uKIkBwbGxq21Ro22lxtWK90uzVsfIcer4P3oVNztz7NLbEK8ljMD0fiRTyRVXWWi5bngJYxPRCmSiNpleLJi-iEjw5rxulBR5pXcp5zp1EUTsRyHPJRok7JdIgUdUAkJUkSkqolDmo3tYwtsierf8K9ZAhcccqj8VAadxKdCN-Ok4jyw2Gi1tUFPdgzNrGozE-1Qn3H0VnsWXvwsb2URTE-VtOAd6VhGyUNbJCKmEZjZxebu39HA238JqUxkAUaiPybGiLYj-gxq1WJD3s4pxDzhIdy8KZq5LppcyiqceimC_NKTSo3XZglaopomXK7Uw6vZ8o9WLmvnqmKMMsXdfNStlWkqjuL8hQNG5ec7Aa2epH3YgFRa7Np9fWEVuYarRxS1exyrWzS1EqPqLSyG5JUWhXNaaMFrYgecZ9alRCiOjWtyBqtLBVDTLJcK2I068omWsTdtYKooVXBl1j3r1VFymjUlbVGK1uXZLGuSLOuLKKLWGoFjU1NaDULq7Qe_D-asLQ9KZbwLjrixzvid6EYeQmLxISG0-kfRgJ5VQ"
   },
   {
    "id": "atk-42-left",
