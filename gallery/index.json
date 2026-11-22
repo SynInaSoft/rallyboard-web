@@ -2,9 +2,7 @@
  "v": 1,
  "updatedAt": "2026-11-22",
  "declined": [
-  "Smw8rftau6y",
-  "Smwseym8tyy",
-  "Smwsf1lobd9"
+  "Smw8rftau6y"
  ],
  "items": [
   {
@@ -501,6 +499,96 @@
    "addedAt": "2026-11-23",
    "frames": 3,
    "code": "RB1.eNrllk2PmzAQhv9K5V5TC39jbtteeqjUVfdYVRUJZteKE1ig0CTiv3fAZEsgqaqqiVT1ZiZj83jmnZccUI0iskAVitCn-7tX9xwt0BJFB1Rb0zxUcWXgl_SbcxBPnc1zk6AojV1pYFO2NtsSRZ8PyEIUrYn4umnK1c6lDQ9C2LG22-6H3MU7U8BzZeINPN_BsnyK8-7slS1WzkBglbmsgMDrVGgTLCHi4qVxEIFlkbku-aHbaPemZ_6OIspDrGC5QxGnGoeiXbyw6J5ln-xKwuVllrd_yjJBYQE5ojCpMBuh0MCjmJBoGtwCheHAoxBKMdEjFDKgPG3kDYpCKMF8KIrQmIcjEjqQPDvo4vVRQo0l9zXROGA_QRjrQBK2r2sWjrqzjHvRdypjFOujylRf2peTE1Paxy2kl80SjdQn-1EwjSyeJbvC7T7MJkFgLnpGIQMs1YhF9fpLA7Hah_wa-vv4fkLzhvlyCRpiPibhPQm1NlFE3IKEE4GZ9DCc4EC2X8Dg4qKzLVglRdzY7ePwlBbxxpwYmhIeOFvmmhA4O89KW9mss73DzPAgBK-UEivq1cIICKddzNzIJ56xjJlZHDNnEz2dZZ94ZuBmo-YzZ_MwmwSfp0H7Xlc8wJr3lzkVt8-jhGDi3yw5WLHPnEhvOJIcXy20Hq49lcZwbzB16WspoViMte1YTarfwhQpGae_15wzX4x_uTuMMKyHUipM6d9oD1wh8DUXiuPwV92RmCp_JpGw6bQ7oe-OqWveW-D_153Zh-Nye-b2fak9E2-91Jy58bWd9cVbu3kH_-MGx6tMAX5L2vYHggjNqg"
+  },
+  {
+   "id": "c-Smwseym8tyy",
+   "subId": "Smwseym8tyy",
+   "src": "coach",
+   "title": {
+    "ko": "RPA P3",
+    "en": "RPA P3",
+    "ja": "RPA P3",
+    "pt": "RPA P3",
+    "es": "RPA P3",
+    "zh": "RPA P3",
+    "it": "RPA P3",
+    "pl": "RPA P3",
+    "fr": "RPA P3",
+    "de": "RPA P3",
+    "sr": "RPA P3",
+    "tr": "RPA P3",
+    "ru": "RPA P3"
+   },
+   "desc": {
+    "ko": "리시브-패스-공격 P3 — P3 로테이션에서 서브를 받아 세터에게 보내는 대형과 이동(3장면)",
+    "en": "Reception-pass-attack P3 — rotation P3 serve-receive formation and movement to the setter (3 steps)",
+    "ja": "レセプション・パス・アタック P3 — ローテーションP3のサーブレシーブ陣形とセッターへの動き(3コマ)",
+    "pt": "Recepção-passe-ataque P3 — formação de recepção na rotação P3 e deslocamento até o levantador (3 quadros)",
+    "es": "Recepción-pase-ataque P3 — formación de recepción en la rotación P3 y desplazamiento hacia el colocador (3 cuadros)",
+    "zh": "接发-传球-进攻 P3 — P3轮次接发球站位与传向二传的移动(3个画面)",
+    "it": "Ricezione-alzata-attacco P3 — schieramento in ricezione in rotazione P3 e spostamenti verso il palleggiatore (3 fasi)",
+    "pl": "Przyjęcie-rozegranie-atak P3 — ustawienie w przyjęciu w rotacji P3 i ruch do rozgrywającego (3 klatki)",
+    "fr": "Réception-passe-attaque P3 — placement en réception en rotation P3 et déplacements vers le passeur (3 étapes)",
+    "de": "Annahme-Zuspiel-Angriff P3 — Annahmeaufstellung in Rotation P3 und Laufwege zum Zuspieler (3 Schritte)",
+    "sr": "Prijem-dodavanje-napad P3 — raspored za prijem u rotaciji P3 i kretanje ka tehničaru (3 koraka)",
+    "tr": "Karşılama-pas-hücum P3 — P3 rotasyonunda servis karşılama dizilişi ve pasöre hareket (3 adım)",
+    "ru": "Приём-передача-атака P3 — расстановка на приёме в расстановке P3 и перемещения к связующему (3 шага)"
+   },
+   "tags": {
+    "skill": "receive",
+    "level": "middle",
+    "system": "-"
+   },
+   "author": "",
+   "team": "",
+   "addedAt": "2026-11-23",
+   "frames": 3,
+   "code": "RB1.eNrlVk2PmzAQ_SuVe40sf2Nz2_bSQ6WuuseqqpzE7KI4gQUaNon47x0w6RIIPVTaHNqbPYzHz_PmveSE9iimC1ShGH29v3t3z9ECLVF8QvvU1Q-VrRx8SX56D_HEp3nu1ihOrC8dHMo2blei-NsJpRBFGyp_bOtydfBJLYiGE5t0137IvT24AvaVs1vY38GyfLJ5W3uVFivvILDKfFZA4H0ijSNLiHi7dB4isCwy3yY_tAfTo-swv6CYKYa1XqADigUzmNNm8RuL6bAc14eSCjWP5cPfYhlB4YTiiHZQuIowl69QGAlQnKaGkVtA4ZgEKJQxTM0ACu2hPG3VDZpCGcWib4o0WOgBEtYjefZM6FtAIVhEoSmcYCVeoXDeQlnz437P9YCfpe3Gvp0zIbCWYc44xVQOaq9dmT7uIL2sl2gwfzJqq7oiSzIVvUWvv3wa845VwCg5w2oIpdOCKze2ZlrcAoogEWYqgGH8ottUdS7halU8K_4GYD6PTYIbrHnAAjxy03wHj7NF61ywWhe2TneP_S4p7NZdeJpSAe5ylYGwoHaelWmVZq3znSaeB6HrvjRxpJB5xTYmhnHOnKh6rOeQeEV0E7mFTG2AmVDRYMLbvJEWQp5h2PTTT7AR3WNG491fTRkOGlOEYM5C5uX0nV-jMemn1YAcu8tHo9H3EoRLwygpwdqizXCYAow636dcin-KnSuONcMP1eJMpIK-GjbPkIbbWWi7JlirPzAkJZbheglvp2qWIapB4UFgioFRikuGdDjxYkGz9D9laPIDMs_Q2MXn-LlisXMKmhhg01qg3aXbj_CXrne-yhVgu7RpfgGnJtQh"
+  },
+  {
+   "id": "c-Smwsf1lobd9",
+   "subId": "Smwsf1lobd9",
+   "src": "coach",
+   "title": {
+    "ko": "RPA P2",
+    "en": "RPA P2",
+    "ja": "RPA P2",
+    "pt": "RPA P2",
+    "es": "RPA P2",
+    "zh": "RPA P2",
+    "it": "RPA P2",
+    "pl": "RPA P2",
+    "fr": "RPA P2",
+    "de": "RPA P2",
+    "sr": "RPA P2",
+    "tr": "RPA P2",
+    "ru": "RPA P2"
+   },
+   "desc": {
+    "ko": "리시브-패스-공격 P2 — P2 로테이션에서 서브를 받아 세터에게 보내는 대형과 이동(3장면)",
+    "en": "Reception-pass-attack P2 — rotation P2 serve-receive formation and movement to the setter (3 steps)",
+    "ja": "レセプション・パス・アタック P2 — ローテーションP2のサーブレシーブ陣形とセッターへの動き(3コマ)",
+    "pt": "Recepção-passe-ataque P2 — formação de recepção na rotação P2 e deslocamento até o levantador (3 quadros)",
+    "es": "Recepción-pase-ataque P2 — formación de recepción en la rotación P2 y desplazamiento hacia el colocador (3 cuadros)",
+    "zh": "接发-传球-进攻 P2 — P2轮次接发球站位与传向二传的移动(3个画面)",
+    "it": "Ricezione-alzata-attacco P2 — schieramento in ricezione in rotazione P2 e spostamenti verso il palleggiatore (3 fasi)",
+    "pl": "Przyjęcie-rozegranie-atak P2 — ustawienie w przyjęciu w rotacji P2 i ruch do rozgrywającego (3 klatki)",
+    "fr": "Réception-passe-attaque P2 — placement en réception en rotation P2 et déplacements vers le passeur (3 étapes)",
+    "de": "Annahme-Zuspiel-Angriff P2 — Annahmeaufstellung in Rotation P2 und Laufwege zum Zuspieler (3 Schritte)",
+    "sr": "Prijem-dodavanje-napad P2 — raspored za prijem u rotaciji P2 i kretanje ka tehničaru (3 koraka)",
+    "tr": "Karşılama-pas-hücum P2 — P2 rotasyonunda servis karşılama dizilişi ve pasöre hareket (3 adım)",
+    "ru": "Приём-передача-атака P2 — расстановка на приёме в расстановке P2 и перемещения к связующему (3 шага)"
+   },
+   "tags": {
+    "skill": "receive",
+    "level": "middle",
+    "system": "-"
+   },
+   "author": "",
+   "team": "",
+   "addedAt": "2026-11-23",
+   "frames": 3,
+   "code": "RB1.eNrllk2PmzAQhv9K5V7TkT8Hm9u2lx4qddU9VlVFiNllQ0IWaNIk4r_XxmyXwGZVVdpIVW_2MDaP_c68cCRbErMZaUhMvlxfvbnmZEbmJD6SbW53N03SWPck-1EULp4V-WZjFyTOkqK2blG5tOuaxF-PJHdRsmTq-2pXp_si20mq3YplvvYPNkWyt5WbNzZZufmVG9Z3ycbvneZVWlgXSMuirFzgbaaMpXMXKZK5LVzEDauy8Mk3fmF-sB3zTxJzlIA4I3sSS87BsHb2m8V0LIfFvmYSz7O8_1uWEYqgDCLWoQiMQKgnFE4DitXMcHoJFAE0oDB3K8wMUFiPcrfCC1wK4wxkfynKgNQDEt6TPBRc6tdH0QZQhjsxQMUTiBAeZCEO263QA3XmSVf0vsqkdiv6KovA4GDnha3z27VLr3dzMqg-FfldbVVmJUavcdOfP44O-E6DVh2kEsJBDmCw60u7w-oBxSuwfBq3JROgTGCRCGZQgCzqmiGjKj1oSS9xMZJGQHmgYU5J3n5zHpdU3rncaFElu3x928-yKlnZE0-LWABOc8WEB96Udd7kpXe-48TzXMh3YKRAh7qXggPydjZxpD5zahsTw3jMnHT1uJ9D4jNNN2m3kDnpiUk3hDzjrDWUlqRgZHeYUYH3r2Ycoi4RKQURjn1afSGRcwosGDdK_pg5qo3-3FxAZPpNEVTbDquJhxXV_T3n-GfiPPPR-JfF4egggzroX63Py4MUMMijNIUX1EEBnPfqILCX1FESqOz3NMDxVB4RlhyyCtV_Ks_443FenqmDn9Nn6q_n9JmaX-vtL1nnqw_ud653vcZWznNZ2_4ClxfQfw"
   },
   {
    "id": "c-Smwmhpp55ut",
