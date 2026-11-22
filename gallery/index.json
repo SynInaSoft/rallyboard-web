@@ -2,7 +2,9 @@
  "v": 1,
  "updatedAt": "2026-11-22",
  "declined": [
-  "Smw8rftau6y"
+  "Smw8rftau6y",
+  "Smwseym8tyy",
+  "Smwsf1lobd9"
  ],
  "items": [
   {
@@ -454,6 +456,51 @@
    "addedAt": "2026-11-23",
    "frames": 3,
    "code": "RB1.eNrllk2PmzAQhv9K5V5TC3_b3NpeemulHKuqIsHZWCGBAks2G_HfOzbeBsFmVa20karezDB2nvHM-5Iz6lBKFqhFKVq63L77RtECrVB6Rp2zx2WbtRZebe6LAuKbwlWVzVG6yYrGwq5yZw8NSr-fkYMo2hHxc39s1qdic-SJhh07d_AvqiI72RqeW5vt4fkjLJttVvmz165eFxYC67Ioawi83whjkxVEimxlC4jAsi4Ln7z0G92jDdAPKKWSYq0X6IRSTg1mpF_8YTGB5TE_NYTL6yyfXssyQWEJwYoEFCYVZuKCQpMBxWpiaHILFIaTAYVQiokZoZCIst3LG1wKoQTzeCnCYK5HJDSS_Coo12-Pog2WfLgTgxN2AWHMg-TsseuYHnVnlYWh91PGFSZsmDJmsGCjk3PbuLsDpDfHFbocKkPL892D2il9g-oo5XioTjCBiRyRqEBS7mtnGH8Dkq9fJiwfQAhqYCEES3phUTyw3LfbTDB9CxYOqowGIaDvgvY_wN-y2rsWrPI6O7rDXXza1Nnejv1MycDbdSdDDZxclY1rXek97zxzOwh57Wmv_ehIEsamX8y8KGbODWNmFU-ZMz1PlTwkPiO3mdCGzJkaZjoY8gzFJlaTYMN93mS0hzwK7muGe5Y0wUn45cnoRcaEYjEcKXzZIXMyGLFspjGNmUpgqft-NEo67Dg2laZhrP-iN898Lf7l3hCVYB6F5pdXm0OUfPIvYQxWV3sjOJbxQM79hb-qNTpUn5-syY0U_2VrZl-MF4QzNe4rvZm76pXezC2v96aXHdz-M_yBi17X2hqclvT9b4aF0Mo"
+  },
+  {
+   "id": "c-Smwsf43jrzm",
+   "subId": "Smwsf43jrzm",
+   "src": "coach",
+   "title": {
+    "ko": "RPA P4",
+    "en": "RPA P4",
+    "ja": "RPA P4",
+    "pt": "RPA P4",
+    "es": "RPA P4",
+    "zh": "RPA P4",
+    "it": "RPA P4",
+    "pl": "RPA P4",
+    "fr": "RPA P4",
+    "de": "RPA P4",
+    "sr": "RPA P4",
+    "tr": "RPA P4",
+    "ru": "RPA P4"
+   },
+   "desc": {
+    "ko": "리시브-패스-공격 P4 — 상대 서브를 리베로·OH가 받아 세터에게(3장면)",
+    "en": "Reception-pass-attack P4 — libero and OH receive the serve and pass to the setter (3 steps)",
+    "ja": "レセプション・パス・アタック P4 — リベロとOHがサーブを受けてセッターへ(3コマ)",
+    "pt": "Recepção-passe-ataque P4 — líbero e ponteiro recebem o saque e passam ao levantador (3 quadros)",
+    "es": "Recepción-pase-ataque P4 — el líbero y el atacante recepcionan el saque y pasan al colocador (3 cuadros)",
+    "zh": "接发-传球-进攻 P4 — 自由人和主攻接发球并传给二传(3个画面)",
+    "it": "Ricezione-alzata-attacco P4 — libero e schiacciatore ricevono la battuta e passano al palleggiatore (3 fasi)",
+    "pl": "Przyjęcie-rozegranie-atak P4 — libero i przyjmujący przyjmują zagrywkę i podają do rozgrywającego (3 klatki)",
+    "fr": "Réception-passe-attaque P4 — le libéro et le R4 réceptionnent le service et passent au passeur (3 étapes)",
+    "de": "Annahme-Zuspiel-Angriff P4 — Libero und Außenangreifer nehmen den Aufschlag an und spielen zum Zuspieler (3 Schritte)",
+    "sr": "Prijem-dodavanje-napad P4 — libero i primač primaju servis i dodaju tehničaru (3 koraka)",
+    "tr": "Karşılama-pas-hücum P4 — libero ve smaçör servisi karşılayıp pasöre verir (3 adım)",
+    "ru": "Приём-передача-атака P4 — либеро и доигровщик принимают подачу и передают связующему (3 шага)"
+   },
+   "tags": {
+    "skill": "receive",
+    "level": "middle",
+    "system": "-"
+   },
+   "author": "",
+   "team": "",
+   "addedAt": "2026-11-23",
+   "frames": 3,
+   "code": "RB1.eNrllk2PmzAQhv9K5V5TC39jbtteeqjUVfdYVRUJZteKE1ig0CTiv3fAZEsgqaqqiVT1ZiZj83jmnZccUI0iskAVitCn-7tX9xwt0BJFB1Rb0zxUcWXgl_SbcxBPnc1zk6AojV1pYFO2NtsSRZ8PyEIUrYn4umnK1c6lDQ9C2LG22-6H3MU7U8BzZeINPN_BsnyK8-7slS1WzkBglbmsgMDrVGgTLCHi4qVxEIFlkbku-aHbaPemZ_6OIspDrGC5QxGnGoeiXbyw6J5ln-xKwuVllrd_yjJBYQE5ojCpMBuh0MCjmJBoGtwCheHAoxBKMdEjFDKgPG3kDYpCKMF8KIrQmIcjEjqQPDvo4vVRQo0l9zXROGA_QRjrQBK2r2sWjrqzjHvRdypjFOujylRf2peTE1Paxy2kl80SjdQn-1EwjSyeJbvC7T7MJkFgLnpGIQMs1YhF9fpLA7Hah_wa-vv4fkLzhvlyCRpiPibhPQm1NlFE3IKEE4GZ9DCc4EC2X8Dg4qKzLVglRdzY7ePwlBbxxpwYmhIeOFvmmhA4O89KW9mss73DzPAgBK-UEivq1cIICKddzNzIJ56xjJlZHDNnEz2dZZ94ZuBmo-YzZ_MwmwSfp0H7Xlc8wJr3lzkVt8-jhGDi3yw5WLHPnEhvOJIcXy20Hq49lcZwbzB16WspoViMte1YTarfwhQpGae_15wzX4x_uTuMMKyHUipM6d9oD1wh8DUXiuPwV92RmCp_JpGw6bQ7oe-OqWveW-D_153Zh-Nye-b2fak9E2-91Jy58bWd9cVbu3kH_-MGx6tMAX5L2vYHggjNqg"
   },
   {
    "id": "c-Smwmhpp55ut",
