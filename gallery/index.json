@@ -186,6 +186,51 @@
    "code": "RB1.eNqdV8tuG0cQ_BVjcxUG8-p58KbI1g_kGAjBSlxZlCiSIGkrsqBDghyC_EiQU37H-hvXcHt61ogCArqRhWZPTVd19_Cp-9zNzEm372bd179f_nj58-X3l9--_vPu678vfxXg3XbYbfaL9aohG9OddJfd7Kn7vBgeftr3-wG_vv60XAK_Xi42m2Heza775W5A4vXdsNp1s5-fugXQ7s7GX-4fdpHi5aOJ-MHdYlXwzbJ_HLb4vh_6e3w_xcfdTb8pqa8W26vlAOBqvVxvAfxgojsPPwJZ9pfDEkih9Gs3c0ar6E-6x24WjVPRIcniC3IYFU-67XpZ0nXPJ0ImCZno9VvZnCXzwXyYsLEjG2tIRXtgE6xXOR1jk4VN1uGtbMJ7d36aJmwc18ZbRWNtKFtl_BE2TgubRPRWNvb81J3FCRs_svHKpJFLgE7UCExYTbiYxsW9mcv74EM8nXChkYvRQZk86uSyyuF1Nhdwfb8tXsan-bZ_WKw-Tp3t6UDyNs8_WVtS7x8PRPrtdv2Ar5v1YrUff3CwKu7Nh2atvC-3ZQs7N-IpKuMqrp1KYcSjUzYIrpVhkwWrfGLcZg4mo7QV0CiOdaSsxKakNLFRrUpG8KDcaJlgUIIW71WMbKWsHAnuOD0lUj5PYE5P0bQrTXFKyk3jObtHB_nJqX6sGDmvKE9Yao4H-9jYRFAecZ0UNRwacx5tJzi6wo15fC4XF9wfJknB8VPbcAQZxsG4FTmqxHliVkF4olQ-ME6Kpgq6zLhRwQpuqkPgWxVbPEhX3JX4i9dG48Nivr_BFeHVfncjI7k1lQ-jX-df7ky0x_xq4dfAfgUxJ14wtooFzbUUE35hGxfNvWiusyLGKeB-gifckHENpwseavHJBZVaPA5jr1mtbMtfKjLi6CQjNFG0xDjq3XgCDyxKaUOxPu5YRUwaM2GC68RilSkqOERsWtU0BprX9ME0rxWc2DsoQ4iCp7oyPNnmqSnuU_O-gdcyn-tdKc_Fa4vpuBfGrXz78XbuyBzzAhoiJNlr0hCon67rTqtQa1BsYXiIeOVqJZOt3VNmi64VQLFZ7wDpqeoXoT3bAFf2NTr6OqAIpxuBTR3ohA50lUlImG0Mo7g1GoJZzh0CWrTCVKUjwiAW2FcDEJSQWx5mL_uU2nWCqd1hkY4aShxsgrLxvzDawb-CarimHWiNGFcapqzT6lvI5Ntl6myLqUmG-2bPsGvaoFDVneVjrSqOYeujCDKuUcpQgyeLDNKwBgeHUxOSSAxOoljCXhB_ywyEG3jke6wC9_2ok31-3N7jO-_29v7OaH90NYdiavZJaMo7FFGzrQJmOQkeZTGh_LIOXawzgcTHLko3kA_NJ64UgHehi5PnAPzLa58c5lxV32HjVHfCQkmWRpJlRRi1Sc5N5SKMO-VbfKx38nn63ABexcajIbwCI2OYZPck09K3LNhzPLZQSXkRFJa6rbzYcCvxKGqSKpQRzD6F7zNNquN4vFJu7xyHw3I1H17edlJ9y22ALZPTRKmanybbwaE_ohFb-vid_-Sl_X_-Q_D1tr8f-M3Yrxb3Z_h_xF_3wxZvVvP8_A0nrIBV"
   },
   {
+   "id": "c-Smwsd8fw6od",
+   "subId": "Smwsd8fw6od",
+   "src": "coach",
+   "title": {
+    "ko": "Base 2 - Atq en 4",
+    "en": "Base 2 - Atq en 4",
+    "ja": "Base 2 - Atq en 4",
+    "pt": "Base 2 - Atq en 4",
+    "es": "Base 2 - Atq en 4",
+    "zh": "Base 2 - Atq en 4",
+    "it": "Base 2 - Atq en 4",
+    "pl": "Base 2 - Atq en 4",
+    "fr": "Base 2 - Atq en 4",
+    "de": "Base 2 - Atq en 4",
+    "sr": "Base 2 - Atq en 4",
+    "tr": "Base 2 - Atq en 4",
+    "ru": "Base 2 - Atq en 4"
+   },
+   "desc": {
+    "ko": "수비 기본 2 — 상대 4번 자리 공격 때 블로킹·수비 위치(4장면)",
+    "en": "Defense base 2 — block and defense positions against an attack from position 4 (4 steps)",
+    "ja": "守備ベース2 — 相手4番(レフト)攻撃時のブロック・守備位置(4コマ)",
+    "pt": "Base defensiva 2 — bloqueio e defesa contra ataque da posição 4 (4 quadros)",
+    "es": "Base defensiva 2 — bloqueo y defensa ante ataque desde la posición 4 (4 cuadros)",
+    "zh": "防守基础2 — 对方4号位进攻时的拦网与防守站位(4个画面)",
+    "it": "Base difensiva 2 — muro e difesa contro attacco da posto 4 (4 fasi)",
+    "pl": "Baza obrony 2 — blok i obrona przy ataku ze strefy 4 (4 klatki)",
+    "fr": "Base 2 — bloc et défense sur attaque en 4 (4 étapes)",
+    "de": "Abwehrgrundstellung 2 — Block und Abwehr gegen Angriff über Position 4 (4 Schritte)",
+    "sr": "Osnovna odbrana 2 — blok i odbrana na napad sa pozicije 4 (4 koraka)",
+    "tr": "Savunma temeli 2 — 4 numaradan hücuma karşı blok ve savunma (4 adım)",
+    "ru": "Защита, база 2 — блок и защита при атаке из 4-й зоны (4 шага)"
+   },
+   "tags": {
+    "skill": "defense",
+    "level": "middle",
+    "system": "-"
+   },
+   "author": "",
+   "team": "",
+   "addedAt": "2026-11-23",
+   "frames": 4,
+   "code": "RB1.eNrtlk1z2jAQhv8Ko16pxqtv-Zb00lsPOXY6HYNF4onBju1CgOG_dy2ZxGCcST-SQ6c3WbySHvZd7WpP1iSGKWlITK6T2k3Y5OPkqnmYuNVEkCmZkXhP1pnb3DRJ41C0-JHnOL_Is7J0KYkXSV47XF_cu1VN4q97kuEsuQf5fbmp59t8sRGRwRX32ar9ocyTravwu3HJEr-vcFjfJWW79zyr5rnDiXmRFxVOfFhI66IZzuTJzOU4g8OqyFvxTbsw2zmP_0hirgTVckq2JFaRoZE8TJ9YVGAp3I5Fb4Dy5fMZC0hNRceCQ2A9Ft2xVHPD34WFKyqsZ5EcqBE9FhNYSlYZbt8DhoOmWngYAYYq24OxHmaXbmsQahzm-ndhzlFYRMF4FCYF5eYZhUUBxRmwLyXMX0MRktqAwhHF9tKFQYdyt1TvEBQmgEoWSEBS3Q8K60gecibM26MA3mcb7hADTGH1jMJ5i5Ly3XrNTc-fWeJrkzcXjsWAa0Wt6O2dujq7XaG83szI4RvWuKRqKxeO0irZZKvb7mtRJUvXr2lc-HOFnpfWn1sWddZkRVv49oOSh1PeW0OF9iTaSIrWntejoAMWRIpLCl50UiiOIouJGq4P3uU2Zwe3uDuWsWP0BGdUcq88vWJByZikYUvgFoPWCs8uQLclnqgDJKiIcu2VJ_nZUWo8O8ReKZ_Ng-wJQosVW4UNNUK0ujNru5Ml_oMg1Chk9nDoJYMMpqS4IpKvNAVrjw0bKsx4Dv9d-XVXGDCqeRAajuHpm6KCKY8AWtl_xhSsQyr8Y2Y0NS-5Io_BjjTl7I9NwQB3tdBGaM-oKWDsU-FT2GBPTPFhShXMN4bpV5oyfFWNmDJ88owYM3yPjBkzfCyMGHOhl48ZM2y1l5250AlHrLnQqMbq2HlXQnewzySrbPkJ39Nd22lchX0Ur9NP8_BClw"
+  },
+  {
    "id": "c-Smwmhpp55ut",
    "subId": "Smwmhpp55ut",
    "src": "coach",
