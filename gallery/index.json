@@ -1,6 +1,12 @@
 {
  "v": 1,
  "updatedAt": "2026-11-22",
+ "community": {
+  "enabled": false,
+  "counts": false,
+  "submit": false,
+  "minApp": "1.1.5"
+ },
  "declined": [
   "Smw8rftau6y"
  ],
@@ -685,6 +691,48 @@
    "likes": 2,
    "imports": 12,
    "saves": 1
+  },
+  {
+   "id": "rcv-62-a",
+   "title": {
+    "ko": "6-2 서브 리시브 A (후위 세터 1번 침투)",
+    "en": "6-2 serve receive A (setter penetrates from zone 1)",
+    "ja": "6-2 サーブレシーブ A (後衛セッター1番から侵入)",
+    "pt": "6-2 recepção A (levantador infiltra da posição 1)",
+    "es": "6-2 recepción A (colocador penetra desde zona 1)",
+    "zh": "6-2 接发球 A (后排二传从1号位插上)",
+    "it": "6-2 ricezione A (palleggiatore entra dalla zona 1)",
+    "pl": "6-2 przyjęcie A (rozgrywający wbiega ze strefy 1)",
+    "fr": "6-2 réception A (passeur pénètre depuis la zone 1)",
+    "de": "6-2 Annahme A (Zuspieler läuft aus Position 1 ein)",
+    "sr": "6-2 prijem A (tehničar ulazi iz zone 1)",
+    "tr": "6-2 servis karşılama A (pasör 1 numaradan girer)",
+    "ru": "6-2 приём подачи A (связующий выходит из зоны 1)"
+   },
+   "desc": {
+    "ko": "세터 2명 체계에서 후위 세터가 1번 자리일 때. 리베로·OH 2명이 받고 세터 침투, 리시브 뒤 레프트·라이트를 바꿔 전위 3명이 모두 공격 → 라이트 공격, 센터는 속공 미끼. 1장면은 겹침 없는 배치",
+    "en": "Two-setter system, back-row setter in zone 1: libero and two outside hitters pass while the setter penetrates; after the pass the left and right attackers switch so all three front-row players can hit → right-side attack with the middle as a quick decoy. Frame 1 is overlap-legal",
+    "ja": "セッター2人制で後衛セッターが1番の時。リベロとOH2人がレシーブしセッターが侵入、レシーブ後にレフトとライトが入れ替わり前衛3人全員が攻撃 → ライト攻撃、センターは速攻のおとり。コマ1は反則のない配置",
+    "pt": "Sistema com dois levantadores, levantador de trás na posição 1: líbero e dois ponteiros recebem enquanto o levantador infiltra; após a recepção, entrada e saída trocam e os três da frente atacam → ataque pela saída, central como isca de bola rápida. Quadro 1 sem inversão",
+    "es": "Sistema de dos colocadores, colocador zaguero en zona 1: líbero y dos atacantes exteriores reciben mientras el colocador penetra; tras la recepción, izquierda y derecha se cambian y los tres delanteros atacan → ataque por la derecha con el central como señuelo de rápida. Cuadro 1 sin falta de posición",
+    "zh": "双二传体系，后排二传在1号位时。自由人和两名主攻接发球，二传插上；接球后左右攻手换位，前排三人都能进攻 → 右侧进攻，副攻做快攻掩护。第1帧站位无越位",
+    "it": "Sistema a due palleggiatori, palleggiatore di seconda linea in zona 1: libero e due schiacciatori ricevono mentre il palleggiatore entra; dopo la ricezione banda e opposto si scambiano e tutti e tre gli attaccanti di prima linea possono colpire → attacco da destra, centrale come finta di primo tempo. Fotogramma 1 senza fallo di posizione",
+    "pl": "System z dwoma rozgrywającymi, rozgrywający z tyłu w strefie 1: libero i dwóch przyjmujących odbierają, a rozgrywający wbiega; po przyjęciu lewy i prawy zamieniają się, więc atakuje cała trójka z przodu → atak z prawej, środkowy jako zmyłka krótkiej. Klatka 1 bez błędu ustawienia",
+    "fr": "Système à deux passeurs, passeur arrière en zone 1 : le libéro et les deux réceptionneurs-attaquants reçoivent pendant que le passeur pénètre ; après la réception, l’aile et la pointe permutent pour que les trois avants puissent attaquer → attaque à droite, le central en leurre de première main. Image 1 sans faute de position",
+    "de": "Zwei-Zuspieler-System, hinterer Zuspieler auf Position 1: Libero und zwei Außenangreifer nehmen an, der Zuspieler läuft ein; nach der Annahme tauschen links und rechts, damit alle drei vorne angreifen können → Angriff über rechts, Mitte als Schnellangriff-Finte. Bild 1 ohne Aufstellungsfehler",
+    "sr": "Sistem sa dva tehničara, tehničar iz zadnje linije u zoni 1: libero i dva primača primaju dok tehničar ulazi; posle prijema levi i desni menjaju mesta pa sva tri igrača napred mogu da napadaju → napad sa desne strane, srednji kao mamac za brzu loptu. Slika 1 bez greške u postavci",
+    "tr": "İki pasörlü sistem, arka pasör 1 numarada: libero ve iki smaçör karşılarken pasör girer; karşılamadan sonra sol ve sağ yer değiştirir, ön sıradaki üç oyuncu da vurabilir → sağdan hücum, orta oyuncu çabuk top yemi. Kare 1 rotasyon hatası yok",
+    "ru": "Система с двумя связующими, связующий задней линии в зоне 1: либеро и двое доигровщиков принимают, связующий выходит к сетке; после приёма левый и правый меняются, и атаковать могут все трое передней линии → атака справа, центральный как ложный выход на быструю. Кадр 1 без ошибки расстановки"
+   },
+   "tags": {
+    "skill": "receive",
+    "level": "high",
+    "system": "6-2"
+   },
+   "author": "RallyBoard",
+   "addedAt": "2026-11-22",
+   "frames": 4,
+   "code": "RB1.eNrVl7tu2zAUhl_FYJcWcAFeRN22XBp0aNEhY5FBjqVYiGIbkhI3Nbx5CNC-QTMHHTIUndJnivMOPRIvFpnYAhIN7SbymPx-_iTPoefoAoWkj0oUIvct7a2W1_d333v3N7erb_XXTu_1w4_l6noJobuH5a8euf991Vv9-flwdfsG9dEAhXN0kcazwzIqY5glOc8y6E-ydDqNhyhMoqyIATA5jccFCj_PUQq9aEoCD352mo7rVhZdxjm0yzg6g_YOfBajaFpNeJzmx1kMHceTbJJDx6uEBzEeQE8WDeIMegh855Os-vVhNTL9Gter-oJC5uM-ukSh6_BFf832O2N7a_an9zacCTgPcBMedLfwxso_7lp0Egi64zToFOPO6HSz7S4XaMabaNIZ2t_iOsFyy6kBp53B-Rr-wWJTKtncYLPN7N2tbDbwaeI-fdQttNxtYoDdzsB0I1j5zczN9jpDs41oZbeF9jtDOxvRzHkSzTtD81Y04cbFdjpDu62GN9EDihsZbRDV-V8PGsZFejKGQDGr7tD6oMIMR1A_oryqCvA1zKNZOj5p1IghJVWyKi9r3VGeT2bQnE7ScSl-VU0mEo1Xy6kEEl9f_qPGGl28ww-qez5Lh-UI6ACMilFVocr8HApUUeZRejIqRVsvDjSQNg26xjClghEq8p-HDRUH7gF55z2pQtbJzTJomwydexwtA3NdAQwZe_vM2X-eDNbqhoKKTFT1cNmDu5PhtMnwJJNjW0XAO9sT3mqG3BPuKxlSF6cvVAGDkzw6ixv3JaHErRUUaZlOqtfWXLyzwvmjp5B4BMlA85kiHigiYLwgxNtBBJrlXRR2OaBZekXRDeeP6qKoiCLQqFqiXpkTMUXwrIl0QC_CsQLcCtQpS-RJcyoRqLOYoQm6F3qzwVtvm7fKQopNb13ZrzxXDDg78jRa1jJ1QJTn7d6qlOf4prdqhF75P-GuPgrUN_31t_mrkgqjpr-e2its-yuPLqeWv_LsyhENf-VKXIL_a3-1VdQ6v8FWf7EuWIa_KgNw21-d5X3LX-5LPDX9peqKeJa_Okeqq_B8f9XamW_7y63AC_yVC2SBC_5CGo7G6dke_N2V75gyzuHJRRaLv6M_NKU"
   },
   {
    "id": "def-downball",
