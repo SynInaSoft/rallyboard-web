@@ -231,6 +231,96 @@
    "code": "RB1.eNrtlk1z2jAQhv8Ko16pxqtv-Zb00lsPOXY6HYNF4onBju1CgOG_dy2ZxGCcST-SQ6c3WbySHvZd7WpP1iSGKWlITK6T2k3Y5OPkqnmYuNVEkCmZkXhP1pnb3DRJ41C0-JHnOL_Is7J0KYkXSV47XF_cu1VN4q97kuEsuQf5fbmp59t8sRGRwRX32ar9ocyTravwu3HJEr-vcFjfJWW79zyr5rnDiXmRFxVOfFhI66IZzuTJzOU4g8OqyFvxTbsw2zmP_0hirgTVckq2JFaRoZE8TJ9YVGAp3I5Fb4Dy5fMZC0hNRceCQ2A9Ft2xVHPD34WFKyqsZ5EcqBE9FhNYSlYZbt8DhoOmWngYAYYq24OxHmaXbmsQahzm-ndhzlFYRMF4FCYF5eYZhUUBxRmwLyXMX0MRktqAwhHF9tKFQYdyt1TvEBQmgEoWSEBS3Q8K60gecibM26MA3mcb7hADTGH1jMJ5i5Ly3XrNTc-fWeJrkzcXjsWAa0Wt6O2dujq7XaG83szI4RvWuKRqKxeO0irZZKvb7mtRJUvXr2lc-HOFnpfWn1sWddZkRVv49oOSh1PeW0OF9iTaSIrWntejoAMWRIpLCl50UiiOIouJGq4P3uU2Zwe3uDuWsWP0BGdUcq88vWJByZikYUvgFoPWCs8uQLclnqgDJKiIcu2VJ_nZUWo8O8ReKZ_Ng-wJQosVW4UNNUK0ujNru5Ml_oMg1Chk9nDoJYMMpqS4IpKvNAVrjw0bKsx4Dv9d-XVXGDCqeRAajuHpm6KCKY8AWtl_xhSsQyr8Y2Y0NS-5Io_BjjTl7I9NwQB3tdBGaM-oKWDsU-FT2GBPTPFhShXMN4bpV5oyfFWNmDJ88owYM3yPjBkzfCyMGHOhl48ZM2y1l5250AlHrLnQqMbq2HlXQnewzySrbPkJ39Nd22lchX0Ur9NP8_BClw"
   },
   {
+   "id": "c-Smwsdaerf6t",
+   "subId": "Smwsdaerf6t",
+   "src": "coach",
+   "title": {
+    "ko": "Base 2 - Atq en 2",
+    "en": "Base 2 - Atq en 2",
+    "ja": "Base 2 - Atq en 2",
+    "pt": "Base 2 - Atq en 2",
+    "es": "Base 2 - Atq en 2",
+    "zh": "Base 2 - Atq en 2",
+    "it": "Base 2 - Atq en 2",
+    "pl": "Base 2 - Atq en 2",
+    "fr": "Base 2 - Atq en 2",
+    "de": "Base 2 - Atq en 2",
+    "sr": "Base 2 - Atq en 2",
+    "tr": "Base 2 - Atq en 2",
+    "ru": "Base 2 - Atq en 2"
+   },
+   "desc": {
+    "ko": "수비 기본 2 — 상대 2번 자리 공격 때 블로킹·수비 위치(4장면)",
+    "en": "Defense base 2 — block and defense positions against an attack from position 2 (4 steps)",
+    "ja": "守備ベース2 — 相手2番(ライト)攻撃時のブロック・守備位置(4コマ)",
+    "pt": "Base defensiva 2 — bloqueio e defesa contra ataque da posição 2 (4 quadros)",
+    "es": "Base defensiva 2 — bloqueo y defensa ante ataque desde la posición 2 (4 cuadros)",
+    "zh": "防守基础2 — 对方2号位进攻时的拦网与防守站位(4个画面)",
+    "it": "Base difensiva 2 — muro e difesa contro attacco da posto 2 (4 fasi)",
+    "pl": "Baza obrony 2 — blok i obrona przy ataku ze strefy 2 (4 klatki)",
+    "fr": "Base 2 — bloc et défense sur attaque en 2 (4 étapes)",
+    "de": "Abwehrgrundstellung 2 — Block und Abwehr gegen Angriff über Position 2 (4 Schritte)",
+    "sr": "Osnovna odbrana 2 — blok i odbrana na napad sa pozicije 2 (4 koraka)",
+    "tr": "Savunma temeli 2 — 2 numaradan hücuma karşı blok ve savunma (4 adım)",
+    "ru": "Защита, база 2 — блок и защита при атаке из 2-й зоны (4 шага)"
+   },
+   "tags": {
+    "skill": "defense",
+    "level": "middle",
+    "system": "-"
+   },
+   "author": "",
+   "team": "",
+   "addedAt": "2026-11-23",
+   "frames": 4,
+   "code": "RB1.eNrtlstu2zAQRX_FYLcuIQ7f2iXddNdFlkVRyBadCJEtRVLs2Ib_vSOSLmgXCfqKCxTZUeNL8nDucOg9WZOcTclAcnJd9G4Ck_eTq-Fh4lYTIFMyI_merCu3uRmKwaFo8VjXGF_UVdu6kuSLou4dzm_u3aon-ec9qTBK7pn8utz082292IjM4Iz7ajX-0NbF1nX4Pbhiid9XOOzvinZce15189phYN7UTYeBdwtpXTbDSF3MXI0RHHZNPYpvxonVznn8J5KDlhTElGxJrpSiTB6m31lUYGncDrJXQPn08YxFIYoKKFnKoSNHNzf8EhxGUxFSIpiklicoJqC00BluL8HCM3uEkVxTlbBYz7Irtz0T6nmW699lOSOxmlrrQUBaColBkAUSZ5h9qVL-FglgIpgJKAJophMUFlHuluoCOWFCUOZBuMT0pDmBCPJQgzCvTzLe3QgiqE4ywvkIUvLdes1NYs6s8B0Jp2qgLBjLtcJsJguXrq9uV6juNzNy-IKNrejGdoWjsis21eo2fi26YunSRsaF31boeWv9tm3TV0PVjN1u_0Ofw9BY68JQoT2JNtgLDtPzJhR0DIJIcUmZF510iKPIUh6KRHCGQy88vb9xWwC0LiqBSu6Vp7crKAEkDUsybqmWo_Cs-OOSuKMOkExllGuvPKnNSInJj7lHB60_8lnpBKFFV0NvZNix_WHOnI07SzxBEOqxtdvDIakFGUwpcUYmf9IUZqiNXVlgHtmbK7_uCjCgmgeh4Zie1BQVTHliTCv735jCFFXhxIDvqXnJFXlMdqYphz82BRMcEMFmaM-zpjAzVktc0eDTmpriT1-ax9tGvHnyTz3B16VYVcsP-Nc5PjaD6_DpxEv0Db1BPrE"
+  },
+  {
+   "id": "c-Smwsdbsbma",
+   "subId": "Smwsdbsbma",
+   "src": "coach",
+   "title": {
+    "ko": "Base 2 - Atq au Centre",
+    "en": "Base 2 - Atq au Centre",
+    "ja": "Base 2 - Atq au Centre",
+    "pt": "Base 2 - Atq au Centre",
+    "es": "Base 2 - Atq au Centre",
+    "zh": "Base 2 - Atq au Centre",
+    "it": "Base 2 - Atq au Centre",
+    "pl": "Base 2 - Atq au Centre",
+    "fr": "Base 2 - Atq au Centre",
+    "de": "Base 2 - Atq au Centre",
+    "sr": "Base 2 - Atq au Centre",
+    "tr": "Base 2 - Atq au Centre",
+    "ru": "Base 2 - Atq au Centre"
+   },
+   "desc": {
+    "ko": "수비 기본 2 — 상대 가운데(3번 자리) 공격 때 블로킹·수비 위치(4장면)",
+    "en": "Defense base 2 — block and defense positions against a middle attack (4 steps)",
+    "ja": "守備ベース2 — 相手センター攻撃時のブロック・守備位置(4コマ)",
+    "pt": "Base defensiva 2 — bloqueio e defesa contra ataque pelo meio (4 quadros)",
+    "es": "Base defensiva 2 — bloqueo y defensa ante ataque por el centro (4 cuadros)",
+    "zh": "防守基础2 — 对方中路进攻时的拦网与防守站位(4个画面)",
+    "it": "Base difensiva 2 — muro e difesa contro attacco al centro (4 fasi)",
+    "pl": "Baza obrony 2 — blok i obrona przy ataku środkiem (4 klatki)",
+    "fr": "Base 2 — bloc et défense sur attaque au centre (4 étapes)",
+    "de": "Abwehrgrundstellung 2 — Block und Abwehr gegen Angriff über die Mitte (4 Schritte)",
+    "sr": "Osnovna odbrana 2 — blok i odbrana na napad kroz sredinu (4 koraka)",
+    "tr": "Savunma temeli 2 — ortadan hücuma karşı blok ve savunma (4 adım)",
+    "ru": "Защита, база 2 — блок и защита при атаке через центр (4 шага)"
+   },
+   "tags": {
+    "skill": "defense",
+    "level": "middle",
+    "system": "-"
+   },
+   "author": "",
+   "team": "",
+   "addedAt": "2026-11-23",
+   "frames": 4,
+   "code": "RB1.eNrtlk2P2jAQhv8Kcq_Uyvjbue3upbce9lhVlSGGjQgkm2RhAfHfO7FDG0C76ieVqr3Z5s348bzjMXuyJimMSUtScusaP2Kj96Ob9nHknkZ3ftXWnozJhKR7ss795r51rUfl7KkocH1W5FXlM5LOXNF4DFIu_Koh6ac9yXGVLEB-WW6a6baYbURi8ItFvup-qAq39TXOW--WOL_BYfPgqi72NK-nRbfrtCzKGhfezaT1yQRXCjfxBa7gsC6LTnzffZjvfDjDM0k5SGrlmGxJqhJBtTiMv7GoyFL6HUv-AsrHD2csAIxaG1lwKIcsumepp4Zfg4UBUMYCiwBLhygmolSsNtxehUUDTWJehJJU6QGMDTC7bNuAUC_D3P4qzDkKT6gJJFwlJ9XCkkjiDdjXyuVPkfDEUN6jcEYZH6BAj_KwVFfICWgs2z4nilo2AGE9yGPBhLkCCTdUxZwwbSnAdxTOO5SM79Zrbgb2TFxoTKHiBVWxE3AtqTSD2Jlv8vkK5c1mQg6fscG5umtbOMpqt8lX8342q93SDxsaF2FfoaeVDftWZZO3edl1vf1Fv8OlzlphqNCBRBtJMaHnzSjqgEWR4pJCEJ10iaPIHutEcMBhEJ7e4X5bxo6tUGBFSR6UpxcsKhmT_S0AbqmWnfCs_vuQuKOOkID3heugPCnPnvKihi6qJwot9mgVA6JJ4TBn1vY7SzxBFGoUMns4DIpBRlMy_CKRP2gKGGpjQCUwj_Dmys-7wvBZ0zwKDcf0DE1R0ZRnAK3sf2MKKKriiZnR1LzmijwmO9GUs982BRMcEZnFp0q9aAqYrlr6iNhAT0wJZ8rco5lDot9M-Zem4PPiVvnyDv9D969N62t8PvEWfQXw80Jw"
+  },
+  {
    "id": "c-Smwmhpp55ut",
    "subId": "Smwmhpp55ut",
    "src": "coach",
