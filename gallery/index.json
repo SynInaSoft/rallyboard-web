@@ -1,10 +1,55 @@
 {
  "v": 1,
- "updatedAt": "2026-11-21",
+ "updatedAt": "2026-11-22",
  "declined": [
   "Smw8rftau6y"
  ],
  "items": [
+  {
+   "id": "c-Smws2y6d59k",
+   "subId": "Smws2y6d59k",
+   "src": "coach",
+   "title": {
+    "ko": "Перша розстановка подачі суперники",
+    "en": "Перша розстановка подачі суперники",
+    "ja": "Перша розстановка подачі суперники",
+    "pt": "Перша розстановка подачі суперники",
+    "es": "Перша розстановка подачі суперники",
+    "zh": "Перша розстановка подачі суперники",
+    "it": "Перша розстановка подачі суперники",
+    "pl": "Перша розстановка подачі суперники",
+    "fr": "Перша розстановка подачі суперники",
+    "de": "Перша розстановка подачі суперники",
+    "sr": "Перша розстановка подачі суперники",
+    "tr": "Перша розстановка подачі суперники",
+    "ru": "Перша розстановка подачі суперники"
+   },
+   "desc": {
+    "ko": "상대 서브 때 첫 리시브 대형과 공 흐름 — 9장면",
+    "en": "First serve-receive formation and ball path against the opponent serve — 9 steps",
+    "ja": "相手サーブ時の最初のレシーブ隊形とボールの流れ — 9コマ",
+    "pt": "Primeira formação de recepção e trajetória da bola no saque adversário — 9 quadros",
+    "es": "Primera formación de recepción y trayectoria del balón ante el saque rival — 9 cuadros",
+    "zh": "对方发球时的首个接发球阵型与球路 — 9个画面",
+    "it": "Prima ricezione e traiettoria della palla sulla battuta avversaria — 9 fasi",
+    "pl": "Pierwsze ustawienie w przyjęciu i tor piłki przy zagrywce rywala — 9 klatek",
+    "fr": "Première réception et trajectoire du ballon sur le service adverse — 9 étapes",
+    "de": "Erste Annahmeformation und Ballweg beim gegnerischen Aufschlag — 9 Schritte",
+    "sr": "Prva formacija prijema i putanja lopte na protivnički servis — 9 koraka",
+    "tr": "Rakip serviste ilk karşılama dizilişi ve top yolu — 9 adım",
+    "ru": "Первая расстановка на приёме и путь мяча при подаче соперника — 9 шагов"
+   },
+   "tags": {
+    "skill": "receive",
+    "level": "all",
+    "system": "-"
+   },
+   "author": "",
+   "team": "",
+   "addedAt": "2026-11-23",
+   "frames": 9,
+   "code": "RB1.eNrtl89u00AQxl-lWq7Wav_aXt8AiRfoESHkJJvWxImN7TQtkaUCB3gCrrxChUBUSMAr2G_EeNdN4jhVI5QDSLmtx5Pxt7_5xlkv0QUKqIMKFKDqc_Wtvq4_Vjcn9XX1q_pev63fVTfVT1h_qX5AuPoNy6_VTf2h_nQCd99DAH4CGbdw_xY5aICCJbqI9OK0CAsNRcfzOIb4OI7SVI9QMA7jXMPzkome5Sh4vkQRRNFEvZwusoyOo6EvOfxgEs2aeBqHVzqD60KHU7h-DMv8PEyb0sMoG8YaAsMkTjIIPKIef-Y-gUgcDnQMEQrrSxQwSrDvOugKBcJVWCgHZUnc1EClc6eAkrUESg8mgVkJnCnsekaCRxiWfKcEupLAmXcwCVYBpRIz3yqgDFO5UwFbKZCuOpgCcdcHcdcHVzBM6E4JfCWBssNJkC0F6EMDHyRIl2Dh7ZQg1n3wDmeF09YKHChYKwhBMAU35tEbbeawr4U1tszZnFxNfSbXWgahGaymHvWwoKYe9QmWm_VGOo_OZpCeLwaofAEDGmbN2MFqlIWLaHbWXo2zcKo3B5J65rkFO-cuafqXJnlUREkztcvteYWIYUuxFJat5Fiw0umNlc3sTYPJ7Lq_rbntWpPZdanN7JnLZHbN1GYS19jfNIBBL0xmt-drnaLdkZDYZ2W54RLfEuLzc8n9I6EdhJQllA4vpVR7EWLMx6J9sgel_X-UUO898neEGDWEFiyJXV8eCbWEnN57r62pJOZWJ5Ue5m6HJbMs1SRjih5ZPsCSwzbshsB52JMdlNyiHJGR2vPlf0R5D0phUepp6il-RPkASiY8TOyOJFGNzk2W0rLMX0fS3e8ft3f0__9Zbh8f77clE-aA22SCpQjvsHQty_krrQQ9snyI5fYhG1jCsTmcRdOn8G3bnqILncF3AS3LP4tGU-4"
+  },
   {
    "id": "c-Smwmhpp55ut",
    "subId": "Smwmhpp55ut",
