@@ -1,6 +1,6 @@
 {
  "v": 1,
- "updatedAt": "2026-11-22",
+ "updatedAt": "2026-11-23",
  "community": {
   "enabled": false,
   "counts": false,
@@ -595,6 +595,51 @@
    "addedAt": "2026-11-23",
    "frames": 3,
    "code": "RB1.eNrllk2PmzAQhv9K5V7TkT8Hm9u2lx4qddU9VlVFiNllQ0IWaNIk4r_XxmyXwGZVVdpIVW_2MDaP_c68cCRbErMZaUhMvlxfvbnmZEbmJD6SbW53N03SWPck-1EULp4V-WZjFyTOkqK2blG5tOuaxF-PJHdRsmTq-2pXp_si20mq3YplvvYPNkWyt5WbNzZZufmVG9Z3ycbvneZVWlgXSMuirFzgbaaMpXMXKZK5LVzEDauy8Mk3fmF-sB3zTxJzlIA4I3sSS87BsHb2m8V0LIfFvmYSz7O8_1uWEYqgDCLWoQiMQKgnFE4DitXMcHoJFAE0oDB3K8wMUFiPcrfCC1wK4wxkfynKgNQDEt6TPBRc6tdH0QZQhjsxQMUTiBAeZCEO263QA3XmSVf0vsqkdiv6KovA4GDnha3z27VLr3dzMqg-FfldbVVmJUavcdOfP44O-E6DVh2kEsJBDmCw60u7w-oBxSuwfBq3JROgTGCRCGZQgCzqmiGjKj1oSS9xMZJGQHmgYU5J3n5zHpdU3rncaFElu3x928-yKlnZE0-LWABOc8WEB96Udd7kpXe-48TzXMh3YKRAh7qXggPydjZxpD5zahsTw3jMnHT1uJ9D4jNNN2m3kDnpiUk3hDzjrDWUlqRgZHeYUYH3r2Ycoi4RKQURjn1afSGRcwosGDdK_pg5qo3-3FxAZPpNEVTbDquJhxXV_T3n-GfiPPPR-JfF4egggzroX63Py4MUMMijNIUX1EEBnPfqILCX1FESqOz3NMDxVB4RlhyyCtV_Ks_443FenqmDn9Nn6q_n9JmaX-vtL1nnqw_ud653vcZWznNZ2_4ClxfQfw"
+  },
+  {
+   "id": "c-Smwtbsw8zo4",
+   "subId": "Smwtbsw8zo4",
+   "src": "coach",
+   "title": {
+    "ko": "P1",
+    "en": "P1",
+    "ja": "P1",
+    "pt": "P1",
+    "es": "P1",
+    "zh": "P1",
+    "it": "P1",
+    "pl": "P1",
+    "fr": "P1",
+    "de": "P1",
+    "sr": "P1",
+    "tr": "P1",
+    "ru": "P1"
+   },
+   "desc": {
+    "ko": "서브 리시브 P1 — 세터가 1번 자리에 있는 P1 로테이션의 리시브 대형과 이동(2장면)",
+    "en": "Serve-receive P1 — rotation P1 (setter in zone 1) receive formation and movement (2 steps)",
+    "ja": "サーブレシーブ P1 — セッターが1番ポジションにいるローテーションP1のレシーブ陣形と動き(2コマ)",
+    "pt": "Recepção P1 — formação de recepção na rotação P1 (levantador na posição 1) e deslocamentos (2 quadros)",
+    "es": "Recepción P1 — formación de recepción en la rotación P1 (colocador en zona 1) y desplazamientos (2 cuadros)",
+    "zh": "接发球 P1 — 二传在1号位的P1轮次接发球站位与移动(2个画面)",
+    "it": "Ricezione P1 — schieramento in ricezione in rotazione P1 (palleggiatore in zona 1) e spostamenti (2 fasi)",
+    "pl": "Przyjęcie P1 — ustawienie w przyjęciu w rotacji P1 (rozgrywający w strefie 1) i ruch (2 klatki)",
+    "fr": "Réception P1 — placement en réception en rotation P1 (passeur en zone 1) et déplacements (2 étapes)",
+    "de": "Annahme P1 — Annahmeaufstellung in Rotation P1 (Zuspieler auf Position 1) und Laufwege (2 Schritte)",
+    "sr": "Prijem P1 — raspored za prijem u rotaciji P1 (tehničar u zoni 1) i kretanje (2 koraka)",
+    "tr": "Servis karşılama P1 — P1 rotasyonunda (pasör 1 numarada) karşılama dizilişi ve hareket (2 adım)",
+    "ru": "Приём подачи P1 — расстановка на приёме в расстановке P1 (связующий в зоне 1) и перемещения (2 шага)"
+   },
+   "tags": {
+    "skill": "receive",
+    "level": "-",
+    "system": "-"
+   },
+   "author": "",
+   "team": "",
+   "addedAt": "2026-11-23",
+   "frames": 2,
+   "code": "RB1.eNq1lU2PmzAQhv-Le0UWHn8Bt-1KVQ-tGmmPVVU5idNaIYESkjSJ-O8dY5QQ2FRbid7sYWwe3pl3uJADyVhEapKRGSMRmZPsQg7OHl9qU1uMrvZ5jvFV7srSLkm2MvnO4oFibbc7kn29EIdRshbi--ZYq-R8cJBKPLF2W_-gzM3JVrivrdng_gmXu5-m9HcvXLXILQYWRV5UGHgHH574s8ZIbuY2x4hnqorcZ7_4k-5sW-DfJOOKUyYjciKZ0owm0ERXGNnCpIkxIMRkMHCD-fJxSAOMahZoWEplD0YFGCtKpadThv8FhrGYKt3BaCr60uhAc95ACmoyGnGj-fx-SCOABmWESqlQPZikhTEpMDVdmWRPmdlsAJNICqFphOQ0YTcYGQeYvTAapqPRN5pPAxaAmEoVyiRimvSUkdDCLH_NFVfwP2BGZcIa0DjQcBXTWDTfcB6YyrscV8vKHN32R7dbVWZj-_6XvAU-HfdWe96y2LnaFX5GXEbTAUPeMvJaCyUVTXgTjazbZYqE8oAm0pjqkHnvq5CZcirS7kqgXLSJ9y0fEv3X8qTryphC2mbe9WNIZPF1zAgcMyB94qBXuitBotU614nuykEhby-_l7rplb7VSi_ALhRnb5RyPAsfSTmaUw-UfGWGPJBy7O_XlRxb76GQI1_8g5DYnWbrNs_4x-qatbYVeoU1zR-bOugo"
   },
   {
    "id": "c-Smwmhpp55ut",
