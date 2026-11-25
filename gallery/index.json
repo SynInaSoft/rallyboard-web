@@ -1,6 +1,6 @@
 {
  "v": 1,
- "updatedAt": "2026-11-23",
+ "updatedAt": "2026-11-25",
  "community": {
   "enabled": false,
   "counts": false,
@@ -736,6 +736,48 @@
    "likes": 2,
    "imports": 12,
    "saves": 1
+  },
+  {
+   "id": "atk-51-quick",
+   "title": {
+    "ko": "5-1 속공 콤비 (센터 A퀵 미끼 → 레프트)",
+    "en": "5-1 quick combo (middle A-quick decoy → left side)",
+    "ja": "5-1 速攻コンビ (センターAクイックおとり→レフト)",
+    "pt": "5-1 combinação rápida (central na bola A como isca → entrada)",
+    "es": "5-1 combinación rápida (central en rápida A como señuelo → punta)",
+    "zh": "5-1 快攻配合 (副攻A快诱饵→主攻)",
+    "it": "5-1 combinazione veloce (centrale in primo tempo A come esca → banda)",
+    "pl": "5-1 kombinacja z krótką (środkowy na krótką A jako zmyłka → lewe skrzydło)",
+    "fr": "5-1 combinaison rapide (central en A comme leurre → aile gauche)",
+    "de": "5-1 Schnellangriff-Kombination (Mitte als A-Schnell-Finte → links)",
+    "sr": "5-1 brza kombinacija (srednji na brzu A kao mamac → levo krilo)",
+    "tr": "5-1 çabuk kombinasyon (orta oyuncu A çabuk yemi → sol kanat)",
+    "ru": "5-1 комбинация с быстрой (центральный на быстрой A как отвлечение → зона 4)"
+   },
+   "desc": {
+    "ko": "세터가 1번 자리일 때 3인 리시브 → 세터 침투. 센터가 세터 바로 앞에서 먼저 떠(A퀵) 상대 센터 블로커를 끌어내고, 세터는 레프트로 빠르게 올려 블로커 1명을 상대로 때린다. 라이트는 스위치, 후위는 공격 커버. 1장면은 겹침 없는 배치",
+    "en": "Setter in zone 1: three-player receive → setter penetrates. The middle jumps first right in front of the setter (A quick) to pull the opposing middle blocker, and the setter sends a fast ball to the left side so the hitter faces a single block. The opposite switches right, back row covers. Frame 1 is overlap-legal",
+    "ja": "セッター1番の時：3人レシーブ→セッター侵入。センターがセッターの目の前で先に跳び(Aクイック)相手センターブロッカーを引きつけ、セッターはレフトへ速いトスを上げてブロック1枚で打たせる。オポジットはライトへ、後衛はカバー。コマ1はポジション反則なし",
+    "pt": "Levantador na posição 1: recepção com três → levantador infiltra. O central salta primeiro bem à frente do levantador (bola A) para atrair o bloqueador central adversário, e o levantador manda uma bola rápida para a entrada, deixando o atacante contra bloqueio simples. O oposto troca para a direita, o fundo faz cobertura. Quadro 1 sem falta de posição",
+    "es": "Colocador en zona 1: recepción de tres → el colocador penetra. El central salta primero justo delante del colocador (rápida A) para arrastrar al bloqueador central rival, y el colocador envía una bola rápida a punta para que el atacante enfrente un bloqueo simple. El opuesto cambia a la derecha, la zaguera cubre. Cuadro 1 sin falta de posición",
+    "zh": "二传在1号位时：三人接发球→二传插上。副攻在二传正前方先起跳(A快)，吸引对方副攻拦网，二传快速传给4号位，让主攻面对单人拦网扣球。接应换到右侧，后排保护。第1帧站位无越位",
+    "it": "Palleggiatore in zona 1: ricezione a tre → il palleggiatore entra. Il centrale salta per primo proprio davanti al palleggiatore (primo tempo A) per attirare il centrale avversario, e il palleggiatore alza veloce in banda così l'attaccante trova un muro a uno. L'opposto passa a destra, la seconda linea copre. Fotogramma 1 senza fallo di posizione",
+    "pl": "Rozgrywający w strefie 1: przyjęcie w trójkę → rozgrywający wchodzi. Środkowy wyskakuje pierwszy tuż przed rozgrywającym (krótka A), ściągając środkowego blokującego rywali, a rozgrywający szybko wystawia na lewe skrzydło, więc atakujący gra na pojedynczy blok. Atakujący przechodzi na prawo, tył asekuruje. Kadr 1 bez błędu ustawienia",
+    "fr": "Passeur en zone 1 : réception à trois → le passeur pénètre. Le central saute en premier juste devant le passeur (première main A) pour attirer le central adverse, et le passeur envoie une balle rapide à l'aile gauche pour que l'attaquant n'ait qu'un contre à un. L'opposé passe à droite, l'arrière couvre. Image 1 sans faute de position",
+    "de": "Zuspieler auf Position 1: Dreier-Annahme → der Zuspieler läuft ein. Die Mitte springt zuerst direkt vor dem Zuspieler (A-Schnellangriff) und zieht den gegnerischen Mittelblocker, der Zuspieler spielt schnell nach links, sodass der Angreifer nur gegen einen Einerblock schlägt. Der Diagonalspieler wechselt nach rechts, hinten wird gesichert. Bild 1 ohne Aufstellungsfehler",
+    "sr": "Tehničar u zoni 1: prijem u troje → tehničar ulazi. Srednji prvi skače tačno ispred tehničara (brza A) i vuče srednjeg blokera protivnika, a tehničar brzo diže na levo krilo pa napadač igra protiv jednog blokera. Korektor prelazi desno, zadnja linija štiti. Slika 1 bez greške u postavci",
+    "tr": "Pasör 1 numarada: üç kişilik karşılama → pasör girer. Orta oyuncu pasörün hemen önünde ilk sıçrar (A çabuk) ve rakip orta blokçuyu çeker, pasör sola hızlı pas verir, smaçör tek bloğa karşı vurur. Pasör çaprazı sağa geçer, arka sıra kapatır. Kare 1 rotasyon hatası yok",
+    "ru": "Связующий в зоне 1: приём втроём → связующий выходит к сетке. Центральный первым прыгает прямо перед связующим (быстрая A) и уводит центрального блокирующего соперника, а связующий быстро передаёт в зону 4, и доигровщик бьёт против одиночного блока. Диагональный уходит вправо, задняя линия страхует. Кадр 1 без ошибки расстановки"
+   },
+   "tags": {
+    "skill": "attack",
+    "level": "high",
+    "system": "5-1"
+   },
+   "author": "RallyBoard",
+   "addedAt": "2026-11-25",
+   "frames": 4,
+   "code": "RB1.eNrNl81q20AQx1_FbC8tuKDd1errlo-GHloayLH0INtSLKJYRlLipsbQggml0EvpA_TQewslkEL6Mj3W8Tt0pN2VtRt_hEaB3qxZaX8z_53ZGY_RKfJwG-XIQ-wxbl2ff_zz46J1_evr7Oe09fB6ejWffm9tzd9etGbfLmfvrlq_zz-1Zl_ezz9P5x8uH6E26iBvjE6jYHSQ-3kA-4QncQz2MI6Gw6CHvNCPswAQyVEwyJD3cowisKIhIQa8dhQNyqfYPwtSeM4D_xiet-Bn1veHxYbdKO3GARi6SZykYHgQMjcwOmCJ_U4QgwXD7zSJi7cPii-jN0EZ12vkUcdoozPkWcyYtBds3BjbXrBfPNXhRMANBU6aC7wW-fNtjU4E3TQVOm2MTmuh7-9rdHcp3GwM7qzR3WVcdqKwWWNstmA_00XHgs1YnW2tZm-vZdOOQ0Jrea4vVxwrYLcxMFkJxgYnU1pHU6MxNF2JljmuoXFjaHMlmprL0MRpDM02orF6qdmNoa2NgtfRHUJrV1rHLxtA9VEvyKLDASxko6KGFokKO7yCBuKnRVuAX73UH0WDw1qT6BFaHH1-Vvrtp2kygsdhEg1y_tai1u3SnbIAqSh-VmxfxWgZW2yvqPNR1Mv7QAegn_WLFpWnJ9Chsjz1o8N-zp-r4MAHc5MPVZPhqVBYsMOvPx5k5cWetYef2Eu9EI1ytRtskxvV3WNKMajBqltYcWNnl5q7_-aGtdENKs9XqkEsstyNO6hhbzwUGTuWbohUMY3mxHA2eYFFqTJLeuE0pAV8HKb-cVCrl5BQt_Qgi_IoKcatMR-0vPGNWYhPQWKhPqfwCYUvKCMEHx74gqvZTWmvdV7ec73xjbbIG6KyERZmV5iVlsKbiepRtVDFYKoLcBGrC1hGbWtb8YXyElN8AvOkOuuQmMY6aWXOE01a5fwVaetVUpeWWtpWt9bW1LSVIlaR_xfqVu5STV-8Tl8sEo4SVV9biIV1eS1R7MTR5WVCd01eLIuAME1fuSCT_Q76Cjh17k_fSiqi6UvW6EsExrSZqq8jZdT1ZeIDpqevzGuq62vIStDyF9viRJzb5q9LVBVlFNi5f3klwnVAXbiD_UF0vAN_dsUQkwcpzFt4MvkLgA02Rg"
   },
   {
    "id": "rcv-62-a",
