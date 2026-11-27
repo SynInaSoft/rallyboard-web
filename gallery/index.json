@@ -57,6 +57,51 @@
    "code": "RB1.eNrllkmP2kAQhf9L54pKvS--ZSJFOSQK0hyjKDLQEAezjO0MEMR_T9ndLDZyxMGaS264qG5_fv2ey0fyShI2IhVJyJiREZmQ5EheM797rtLKY3X-O8-xPs-z7dbPSDJP89Ljgs3Sr0uSfDuSDKtk6X6sdgeZLdbScokLltm6rm_z9OALvK58usLr9_iz_Jlu662nWTHNPRamm3xTYOEdM-KjfsJKnk58jpUaaU8SoSQwOyIHkkhuQCJxscnrPb6Ox-Q0OkMweqFwhg1GoQMF5xIsayi05SDFleLTLQS7QAjOB4NQAcIxYKphUJqCuzJ8vkXg19NwdjAEGRAMByrDYQgJ0vbIIC4MUojBGERgYE6DPUOYWx2-PN1CyOtZsOFsyaMtBYPAoAwFYy4Mz7cIqkZQdLI_SKuuCJO0CVbtK63iNpw6oOiwMvvjm1zOfIns2F3uJuT0HfOZFnXq8NesSHfZehGv5kW68rd5DPIr92u1dc2TbzdlVmWbOrTHblyxUp-rACtiyDBv7jS6S1RodAZUSKNmFihvGtuuD42cahBhS83RrU1j25uhUXDV6FdL6Tgw03S2HRQhNXAdGqkFF7Zsn3LcUmNEw5ZaOXC26WwfRui0FHiINW6uTqeufVSpXrgx5j8UkTt1ft1I7sCoXhEFvpe5jWEQ4ExLx7CiXOQvTj9mRny5KRYRkUG-pY6YRxPvjQ_NZa-OdV5l7GQCpBxASI4PpF3sVOBYS0gdhFztpZH2MUNqoPHGAo_9TQ2JRmAs3ht9JnqFZI5eBrxEYDOEIzUDpWOnBdt2pGlWVH6WCUYfEvLuI6RXybsPhV4pu9O8V8ruzP2Hkp3B2P-C7Eyvfkd25hPqiBMnXWerD_hVGAdQ5QscpPjfXwkS1Vs"
   },
   {
+   "id": "c-Smwydxxfjzc",
+   "subId": "Smwydxxfjzc",
+   "src": "coach",
+   "title": {
+    "ko": "리시브와 공격수",
+    "en": "Reception and attacker",
+    "ja": "レシーブとアタッカー",
+    "pt": "Recepção e atacante",
+    "es": "Recepción y atacante",
+    "zh": "接发球与攻手",
+    "it": "Ricezione e attaccante",
+    "pl": "Przyjęcie i atakujący",
+    "fr": "Réception et attaquant",
+    "de": "Annahme und Angreifer",
+    "sr": "Prijem i napadač",
+    "tr": "Karşılama ve hücumcu",
+    "ru": "Приём и нападающий"
+   },
+   "desc": {
+    "ko": "리시브에서 공격까지 이어지는 전개(6장면) · 초등",
+    "en": "Build-up from reception to attack (6 steps) · primary school",
+    "ja": "レシーブから攻撃までの展開(6コマ)・小学生",
+    "pt": "Construção da recepção ao ataque (6 quadros) · ensino fundamental",
+    "es": "Construcción de la recepción al ataque (6 cuadros) · primaria",
+    "zh": "从接发球到进攻的组织(6个画面)· 小学",
+    "it": "Costruzione dalla ricezione all’attacco (6 fasi) · scuola primaria",
+    "pl": "Rozegranie od przyjęcia do ataku (6 klatek) · szkoła podstawowa",
+    "fr": "Construction de la réception à l’attaque (6 étapes) · primaire",
+    "de": "Aufbau von der Annahme zum Angriff (6 Schritte) · Grundschule",
+    "sr": "Razvoj od prijema do napada (6 koraka) · osnovna škola",
+    "tr": "Karşılamadan hücuma geçiş (6 adım) · ilkokul",
+    "ru": "Развитие от приёма к атаке (6 шагов) · начальная школа"
+   },
+   "tags": {
+    "skill": "attack",
+    "level": "elem",
+    "system": "-"
+   },
+   "author": "Данил",
+   "team": "",
+   "addedAt": "2026-11-27",
+   "frames": 6,
+   "code": "RB1.eNrllk2K2zAUx68yqNsgrG_Lu7bQC8yylOIkcmPixMZxvgiGbrsp9AS9wiy6SKGlV1BuNM-RcOLxLLpwQ0sXAfnlST_p__7P8gFtUERGqEIRsl9PH-3x9MX-uLPHO_vTPthf8PtmH06fT5_s0X5HIzRG0QFtUrO9r-LKwKxknWUQT7K0KMwURUmcrQwsmM_NcoWitweUQhTNKXm_2O6nleEzqgTMmKfL5o8ii_emhOfKxAt4fgnD1SwumrUnaTnJDAQmeZaXEHhBFHsjX0Eki8cmgwiB8Q5FoRihPYqECupRS6QXotCDEakjMvEckrVIEQyHZA5JKcPKU7nElF-BeQtmWg4G5g5MOMdCncGSCUyuwaIFyzAcDCz8ibXCgfZgjhm5AsvLiQeU-t5XF6RmDsxpiANWvwPvx2XjaBhNy3ibLj_4p6SMF-ba68zZYL0r1s4GRb5KqzRvGuLQawUIPXFwz7supWO5ntlcDqUEU59GFFbynNl1h8t8pqi9cvo1-1Xo6e93SAUOvWoCM1HXl4Ixt4mN0gkl6saiSKx9Wkix5LcVhVOsSesl2hHFLb0xqji_FP8XTSgIETKnCSwvO5qo84QtYTsh-e-JQmBjkrrTQAcI-i9rwxRmvotgyFVHnNCJM95BQ_3l2kBm4GostMZc_3FttNPGzCaE0Bt3U-9qvulr9-ltVTf3VbxMF6_hu8xfU5Up4UIkdf0IQKfZkA"
+  },
+  {
    "id": "c-Smws2y6d59k",
    "subId": "Smws2y6d59k",
    "src": "coach",
