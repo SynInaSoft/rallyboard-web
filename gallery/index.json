@@ -1,6 +1,6 @@
 {
  "v": 1,
- "updatedAt": "2026-11-25",
+ "updatedAt": "2026-11-27",
  "community": {
   "enabled": false,
   "counts": false,
@@ -11,6 +11,51 @@
   "Smw8rftau6y"
  ],
  "items": [
+  {
+   "id": "c-Smwy7rzcay6",
+   "subId": "Smwy7rzcay6",
+   "src": "coach",
+   "title": {
+    "ko": "P1",
+    "en": "P1",
+    "ja": "P1",
+    "pt": "P1",
+    "es": "P1",
+    "zh": "P1",
+    "it": "P1",
+    "pl": "P1",
+    "fr": "P1",
+    "de": "P1",
+    "sr": "P1",
+    "tr": "P1",
+    "ru": "P1"
+   },
+   "desc": {
+    "ko": "세터 6번 자리 작전 대형(5장면)",
+    "en": "Play formation with the setter in zone 6 (5 steps)",
+    "ja": "セッターが6番ポジションにいる作戦陣形(5コマ)",
+    "pt": "Formação de jogada com o levantador na posição 6 (5 quadros)",
+    "es": "Formación de jugada con el colocador en zona 6 (5 cuadros)",
+    "zh": "二传在6号位的战术站位(5个画面)",
+    "it": "Schema di gioco con il palleggiatore in zona 6 (5 fasi)",
+    "pl": "Ustawienie zagrywki z rozgrywającym w strefie 6 (5 klatek)",
+    "fr": "Schéma de jeu avec le passeur en zone 6 (5 étapes)",
+    "de": "Spielzug mit Zuspieler auf Position 6 (5 Schritte)",
+    "sr": "Raspored akcije sa tehničarem u zoni 6 (5 koraka)",
+    "tr": "Pasör 6 numarada iken oyun dizilişi (5 adım)",
+    "ru": "Расстановка комбинации со связующим в зоне 6 (5 шагов)"
+   },
+   "tags": {
+    "skill": "-",
+    "level": "-",
+    "system": "-"
+   },
+   "author": "",
+   "team": "",
+   "addedAt": "2026-11-27",
+   "frames": 5,
+   "code": "RB1.eNrllkmP2kAQhf9L54pKvS--ZSJFOSQK0hyjKDLQEAezjO0MEMR_T9ndLDZyxMGaS264qG5_fv2ey0fyShI2IhVJyJiREZmQ5EheM797rtLKY3X-O8-xPs-z7dbPSDJP89Ljgs3Sr0uSfDuSDKtk6X6sdgeZLdbScokLltm6rm_z9OALvK58usLr9_iz_Jlu662nWTHNPRamm3xTYOEdM-KjfsJKnk58jpUaaU8SoSQwOyIHkkhuQCJxscnrPb6Ox-Q0OkMweqFwhg1GoQMF5xIsayi05SDFleLTLQS7QAjOB4NQAcIxYKphUJqCuzJ8vkXg19NwdjAEGRAMByrDYQgJ0vbIIC4MUojBGERgYE6DPUOYWx2-PN1CyOtZsOFsyaMtBYPAoAwFYy4Mz7cIqkZQdLI_SKuuCJO0CVbtK63iNpw6oOiwMvvjm1zOfIns2F3uJuT0HfOZFnXq8NesSHfZehGv5kW68rd5DPIr92u1dc2TbzdlVmWbOrTHblyxUp-rACtiyDBv7jS6S1RodAZUSKNmFihvGtuuD42cahBhS83RrU1j25uhUXDV6FdL6Tgw03S2HRQhNXAdGqkFF7Zsn3LcUmNEw5ZaOXC26WwfRui0FHiINW6uTqeufVSpXrgx5j8UkTt1ft1I7sCoXhEFvpe5jWEQ4ExLx7CiXOQvTj9mRny5KRYRkUG-pY6YRxPvjQ_NZa-OdV5l7GQCpBxASI4PpF3sVOBYS0gdhFztpZH2MUNqoPHGAo_9TQ2JRmAs3ht9JnqFZI5eBrxEYDOEIzUDpWOnBdt2pGlWVH6WCUYfEvLuI6RXybsPhV4pu9O8V8ruzP2Hkp3B2P-C7Eyvfkd25hPqiBMnXWerD_hVGAdQ5QscpPjfXwkS1Vs"
+  },
   {
    "id": "c-Smws2y6d59k",
    "subId": "Smws2y6d59k",
