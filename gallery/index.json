@@ -783,6 +783,48 @@
    "saves": 1
   },
   {
+   "id": "drill-pepper",
+   "title": {
+    "ko": "2인 페퍼 (때리기-디그-토스)",
+    "en": "Two-player pepper (hit-dig-set)",
+    "ja": "2人ペッパー (打つ-レシーブ-トス)",
+    "pt": "Pepper em dupla (ataque-defesa-levantamento)",
+    "es": "Pepper en pareja (remate-defensa-colocación)",
+    "zh": "双人 Pepper (扣球-防守-传球)",
+    "it": "Pepper a coppie (attacco-difesa-alzata)",
+    "pl": "Pepper w parach (atak-obrona-wystawa)",
+    "fr": "Pepper à deux (attaque-défense-passe)",
+    "de": "Pepper zu zweit (Angriff-Abwehr-Zuspiel)",
+    "sr": "Peper u paru (napad-odbrana-dizanje)",
+    "tr": "İki kişilik pepper (smaç-savunma-pas)",
+    "ru": "Пеппер в парах (удар-защита-передача)"
+   },
+   "desc": {
+    "ko": "공 1개로 둘이 하는 기본 드릴(4~5m 간격). 한 명이 가볍게 때리면 다른 한 명이 디그로 올려 주고, 때린 사람이 토스해 주면 디그한 사람이 때린다. 역할을 번갈아 공이 떨어지지 않게 이어 간다",
+    "en": "A basic drill for two with one ball, 4–5 m apart. One player hits softly, the partner digs it back, the hitter sets, and the digger hits. Keep switching roles without letting the ball drop",
+    "ja": "1球で2人で行う基本練習(間隔4〜5m)。1人が軽く打ち、相手がレシーブで返し、打った人がトスを上げ、レシーブした人が打つ。役割を交代しながらボールを落とさず続ける",
+    "pt": "Exercício básico para dois com uma bola, a 4–5 m. Um ataca de leve, o parceiro defende de volta, quem atacou levanta e quem defendeu ataca. Troquem de papel sem deixar a bola cair",
+    "es": "Ejercicio básico para dos con un balón, a 4–5 m. Uno remata suave, el compañero defiende de vuelta, quien remató coloca y quien defendió remata. Alternen los papeles sin dejar caer el balón",
+    "zh": "两人一球的基础练习(相距4~5米)。一人轻扣,另一人防守垫回,扣球的人传球,防守的人再扣。轮流交换角色,不让球落地",
+    "it": "Esercizio base in due con un pallone, a 4–5 m. Uno attacca piano, il compagno difende e la rimanda, chi ha attaccato alza e chi ha difeso attacca. Scambiatevi i ruoli senza far cadere la palla",
+    "pl": "Podstawowe ćwiczenie we dwoje z jedną piłką, w odległości 4–5 m. Jeden lekko atakuje, partner broni i odbija, atakujący wystawia, a broniący atakuje. Zmieniajcie role, nie pozwalając piłce spaść",
+    "fr": "Exercice de base à deux avec un ballon, à 4–5 m. L’un attaque doucement, le partenaire défend et renvoie, l’attaquant fait la passe et le défenseur attaque. Alternez les rôles sans laisser tomber le ballon",
+    "de": "Grundübung zu zweit mit einem Ball, 4–5 m Abstand. Einer schlägt locker, der Partner wehrt zurück, der Angreifer spielt zu und der Abwehrspieler schlägt. Rollen abwechseln, ohne dass der Ball fällt",
+    "sr": "Osnovna vežba u paru sa jednom loptom, na 4–5 m. Jedan lagano napada, partner brani i vraća, onaj ko je napao diže, a onaj ko je branio napada. Menjajte uloge a da lopta ne padne",
+    "tr": "Tek topla iki kişilik temel çalışma, 4–5 m arayla. Biri hafif vurur, eşi savunup geri gönderir, vuran pas verir, savunan vurur. Topu düşürmeden rolleri değiştirerek devam edin",
+    "ru": "Базовое упражнение вдвоём с одним мячом, на расстоянии 4–5 м. Один бьёт несильно, партнёр принимает и возвращает, бивший делает передачу, а принимавший бьёт. Меняйтесь ролями, не давая мячу упасть"
+   },
+   "tags": {
+    "skill": "drill",
+    "level": "elem",
+    "system": "-"
+   },
+   "author": "RallyBoard",
+   "addedAt": "2026-11-27",
+   "frames": 4,
+   "code": "RB1.eNrFVr1u2zAQfpWAXVrAAURKpH42N6lfoGPRgYoom4gsGZQS1xW8dijaTinQpUCHoFOHbvXQJ4rjd-hJlGXJiSu3MODFII-8-7777nhyjq6Rh3soQx4i918XJ6tPX1Yff588XX7-sPz-427x83R5c3P3a3G6evft_v3tM9RDPvJydC3F9GXGMwGO4VUUgT2M5GQiAuSFPEoFxEwuRZwi71WOJFjRhFgmXLuUcbmL-Ewo2GeCj2Hfh2U64pMi4IVUF5EAw0USJQoMT0LqCsMHS8R9EYEFw1olUXG7cJRvRZnHG_g1jR6aIc82jHlvA20dDJrshCauhqasBU13Qz__K7TpOyRke2VtYg2N21mzg0HvzhpTDU2sDbRPLHsD7fOyQWqnQKRyGMNBOi2ELWIwWsZgNm3GcP4lBrF1DEzo_DW0KVdF88EqUHwq42GjFQNiuYUSszJ7rlQyhe0kkXGmb5WUiKbklGkVAMzR5XWcAqDWanB2blrnEGAqg2wE5wDJ01HxFDJ1BS8hzRSXw1Gm93WCAaFGFwviYM3CMCsWuEqTubTNgg3wC_tRFtWD3E0Dd4phuRqU0bUYVNOgtrmvGJ00SKcatlOV2KjV0FUimLRoMKNPB_3_qonZKQbVYmDXrjujaj3jcDWxOsVwdWtgc10T7GgahNj7ivE4DXAOFR-LxpMJoeAlhVRmMinmeq4nupc_mLp63nr5g5mop6E-aE0sPauqUM15oidJddAcEno8VBiNlz-vNQTG7MiMiVOFco02Y8wqD2y0GdvH1rjCYGyLcR3K2mLsHFvjdSiyrfHawykYQ0vzWI7P4E9K9VnIhILvIJ7P_wBo1YzW"
+  },
+  {
    "id": "atk-51-quick",
    "title": {
     "ko": "5-1 속공 콤비 (센터 A퀵 미끼 → 레프트)",
